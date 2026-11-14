@@ -64,7 +64,7 @@ Available documents:
 |---|---|---|
 | [01.1](01.1-SEO-Core-Concepts.md) | SEO Core Concepts | Available |
 | [01.2](01.2-Search-Visibility.md) | Search Visibility | Available |
-| 01.3 | SEO Ecosystem | Planned |
+| [01.3](01.3-SEO-Ecosystem.md) | SEO Ecosystem | Available |
 | 01.4 | SEO Objectives & Value | Planned |
 | 01.5 | SEO Disciplines | Planned |
 
@@ -72,11 +72,14 @@ Available documents:
 
 - **01.1 → 01.2:** SEO Core Concepts introduces organic visibility as a central SEO objective; Search Visibility examines the concept and how to observe it.
 - **01.2 → 01.1:** Search Visibility builds on the SEO definition, search ecosystem, and objectives explained in SEO Core Concepts.
+- **01.1 ↔ 01.3:** SEO Core Concepts introduces the search environment; SEO Ecosystem maps its participants, incentives, and relationships.
+- **01.3 → 01.2:** the ecosystem explains the actors and systems behind the search visibility measured in 01.2.
+- **01.3 → 01.4 and 01.5:** ecosystem participants and their responsibilities provide context for SEO objectives and specialist disciplines.
 - **01.2 → 01.4:** visibility metrics provide input for evaluating traffic and business value. Full coverage belongs in 01.4.
 - **01.1 and 01.2 → Domains 02, 06, 10, and 14:** search concepts, SERPs, technical implementation, and analytics will connect to specialist domains once their documents exist.
 
 ## Status
 
-**Domain status: In progress.** The five-group structure is established. The first two topics are available; the remaining three have not yet been created.
+**Domain status: In progress.** The five-group structure is established. The first three topics are available; 01.4 and 01.5 have not yet been created.
 
 Development follows the topic IDs from 01.1 through 01.5. Update the navigation table and status whenever a new document is added.
