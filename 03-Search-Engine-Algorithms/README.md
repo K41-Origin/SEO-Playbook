@@ -42,7 +42,7 @@ It does not own website implementation, SEO execution, general information-retri
 | [03.8](03.8-Freshness-and-Temporal-Ranking.md) | **Freshness & Temporal Ranking** | How time-sensitive relevance is handled, including freshness-related systems, query-dependent freshness needs, temporal evidence, and content age. |
 | [03.9](03.9-Contextual-Ranking-and-Personalization.md) | **Contextual Ranking & Personalization** | How search systems use request context and individual-specific information, while distinguishing localization, personalization, and ordinary result variability. |
 | [03.10](03.10-Specialized-and-Result-Specific-Ranking-Systems.md) | **Specialized & Result-Specific Ranking Systems** | Specialized ranking and result-set mechanisms for local results, editorial reviews, news, site diversity, and deduplication. |
-| 03.11 | **Machine Learning & Neural Ranking Systems** | Machine-learning and neural methods used in ranking, including documented systems such as RankBrain, BERT, neural matching, and passage ranking. |
+| [03.11](03.11-Machine-Learning-and-Neural-Ranking-Systems.md) | **Machine Learning & Neural Ranking Systems** | Machine-learning and neural methods used in ranking and ranking-related retrieval, including documented systems such as RankBrain, BERT, neural matching, and passage ranking. |
 | 03.12 | **Ranking Evaluation & Testing** | How ranking quality is evaluated through offline measures, experiments, human assessment, and other documented evaluation methods. |
 | 03.13 | **Ranking Updates & System Evolution** | Core updates, system changes, integration or retirement of named systems, historical developments, and how to interpret update announcements. |
 
@@ -140,5 +140,6 @@ The links below point to documents that currently exist. Topic IDs define the ag
 - [03.8 — Freshness & Temporal Ranking](03.8-Freshness-and-Temporal-Ranking.md)
 - [03.9 — Contextual Ranking & Personalization](03.9-Contextual-Ranking-and-Personalization.md)
 - [03.10 — Specialized & Result-Specific Ranking Systems](03.10-Specialized-and-Result-Specific-Ranking-Systems.md)
+- [03.11 — Machine Learning & Neural Ranking Systems](03.11-Machine-Learning-and-Neural-Ranking-Systems.md)
 - [Repository README](../README.md)
 - [AGENTS.md](../AGENTS.md)
