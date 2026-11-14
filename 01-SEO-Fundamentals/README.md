@@ -56,8 +56,27 @@ Setiap dokumen dalam domain ini harus:
 
 Gunakan dokumentasi resmi Google sebagai rujukan utama untuk klaim tentang Google Search. Untuk konsep yang lebih luas, gunakan sumber primer, penelitian, standar, atau referensi tepercaya yang paling relevan. Ikuti **Mandatory Source Citation Policy** di `AGENTS.md`.
 
+## Navigasi Materi
+
+Dokumen yang sudah tersedia:
+
+| ID | Topik | Status |
+|---|---|---|
+| [01.1](01.1-SEO-Core-Concepts.md) | SEO Core Concepts | Tersedia |
+| [01.2](01.2-Search-Visibility.md) | Search Visibility | Tersedia |
+| 01.3 | SEO Ecosystem | Direncanakan |
+| 01.4 | SEO Objectives & Value | Direncanakan |
+| 01.5 | SEO Disciplines | Direncanakan |
+
+### Hubungan Antar-Topik
+
+- **01.1 → 01.2:** SEO Core Concepts memperkenalkan visibilitas organik sebagai tujuan utama SEO; Search Visibility membedah konsep dan cara mengamatinya.
+- **01.2 → 01.1:** Search Visibility menggunakan definisi, ekosistem, dan tujuan SEO yang dijelaskan di SEO Core Concepts.
+- **01.2 → 01.4:** metrik visibilitas menjadi input untuk mengevaluasi traffic dan nilai bisnis. Pembahasan lengkap menunggu 01.4.
+- **01.1 dan 01.2 → Domain 02, 06, 10, dan 14:** konsep pencarian, SERP, implementasi teknis, dan analitik akan terhubung ke domain spesialis ketika dokumennya tersedia.
+
 ## Status
 
-**Status domain:** Struktur awal ditetapkan; materi belum dikembangkan.
+**Status domain: In progress.** Struktur lima kelompok ditetapkan. Dua topik pertama tersedia; tiga topik berikutnya belum dibuat.
 
-Urutan pengembangan mengikuti ID kelompok dari 01.1 sampai 01.5.
+Urutan pengembangan mengikuti ID kelompok dari 01.1 sampai 01.5. Perbarui tabel navigasi dan status setiap kali dokumen baru ditambahkan.
