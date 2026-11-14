@@ -58,15 +58,15 @@ Use Google's official documentation as the primary reference for claims about Go
 
 ## Content Navigation
 
-Available documents:
+Topics:
 
-| ID | Topic | Status |
+| ID | Topic |
 |---|---|---|
-| [01.1](01.1-SEO-Core-Concepts.md) | SEO Core Concepts | Available |
-| [01.2](01.2-Search-Visibility.md) | Search Visibility | Available |
-| [01.3](01.3-SEO-Ecosystem.md) | SEO Ecosystem | Available |
-| [01.4](01.4-SEO-Objectives-and-Value.md) | SEO Objectives & Value | Available |
-| [01.5](01.5-SEO-Disciplines.md) | SEO Disciplines | Available |
+| [01.1](01.1-SEO-Core-Concepts.md) | SEO Core Concepts |
+| [01.2](01.2-Search-Visibility.md) | Search Visibility |
+| [01.3](01.3-SEO-Ecosystem.md) | SEO Ecosystem |
+| [01.4](01.4-SEO-Objectives-and-Value.md) | SEO Objectives & Value |
+| [01.5](01.5-SEO-Disciplines.md) | SEO Disciplines |
 
 ### Relationships Between Topics
 
@@ -76,10 +76,10 @@ Available documents:
 - **01.3 → 01.2:** the ecosystem explains the actors and systems behind the search visibility measured in 01.2.
 - **01.3 → 01.4 and 01.5:** ecosystem participants and their responsibilities provide context for SEO objectives and specialist disciplines.
 - **01.5 → 01.1–01.4:** SEO Disciplines connects the foundational definition, visibility, ecosystem, and objectives to the specialist workstreams that support them.
-- **01.5 → Domains 07–14:** the discipline framework maps to the future specialist domains for On-Page, Content, Technical, Internal Linking, Off-Page, International & Local SEO, and Analytics.
+- **01.5 → Domains 07–14:** the discipline framework maps to the specialist subjects of On-Page, Content, Technical, Internal Linking, Off-Page, International & Local SEO, and Analytics.
 - **01.4 → 01.2 and 01.3:** SEO objectives determine which visibility dimensions and ecosystem relationships matter when evaluating results.
 - **01.2 → 01.4:** visibility metrics provide input for evaluating traffic and business value. Full coverage belongs in 01.4.
-- **01.1 and 01.2 → Domains 02, 06, 10, and 14:** search concepts, SERPs, technical implementation, and analytics will connect to specialist domains once their documents exist.
+- **01.1 and 01.2 → Domains 02, 06, 10, and 14:** search concepts, SERPs, technical implementation, and analytics connect to the specialist subjects covered by those domains.
 
 ## Status
 
