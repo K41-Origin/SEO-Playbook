@@ -27,7 +27,7 @@ The principle is simple: **no fluff, no fake certainty, no recycled SEO folklore
 This domain consists of five main groups:
 
 | ID | Group | Scope |
-|---|---|---|
+|---|---|
 | 01.1 | **SEO Core Concepts** | SEO definition, objectives, scope, and fundamental principles. |
 | 01.2 | **Search Visibility** | Organic visibility, rankings, impressions, clicks, and discoverability. |
 | 01.3 | **SEO Ecosystem** | Relationships among websites, search engines, users, publishers, and the search ecosystem. |
@@ -80,9 +80,3 @@ Topics:
 - **01.4 → 01.2 and 01.3:** SEO objectives determine which visibility dimensions and ecosystem relationships matter when evaluating results.
 - **01.2 → 01.4:** visibility metrics provide input for evaluating traffic and business value. Full coverage belongs in 01.4.
 - **01.1 and 01.2 → Domains 02, 06, 10, and 14:** search concepts, SERPs, technical implementation, and analytics connect to the specialist subjects covered by those domains.
-
-## Status
-
-**Domain status: Complete (foundational scope).** All five foundational topics are available. Specialist depth remains assigned to the relevant future domains; this does not mean the wider 17-domain knowledge base is complete.
-
-Development follows the topic IDs from 01.1 through 01.5. Update the navigation table and status whenever a new document is added.
