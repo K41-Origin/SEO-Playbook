@@ -126,7 +126,7 @@ Only existing documents are linked as destinations. Planned topics remain in the
 | Cross-domain knowledge graph | Initial integration | Existing Domain 01 topics are being connected; cross-domain links will be added as target documents exist. |
 | Maintenance and review | Governance defined | Research, citation, integration, and review rules are maintained in `AGENTS.md`. |
 
-**Current development focus:** complete Domain 01 in its agreed sequence, then continue through the remaining domains.
+**Current development focus:** develop Domain 02 topic documentation according to its established scope and structure.
 
 ---
 
