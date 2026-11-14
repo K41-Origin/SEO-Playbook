@@ -30,7 +30,7 @@ The emphasis is on **what the system does, how its major components fit together
 
 | ID | Topic | Scope |
 |---|---|---|
-| 02.1 | **Introduction to Search Engines** | What search engines are, what problems they solve, their core functions, and the distinction between web search and other search systems. |
+| [02.1](02.1-Introduction-to-Search-Engines.md) | **Introduction to Search Engines** | What search engines are, what problems they solve, their core functions, and the distinction between web search and other search systems. |
 | 02.2 | **Search Engine Architecture** | The major components of a search engine, their responsibilities, and how information flows between them. |
 | 02.3 | **Web Discovery** | How search systems identify URLs and other discoverable resources that may enter their processing pipeline. |
 | 02.4 | **Web Crawling** | How crawlers request resources, handle responses, revisit known URLs, and manage crawl activity. |
@@ -99,3 +99,10 @@ Every topic in this domain must follow the repository-wide rules in [AGENTS.md](
 
 - Google. ([In-Depth Guide to How Google Search Works](https://developers.google.com/search/docs/fundamentals/how-search-works)). Google Search Central. Accessed 2026-11-14.
 - Microsoft. ([How Bing Delivers Search Results](https://support.microsoft.com/en-us/bing/how-bing-delivers-search-results)). Microsoft Support; last updated March 2025. Accessed 2026-11-14.
+
+
+## Content Navigation
+
+| ID | Topic |
+|---|---|
+| [02.1](02.1-Introduction-to-Search-Engines.md) | Introduction to Search Engines |
