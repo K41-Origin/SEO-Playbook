@@ -61,7 +61,7 @@ Use Google's official documentation as the primary reference for claims about Go
 Topics:
 
 | ID | Topic |
-|---|---|---|
+|---|---|
 | [01.1](01.1-SEO-Core-Concepts.md) | SEO Core Concepts |
 | [01.2](01.2-Search-Visibility.md) | Search Visibility |
 | [01.3](01.3-SEO-Ecosystem.md) | SEO Ecosystem |
