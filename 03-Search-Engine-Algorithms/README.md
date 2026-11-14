@@ -41,7 +41,7 @@ It does not own website implementation, SEO execution, general information-retri
 | [03.7](03.7-Spam-Detection-and-Demotion-Systems.md) | **Spam Detection & Demotion Systems** | Detection and treatment of search spam, manipulation, policy violations, signal neutralization, and ranking demotions. |
 | [03.8](03.8-Freshness-and-Temporal-Ranking.md) | **Freshness & Temporal Ranking** | How time-sensitive relevance is handled, including freshness-related systems, query-dependent freshness needs, temporal evidence, and content age. |
 | 03.9 | **Contextual Ranking & Personalization** | The documented use of context such as location, language, device, and user-related signals where supported by evidence. |
-| 03.10 | **Specialized & Result-Specific Ranking Systems** | Ranking systems for particular result contexts, including local results, reviews, news, site diversity, and deduplication. |
+| [03.10](03.10-Specialized-and-Result-Specific-Ranking-Systems.md) | **Specialized & Result-Specific Ranking Systems** | Specialized ranking and result-set mechanisms for local results, editorial reviews, news, site diversity, and deduplication. |
 | 03.11 | **Machine Learning & Neural Ranking Systems** | Machine-learning and neural methods used in ranking, including documented systems such as RankBrain, BERT, neural matching, and passage ranking. |
 | 03.12 | **Ranking Evaluation & Testing** | How ranking quality is evaluated through offline measures, experiments, human assessment, and other documented evaluation methods. |
 | 03.13 | **Ranking Updates & System Evolution** | Core updates, system changes, integration or retirement of named systems, historical developments, and how to interpret update announcements. |
@@ -138,5 +138,6 @@ The links below point to documents that currently exist. Topic IDs define the ag
 - [03.6 — Content Quality, Helpfulness & Originality Systems](03.6-Content-Quality-Helpfulness-and-Originality-Systems.md)
 - [03.7 — Spam Detection & Demotion Systems](03.7-Spam-Detection-and-Demotion-Systems.md)
 - [03.8 — Freshness & Temporal Ranking](03.8-Freshness-and-Temporal-Ranking.md)
+- [03.10 — Specialized & Result-Specific Ranking Systems](03.10-Specialized-and-Result-Specific-Ranking-Systems.md)
 - [Repository README](../README.md)
 - [AGENTS.md](../AGENTS.md)
