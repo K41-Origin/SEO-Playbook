@@ -124,6 +124,7 @@ Start here, then follow the topic links. Each domain index defines its scope and
   - [02.8 — Search Retrieval](02-Search-Engine-Fundamentals/02.8-Search-Retrieval.md)
   - [02.9 — Search Result Generation & Serving](02-Search-Engine-Fundamentals/02.9-Search-Result-Generation-and-Serving.md)
   - [02.10 — Search Engine Infrastructure](02-Search-Engine-Fundamentals/02.10-Search-Engine-Infrastructure.md)
+  - [02.11 — Search Engine Types & Models](02-Search-Engine-Fundamentals/02.11-Search-Engine-Types-and-Models.md)
 
 Only existing documents are linked as destinations. Planned topics remain in their domain roadmap until their pages are created.
 
@@ -133,7 +134,7 @@ Only existing documents are linked as destinations. Planned topics remain in the
 |---|---|---|
 | Repository architecture | Established | 17 knowledge domains defined. |
 | Domain 01 — SEO Fundamentals | Foundational scope complete | Domain index and foundational topics 01.1–01.5 are available. |
-| Domain 02 — Search Engine Fundamentals | In development | Domain index and topic architecture are available; topics 02.1–02.10 are documented. |
+| Domain 02 — Search Engine Fundamentals | In development | Domain index and topic architecture are available; topics 02.1–02.11 are documented. |
 | Domains 03–17 | Planned | Domain-level content has not yet been developed in this repository. |
 | Cross-domain knowledge graph | Initial integration | Existing Domain 01 topics are being connected; cross-domain links will be added as target documents exist. |
 | Maintenance and review | Governance defined | Research, citation, integration, and review rules are maintained in `AGENTS.md`. |
