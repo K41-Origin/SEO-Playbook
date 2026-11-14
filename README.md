@@ -135,6 +135,7 @@ Start here, then follow the topic links. Each domain index defines its scope and
   - [03.6 — Content Quality, Helpfulness & Originality Systems](03-Search-Engine-Algorithms/03.6-Content-Quality-Helpfulness-and-Originality-Systems.md)
   - [03.7 — Spam Detection & Demotion Systems](03-Search-Engine-Algorithms/03.7-Spam-Detection-and-Demotion-Systems.md)
   - [03.8 — Freshness & Temporal Ranking](03-Search-Engine-Algorithms/03.8-Freshness-and-Temporal-Ranking.md)
+  - [03.9 — Contextual Ranking & Personalization](03-Search-Engine-Algorithms/03.9-Contextual-Ranking-and-Personalization.md)
   - [03.10 — Specialized & Result-Specific Ranking Systems](03-Search-Engine-Algorithms/03.10-Specialized-and-Result-Specific-Ranking-Systems.md)
   - [03.11 — Machine Learning & Neural Ranking Systems](03-Search-Engine-Algorithms/03.11-Machine-Learning-and-Neural-Ranking-Systems.md)
 
