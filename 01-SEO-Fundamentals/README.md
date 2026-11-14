@@ -75,7 +75,6 @@ Available documents:
 - **01.1 ↔ 01.3:** SEO Core Concepts introduces the search environment; SEO Ecosystem maps its participants, incentives, and relationships.
 - **01.3 → 01.2:** the ecosystem explains the actors and systems behind the search visibility measured in 01.2.
 - **01.3 → 01.4 and 01.5:** ecosystem participants and their responsibilities provide context for SEO objectives and specialist disciplines.
-- **01.2 → 01.4:** Search Visibility metrics provide search-performance context; 01.4 connects that visibility to meaningful outcomes and value.
 - **01.4 → 01.2 and 01.3:** SEO objectives determine which visibility dimensions and ecosystem relationships matter when evaluating results.
 - **01.2 → 01.4:** visibility metrics provide input for evaluating traffic and business value. Full coverage belongs in 01.4.
 - **01.1 and 01.2 → Domains 02, 06, 10, and 14:** search concepts, SERPs, technical implementation, and analytics will connect to specialist domains once their documents exist.
