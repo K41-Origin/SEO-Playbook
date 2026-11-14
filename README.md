@@ -1,23 +1,32 @@
 # SEO-Playbook
 
-## Comprehensive SEO Knowledge Base
+## A Knowledge Base for Understanding Search
 
-SEO-Playbook is an encyclopedic SEO knowledge base designed to document SEO concepts, principles, mechanisms, methodologies, research, and developments in a structured and evidence-based way.
+SEO-Playbook is an encyclopedic knowledge base for understanding search engine optimization in depth. It documents the concepts, systems, mechanisms, research, methods, and developments that shape how search works—from the fundamentals to advanced topics and AI-driven discovery.
 
-### Purpose
+The point is not to collect SEO jargon or repeat whatever tactic is trending this week. The point is to understand what actually happens, what the evidence supports, how the pieces connect, and where the limits of our knowledge are.
 
-The knowledge base is intended to build and maintain a broad, deep, and connected understanding of search engine optimization—from foundational concepts to advanced topics and experimental approaches.
+## Purpose
 
-### Knowledge Base Orientation
+Build and maintain a broad, deep, connected body of SEO knowledge that can be researched, challenged, verified, and updated as search evolves.
 
-- **Approach:** Encyclopedic
-- **Orientation:** SEO Knowledge Base
-- **Standards:** Accurate, evidence-based, comprehensive, structured, objective, connected, and continuously updated
-- **Scope:** Fundamental through advanced SEO, including the evolution of search and AI-driven discovery
+SEO-Playbook is a knowledge base—not a one-size-fits-all checklist, a shortcut catalog, or a repository of ranking-factor folklore.
+
+## Knowledge Base Principles
+
+- **Accurate:** Correctness comes before volume, confidence, or a catchy claim.
+- **Evidence-led:** Prefer primary sources, official documentation, credible research, and reproducible tests.
+- **Deep:** Explain concepts and mechanisms, not just definitions.
+- **Connected:** Show how systems and concepts relate across SEO disciplines.
+- **Critical:** Question assumptions and popular claims. A tactic being repeated everywhere does not make it true.
+- **Transparent:** Separate established facts, observations, interpretations, hypotheses, and unknowns.
+- **Evolving:** Review and revise documentation as search systems, technologies, policies, and evidence change.
+
+For Google Search-related claims, Google's official documentation is the starting point—not an excuse to stop thinking. Interpret sources carefully, distinguish what Google explicitly says from what practitioners infer, and never label an unproven correlation as a confirmed ranking factor.
 
 ## Knowledge Architecture
 
-The following 17 knowledge domains form the agreed top-level architecture of SEO-Playbook.
+The following 17 domains form the agreed top-level architecture of SEO-Playbook.
 
 | No. | Knowledge Domain |
 |---:|---|
@@ -39,50 +48,43 @@ The following 17 knowledge domains form the agreed top-level architecture of SEO
 | 16 | AI & Search Evolution |
 | 17 | **k41-version — SEO Hacks, Tricks & Experimental Strategies** |
 
-## Knowledge Documentation Principles
+The architecture is the project's agreed foundation. Topics should live in the domain that best represents their primary subject, with cross-links used to connect related concepts. Avoid creating duplicate silos just because a topic touches more than one discipline.
 
-1. **Accuracy:** Prioritize correctness over volume or unsupported certainty.
-2. **Evidence-based:** Prefer primary sources, official documentation, credible research, and reproducible evidence.
-3. **Comprehensive:** Explain concepts in sufficient depth, including relevant context and mechanisms.
-4. **Structured:** Maintain clear domain, category, and topic hierarchies.
-5. **Connected:** Document relationships and dependencies between concepts.
-6. **Objective:** Distinguish established facts, evidence-backed conclusions, hypotheses, opinions, and assumptions.
-7. **Continuously updated:** Review and revise knowledge as search systems, technologies, and evidence evolve.
+## Documenting a Topic
 
-## Suggested Topic Documentation Framework
-
-Adapt the following elements to the nature of each topic:
+Use a structure that fits the subject. Depending on the topic, useful sections may include:
 
 - Definition and terminology
 - Background and context
-- Core concepts
-- Mechanisms and how it works
-- Components and relevant systems
-- Relationships to other SEO concepts
+- Core concepts and components
+- Mechanisms: how it works
 - Evidence, research, and references
-- Practical implications
-- Limitations and uncertainties
+- Examples and practical implications
+- Relationships to other SEO concepts
+- Limitations, risks, and uncertainties
+
+Not every topic needs every section. Structure should make the subject easier to understand, not turn documentation into paperwork.
 
 ## Domain 17: k41-version
 
-**k41-version — SEO Hacks, Tricks & Experimental Strategies** is a dedicated domain for collecting, documenting, evaluating, and developing SEO techniques and experiments associated with the k41 approach.
+**k41-version — SEO Hacks, Tricks & Experimental Strategies** is where unconventional SEO approaches, experiments, automation, competitive intelligence, growth experiments, and original k41 discoveries are documented and evaluated.
 
-Its scope may include SEO hacks and tricks, advanced and unconventional techniques, experiments, automation and workflows, keyword research approaches, content optimization, technical SEO approaches, SERP testing, competitive SEO intelligence, growth experiments, and original discoveries.
+Interesting does not automatically mean effective. Unusual does not automatically mean innovative. And a result from one test does not magically become a universal SEO rule.
 
-Each technique should be documented with appropriate context, mechanism, implementation, use cases, expected outcomes, evidence, risks, limitations, and k41 insights.
+Each entry should provide enough context to evaluate the idea: its objective, proposed mechanism, method, test conditions, observations, evidence, limitations, risks, and relevant search-engine policy implications.
 
-### Evidence and Status Labels
+### Evidence and Maturity Labels
 
-Use these labels to communicate the maturity of a technique:
+Use these labels to make the status of a technique or claim explicit:
 
-- **Verified:** Supported by sufficiently strong evidence.
-- **Tested:** Tested through an experiment; results and conditions should be documented.
-- **Experimental:** Under investigation; conclusions are not yet established.
+- **Verified:** Supported by sufficiently strong and relevant evidence.
+- **Tested:** Tested under documented conditions; results may not generalize.
+- **Experimental:** Under investigation; conclusions are still provisional.
 - **Hypothesis:** A proposed explanation or approach awaiting adequate testing.
-- **Unverified:** Insufficient evidence is currently available.
-- **Deprecated:** No longer relevant, supported, or effective under the documented conditions.
+- **Unverified:** Available evidence is insufficient.
+- **Deprecated:** No longer relevant or recommended under the documented conditions.
 
-Do not present a hypothesis, anecdote, or unverified tactic as an established search engine ranking factor. Document risks, policy implications, and limitations transparently.
+Do not dress up anecdotes, assumptions, or hypotheses as confirmed ranking factors. If the evidence is weak, say so. If a technique carries risks or conflicts with search-engine policies, document that plainly.
 
 ## Development Status
 
@@ -92,8 +94,8 @@ Do not present a hypothesis, anecdote, or unverified tactic as an established se
 - [ ] Connect related concepts across domains.
 - [ ] Establish an ongoing review and update process.
 
-**Current starting point:** Domain 01 — SEO Fundamentals.
+**Starting point:** Domain 01 — SEO Fundamentals.
 
 ---
 
-*This document records the agreed top-level architecture. It does not imply that all domains or their detailed subtopics have already been researched or documented.*
+*This README defines the project's purpose, architecture, and documentation principles. It does not claim that every domain or topic has already been researched or completed.*
