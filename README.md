@@ -127,6 +127,8 @@ Start here, then follow the topic links. Each domain index defines its scope and
   - [02.10 — Search Engine Infrastructure](02-Search-Engine-Fundamentals/02.10-Search-Engine-Infrastructure.md)
   - [02.11 — Search Engine Types & Models](02-Search-Engine-Fundamentals/02.11-Search-Engine-Types-and-Models.md)
   - [02.12 — Search Engine Limitations](02-Search-Engine-Fundamentals/02.12-Search-Engine-Limitations.md)
+- [03 — Search Engine Algorithms](03-Search-Engine-Algorithms/README.md) — ranking systems, signals, relevance, quality, spam, machine learning, and ranking evolution.
+  - [03.1 — Introduction to Search Ranking Systems](03-Search-Engine-Algorithms/03.1-Introduction-to-Search-Ranking-Systems.md)
 
 Only existing documents are linked as destinations. Planned topics remain in their domain roadmap until their pages are created.
 
