@@ -37,9 +37,8 @@ The emphasis is on **what the system does, how its major components fit together
 | [02.5](02.5-Document-Processing-and-Rendering.md) | **Document Processing & Rendering** | How acquired resources are rendered, parsed, and transformed into information that downstream systems can process. |
 | [02.6](02.6-Search-Indexing.md) | **Search Indexing** | How processed information is organized, stored, updated, and made available for search. |
 | [02.7](02.7-Query-Processing.md) | **Query Processing** | How a search system receives, interprets, and prepares query input for downstream retrieval. |
-| 02.7 | **Query Processing** | How a search system receives and prepares a query for retrieval, without taking over keyword research or search-intent analysis. |
 | 02.8 | **Search Retrieval** | How a system uses a query to locate candidate information from its searchable collections. |
-| 02.9 | **Search Result Generation & Serving** | How retrieved candidates move through result assembly and delivery to the search experience. Ranking algorithms and SERP presentation are covered elsewhere. |
+| [02.9](02.9-Search-Result-Generation-and-Serving.md) | **Search Result Generation & Serving** | How retrieved candidates move through result assembly and delivery to the search experience. Ranking algorithms and SERP presentation are covered elsewhere. |
 | 02.10 | **Search Engine Infrastructure** | The distributed computing, storage, networking, and operational foundations required to run search at scale. |
 | 02.11 | **Search Engine Types & Models** | How search engines differ by scope, corpus, retrieval model, and service design, with web search as the main reference context. |
 | 02.12 | **Search Engine Limitations** | System-level constraints, incomplete coverage, freshness trade-offs, uncertainty, and reasons search results cannot represent the entire web perfectly. |
@@ -114,3 +113,4 @@ Every topic in this domain must follow the repository-wide rules in [AGENTS.md](
 | [02.6](02.6-Search-Indexing.md) | Search Indexing |
 | [02.7](02.7-Query-Processing.md) | Query Processing |
 | [02.8](02.8-Search-Retrieval.md) | Search Retrieval |
+| [02.9](02.9-Search-Result-Generation-and-Serving.md) | Search Result Generation & Serving |
