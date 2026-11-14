@@ -32,7 +32,7 @@ The emphasis is on **what the system does, how its major components fit together
 |---|---|---|
 | [02.1](02.1-Introduction-to-Search-Engines.md) | **Introduction to Search Engines** | What search engines are, what problems they solve, their core functions, and the distinction between web search and other search systems. |
 | [02.2](02.2-Search-Engine-Architecture.md) | **Search Engine Architecture** | The major components of a search engine, their responsibilities, and how information flows between them. |
-| 02.3 | **Web Discovery** | How search systems identify URLs and other discoverable resources that may enter their processing pipeline. |
+| [02.3](02.3-Web-Discovery.md) | **Web Discovery** | How search systems identify URLs and other discoverable resources that may enter their processing pipeline. |
 | 02.4 | **Web Crawling** | How crawlers request resources, handle responses, revisit known URLs, and manage crawl activity. |
 | 02.5 | **Document Processing & Rendering** | How acquired resources are rendered, parsed, and transformed into information that downstream systems can process. |
 | 02.6 | **Search Indexing** | How processed information is organized, stored, updated, and made available for search. |
@@ -107,3 +107,4 @@ Every topic in this domain must follow the repository-wide rules in [AGENTS.md](
 |---|---|
 | [02.1](02.1-Introduction-to-Search-Engines.md) | Introduction to Search Engines |
 | [02.2](02.2-Search-Engine-Architecture.md) | Search Engine Architecture |
+| [02.3](02.3-Web-Discovery.md) | Web Discovery |
