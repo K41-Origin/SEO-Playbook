@@ -39,7 +39,7 @@ It does not own website implementation, SEO execution, general information-retri
 | [03.5](03.5-Link-Analysis-and-PageRank.md) | **Link Analysis & PageRank** | Web link graphs, link analysis, PageRank, link-derived evidence, manipulation risks, and the limits of public knowledge about modern implementations. |
 | 03.6 | **Content Quality, Helpfulness & Originality Systems** | Search systems associated with content quality, helpfulness, originality, and reliable information. |
 | [03.7](03.7-Spam-Detection-and-Demotion-Systems.md) | **Spam Detection & Demotion Systems** | Detection and treatment of search spam, manipulation, policy violations, signal neutralization, and ranking demotions. |
-| 03.8 | **Freshness & Temporal Ranking** | How time-sensitive relevance is handled, including freshness-related systems and query-dependent freshness needs. |
+| [03.8](03.8-Freshness-and-Temporal-Ranking.md) | **Freshness & Temporal Ranking** | How time-sensitive relevance is handled, including freshness-related systems, query-dependent freshness needs, temporal evidence, and content age. |
 | 03.9 | **Contextual Ranking & Personalization** | The documented use of context such as location, language, device, and user-related signals where supported by evidence. |
 | 03.10 | **Specialized & Result-Specific Ranking Systems** | Ranking systems for particular result contexts, including local results, reviews, news, site diversity, and deduplication. |
 | 03.11 | **Machine Learning & Neural Ranking Systems** | Machine-learning and neural methods used in ranking, including documented systems such as RankBrain, BERT, neural matching, and passage ranking. |
@@ -137,5 +137,6 @@ The links below point to documents that currently exist. Topic IDs define the ag
 - [03.5 — Link Analysis & PageRank](03.5-Link-Analysis-and-PageRank.md)
 - [03.6 — Content Quality, Helpfulness & Originality Systems](03.6-Content-Quality-Helpfulness-and-Originality-Systems.md)
 - [03.7 — Spam Detection & Demotion Systems](03.7-Spam-Detection-and-Demotion-Systems.md)
+- [03.8 — Freshness & Temporal Ranking](03.8-Freshness-and-Temporal-Ranking.md)
 - [Repository README](../README.md)
 - [AGENTS.md](../AGENTS.md)
