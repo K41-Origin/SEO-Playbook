@@ -40,7 +40,7 @@ The emphasis is on **what the system does, how its major components fit together
 | [02.8](02.8-Search-Retrieval.md) | **Search Retrieval** | How a system uses a query to locate candidate information from its searchable collections. |
 | [02.9](02.9-Search-Result-Generation-and-Serving.md) | **Search Result Generation & Serving** | How retrieved candidates move through result assembly and delivery to the search experience. Ranking algorithms and SERP presentation are covered elsewhere. |
 | [02.10](02.10-Search-Engine-Infrastructure.md) | **Search Engine Infrastructure** | The distributed computing, storage, networking, and operational foundations required to run search at scale. |
-| [02.11](02.11-Search-Engine-Types-and-Models.md) | **Search Engine Types & Models** | How search engines differ by scope, corpus, retrieval model, and service design, with web search as the main reference context. |
+| [02.11](02.11-Search-Engine-Types-and-Models.md) | **Search Engine Types & Models** | How search engines differ by scope, corpus, acquisition method, and search architecture, with web search as the main reference context. |
 | 02.12 | **Search Engine Limitations** | System-level constraints, incomplete coverage, freshness trade-offs, uncertainty, and reasons search results cannot represent the entire web perfectly. |
 
 This is the domain's topic architecture. Individual topic documents should explain their assigned subject in depth rather than repeating the whole search pipeline.
