@@ -26,7 +26,7 @@ Consistency matters. Structural changes must have a legitimate reason.
 
 ## k41 Universal Core Identity and SEO-Playbook Editorial Voice
 
-The universal identity of k41 is defined by the private `k41-core` source document, [Core Identity.md](https://github.com/K41-Origin/k41-core/blob/main/Core-Identity.md). This document is the canonical reference for the identity inherited by SEO-Playbook. Do not reduce it to a generic instruction to sound "natural, confident, and sharp".
+The universal identity of k41 is defined by the private `k41-core` source document, [Core Identity.md](https://github.com/K41-Origin/k41-core/blob/main/Core%20Identity.md). This document is the canonical reference for the identity inherited by SEO-Playbook. Do not reduce it to a generic instruction to sound "natural, confident, and sharp".
 
 SEO-Playbook must carry the actual universal k41 character while adapting its expression to the subject of SEO. The project may develop a field-specific editorial voice, but it must not erase or contradict the shared k41 identity.
 
@@ -273,3 +273,46 @@ The goal is not to produce another generic SEO encyclopedia filled with recycled
 The goal is to build a knowledge base that understands how SEO works, questions what others take for granted, documents what evidence actually supports, and remains honest about what it does not know.
 
 **Understand the system. Question the assumptions. Follow the evidence.**
+
+
+## Repository-Wide Knowledge Integration
+
+SEO-Playbook is a connected knowledge base, not a folder of standalone articles. Every document must make its place in the wider system clear.
+
+### Navigation and cross-linking rules
+
+1. **Maintain the navigation hierarchy.** The root `README.md` is the repository entry point and 17-domain map. Each domain's `README.md` is its local index, scope definition, and progress tracker. Topic documents are the detailed knowledge nodes.
+2. **Link every topic to its parent.** Each substantive topic document must link to its domain index and identify its domain and topic ID in its heading or opening metadata.
+3. **Connect related topics.** Add a concise `Related Topics` section to each substantive document. Link to existing documents when the relationship helps readers understand prerequisites, dependencies, contrasts, or deeper coverage.
+4. **Prefer bidirectional links for meaningful relationships.** When document A materially relies on or extends document B, add a reciprocal link where it improves navigation. Do not add reciprocal links mechanically when the relationship is trivial.
+5. **Do not create dead links.** Link only to files that exist on the current branch. Planned topics may be named as planned destinations in prose or in a clearly labeled roadmap, but must not be presented as working links.
+6. **Avoid duplicate explanations.** Give each topic one canonical home. Other documents should summarize only what is needed and link to the canonical explanation.
+7. **Keep indexes synchronized.** When a topic is created, renamed, moved, or materially re-scoped, update its domain index and any affected navigation or cross-reference pages in the same change set.
+8. **Track real progress.** Root and domain status sections must reflect files that actually exist and their real development state. Do not mark an entire domain complete because a few introductory topics exist.
+9. **Use stable relative links.** Prefer repository-relative Markdown links for internal navigation. Check capitalization, filename, and path exactly.
+10. **Review integration before commit.** Check parent links, related-topic links, index entries, status labels, duplicated coverage, and broken internal paths before declaring the work complete.
+
+### Recommended topic-document navigation
+
+Use this structure where it fits the subject:
+
+- Topic heading and direct opening.
+- Main explanation.
+- Relevant limitations and evidence.
+- `## Related Topics` — parent index plus existing related documents.
+- `## References` — sources supporting substantive claims.
+
+Do not force irrelevant sections into a page. Navigation is mandatory; section labels may adapt to the document.
+
+### Repository integration review
+
+A repository-wide integration pass should inspect, at minimum:
+
+- Root README and all existing domain indexes.
+- Existing topic documents and their parent/domain placement.
+- Internal links and reciprocal relationships.
+- Naming, numbering, scope boundaries, and duplicate coverage.
+- Progress/status statements against the actual repository tree.
+- Citation and editorial consistency against this file.
+
+Integration means making the existing knowledge navigable and logically connected. It does not mean creating empty pages for all 17 domains or inventing cross-links to documents that do not exist yet.
