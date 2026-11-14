@@ -102,15 +102,28 @@ Do not dress anecdotes up as science. Do not sell assumptions as ranking factors
 
 Curiosity gets us into the lab. Evidence decides what gets to leave it.
 
+## Repository Navigation
+
+Start here, then follow the topic links. Each domain index defines its scope and points to the detailed documents that actually exist.
+
+- [AGENTS.md](AGENTS.md) — editorial identity, research and citation rules, documentation workflow, and repository governance.
+- [01 — SEO Fundamentals](01-SEO-Fundamentals/README.md) — domain scope, structure, and development status.
+  - [01.1 — SEO Core Concepts](01-SEO-Fundamentals/01.1-SEO-Core-Concepts.md)
+  - [01.2 — Search Visibility](01-SEO-Fundamentals/01.2-Search-Visibility.md)
+
+Only existing documents are linked as destinations. Planned topics remain in their domain roadmap until their pages are created.
+
 ## Development Status
 
-- [x] Establish the top-level knowledge architecture (17 domains).
-- [ ] Develop Domain 01 — SEO Fundamentals.
-- [ ] Develop the remaining domains in the agreed sequence.
-- [ ] Connect related concepts across domains.
-- [ ] Establish an ongoing review and update process.
+| Area | Status | Current coverage |
+|---|---|---|
+| Repository architecture | Established | 17 knowledge domains defined. |
+| Domain 01 — SEO Fundamentals | In progress | Domain index and topics 01.1–01.2 exist; 01.3–01.5 remain planned. |
+| Domains 02–17 | Planned | Domain-level content has not yet been developed in this repository. |
+| Cross-domain knowledge graph | Initial integration | Existing Domain 01 topics are being connected; cross-domain links will be added as target documents exist. |
+| Maintenance and review | Governance defined | Research, citation, integration, and review rules are maintained in `AGENTS.md`. |
 
-**Starting point:** Domain 01 — SEO Fundamentals.
+**Current development focus:** complete Domain 01 in its agreed sequence, then continue through the remaining domains.
 
 ---
 
