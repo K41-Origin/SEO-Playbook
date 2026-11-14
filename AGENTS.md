@@ -94,6 +94,56 @@ Use the sources relevant to the topic being documented. Do not cite a hub page a
 
 The official source registry is a starting set, not a frozen whitelist. Add or replace links when Google reorganizes documentation. Verify links before relying on them; never preserve a stale URL merely because it appears in this file.
 
+## Mandatory Source Citation Policy
+
+**Every substantive knowledge document must include sources.** Research without traceable references is incomplete and must not be presented as finished documentation.
+
+This requirement applies to all knowledge domains, not only Google Search topics. It applies to new documents, material revisions, research notes, technical explanations, case studies, experiments, and claims added to existing pages.
+
+### Non-negotiable citation requirements
+
+1. **Cite factual claims.** Every material factual, technical, historical, statistical, scientific, policy, or product-behavior claim must have a source that directly supports it. Place citations immediately after the relevant sentence or paragraph—not only in a reference list at the end.
+2. **Cite definitions and mechanisms.** Definitions, explanations of how systems work, descriptions of algorithms or APIs, and statements about search-engine behavior must be traceable to appropriate primary or authoritative sources.
+3. **Cite numbers and dates.** Statistics, measurements, percentages, thresholds, dates, version numbers, and time-sensitive claims must include their source and relevant context. Never present an estimate as an exact measurement.
+4. **Cite quotations and attributed statements.** Use quotation marks for exact wording, preserve the meaning of the source, and identify the source precisely. Do not fabricate quotations or imply that a source said more than it did.
+5. **Cite tables, diagrams, and examples.** Add source notes for externally derived data, taxonomies, diagrams, screenshots, and examples. Label original analysis or illustrative examples as such.
+6. **Cite negative and comparative claims.** Claims that something is unsupported, unavailable, ineffective, deprecated, better, worse, or different require evidence appropriate to the scope of the claim. Avoid universal negatives when the evidence only supports a limited conclusion.
+7. **Cite experiments and case studies.** Record the original test source or the experiment's own methodology, data, dates, environment, sample, controls, and limitations. Distinguish first-hand project experiments from externally reported case studies.
+8. **Use inline citations plus a References section.** Inline citations make the supporting evidence discoverable at the claim; the References section provides complete bibliographic details and direct links. A list of links without claim-level attribution is not sufficient.
+9. **Make sources verifiable.** Prefer direct links to the original document, paper, specification, dataset, official announcement, or experiment. Include title, author/organization, publication or update date when available, and access date for sources whose content may change.
+10. **Do not cite sources you have not checked.** Open and inspect the actual source. Search snippets, AI-generated summaries, copied citations, and references found only in another article are not adequate verification.
+11. **No invented or decorative citations.** A citation must genuinely support the nearby claim. Do not add irrelevant links to make a document look researched, and never fabricate URLs, authors, dates, page numbers, DOIs, quotations, or source details.
+12. **Preserve attribution when paraphrasing.** Rewriting a source in your own words does not remove the need to cite it.
+13. **Support original reasoning appropriately.** Clearly label original analysis, interpretation, and deductions. Cite the underlying facts or premises, then explain the reasoning. Do not attribute your inference to the source.
+14. **Mark unsupported claims honestly.** If a claim cannot be verified, label it as an observation, hypothesis, assumption, or unknown and state what evidence is missing. Do not quietly leave it looking like established fact.
+15. **Check citation integrity before completion.** Verify that every material claim has a relevant citation, every inline citation has a matching reference entry, every reference is actually cited or explicitly marked as further reading, and all links resolve to the intended source.
+
+### Source selection and citation quality
+
+- Prefer primary sources: official documentation, original research, standards, specifications, datasets, direct statements, and first-hand experiments.
+- For Google Search claims, follow the **Mandatory Official Reference Sources** section above. Cite the specific Google page that supports the claim, not merely the Google Developers or Search Central homepage.
+- Use independent sources to corroborate, challenge, or extend official documentation where appropriate. Do not treat a source's reputation as proof that every claim on it is correct.
+- Use multiple independent sources for consequential, disputed, surprising, or broad claims when available.
+- If sources disagree, cite the relevant sides, explain the disagreement, compare dates and scope, and state what remains unresolved.
+- A source can support only the claim it actually addresses. Do not stretch a narrow study, one website's result, or one test into a universal SEO rule.
+- Respect source quality, methodology, recency, conflicts of interest, and limitations. Prefer the original research over commentary about it.
+
+### Required document ending
+
+Every substantive knowledge document must end with a `## References` section containing the sources actually cited in that document.
+
+Use a consistent entry format where information is available:
+
+`- Organization/Author. ([Publication or page title](URL)). Publication or last-updated date (if available). Accessed YYYY-MM-DD (when freshness matters).`
+
+For research papers, include the paper title, authors, venue or publisher, year, and DOI or canonical paper URL when available. For standards and technical specifications, identify the issuing organization and exact specification/page. For datasets and experiments, identify the dataset or test, owner, version/date, and methodology or source location.
+
+A document may add a separate `Further Reading` section for useful material that was consulted but does not directly support a claim. Do not mix uncited suggestions into `References`.
+
+### Exceptions
+
+Only documents whose purpose is inherently non-factual—such as a navigation index, empty template, glossary stub awaiting research, or brief project note—may omit claim-level citations. They must not contain substantive factual claims without sources. If a document has no sources yet, label it clearly as a draft or research-needed document; do not treat it as complete.
+
 ## Documentation Workflow
 
 Before creating a new topic or materially revising an existing document, follow this workflow:
