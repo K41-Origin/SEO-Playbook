@@ -33,7 +33,7 @@ It does not own website implementation, SEO execution, general information-retri
 | ID | Topic | Canonical scope |
 |---|---|---|
 | [03.1](03.1-Introduction-to-Search-Ranking-Systems.md) | **Introduction to Search Ranking Systems** | What ranking systems do, why ranking is needed, and the distinctions between algorithms, systems, signals, models, factors, and updates. |
-| 03.2 | **Ranking Architecture & Multi-Stage Ranking** | Conceptual ranking stages, candidate evaluation, re-ranking, system interaction, and the limits of what public sources reveal about deployed architecture. |
+| [03.2](03.2-Ranking-Architecture-and-Multi-Stage-Ranking.md) | **Ranking Architecture & Multi-Stage Ranking** | Conceptual ranking stages, candidate evaluation, re-ranking, system interaction, and the limits of what public sources reveal about deployed architecture. |
 | 03.3 | **Ranking Signals & Signal Interaction** | Signal categories, page-level and site-wide signals, signal interpretation, combinations, and the limits of public knowledge about weights. |
 | 03.4 | **Relevance & Query-Document Matching** | How ranking systems assess the relationship between a query and candidate documents, including lexical, semantic, and contextual relevance at the ranking layer. |
 | 03.5 | **Link Analysis & PageRank** | Link graphs, link analysis, PageRank, the role and limitations of link-based ranking, and documented evolution. |
@@ -131,5 +131,6 @@ The links below point to documents that currently exist. Topic IDs define the ag
 - [Domain 01 — SEO Fundamentals](../01-SEO-Fundamentals/README.md)
 - [Domain 02 — Search Engine Fundamentals](../02-Search-Engine-Fundamentals/README.md)
 - [03.1 — Introduction to Search Ranking Systems](03.1-Introduction-to-Search-Ranking-Systems.md)
+- [03.2 — Ranking Architecture & Multi-Stage Ranking](03.2-Ranking-Architecture-and-Multi-Stage-Ranking.md)
 - [Repository README](../README.md)
 - [AGENTS.md](../AGENTS.md)
