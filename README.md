@@ -1,32 +1,42 @@
 # SEO-Playbook
 
-## A Knowledge Base for Understanding Search
+## Understand Search. Question the Noise.
 
-SEO-Playbook is an encyclopedic knowledge base for understanding search engine optimization in depth. It documents the concepts, systems, mechanisms, research, methods, and developments that shape how search works—from the fundamentals to advanced topics and AI-driven discovery.
+SEO is full of confident claims. Some are useful. Some are outdated. Some are guesses wearing a lab coat.
 
-The point is not to collect SEO jargon or repeat whatever tactic is trending this week. The point is to understand what actually happens, what the evidence supports, how the pieces connect, and where the limits of our knowledge are.
+SEO-Playbook exists to separate the signal from the noise.
 
-## Purpose
+This is an encyclopedic knowledge base for understanding search engine optimization in depth: the concepts, systems, mechanisms, research, methods, and changes shaping how people discover information—from foundational search technology to advanced SEO and AI-driven discovery.
 
-Build and maintain a broad, deep, connected body of SEO knowledge that can be researched, challenged, verified, and updated as search evolves.
+We are not here to worship SEO jargon, collect shiny tactics, or repeat whatever the algorithm discourse decided was true this week. We want to know what is happening, why it happens, what the evidence actually supports, and where the answer is still unknown.
 
-SEO-Playbook is a knowledge base—not a one-size-fits-all checklist, a shortcut catalog, or a repository of ranking-factor folklore.
+**Less SEO folklore. More actual understanding.**
 
-## Knowledge Base Principles
+## What This Project Is
 
-- **Accurate:** Correctness comes before volume, confidence, or a catchy claim.
-- **Evidence-led:** Prefer primary sources, official documentation, credible research, and reproducible tests.
-- **Deep:** Explain concepts and mechanisms, not just definitions.
-- **Connected:** Show how systems and concepts relate across SEO disciplines.
-- **Critical:** Question assumptions and popular claims. A tactic being repeated everywhere does not make it true.
-- **Transparent:** Separate established facts, observations, interpretations, hypotheses, and unknowns.
-- **Evolving:** Review and revise documentation as search systems, technologies, policies, and evidence change.
+SEO-Playbook is built to become a broad, deep, connected, and continuously maintained body of SEO knowledge—something that can be researched, challenged, verified, and updated as search evolves.
 
-For Google Search-related claims, Google's official documentation is the starting point—not an excuse to stop thinking. Interpret sources carefully, distinguish what Google explicitly says from what practitioners infer, and never label an unproven correlation as a confirmed ranking factor.
+It is a knowledge base. Not a one-size-fits-all checklist. Not a shortcut catalog. Definitely not another shrine to alleged ranking factors.
+
+The goal is understanding, not pretending every SEO problem has a neat five-step answer.
+
+## The Rules: Evidence Before Ego
+
+Strong opinions are welcome. Unsupported certainty is not.
+
+- **Accuracy over confidence.** A claim does not become true because someone says it loudly—or because it ranks on Google.
+- **Evidence over repetition.** Prefer primary sources, official documentation, credible research, and reproducible tests. Popularity is not proof.
+- **Mechanisms over buzzwords.** Explain how something works, not just what people call it.
+- **Connections over silos.** SEO disciplines overlap. Documentation should show those relationships instead of pretending every topic lives in isolation.
+- **Healthy skepticism.** Question assumptions, industry myths, and claims that conveniently have no evidence.
+- **Intellectual honesty.** Separate established facts from observations, interpretations, hypotheses, and things we simply do not know yet.
+- **Keep evolving.** Search changes. Documentation that never gets reviewed eventually becomes confidently wrong.
+
+For Google Search-related topics, Google's official documentation is the starting point. Not the finish line for critical thinking. Read what Google actually says, distinguish it from practitioner interpretation, and do not promote correlation, speculation, or a single anecdotal test into a confirmed ranking factor.
 
 ## Knowledge Architecture
 
-The following 17 domains form the agreed top-level architecture of SEO-Playbook.
+The project has 17 top-level knowledge domains. This structure is deliberate; keep it coherent rather than inventing a new category every time a topic gets complicated.
 
 | No. | Knowledge Domain |
 |---:|---|
@@ -48,11 +58,11 @@ The following 17 domains form the agreed top-level architecture of SEO-Playbook.
 | 16 | AI & Search Evolution |
 | 17 | **k41-version — SEO Hacks, Tricks & Experimental Strategies** |
 
-The architecture is the project's agreed foundation. Topics should live in the domain that best represents their primary subject, with cross-links used to connect related concepts. Avoid creating duplicate silos just because a topic touches more than one discipline.
+Put each topic where its primary subject belongs. Use cross-links when it meaningfully connects to other domains. Do not create duplicate silos just because a subject refuses to stay in one neat little box.
 
-## Documenting a Topic
+## How Knowledge Gets Documented
 
-Use a structure that fits the subject. Depending on the topic, useful sections may include:
+Use the structure that helps explain the subject. Depending on the topic, a document may cover:
 
 - Definition and terminology
 - Background and context
@@ -63,28 +73,34 @@ Use a structure that fits the subject. Depending on the topic, useful sections m
 - Relationships to other SEO concepts
 - Limitations, risks, and uncertainties
 
-Not every topic needs every section. Structure should make the subject easier to understand, not turn documentation into paperwork.
+Not every page needs every section. This is a knowledge base, not a paperwork simulator. Structure exists to make ideas easier to understand, verify, and connect.
+
+Substantive claims must be supported by sources. Prefer primary evidence, cite the specific material behind a claim, and make uncertainty visible. A references section is not decoration; it is how readers can check the work instead of taking our word for it.
 
 ## Domain 17: k41-version
 
-**k41-version — SEO Hacks, Tricks & Experimental Strategies** is where unconventional SEO approaches, experiments, automation, competitive intelligence, growth experiments, and original k41 discoveries are documented and evaluated.
+**k41-version — SEO Hacks, Tricks & Experimental Strategies** is the lab for unconventional SEO approaches, experiments, automation, competitive intelligence, growth experiments, and original k41 discoveries.
 
-Interesting does not automatically mean effective. Unusual does not automatically mean innovative. And a result from one test does not magically become a universal SEO rule.
+This is where we can investigate unusual ideas without pretending every unusual idea is genius.
 
-Each entry should provide enough context to evaluate the idea: its objective, proposed mechanism, method, test conditions, observations, evidence, limitations, risks, and relevant search-engine policy implications.
+A hack is not automatically clever. A trick is not automatically effective. A spike in traffic is not automatically proof of causation. And one successful test does not make a universal SEO law. Let's not get carried away.
+
+Every documented experiment should give readers enough context to judge it: objective, proposed mechanism, method, test conditions, observations, evidence, limitations, risks, and relevant search-engine policy implications.
 
 ### Evidence and Maturity Labels
 
-Use these labels to make the status of a technique or claim explicit:
+Use these labels to show exactly how much confidence a technique or claim deserves:
 
 - **Verified:** Supported by sufficiently strong and relevant evidence.
 - **Tested:** Tested under documented conditions; results may not generalize.
-- **Experimental:** Under investigation; conclusions are still provisional.
+- **Experimental:** Under investigation; conclusions remain provisional.
 - **Hypothesis:** A proposed explanation or approach awaiting adequate testing.
 - **Unverified:** Available evidence is insufficient.
 - **Deprecated:** No longer relevant or recommended under the documented conditions.
 
-Do not dress up anecdotes, assumptions, or hypotheses as confirmed ranking factors. If the evidence is weak, say so. If a technique carries risks or conflicts with search-engine policies, document that plainly.
+Do not dress anecdotes up as science. Do not sell assumptions as ranking factors. If evidence is weak, say it. If a technique is risky or conflicts with search-engine policies, make that impossible to miss.
+
+Curiosity gets us into the lab. Evidence decides what gets to leave it.
 
 ## Development Status
 
