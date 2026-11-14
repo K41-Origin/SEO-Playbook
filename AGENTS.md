@@ -67,7 +67,7 @@ Use the sources relevant to the topic being documented. Do not cite a hub page a
 | Search Console API | [Search Console API](https://developers.google.com/webmaster-tools) | Programmatic access, API behavior, and technical implementation. |
 | Official announcements | [Google Search Central Blog](https://developers.google.com/search/blog) | Search announcements, official explanations, and product or policy updates. |
 | Documentation change log | [Google Search documentation updates](https://developers.google.com/search/updates) | Changes to Search Central documentation; check this when a claim may have changed. |
-| Ranking update history | [Google ranking updates](https://status.search.google.com/products/rGHU1u87FJnkP6W2 GwMi/history) | Officially announced ranking updates and their timelines. |
+| Ranking update history | [Google ranking updates](https://status.search.google.com/products/rGHU1u87FJnkP6W2GwMi/history) | Officially announced ranking updates and their timelines. |
 | Search system incidents | [Google Search Status Dashboard](https://status.search.google.com/) | Confirming reported Search incidents and status events. |
 
 ### Rules for using official references
