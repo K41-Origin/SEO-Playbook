@@ -113,3 +113,4 @@ Every topic in this domain must follow the repository-wide rules in [AGENTS.md](
 | [02.5](02.5-Document-Processing-and-Rendering.md) | Document Processing & Rendering |
 | [02.6](02.6-Search-Indexing.md) | Search Indexing |
 | [02.7](02.7-Query-Processing.md) | Query Processing |
+| [02.8](02.8-Search-Retrieval.md) | Search Retrieval |
