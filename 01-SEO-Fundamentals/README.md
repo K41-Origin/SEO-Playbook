@@ -1,82 +1,82 @@
 # 01 — SEO Fundamentals
 
-> Fondasi SEO. Langsung ke konsep, cara kerja, dan hal yang benar-benar perlu dipahami.
+> SEO foundations. Straight to the concepts, how they work, and what actually matters.
 
-## Tujuan Domain
+## Domain Purpose
 
-SEO Fundamentals membangun pemahaman dasar yang kuat tentang SEO: apa itu SEO, bagaimana visibilitas organik dipahami, siapa saja yang terlibat dalam ekosistem pencarian, apa nilai SEO, dan bagaimana disiplin-disiplin SEO saling berhubungan.
+SEO Fundamentals builds a solid understanding of SEO: what SEO is, how organic visibility works, who participates in the search ecosystem, what value SEO creates, and how SEO disciplines relate to one another.
 
-Ini bukan materi pemula yang berhenti di definisi. Setiap konsep perlu dijelaskan dengan konteks dan mekanismenya agar pembaca paham, bukan sekadar hafal istilah.
+This is not beginner material that stops at definitions. Each concept should be explained with enough context and mechanism for readers to understand it—not just memorize the terminology.
 
-## Prinsip Pendekatan
+## Approach
 
-SEO Fundamentals menggunakan pendekatan **foundational but deep** dengan gaya editorial k41.
+SEO Fundamentals follows a **foundational but deep** approach with the k41 editorial voice.
 
-- **Langsung ke inti.** Buka dengan konsep atau persoalan utama. Tidak perlu basa-basi, pembukaan generik, atau paragraf yang hanya memanaskan suasana.
-- **Jelaskan, jangan sekadar mendefinisikan.** Terangkan makna, konteks, cara kerja, dan hubungan sebab-akibat yang relevan.
-- **Kritis, bukan asal kontra.** Uji klaim dan asumsi SEO. Jangan menerima sesuatu hanya karena sering diulang, tetapi jangan pula menolak sesuatu hanya agar terlihat berbeda.
-- **Punya pendirian.** Sampaikan kesimpulan secara jelas ketika bukti mendukungnya.
-- **Tetap akurat.** Bedakan fakta, dokumentasi resmi, interpretasi, opini, dan hipotesis. Gaya percaya diri bukan pengganti bukti.
-- **Ringkas tanpa mengorbankan kedalaman.** Hilangkan pengulangan dan kalimat pengisi. Jangan memangkas penjelasan yang memang dibutuhkan untuk memahami konsep.
-- **Suara k41, bukan persona tempelan.** Gunakan bahasa natural, kasual, tajam, dan skeptis. Sarkasme boleh muncul jika relevan; jangan memaksakan slang, lelucon, atau sikap edgy ke setiap bagian.
+- **Get to the point.** Start with the main concept or problem. Skip small talk, generic introductions, and paragraphs that exist only to warm things up.
+- **Explain, do not merely define.** Cover meaning, context, mechanisms, and relevant cause-and-effect relationships.
+- **Be critical, not contrarian for sport.** Test SEO claims and assumptions. Do not accept something just because it gets repeated, but do not reject it just to look different.
+- **Take a position.** State conclusions clearly when the evidence supports them.
+- **Stay accurate.** Distinguish facts, official documentation, interpretations, opinions, and hypotheses. Confidence is not a substitute for evidence.
+- **Be concise without sacrificing depth.** Remove repetition and filler. Do not cut explanations readers actually need to understand the concept.
+- **Use the k41 voice, not a pasted-on persona.** Write naturally, casually, sharply, and skeptically. Sarcasm is welcome when relevant; do not force slang, jokes, or edginess into every section.
 
-Prinsip sederhananya: **no fluff, no fake certainty, no recycled SEO folklore.**
+The principle is simple: **no fluff, no fake certainty, no recycled SEO folklore.**
 
-## Struktur Pengetahuan
+## Knowledge Structure
 
-Domain ini terdiri dari lima kelompok utama:
+This domain consists of five main groups:
 
-| ID | Kelompok | Cakupan |
+| ID | Group | Scope |
 |---|---|---|
-| 01.1 | **SEO Core Concepts** | Pengertian SEO, tujuan, ruang lingkup, dan prinsip dasarnya. |
-| 01.2 | **Search Visibility** | Organic visibility, rankings, impressions, clicks, dan discoverability. |
-| 01.3 | **SEO Ecosystem** | Hubungan website, search engine, pengguna, publisher, dan ekosistem pencarian. |
-| 01.4 | **SEO Objectives & Value** | Traffic, conversions, business value, dan hubungan SEO dengan tujuan bisnis. |
-| 01.5 | **SEO Disciplines** | Technical SEO, On-Page SEO, Content SEO, Off-Page SEO, serta hubungan antar-disiplin. |
+| 01.1 | **SEO Core Concepts** | SEO definition, objectives, scope, and fundamental principles. |
+| 01.2 | **Search Visibility** | Organic visibility, rankings, impressions, clicks, and discoverability. |
+| 01.3 | **SEO Ecosystem** | Relationships among websites, search engines, users, publishers, and the search ecosystem. |
+| 01.4 | **SEO Objectives & Value** | Traffic, conversions, business value, and the relationship between SEO and business objectives. |
+| 01.5 | **SEO Disciplines** | Technical SEO, On-Page SEO, Content SEO, Off-Page SEO, and how these disciplines connect. |
 
-Kelima kelompok ini menjadi batas struktur Domain 01. Topik yang membutuhkan pembahasan mekanisme lebih dalam harus diarahkan ke domain spesialis yang sesuai, lalu dihubungkan melalui referensi silang. Jangan menduplikasi satu pembahasan penuh di beberapa domain.
+These five groups define the structure of Domain 01. Topics that require deeper mechanism-level coverage belong in the relevant specialist domain and should be connected through cross-references. Do not duplicate an entire explanation across multiple domains.
 
-## Batas Cakupan
+## Scope Boundaries
 
-SEO Fundamentals menjelaskan fondasi dan hubungan antarkonsep. Domain ini bukan tempat untuk membahas seluruh detail teknis crawling, indexing, ranking systems, keyword research, content optimization, link building, atau analytics.
+SEO Fundamentals explains foundational concepts and the relationships between them. It is not the place to cover every detail of crawling, indexing, ranking systems, keyword research, content optimization, link building, or analytics.
 
-Pembahasan mendalam tentang topik-topik tersebut menjadi tanggung jawab domain terkait. Di sini, cukup jelaskan konteks yang dibutuhkan agar pembaca memahami posisi dan relevansinya dalam SEO.
+In-depth coverage of those subjects belongs to their respective domains. Here, explain only the context readers need to understand each subject's role and relevance to SEO.
 
-## Standar Dokumentasi
+## Documentation Standards
 
-Setiap dokumen dalam domain ini harus:
+Every document in this domain must:
 
-1. Menjawab satu topik atau pertanyaan utama dengan jelas.
-2. Memulai dari inti pembahasan, bukan pengantar panjang.
-3. Menjelaskan istilah dan mekanisme yang diperlukan untuk memahami topik.
-4. Menunjukkan hubungan atau batasannya terhadap konsep SEO lain.
-5. Menguji miskonsepsi yang relevan jika memang ada.
-6. Menyertakan sumber yang dapat ditelusuri untuk setiap klaim substantif.
-7. Menandai ketidakpastian dan membedakan bukti dari interpretasi.
+1. Clearly answer one main topic or question.
+2. Start with the substance, not a long introduction.
+3. Explain the terminology and mechanisms needed to understand the topic.
+4. Show its relationships or boundaries with other SEO concepts.
+5. Examine relevant misconceptions when they actually matter.
+6. Include traceable sources for every substantive claim.
+7. Make uncertainty visible and distinguish evidence from interpretation.
 
-Gunakan dokumentasi resmi Google sebagai rujukan utama untuk klaim tentang Google Search. Untuk konsep yang lebih luas, gunakan sumber primer, penelitian, standar, atau referensi tepercaya yang paling relevan. Ikuti **Mandatory Source Citation Policy** di `AGENTS.md`.
+Use Google's official documentation as the primary reference for claims about Google Search. For broader concepts, use the most relevant primary sources, research, standards, or trustworthy references. Follow the **Mandatory Source Citation Policy** in `AGENTS.md`.
 
-## Navigasi Materi
+## Content Navigation
 
-Dokumen yang sudah tersedia:
+Available documents:
 
-| ID | Topik | Status |
+| ID | Topic | Status |
 |---|---|---|
-| [01.1](01.1-SEO-Core-Concepts.md) | SEO Core Concepts | Tersedia |
-| [01.2](01.2-Search-Visibility.md) | Search Visibility | Tersedia |
-| 01.3 | SEO Ecosystem | Direncanakan |
-| 01.4 | SEO Objectives & Value | Direncanakan |
-| 01.5 | SEO Disciplines | Direncanakan |
+| [01.1](01.1-SEO-Core-Concepts.md) | SEO Core Concepts | Available |
+| [01.2](01.2-Search-Visibility.md) | Search Visibility | Available |
+| 01.3 | SEO Ecosystem | Planned |
+| 01.4 | SEO Objectives & Value | Planned |
+| 01.5 | SEO Disciplines | Planned |
 
-### Hubungan Antar-Topik
+### Relationships Between Topics
 
-- **01.1 → 01.2:** SEO Core Concepts memperkenalkan visibilitas organik sebagai tujuan utama SEO; Search Visibility membedah konsep dan cara mengamatinya.
-- **01.2 → 01.1:** Search Visibility menggunakan definisi, ekosistem, dan tujuan SEO yang dijelaskan di SEO Core Concepts.
-- **01.2 → 01.4:** metrik visibilitas menjadi input untuk mengevaluasi traffic dan nilai bisnis. Pembahasan lengkap menunggu 01.4.
-- **01.1 dan 01.2 → Domain 02, 06, 10, dan 14:** konsep pencarian, SERP, implementasi teknis, dan analitik akan terhubung ke domain spesialis ketika dokumennya tersedia.
+- **01.1 → 01.2:** SEO Core Concepts introduces organic visibility as a central SEO objective; Search Visibility examines the concept and how to observe it.
+- **01.2 → 01.1:** Search Visibility builds on the SEO definition, search ecosystem, and objectives explained in SEO Core Concepts.
+- **01.2 → 01.4:** visibility metrics provide input for evaluating traffic and business value. Full coverage belongs in 01.4.
+- **01.1 and 01.2 → Domains 02, 06, 10, and 14:** search concepts, SERPs, technical implementation, and analytics will connect to specialist domains once their documents exist.
 
 ## Status
 
-**Status domain: In progress.** Struktur lima kelompok ditetapkan. Dua topik pertama tersedia; tiga topik berikutnya belum dibuat.
+**Domain status: In progress.** The five-group structure is established. The first two topics are available; the remaining three have not yet been created.
 
-Urutan pengembangan mengikuti ID kelompok dari 01.1 sampai 01.5. Perbarui tabel navigasi dan status setiap kali dokumen baru ditambahkan.
+Development follows the topic IDs from 01.1 through 01.5. Update the navigation table and status whenever a new document is added.
