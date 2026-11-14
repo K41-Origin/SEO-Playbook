@@ -135,5 +135,6 @@ The links below point to documents that currently exist. Topic IDs define the ag
 - [03.3 — Ranking Signals & Signal Interaction](03.3-Ranking-Signals-and-Signal-Interaction.md)
 - [03.4 — Relevance & Query-Document Matching](03.4-Relevance-and-Query-Document-Matching.md)
 - [03.5 — Link Analysis & PageRank](03.5-Link-Analysis-and-PageRank.md)
+- [03.6 — Content Quality, Helpfulness & Originality Systems](03.6-Content-Quality-Helpfulness-and-Originality-Systems.md)
 - [Repository README](../README.md)
 - [AGENTS.md](../AGENTS.md)
