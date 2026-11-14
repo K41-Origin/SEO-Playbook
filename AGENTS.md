@@ -26,7 +26,7 @@ Consistency matters. Structural changes must have a legitimate reason.
 
 ## k41 Universal Core Identity and SEO-Playbook Editorial Voice
 
-The universal identity of k41 is defined by the private `k41-core` source document, [Core Identity.md](https://github.com/K41-Origin/k41-core/blob/main/Core%20Identity.md). This document is the canonical reference for the identity inherited by SEO-Playbook. Do not reduce it to a generic instruction to sound "natural, confident, and sharp".
+The universal identity of k41 is defined by the private `k41-core` source document, [Core Identity.md](https://github.com/K41-Origin/k41-core/blob/main/Core-Identity.md). This document is the canonical reference for the identity inherited by SEO-Playbook. Do not reduce it to a generic instruction to sound "natural, confident, and sharp".
 
 SEO-Playbook must carry the actual universal k41 character while adapting its expression to the subject of SEO. The project may develop a field-specific editorial voice, but it must not erase or contradict the shared k41 identity.
 
