@@ -36,7 +36,7 @@ It does not own website implementation, SEO execution, general information-retri
 | [03.2](03.2-Ranking-Architecture-and-Multi-Stage-Ranking.md) | **Ranking Architecture & Multi-Stage Ranking** | Conceptual ranking stages, candidate evaluation, re-ranking, system interaction, and the limits of what public sources reveal about deployed architecture. |
 | [03.3](03.3-Ranking-Signals-and-Signal-Interaction.md) | **Ranking Signals & Signal Interaction** | Signal categories, page-level and site-wide signals, signal interpretation, combinations, and the limits of public knowledge about weights. |
 | [03.4](03.4-Relevance-and-Query-Document-Matching.md) | **Relevance & Query-Document Matching** | How ranking systems assess the relationship between a query and candidate documents, including lexical, semantic, passage-level, and contextual relevance. |
-| 03.5 | **Link Analysis & PageRank** | Link graphs, link analysis, PageRank, the role and limitations of link-based ranking, and documented evolution. |
+| [03.5](03.5-Link-Analysis-and-PageRank.md) | **Link Analysis & PageRank** | Web link graphs, link analysis, PageRank, link-derived evidence, manipulation risks, and the limits of public knowledge about modern implementations. |
 | 03.6 | **Content Quality, Helpfulness & Originality Systems** | Search systems associated with content quality, helpfulness, originality, and reliable information. |
 | 03.7 | **Spam Detection & Demotion Systems** | Detection and treatment of search spam, manipulation, policy violations, and ranking demotions. |
 | 03.8 | **Freshness & Temporal Ranking** | How time-sensitive relevance is handled, including freshness-related systems and query-dependent freshness needs. |
@@ -134,5 +134,6 @@ The links below point to documents that currently exist. Topic IDs define the ag
 - [03.2 — Ranking Architecture & Multi-Stage Ranking](03.2-Ranking-Architecture-and-Multi-Stage-Ranking.md)
 - [03.3 — Ranking Signals & Signal Interaction](03.3-Ranking-Signals-and-Signal-Interaction.md)
 - [03.4 — Relevance & Query-Document Matching](03.4-Relevance-and-Query-Document-Matching.md)
+- [03.5 — Link Analysis & PageRank](03.5-Link-Analysis-and-PageRank.md)
 - [Repository README](../README.md)
 - [AGENTS.md](../AGENTS.md)
