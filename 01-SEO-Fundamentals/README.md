@@ -66,7 +66,7 @@ Available documents:
 | [01.2](01.2-Search-Visibility.md) | Search Visibility | Available |
 | [01.3](01.3-SEO-Ecosystem.md) | SEO Ecosystem | Available |
 | [01.4](01.4-SEO-Objectives-and-Value.md) | SEO Objectives & Value | Available |
-| 01.5 | SEO Disciplines | Planned |
+| [01.5](01.5-SEO-Disciplines.md) | SEO Disciplines | Available |
 
 ### Relationships Between Topics
 
@@ -75,12 +75,14 @@ Available documents:
 - **01.1 ↔ 01.3:** SEO Core Concepts introduces the search environment; SEO Ecosystem maps its participants, incentives, and relationships.
 - **01.3 → 01.2:** the ecosystem explains the actors and systems behind the search visibility measured in 01.2.
 - **01.3 → 01.4 and 01.5:** ecosystem participants and their responsibilities provide context for SEO objectives and specialist disciplines.
+- **01.5 → 01.1–01.4:** SEO Disciplines connects the foundational definition, visibility, ecosystem, and objectives to the specialist workstreams that support them.
+- **01.5 → Domains 07–14:** the discipline framework maps to the future specialist domains for On-Page, Content, Technical, Internal Linking, Off-Page, International & Local SEO, and Analytics.
 - **01.4 → 01.2 and 01.3:** SEO objectives determine which visibility dimensions and ecosystem relationships matter when evaluating results.
 - **01.2 → 01.4:** visibility metrics provide input for evaluating traffic and business value. Full coverage belongs in 01.4.
 - **01.1 and 01.2 → Domains 02, 06, 10, and 14:** search concepts, SERPs, technical implementation, and analytics will connect to specialist domains once their documents exist.
 
 ## Status
 
-**Domain status: In progress.** The five-group structure is established. The first four topics are available; 01.5 has not yet been created.
+**Domain status: Complete (foundational scope).** All five foundational topics are available. Specialist depth remains assigned to the relevant future domains; this does not mean the wider 17-domain knowledge base is complete.
 
 Development follows the topic IDs from 01.1 through 01.5. Update the navigation table and status whenever a new document is added.
