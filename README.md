@@ -114,6 +114,7 @@ Start here, then follow the topic links. Each domain index defines its scope and
   - [01.4 — SEO Objectives & Value](01-SEO-Fundamentals/01.4-SEO-Objectives-and-Value.md)
   - [01.5 — SEO Disciplines](01-SEO-Fundamentals/01.5-SEO-Disciplines.md)
 - [02 — Search Engine Fundamentals](02-Search-Engine-Fundamentals/README.md) — search engine concepts, system architecture, and the search pipeline.
+- [03 — Search Engine Algorithms](03-Search-Engine-Algorithms/README.md) — ranking systems, signals, relevance, quality, spam, machine learning, and ranking evolution.
   - [02.1 — Introduction to Search Engines](02-Search-Engine-Fundamentals/02.1-Introduction-to-Search-Engines.md)
   - [02.2 — Search Engine Architecture](02-Search-Engine-Fundamentals/02.2-Search-Engine-Architecture.md)
   - [02.3 — Web Discovery](02-Search-Engine-Fundamentals/02.3-Web-Discovery.md)
@@ -136,11 +137,12 @@ Only existing documents are linked as destinations. Planned topics remain in the
 | Repository architecture | Established | 17 knowledge domains defined. |
 | Domain 01 — SEO Fundamentals | Foundational scope complete | Domain index and foundational topics 01.1–01.5 are available. |
 | Domain 02 — Search Engine Fundamentals | Documented and audited | Domain index and topics 02.1–02.12 are documented; domain-wide consistency, scope, citation integrity, and repository integration have been audited. |
-| Domains 03–17 | Planned | Domain-level content has not yet been developed in this repository. |
+| Domain 03 — Search Engine Algorithms | Architecture documented | Domain scope, 13-topic structure, evidence rules, and cross-domain ownership are defined; detailed topic pages remain to be documented. |
+| Domains 04–17 | Planned | Domain-level content has not yet been developed in this repository. |
 | Cross-domain knowledge graph | Initial integration | Existing Domain 01 topics are being connected; cross-domain links will be added as target documents exist. |
 | Maintenance and review | Governance defined | Research, citation, integration, and review rules are maintained in `AGENTS.md`. |
 
-**Current development focus:** begin Domain 03 — Search Engine Algorithms, while maintaining Domain 02 as a documented foundation subject to future source and accuracy updates.
+**Current development focus:** develop the detailed topic pages for Domain 03 — Search Engine Algorithms, while maintaining Domains 01–02 as documented foundations subject to future source and accuracy updates.
 
 ---
 
