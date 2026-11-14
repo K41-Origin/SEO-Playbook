@@ -38,7 +38,7 @@ The emphasis is on **what the system does, how its major components fit together
 | [02.6](02.6-Search-Indexing.md) | **Search Indexing** | How processed information is organized, stored, updated, and made available for search. |
 | [02.7](02.7-Query-Processing.md) | **Query Processing** | How a search system receives, interprets, and prepares query input for downstream retrieval. |
 | [02.8](02.8-Search-Retrieval.md) | **Search Retrieval** | How a system uses a query to locate candidate information from its searchable collections. |
-| [02.9](02.9-Search-Result-Generation-and-Serving.md) | **Search Result Generation & Serving** | How retrieved candidates move through result assembly and delivery to the search experience. Ranking algorithms and SERP presentation are covered elsewhere. |
+| [02.9](02.9-Search-Result-Generation-and-Serving.md) | **Search Result Generation & Serving** | How evaluated candidates move through result assembly and delivery to the search experience. Ranking algorithms and SERP presentation are covered elsewhere. |
 | [02.10](02.10-Search-Engine-Infrastructure.md) | **Search Engine Infrastructure** | The distributed computing, storage, networking, and operational foundations required to run search at scale. |
 | [02.11](02.11-Search-Engine-Types-and-Models.md) | **Search Engine Types & Models** | How search engines differ by scope, corpus, acquisition method, and search architecture, with web search as the main reference context. |
 | [02.12](02.12-Search-Engine-Limitations.md) | **Search Engine Limitations** | System-level constraints, incomplete coverage, freshness trade-offs, uncertainty, and reasons search results cannot represent the entire web perfectly. |
@@ -55,9 +55,10 @@ Use this as a conceptual map, not a claim that every search engine implements id
 4. **Indexing** organizes information into searchable structures.
 5. **Query processing** prepares the user's request.
 6. **Retrieval** locates candidate information.
-7. **Result generation and serving** assembles and delivers the response.
+7. **Ranking and evaluation** assess and order candidates for the query; the algorithms belong in Domain 03.
+8. **Result generation and serving** prepares and delivers the response.
 
-Real systems may run these processes asynchronously, distribute them across services, repeat stages, or use additional components. Google's public explanation groups its process into crawling, indexing, and serving; the finer-grained stages above are this domain's explanatory structure, not a disclosure of Google's complete internal architecture. ([Google Search Central](https://developers.google.com/search/docs/fundamentals/how-search-works))
+Real systems may run these processes asynchronously, distribute them across services, repeat stages, or use additional components. Ranking and evaluation are shown to make the query-time handoff explicit, but their algorithms are covered in Domain 03. Google's public explanation groups its process into crawling, indexing, and serving; the finer-grained stages above are this domain's explanatory structure, not a disclosure of Google's complete internal architecture. ([Google Search Central](https://developers.google.com/search/docs/fundamentals/how-search-works))
 
 ## Scope Boundaries
 
