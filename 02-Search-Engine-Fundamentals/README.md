@@ -34,7 +34,7 @@ The emphasis is on **what the system does, how its major components fit together
 | [02.2](02.2-Search-Engine-Architecture.md) | **Search Engine Architecture** | The major components of a search engine, their responsibilities, and how information flows between them. |
 | [02.3](02.3-Web-Discovery.md) | **Web Discovery** | How search systems identify URLs and other discoverable resources that may enter their processing pipeline. |
 | [02.4](02.4-Web-Crawling.md) | **Web Crawling** | How crawlers request resources, handle responses, revisit known URLs, and manage crawl activity. |
-| 02.5 | **Document Processing & Rendering** | How acquired resources are rendered, parsed, and transformed into information that downstream systems can process. |
+| [02.5](02.5-Document-Processing-and-Rendering.md) | **Document Processing & Rendering** | How acquired resources are rendered, parsed, and transformed into information that downstream systems can process. |
 | 02.6 | **Search Indexing** | How processed information is organized, stored, updated, and made available for search. |
 | 02.7 | **Query Processing** | How a search system receives and prepares a query for retrieval, without taking over keyword research or search-intent analysis. |
 | 02.8 | **Search Retrieval** | How a system uses a query to locate candidate information from its searchable collections. |
@@ -109,3 +109,4 @@ Every topic in this domain must follow the repository-wide rules in [AGENTS.md](
 | [02.2](02.2-Search-Engine-Architecture.md) | Search Engine Architecture |
 | [02.3](02.3-Web-Discovery.md) | Web Discovery |
 | [02.4](02.4-Web-Crawling.md) | Web Crawling |
+| [02.5](02.5-Document-Processing-and-Rendering.md) | Document Processing & Rendering |
