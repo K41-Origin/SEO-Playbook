@@ -107,6 +107,7 @@ Curiosity gets us into the lab. Evidence decides what gets to leave it.
 Start here, then follow the topic links. Each domain index defines its scope and points to the detailed documents that actually exist.
 
 - [AGENTS.md](AGENTS.md) — editorial identity, research and citation rules, documentation workflow, and repository governance.
+- [SOURCE-AUDIT.md](SOURCE-AUDIT.md) — dated source-level fact audit, verification results, corrections, and evidence limitations for the existing domains.
 - [01 — SEO Fundamentals](01-SEO-Fundamentals/README.md) — domain scope, structure, and topic navigation.
   - [01.1 — SEO Core Concepts](01-SEO-Fundamentals/01.1-SEO-Core-Concepts.md)
   - [01.2 — Search Visibility](01-SEO-Fundamentals/01.2-Search-Visibility.md)
