@@ -139,6 +139,7 @@ Start here, then follow the topic links. Each domain index defines its scope and
   - [03.10 — Specialized & Result-Specific Ranking Systems](03-Search-Engine-Algorithms/03.10-Specialized-and-Result-Specific-Ranking-Systems.md)
   - [03.11 — Machine Learning & Neural Ranking Systems](03-Search-Engine-Algorithms/03.11-Machine-Learning-and-Neural-Ranking-Systems.md)
   - [03.12 — Ranking Evaluation & Testing](03-Search-Engine-Algorithms/03.12-Ranking-Evaluation-and-Testing.md)
+  - [03.13 — Ranking Updates & System Evolution](03-Search-Engine-Algorithms/03.13-Ranking-Updates-and-System-Evolution.md)
 
 Only existing documents are linked as destinations. Planned topics remain in their domain roadmap until their pages are created.
 
@@ -149,12 +150,12 @@ Only existing documents are linked as destinations. Planned topics remain in the
 | Repository architecture | Established | 17 knowledge domains defined. |
 | Domain 01 — SEO Fundamentals | Foundational scope complete | Domain index and foundational topics 01.1–01.5 are available. |
 | Domain 02 — Search Engine Fundamentals | Documented and audited | Domain index and topics 02.1–02.12 are documented; domain-wide consistency, scope, citation integrity, and repository integration have been audited. |
-| Domain 03 — Search Engine Algorithms | In progress | Domain architecture and topics 03.1–03.12 are documented; topic 03.13 remains to be developed. |
+| Domain 03 — Search Engine Algorithms | Documented | Domain architecture and topics 03.1–03.13 are documented. |
 | Domains 04–17 | Planned | Domain-level content has not yet been developed in this repository. |
 | Cross-domain knowledge graph | Initial integration | Existing Domain 01 topics are being connected; cross-domain links will be added as target documents exist. |
 | Maintenance and review | Governance defined | Research, citation, integration, and review rules are maintained in `AGENTS.md`. |
 
-**Current development focus:** develop the detailed topic pages for Domain 03 — Search Engine Algorithms, while maintaining Domains 01–02 as documented foundations subject to future source and accuracy updates.
+**Current development focus:** maintain and periodically review the documented foundations and topic pages, with source and accuracy updates as search systems evolve.
 
 ---
 
