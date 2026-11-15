@@ -43,7 +43,7 @@ It does not own website implementation, SEO execution, general information-retri
 | [03.9](03.9-Contextual-Ranking-and-Personalization.md) | **Contextual Ranking & Personalization** | How search systems use request context and individual-specific information, while distinguishing localization, personalization, and ordinary result variability. |
 | [03.10](03.10-Specialized-and-Result-Specific-Ranking-Systems.md) | **Specialized & Result-Specific Ranking Systems** | Specialized ranking and result-set mechanisms for local results, editorial reviews, news, site diversity, and deduplication. |
 | [03.11](03.11-Machine-Learning-and-Neural-Ranking-Systems.md) | **Machine Learning & Neural Ranking Systems** | Machine-learning and neural methods used in ranking and ranking-related retrieval, including documented systems such as RankBrain, BERT, neural matching, and passage ranking. |
-| 03.12 | **Ranking Evaluation & Testing** | How ranking quality is evaluated through offline measures, experiments, human assessment, and other documented evaluation methods. |
+| [03.12](03.12-Ranking-Evaluation-and-Testing.md) | **Ranking Evaluation & Testing** | How ranking systems are evaluated through offline measures, live experiments, human assessment, behavioral feedback, and quality guardrails. |
 | 03.13 | **Ranking Updates & System Evolution** | Core updates, system changes, integration or retirement of named systems, historical developments, and how to interpret update announcements. |
 
 This table defines canonical ownership. Individual topic documents should explain their assigned subject in depth and link to adjacent topics rather than reproducing their content.
