@@ -68,7 +68,7 @@ The same subject can affect several SEO disciplines without requiring the same e
 |---|---|---|
 | **01 — SEO Fundamentals** | SEO definitions, visibility, ecosystem, objectives, and discipline overview. | Domain 01 introduces ranking as part of organic visibility. Domain 03 explains how ranking systems evaluate and order results. |
 | **02 — Search Engine Fundamentals** | Search-engine architecture and operational pipeline. | Domain 02 identifies where ranking sits after retrieval; Domain 03 owns ranking mechanisms and behavior. |
-| **04 — Information Retrieval** | IR theory, formal retrieval models, mathematical scoring, and foundational retrieval methods. | Domain 04 owns general theory and formal models; Domain 03 owns documented search-engine ranking systems and their applied behavior. |
+| **04 — Information Retrieval** | IR theory, formal retrieval models, mathematical scoring, and evaluation theory. | Domain 04 owns formal metric definitions and general IR evaluation methods; Domain 03.12 explains how ranking evaluation is applied to search-system testing. |
 | **05 — Keyword & Search Intent** | Keyword research, query meaning, classification, and searcher intent for SEO. | Domain 05 owns query and intent analysis; Domain 03 owns how ranking systems assess query-document relevance. |
 | **06 — SERP & Search Features** | SERP composition, visible result formats, and search features. | Domain 03 explains algorithmic selection or ordering where documented; Domain 06 explains how results and features appear to users. |
 | **07 — On-Page SEO** | Website-side page elements and their optimization. | Domain 07 owns implementation; Domain 03 explains only the documented ranking role of relevant signals. |
@@ -141,5 +141,6 @@ The links below point to documents that currently exist. Topic IDs define the ag
 - [03.9 — Contextual Ranking & Personalization](03.9-Contextual-Ranking-and-Personalization.md)
 - [03.10 — Specialized & Result-Specific Ranking Systems](03.10-Specialized-and-Result-Specific-Ranking-Systems.md)
 - [03.11 — Machine Learning & Neural Ranking Systems](03.11-Machine-Learning-and-Neural-Ranking-Systems.md)
+- [03.12 — Ranking Evaluation & Testing](03.12-Ranking-Evaluation-and-Testing.md)
 - [Repository README](../README.md)
 - [AGENTS.md](../AGENTS.md)
