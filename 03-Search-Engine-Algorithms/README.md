@@ -44,7 +44,7 @@ It does not own website implementation, SEO execution, general information-retri
 | [03.10](03.10-Specialized-and-Result-Specific-Ranking-Systems.md) | **Specialized & Result-Specific Ranking Systems** | Specialized ranking and result-set mechanisms for local results, editorial reviews, news, site diversity, and deduplication. |
 | [03.11](03.11-Machine-Learning-and-Neural-Ranking-Systems.md) | **Machine Learning & Neural Ranking Systems** | Machine-learning and neural methods used in ranking and ranking-related retrieval, including documented systems such as RankBrain, BERT, neural matching, and passage ranking. |
 | [03.12](03.12-Ranking-Evaluation-and-Testing.md) | **Ranking Evaluation & Testing** | How ranking systems are evaluated through offline measures, live experiments, human assessment, behavioral feedback, and quality guardrails. |
-| 03.13 | **Ranking Updates & System Evolution** | Core updates, system changes, integration or retirement of named systems, historical developments, and how to interpret update announcements. |
+| [03.13](03.13-Ranking-Updates-and-System-Evolution.md) | **Ranking Updates & System Evolution** | Continuous ranking-system evolution, update categories, rollouts, named-system lifecycle, public update histories, and evidence-based interpretation of ranking changes. |
 
 This table defines canonical ownership. Individual topic documents should explain their assigned subject in depth and link to adjacent topics rather than reproducing their content.
 
@@ -121,7 +121,10 @@ These are starting points, not a substitute for topic-level research. Each topic
 - Google. [Spam policies for Google web search](https://developers.google.com/search/docs/essentials/spam-policies). Google Search Central. Accessed 2026-11-14.
 - Google. [Creating helpful, reliable, people-first content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content). Google Search Central. Accessed 2026-11-14.
 - Google. [Google Search documentation updates](https://developers.google.com/search/updates). Google Search Central. Accessed 2026-11-14.
-- Google. [Google Search Status Dashboard — ranking updates](https://status.search.google.com/products/rGHU1u87FJnkP6W2GwMi/history). Google. Accessed 2026-11-14.
+- Google. [Google Search Status Dashboard — ranking updates](https://status.search.google.com/products/rGHU1u87FJnkP6W2GwMi/history). Google. Accessed 2026-11-15.
+- Google. [Google Search's core updates and your website](https://developers.google.com/search/docs/appearance/core-updates). Google Search Central. Accessed 2026-11-15.
+- Google. [Google Search spam updates and your site](https://developers.google.com/search/docs/appearance/spam-updates). Google Search Central. Accessed 2026-11-15.
+- Google. [How we update Search to improve your results](https://blog.google/products-and-platforms/products/search/how-we-update-search-improve-results/). Google, 2021-06-02. Accessed 2026-11-15.
 - Microsoft. [Bing Webmaster Guidelines](https://www.bing.com/webmasters/help/webmaster-guidelines-30fba23a). Microsoft Bing. Accessed 2026-11-14.
 
 ## Content Navigation
@@ -142,5 +145,6 @@ The links below point to documents that currently exist. Topic IDs define the ag
 - [03.10 — Specialized & Result-Specific Ranking Systems](03.10-Specialized-and-Result-Specific-Ranking-Systems.md)
 - [03.11 — Machine Learning & Neural Ranking Systems](03.11-Machine-Learning-and-Neural-Ranking-Systems.md)
 - [03.12 — Ranking Evaluation & Testing](03.12-Ranking-Evaluation-and-Testing.md)
+- [03.13 — Ranking Updates & System Evolution](03.13-Ranking-Updates-and-System-Evolution.md)
 - [Repository README](../README.md)
 - [AGENTS.md](../AGENTS.md)
