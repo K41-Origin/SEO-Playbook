@@ -148,11 +148,11 @@ Only existing documents are linked as destinations. Planned topics remain in the
 | Area | Status | Current coverage |
 |---|---|---|
 | Repository architecture | Established | 17 knowledge domains defined. |
-| Domain 01 — SEO Fundamentals | Foundational scope complete | Domain index and foundational topics 01.1–01.5 are available. |
-| Domain 02 — Search Engine Fundamentals | Documented and audited | Domain index and topics 02.1–02.12 are documented; domain-wide consistency, scope, citation integrity, and repository integration have been audited. |
-| Domain 03 — Search Engine Algorithms | Documented and integration-audited | Domain architecture and topics 03.1–03.13 are documented; repository-wide navigation and consistency have been reviewed. |
+| Domain 01 — SEO Fundamentals | Documented and source-audited | Domain index and topics 01.1–01.5 are documented; source claims, references, and topic integration were reviewed on 2026-11-15. |
+| Domain 02 — Search Engine Fundamentals | Documented and source-audited | Domain index and topics 02.1–02.12 are documented; factual claims, source support, citations, scope, and cross-domain integration were reviewed on 2026-11-15. |
+| Domain 03 — Search Engine Algorithms | Documented and source-audited | Domain architecture and topics 03.1–03.13 are documented; factual claims, source support, lifecycle accuracy, citations, and cross-domain integration were reviewed on 2026-11-15. |
 | Domains 04–17 | Planned | Domain-level content has not yet been developed in this repository. |
-| Cross-domain knowledge graph | Integrated across existing domains | Domains 01–03 are connected through canonical ownership, topic relationships, and cross-domain links where target documents exist; planned domains remain roadmap references. |
+| Cross-domain knowledge graph | Integrated and link-audited | Domains 01–03 are connected through canonical ownership, reciprocal topic links, and cross-domain links; all checked local links resolve, while planned domains remain roadmap references. |
 | Maintenance and review | Governance defined | Research, citation, integration, and review rules are maintained in `AGENTS.md`. |
 
 **Current development focus:** maintain and periodically review the documented foundations and topic pages, with source and accuracy updates as search systems evolve.
