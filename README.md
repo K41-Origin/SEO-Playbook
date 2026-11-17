@@ -128,8 +128,6 @@ Start here, then follow the topic links. Each domain index defines its scope and
   - [02.11 — Search Engine Types & Models](02-Search-Engine-Fundamentals/02.11-Search-Engine-Types-and-Models.md)
   - [02.12 — Search Engine Limitations](02-Search-Engine-Fundamentals/02.12-Search-Engine-Limitations.md)
 - [03 — Search Engine Algorithms](03-Search-Engine-Algorithms/README.md) — ranking systems, signals, relevance, quality, spam, machine learning, evaluation, testing, and ranking evolution.
-- [04 — Information Retrieval](04-Information-Retrieval/README.md) — information representation, retrieval models, semantic and hybrid retrieval, and formal IR evaluation.
-  - [04.1 — Introduction to Information Retrieval](04-Information-Retrieval/04.1-Introduction-to-Information-Retrieval.md) — defines the IR problem, core terminology, relevance, and scope.
   - [03.1 — Introduction to Search Ranking Systems](03-Search-Engine-Algorithms/03.1-Introduction-to-Search-Ranking-Systems.md)
   - [03.2 — Ranking Architecture & Multi-Stage Ranking](03-Search-Engine-Algorithms/03.2-Ranking-Architecture-and-Multi-Stage-Ranking.md)
   - [03.3 — Ranking Signals & Signal Interaction](03-Search-Engine-Algorithms/03.3-Ranking-Signals-and-Signal-Interaction.md)
@@ -143,6 +141,8 @@ Start here, then follow the topic links. Each domain index defines its scope and
   - [03.11 — Machine Learning & Neural Ranking Systems](03-Search-Engine-Algorithms/03.11-Machine-Learning-and-Neural-Ranking-Systems.md)
   - [03.12 — Ranking Evaluation & Testing](03-Search-Engine-Algorithms/03.12-Ranking-Evaluation-and-Testing.md)
   - [03.13 — Ranking Updates & System Evolution](03-Search-Engine-Algorithms/03.13-Ranking-Updates-and-System-Evolution.md)
+- [04 — Information Retrieval](04-Information-Retrieval/README.md) — information representation, retrieval models, semantic and hybrid retrieval, and formal IR evaluation.
+  - [04.1 — Introduction to Information Retrieval](04-Information-Retrieval/04.1-Introduction-to-Information-Retrieval.md) — defines the IR problem, core terminology, relevance, and scope.
 
 Only existing documents are linked as destinations. Planned topics remain in their domain roadmap until their pages are created.
 
