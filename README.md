@@ -154,8 +154,8 @@ Only existing documents are linked as destinations. Planned topics remain in the
 | Domain 02 — Search Engine Fundamentals | Documented and source-audited | Domain index and topics 02.1–02.12 are documented; factual claims, source support, citations, scope, and cross-domain integration were reviewed on 2026-11-15. |
 | Domain 03 — Search Engine Algorithms | Documented and source-audited | Domain architecture and topics 03.1–03.13 are documented; factual claims, source support, lifecycle accuracy, citations, and cross-domain integration were reviewed on 2026-11-15. |
 | Domain 04 — Information Retrieval | Architecture established | Domain index and 12-topic roadmap documented; topic pages remain planned and have not yet been developed. |
-| Domains 04–17 | Planned | Domain-level content has not yet been developed in this repository. |
-| Cross-domain knowledge graph | Integrated and link-audited | Domains 01–03 are connected through canonical ownership, reciprocal topic links, and cross-domain links; all checked local links resolve, while planned domains remain roadmap references. |
+| Domains 05–17 | Planned | Domain-level content has not yet been developed in this repository. |
+| Cross-domain knowledge graph | Integrated and link-audited | Domains 01–04 are connected through canonical ownership and cross-domain links; topic-level integration for Domain 04 will expand as its topic pages are documented. |
 | Maintenance and review | Governance defined | Research, citation, integration, and review rules are maintained in `AGENTS.md`. |
 
 **Current development focus:** maintain and periodically review the documented foundations and topic pages, with source and accuracy updates as search systems evolve.
