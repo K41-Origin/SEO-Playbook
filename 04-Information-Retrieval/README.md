@@ -44,7 +44,7 @@ The domain is organized into four groups and twelve topics.
 
 | ID | Topic | Canonical scope |
 |---|---|---|
-| 04.4 | **Information Retrieval Indexing & Data Structures** | Retrieval-oriented index structures, dictionaries, postings, positional information, index construction, and compression. |
+| [04.4](04.4-Information-Retrieval-Indexing-and-Data-Structures.md) | **Information Retrieval Indexing & Data Structures** | Retrieval-oriented index structures, dictionaries, postings, positional information, index construction, and compression. |
 | 04.5 | **Boolean Retrieval Model** | Boolean operators, exact-match retrieval, query evaluation, and the strengths and limitations of Boolean retrieval. |
 | 04.6 | **Vector Space Model & Term Weighting** | Document and query vectors, term weighting, TF-IDF, similarity functions, and ranked retrieval using vector-space representations. |
 | 04.7 | **Probabilistic Information Retrieval Models** | Probability-based relevance estimation, the Binary Independence Model, BM25, and related probabilistic retrieval approaches. |
@@ -64,7 +64,7 @@ The domain is organized into four groups and twelve topics.
 | 04.11 | **Relevance Assessment & Evaluation Frameworks** | Relevance judgments, graded assessment, test collections, qrels, pooling, evaluation design, and methodological limitations. |
 | 04.12 | **Information Retrieval Evaluation Metrics** | Formal definitions, interpretation, and limitations of precision, recall, precision at k, average precision, MAP, MRR, DCG, NDCG, and related metrics. |
 
-Topic IDs define canonical ownership. Topics 04.1–04.3 are documented; topics 04.4–04.12 remain roadmap entries until their files are created and reviewed.
+Topic IDs define canonical ownership. Topics 04.1–04.4 are documented; topics 04.5–04.12 remain roadmap entries until their files are created and reviewed.
 
 ## Information Retrieval: Conceptual Model
 
@@ -141,7 +141,7 @@ These are starting points for research, not a frozen whitelist. Each topic must 
 - [04.1 — Introduction to Information Retrieval](04.1-Introduction-to-Information-Retrieval.md) — defines the IR problem, core terminology, relevance, and the scope of the discipline.
 - [04.2 — Information Representation & Document Modeling](04.2-Information-Representation-and-Document-Modeling.md) — defines retrievable units, document granularity, metadata, fields, structure, and representation choices.
 - [04.3 — Text Processing & Term Representation](04.3-Text-Processing-and-Term-Representation.md) — covers tokenization, normalization, stop-word handling, stemming, lemmatization, and term representation.
-- 04.4 — Information Retrieval Indexing & Data Structures — planned.
+- [04.4 — Information Retrieval Indexing & Data Structures](04.4-Information-Retrieval-Indexing-and-Data-Structures.md) — covers inverted indexes, term dictionaries, postings, positional indexes, index construction, and compression.
 - 04.5 — Boolean Retrieval Model — planned.
 - 04.6 — Vector Space Model & Term Weighting — planned.
 - 04.7 — Probabilistic Information Retrieval Models — planned.
