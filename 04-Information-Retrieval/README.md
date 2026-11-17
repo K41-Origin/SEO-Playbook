@@ -46,7 +46,7 @@ The domain is organized into four groups and twelve topics.
 |---|---|---|
 | [04.4](04.4-Information-Retrieval-Indexing-and-Data-Structures.md) | **Information Retrieval Indexing & Data Structures** | Retrieval-oriented index structures, dictionaries, postings, positional information, index construction, and compression. |
 | [04.5](04.5-Boolean-Retrieval-Model.md) | **Boolean Retrieval Model** | Boolean operators, exact-match retrieval, set-based query evaluation, postings operations, and the strengths and limitations of Boolean retrieval. |
-| 04.6 | **Vector Space Model & Term Weighting** | Document and query vectors, term weighting, TF-IDF, similarity functions, and ranked retrieval using vector-space representations. |
+| [04.6](04.6-Vector-Space-Model-and-Term-Weighting.md) | **Vector Space Model & Term Weighting** | Document and query vectors, term weighting, TF-IDF, similarity functions, and ranked retrieval using vector-space representations. |
 | 04.7 | **Probabilistic Information Retrieval Models** | Probability-based relevance estimation, the Binary Independence Model, BM25, and related probabilistic retrieval approaches. |
 
 ### Group C — Advanced & Modern Retrieval
@@ -64,7 +64,7 @@ The domain is organized into four groups and twelve topics.
 | 04.11 | **Relevance Assessment & Evaluation Frameworks** | Relevance judgments, graded assessment, test collections, qrels, pooling, evaluation design, and methodological limitations. |
 | 04.12 | **Information Retrieval Evaluation Metrics** | Formal definitions, interpretation, and limitations of precision, recall, precision at k, average precision, MAP, MRR, DCG, NDCG, and related metrics. |
 
-Topic IDs define canonical ownership. Topics 04.1–04.5 are documented; topics 04.6–04.12 remain roadmap entries until their files are created and reviewed.
+Topic IDs define canonical ownership. Topics 04.1–04.6 are documented; topics 04.7–04.12 remain roadmap entries until their files are created and reviewed.
 
 ## Information Retrieval: Conceptual Model
 
@@ -143,7 +143,7 @@ These are starting points for research, not a frozen whitelist. Each topic must 
 - [04.3 — Text Processing & Term Representation](04.3-Text-Processing-and-Term-Representation.md) — covers tokenization, normalization, stop-word handling, stemming, lemmatization, and term representation.
 - [04.4 — Information Retrieval Indexing & Data Structures](04.4-Information-Retrieval-Indexing-and-Data-Structures.md) — covers inverted indexes, term dictionaries, postings, positional indexes, index construction, and compression.
 - [04.5 — Boolean Retrieval Model](04.5-Boolean-Retrieval-Model.md) — explains Boolean operators, exact-match retrieval, postings-list operations, query optimization, and limitations of unranked matching.
-- 04.6 — Vector Space Model & Term Weighting — planned.
+- [04.6 — Vector Space Model & Term Weighting](04.6-Vector-Space-Model-and-Term-Weighting.md) — explains weighted term vectors, TF-IDF, dot products, cosine similarity, and ranked retrieval.
 - 04.7 — Probabilistic Information Retrieval Models — planned.
 - 04.8 — Relevance Feedback & Query Expansion — planned.
 - 04.9 — Semantic & Neural Information Retrieval — planned.
@@ -166,6 +166,7 @@ These are starting points for research, not a frozen whitelist. Each topic must 
 | Topic 04.3 — Text Processing & Term Representation | Documented | Tokenization, Unicode-aware segmentation and normalization, stop-word handling, stemming, lemmatization, n-grams, positional representation, and query/document analysis are documented with cited IR literature, standards, and technical references. |
 | Topic 04.4 — Information Retrieval Indexing & Data Structures | Documented | Inverted indexes, dictionaries, postings, positional data, index construction, dynamic and distributed indexing, and compression are documented with cited IR literature. |
 | Topic 04.5 — Boolean Retrieval Model | Documented | Boolean logic, set operations, postings-list evaluation, query optimization, ranked-retrieval comparison, and implementation caveats are documented with cited IR literature and API documentation. |
-| Topics 04.6–04.12 | Planned | Topic ownership and scope are defined; detailed documents have not yet been created. |
+| Topic 04.6 — Vector Space Model & Term Weighting | Documented | Weighted query and document vectors, TF, DF, IDF, TF-IDF, length normalization, dot product, cosine similarity, ranked retrieval, limitations, and implementation boundaries are documented with cited IR literature and Lucene API documentation. |
+| Topics 04.7–04.12 | Planned | Topic ownership and scope are defined; detailed documents have not yet been created. |
 | Cross-domain integration | In progress | Parent navigation and links to existing Domain 02, 03, 05, 09, and 10 resources are established; integration will expand as related topic pages are developed. |
 
