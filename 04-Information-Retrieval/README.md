@@ -55,7 +55,7 @@ The domain is organized into four groups and twelve topics.
 |---|---|---|
 | [04.8](04.8-Relevance-Feedback-and-Query-Expansion.md) | **Relevance Feedback & Query Expansion** | Explicit and implicit feedback, pseudo-relevance feedback, Rocchio and probabilistic query updates, and local/global query expansion methods. |
 | [04.9](04.9-Semantic-and-Neural-Information-Retrieval.md) | **Semantic & Neural Information Retrieval** | Semantic matching, embeddings, dense and neural sparse retrieval, bi-encoders, ANN search, cross-encoder and late-interaction architectures, and their trade-offs. |
-| 04.10 | **Hybrid & Advanced Retrieval Methods** | Combining lexical and semantic retrieval, sparse-dense methods, multi-vector approaches, fusion strategies, and advanced candidate-retrieval methods. |
+| [04.10](04.10-Hybrid-and-Advanced-Retrieval-Methods.md) | **Hybrid & Advanced Retrieval Methods** | Combines lexical, sparse, dense, and neural retrieval branches; covers candidate merging, score/rank fusion, RRF, multi-stage retrieval, orchestration, and effectiveness–efficiency trade-offs. |
 
 ### Group D — Information Retrieval Evaluation
 
@@ -64,7 +64,7 @@ The domain is organized into four groups and twelve topics.
 | 04.11 | **Relevance Assessment & Evaluation Frameworks** | Relevance judgments, graded assessment, test collections, qrels, pooling, evaluation design, and methodological limitations. |
 | 04.12 | **Information Retrieval Evaluation Metrics** | Formal definitions, interpretation, and limitations of precision, recall, precision at k, average precision, MAP, MRR, DCG, NDCG, and related metrics. |
 
-Topic IDs define canonical ownership. Topics 04.1–04.9 are documented; topics 04.10–04.12 remain roadmap entries until their files are created and reviewed.
+Topic IDs define canonical ownership. Topics 04.1–04.10 are documented; topics 04.11–04.12 remain roadmap entries until their files are created and reviewed.
 
 ## Information Retrieval: Conceptual Model
 
