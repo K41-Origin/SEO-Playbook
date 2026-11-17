@@ -143,7 +143,8 @@ Start here, then follow the topic links. Each domain index defines its scope and
   - [03.13 — Ranking Updates & System Evolution](03-Search-Engine-Algorithms/03.13-Ranking-Updates-and-System-Evolution.md)
 - [04 — Information Retrieval](04-Information-Retrieval/README.md) — information representation, retrieval models, semantic and hybrid retrieval, and formal IR evaluation.
   - [04.1 — Introduction to Information Retrieval](04-Information-Retrieval/04.1-Introduction-to-Information-Retrieval.md) — defines the IR problem, core terminology, relevance, and scope.
-  - [04.2 — Information Representation & Document Modeling](04-Information-Retrieval/04.2-Information-Representation-and-Document-Modeling.md) — explains retrievable units, document granularity, metadata, fields, structure, and representation choices.\n  - [04.3 — Text Processing & Term Representation](04-Information-Retrieval/04.3-Text-Processing-and-Term-Representation.md) — covers tokenization, normalization, linguistic processing, and retrieval-oriented term representations.
+  - [04.2 — Information Representation & Document Modeling](04-Information-Retrieval/04.2-Information-Representation-and-Document-Modeling.md) — explains retrievable units, document granularity, metadata, fields, structure, and representation choices.
+  - [04.3 — Text Processing & Term Representation](04-Information-Retrieval/04.3-Text-Processing-and-Term-Representation.md) — covers tokenization, normalization, linguistic processing, and retrieval-oriented term representations.
   - [04.4 — Information Retrieval Indexing & Data Structures](04-Information-Retrieval/04.4-Information-Retrieval-Indexing-and-Data-Structures.md) — covers inverted indexes, dictionaries, postings, positional data, index construction, and compression.
 
 Only existing documents are linked as destinations. Planned topics remain in their domain roadmap until their pages are created.
