@@ -146,9 +146,9 @@ These are starting points for research, not a frozen whitelist. Each topic must 
 - [04.6 — Vector Space Model & Term Weighting](04.6-Vector-Space-Model-and-Term-Weighting.md) — explains weighted term vectors, TF-IDF, dot products, cosine similarity, and ranked retrieval.
 - [04.7 — Probabilistic Information Retrieval Models](04.7-Probabilistic-Information-Retrieval-Models.md) — explains the Probability Ranking Principle, Binary Independence Model, and BM25.
 - [04.8 — Relevance Feedback & Query Expansion](04.8-Relevance-Feedback-and-Query-Expansion.md) — covers explicit and implicit feedback, pseudo-relevance feedback, Rocchio, probabilistic feedback, and local/global query expansion.
-- 04.9 — Semantic & Neural Information Retrieval — planned.
-- 04.10 — Hybrid & Advanced Retrieval Methods — planned.
-- 04.11 — Relevance Assessment & Evaluation Frameworks — planned.
+- [04.9 — Semantic & Neural Information Retrieval](04.9-Semantic-and-Neural-Information-Retrieval.md) — covers semantic matching, embeddings, dense and neural sparse retrieval, bi-encoders, ANN, cross-encoders, and late interaction.
+- [04.10 — Hybrid & Advanced Retrieval Methods](04.10-Hybrid-and-Advanced-Retrieval-Methods.md) — covers lexical/dense and sparse/dense combinations, candidate merging, fusion, RRF, multi-stage retrieval, and trade-offs.
+- [04.11 — Relevance Assessment & Evaluation Frameworks](04.11-Relevance-Assessment-and-Evaluation-Frameworks.md) — covers relevance judgments, assessor agreement, test collections, qrels, pooling, and evaluation design.
 - 04.12 — Information Retrieval Evaluation Metrics — planned.
 
 ---
@@ -170,6 +170,8 @@ These are starting points for research, not a frozen whitelist. Each topic must 
 | Topic 04.7 — Probabilistic Information Retrieval Models | Documented | Probability Ranking Principle, Binary Independence Model, smoothing, BM25 scoring, parameter behavior, implementation differences, and evidence boundaries are documented with cited IR literature and Lucene API documentation. |
 | Topic 04.8 — Relevance Feedback & Query Expansion | Documented | Explicit, implicit, and pseudo-relevance feedback, Rocchio, probabilistic feedback, local/global expansion, query drift, evaluation safeguards, and SEO boundaries are documented with cited IR literature and the original Rocchio report. |
 | Topic 04.9 — Semantic & Neural Information Retrieval | Documented | Semantic representations, embeddings, dense and neural sparse retrieval, bi-encoders, ANN search, cross-encoders, ColBERT late interaction, evaluation, and evidence boundaries are documented with cited research papers and technical references. |
-| Topics 04.10–04.12 | Planned | Topic ownership and scope are defined; detailed documents have not yet been created. |
+| Topic 04.10 — Hybrid & Advanced Retrieval Methods | Documented | Hybrid lexical/dense and sparse/dense retrieval, candidate merging, score and rank fusion, RRF, multi-stage retrieval, orchestration, evaluation, and evidence boundaries are documented with cited research and implementation references. |
+| Topic 04.11 — Relevance Assessment & Evaluation Frameworks | Documented | Relevance criteria, binary and graded judgments, assessors and agreement, test collections, qrels, pooling, evaluation frameworks, experimental design, and limitations are documented with cited IR literature and NIST TREC materials. |
+| Topic 04.12 — Information Retrieval Evaluation Metrics | Planned | Topic ownership and scope are defined; the detailed document has not yet been created. |
 | Cross-domain integration | In progress | Parent navigation and links to existing Domain 02, 03, 05, 09, and 10 resources are established; integration will expand as related topic pages are developed. |
 
