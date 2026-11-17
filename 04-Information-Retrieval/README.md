@@ -37,7 +37,7 @@ The domain is organized into four groups and twelve topics.
 | ID | Topic | Canonical scope |
 |---|---|---|
 | [04.1](04.1-Introduction-to-Information-Retrieval.md) | **Introduction to Information Retrieval** | The IR problem, information needs, queries, documents, relevance, retrieval tasks, and the distinction between retrieval and ranking. |
-| 04.2 | **Information Representation & Document Modeling** | Representing documents, passages, fields, terms, metadata, and collections as retrievable information units. |
+| [04.2](04.2-Information-Representation-and-Document-Modeling.md) | **Information Representation & Document Modeling** | Representing documents, passages, fields, metadata, and collections as retrievable information units. |
 | 04.3 | **Text Processing & Term Representation** | Tokenization, normalization, linguistic processing, term selection, and transformations used to prepare text for retrieval models. |
 
 ### Group B — Indexing & Retrieval Models
@@ -64,7 +64,7 @@ The domain is organized into four groups and twelve topics.
 | 04.11 | **Relevance Assessment & Evaluation Frameworks** | Relevance judgments, graded assessment, test collections, qrels, pooling, evaluation design, and methodological limitations. |
 | 04.12 | **Information Retrieval Evaluation Metrics** | Formal definitions, interpretation, and limitations of precision, recall, precision at k, average precision, MAP, MRR, DCG, NDCG, and related metrics. |
 
-Topic IDs define canonical ownership. Topic 04.1 is documented; topics 04.2–04.12 remain roadmap entries until their files are created and reviewed.
+Topic IDs define canonical ownership. Topics 04.1–04.2 are documented; topics 04.3–04.12 remain roadmap entries until their files are created and reviewed.
 
 ## Information Retrieval: Conceptual Model
 
@@ -139,7 +139,7 @@ These are starting points for research, not a frozen whitelist. Each topic must 
 - [Domain 02 — Search Engine Fundamentals](../02-Search-Engine-Fundamentals/README.md)
 - [Domain 03 — Search Engine Algorithms](../03-Search-Engine-Algorithms/README.md)
 - [04.1 — Introduction to Information Retrieval](04.1-Introduction-to-Information-Retrieval.md) — defines the IR problem, core terminology, relevance, and the scope of the discipline.
-- 04.2 — Information Representation & Document Modeling — planned.
+- [04.2 — Information Representation & Document Modeling](04.2-Information-Representation-and-Document-Modeling.md) — defines retrievable units, document granularity, metadata, fields, structure, and representation choices.
 - 04.3 — Text Processing & Term Representation — planned.
 - 04.4 — Information Retrieval Indexing & Data Structures — planned.
 - 04.5 — Boolean Retrieval Model — planned.
@@ -162,6 +162,7 @@ These are starting points for research, not a frozen whitelist. Each topic must 
 |---|---|---|
 | Domain architecture | Established | Scope, ownership boundaries, four topic groups, and the 12-topic roadmap are defined. |
 | Topic 04.1 — Introduction to Information Retrieval | Documented | Foundational IR problem, terminology, relevance, system-level concepts, and SEO connections are documented with cited academic sources. |
-| Topics 04.2–04.12 | Planned | Topic ownership and scope are defined; detailed documents have not yet been created. |
+| Topic 04.2 — Information Representation & Document Modeling | Documented | Document units, granularity, content, metadata, fields, structure, modeling approaches, and task-dependent trade-offs are documented with cited IR literature and metadata standards. |
+| Topics 04.3–04.12 | Planned | Topic ownership and scope are defined; detailed documents have not yet been created. |
 | Cross-domain integration | In progress | Parent navigation and links to existing Domain 02, 03, 05, 09, and 10 resources are established; integration will expand as related topic pages are developed. |
 
