@@ -36,33 +36,33 @@ The domain is organized into four groups and twelve topics.
 
 | ID | Topic | Canonical scope |
 |---|---|---|
-| [04.1](04.1-Introduction-to-Information-Retrieval.md) | **Introduction to Information Retrieval** | The IR problem, information needs, queries, documents, relevance, retrieval tasks, and the distinction between retrieval and ranking. |
-| [04.2](04.2-Information-Representation-and-Document-Modeling.md) | **Information Representation & Document Modeling** | Representing documents, passages, fields, terms, metadata, and collections as retrievable information units. |
-| [04.3](04.3-Text-Processing-and-Term-Representation.md) | **Text Processing & Term Representation** | Tokenization, normalization, linguistic processing, term selection, and transformations used to prepare text for retrieval models. |
+| 04.1 | **Introduction to Information Retrieval** | The IR problem, information needs, queries, documents, relevance, retrieval tasks, and the distinction between retrieval and ranking. |
+| 04.2 | **Information Representation & Document Modeling** | Representing documents, passages, fields, terms, metadata, and collections as retrievable information units. |
+| 04.3 | **Text Processing & Term Representation** | Tokenization, normalization, linguistic processing, term selection, and transformations used to prepare text for retrieval models. |
 
 ### Group B — Indexing & Retrieval Models
 
 | ID | Topic | Canonical scope |
 |---|---|---|
-| [04.4](04.4-Information-Retrieval-Indexing-and-Data-Structures.md) | **Information Retrieval Indexing & Data Structures** | Retrieval-oriented index structures, dictionaries, postings, positional information, index construction, and compression. |
-| [04.5](04.5-Boolean-Retrieval-Model.md) | **Boolean Retrieval Model** | Boolean operators, exact-match retrieval, query evaluation, and the strengths and limitations of Boolean retrieval. |
-| [04.6](04.6-Vector-Space-Model-and-Term-Weighting.md) | **Vector Space Model & Term Weighting** | Document and query vectors, term weighting, TF-IDF, similarity functions, and ranked retrieval using vector-space representations. |
-| [04.7](04.7-Probabilistic-Information-Retrieval-Models.md) | **Probabilistic Information Retrieval Models** | Probability-based relevance estimation, the Binary Independence Model, BM25, and related probabilistic retrieval approaches. |
+| 04.4 | **Information Retrieval Indexing & Data Structures** | Retrieval-oriented index structures, dictionaries, postings, positional information, index construction, and compression. |
+| 04.5 | **Boolean Retrieval Model** | Boolean operators, exact-match retrieval, query evaluation, and the strengths and limitations of Boolean retrieval. |
+| 04.6 | **Vector Space Model & Term Weighting** | Document and query vectors, term weighting, TF-IDF, similarity functions, and ranked retrieval using vector-space representations. |
+| 04.7 | **Probabilistic Information Retrieval Models** | Probability-based relevance estimation, the Binary Independence Model, BM25, and related probabilistic retrieval approaches. |
 
 ### Group C — Advanced & Modern Retrieval
 
 | ID | Topic | Canonical scope |
 |---|---|---|
-| [04.8](04.8-Relevance-Feedback-and-Query-Expansion.md) | **Relevance Feedback & Query Expansion** | Explicit and implicit feedback, pseudo-relevance feedback, query reformulation, and expansion methods. |
-| [04.9](04.9-Semantic-and-Neural-Information-Retrieval.md) | **Semantic & Neural Information Retrieval** | Semantic representations, embeddings, dense retrieval, neural retrievers, and learned query-document representations used to retrieve candidates. |
-| [04.10](04.10-Hybrid-and-Advanced-Retrieval-Methods.md) | **Hybrid & Advanced Retrieval Methods** | Combining lexical and semantic retrieval, sparse-dense methods, multi-vector approaches, fusion strategies, and advanced candidate-retrieval methods. |
+| 04.8 | **Relevance Feedback & Query Expansion** | Explicit and implicit feedback, pseudo-relevance feedback, query reformulation, and expansion methods. |
+| 04.9 | **Semantic & Neural Information Retrieval** | Semantic representations, embeddings, dense retrieval, neural retrievers, and learned query-document representations used to retrieve candidates. |
+| 04.10 | **Hybrid & Advanced Retrieval Methods** | Combining lexical and semantic retrieval, sparse-dense methods, multi-vector approaches, fusion strategies, and advanced candidate-retrieval methods. |
 
 ### Group D — Information Retrieval Evaluation
 
 | ID | Topic | Canonical scope |
 |---|---|---|
-| [04.11](04.11-Relevance-Assessment-and-Evaluation-Frameworks.md) | **Relevance Assessment & Evaluation Frameworks** | Relevance judgments, graded assessment, test collections, qrels, pooling, evaluation design, and methodological limitations. |
-| [04.12](04.12-Information-Retrieval-Evaluation-Metrics.md) | **Information Retrieval Evaluation Metrics** | Formal definitions, interpretation, and limitations of precision, recall, precision at k, average precision, MAP, MRR, DCG, NDCG, and related metrics. |
+| 04.11 | **Relevance Assessment & Evaluation Frameworks** | Relevance judgments, graded assessment, test collections, qrels, pooling, evaluation design, and methodological limitations. |
+| 04.12 | **Information Retrieval Evaluation Metrics** | Formal definitions, interpretation, and limitations of precision, recall, precision at k, average precision, MAP, MRR, DCG, NDCG, and related metrics. |
 
 Topic IDs define canonical ownership. The topic documents will be created in sequence; until a file exists, its roadmap entry is a planned destination, not a working link.
 
@@ -138,18 +138,18 @@ These are starting points for research, not a frozen whitelist. Each topic must 
 - [AGENTS.md](../AGENTS.md)
 - [Domain 02 — Search Engine Fundamentals](../02-Search-Engine-Fundamentals/README.md)
 - [Domain 03 — Search Engine Algorithms](../03-Search-Engine-Algorithms/README.md)
-- [04.1 — Introduction to Information Retrieval](04.1-Introduction-to-Information-Retrieval.md) — first topic to be developed.
-- [04.2 — Information Representation & Document Modeling](04.2-Information-Representation-and-Document-Modeling.md) — planned.
-- [04.3 — Text Processing & Term Representation](04.3-Text-Processing-and-Term-Representation.md) — planned.
-- [04.4 — Information Retrieval Indexing & Data Structures](04.4-Information-Retrieval-Indexing-and-Data-Structures.md) — planned.
-- [04.5 — Boolean Retrieval Model](04.5-Boolean-Retrieval-Model.md) — planned.
-- [04.6 — Vector Space Model & Term Weighting](04.6-Vector-Space-Model-and-Term-Weighting.md) — planned.
-- [04.7 — Probabilistic Information Retrieval Models](04.7-Probabilistic-Information-Retrieval-Models.md) — planned.
-- [04.8 — Relevance Feedback & Query Expansion](04.8-Relevance-Feedback-and-Query-Expansion.md) — planned.
-- [04.9 — Semantic & Neural Information Retrieval](04.9-Semantic-and-Neural-Information-Retrieval.md) — planned.
-- [04.10 — Hybrid & Advanced Retrieval Methods](04.10-Hybrid-and-Advanced-Retrieval-Methods.md) — planned.
-- [04.11 — Relevance Assessment & Evaluation Frameworks](04.11-Relevance-Assessment-and-Evaluation-Frameworks.md) — planned.
-- [04.12 — Information Retrieval Evaluation Metrics](04.12-Information-Retrieval-Evaluation-Metrics.md) — planned.
+- 04.1 — Introduction to Information Retrieval — first topic to be developed.
+- 04.2 — Information Representation & Document Modeling — planned.
+- 04.3 — Text Processing & Term Representation — planned.
+- 04.4 — Information Retrieval Indexing & Data Structures — planned.
+- 04.5 — Boolean Retrieval Model — planned.
+- 04.6 — Vector Space Model & Term Weighting — planned.
+- 04.7 — Probabilistic Information Retrieval Models — planned.
+- 04.8 — Relevance Feedback & Query Expansion — planned.
+- 04.9 — Semantic & Neural Information Retrieval — planned.
+- 04.10 — Hybrid & Advanced Retrieval Methods — planned.
+- 04.11 — Relevance Assessment & Evaluation Frameworks — planned.
+- 04.12 — Information Retrieval Evaluation Metrics — planned.
 
 ---
 
