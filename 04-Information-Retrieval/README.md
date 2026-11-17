@@ -53,7 +53,7 @@ The domain is organized into four groups and twelve topics.
 
 | ID | Topic | Canonical scope |
 |---|---|---|
-| 04.8 | **Relevance Feedback & Query Expansion** | Explicit and implicit feedback, pseudo-relevance feedback, query reformulation, and expansion methods. |
+| [04.8](04.8-Relevance-Feedback-and-Query-Expansion.md) | **Relevance Feedback & Query Expansion** | Explicit and implicit feedback, pseudo-relevance feedback, Rocchio and probabilistic query updates, and local/global query expansion methods. |
 | 04.9 | **Semantic & Neural Information Retrieval** | Semantic representations, embeddings, dense retrieval, neural retrievers, and learned query-document representations used to retrieve candidates. |
 | 04.10 | **Hybrid & Advanced Retrieval Methods** | Combining lexical and semantic retrieval, sparse-dense methods, multi-vector approaches, fusion strategies, and advanced candidate-retrieval methods. |
 
@@ -145,7 +145,7 @@ These are starting points for research, not a frozen whitelist. Each topic must 
 - [04.5 — Boolean Retrieval Model](04.5-Boolean-Retrieval-Model.md) — explains Boolean operators, exact-match retrieval, postings-list operations, query optimization, and limitations of unranked matching.
 - [04.6 — Vector Space Model & Term Weighting](04.6-Vector-Space-Model-and-Term-Weighting.md) — explains weighted term vectors, TF-IDF, dot products, cosine similarity, and ranked retrieval.
 - [04.7 — Probabilistic Information Retrieval Models](04.7-Probabilistic-Information-Retrieval-Models.md) — explains the Probability Ranking Principle, Binary Independence Model, and BM25.
-- 04.8 — Relevance Feedback & Query Expansion — planned.
+- [04.8 — Relevance Feedback & Query Expansion](04.8-Relevance-Feedback-and-Query-Expansion.md) — covers explicit and implicit feedback, pseudo-relevance feedback, Rocchio, probabilistic feedback, and local/global query expansion.
 - 04.9 — Semantic & Neural Information Retrieval — planned.
 - 04.10 — Hybrid & Advanced Retrieval Methods — planned.
 - 04.11 — Relevance Assessment & Evaluation Frameworks — planned.
