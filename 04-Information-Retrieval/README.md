@@ -61,10 +61,10 @@ The domain is organized into four groups and twelve topics.
 
 | ID | Topic | Canonical scope |
 |---|---|---|
-| 04.11 | **Relevance Assessment & Evaluation Frameworks** | Relevance judgments, graded assessment, test collections, qrels, pooling, evaluation design, and methodological limitations. |
+| [04.11](04.11-Relevance-Assessment-and-Evaluation-Frameworks.md) | **Relevance Assessment & Evaluation Frameworks** | Defines relevance criteria and judgments, assessors and agreement, test collections, qrels, pooling, offline/user-centered/online evaluation frameworks, and methodological limitations. |
 | 04.12 | **Information Retrieval Evaluation Metrics** | Formal definitions, interpretation, and limitations of precision, recall, precision at k, average precision, MAP, MRR, DCG, NDCG, and related metrics. |
 
-Topic IDs define canonical ownership. Topics 04.1–04.10 are documented; topics 04.11–04.12 remain roadmap entries until their files are created and reviewed.
+Topic IDs define canonical ownership. Topics 04.1–04.11 are documented; topic 04.12 remains a roadmap entry until its file is created and reviewed.
 
 ## Information Retrieval: Conceptual Model
 
