@@ -64,7 +64,7 @@ The domain is organized into four groups and twelve topics.
 | 04.11 | **Relevance Assessment & Evaluation Frameworks** | Relevance judgments, graded assessment, test collections, qrels, pooling, evaluation design, and methodological limitations. |
 | 04.12 | **Information Retrieval Evaluation Metrics** | Formal definitions, interpretation, and limitations of precision, recall, precision at k, average precision, MAP, MRR, DCG, NDCG, and related metrics. |
 
-Topic IDs define canonical ownership. Topics 04.1–04.7 are documented; topics 04.8–04.12 remain roadmap entries until their files are created and reviewed.
+Topic IDs define canonical ownership. Topics 04.1–04.8 are documented; topics 04.9–04.12 remain roadmap entries until their files are created and reviewed.
 
 ## Information Retrieval: Conceptual Model
 
@@ -168,6 +168,7 @@ These are starting points for research, not a frozen whitelist. Each topic must 
 | Topic 04.5 — Boolean Retrieval Model | Documented | Boolean logic, set operations, postings-list evaluation, query optimization, ranked-retrieval comparison, and implementation caveats are documented with cited IR literature and API documentation. |
 | Topic 04.6 — Vector Space Model & Term Weighting | Documented | Weighted query and document vectors, TF, DF, IDF, TF-IDF, length normalization, dot product, cosine similarity, ranked retrieval, limitations, and implementation boundaries are documented with cited IR literature and Lucene API documentation. |
 | Topic 04.7 — Probabilistic Information Retrieval Models | Documented | Probability Ranking Principle, Binary Independence Model, smoothing, BM25 scoring, parameter behavior, implementation differences, and evidence boundaries are documented with cited IR literature and Lucene API documentation. |
-| Topics 04.8–04.12 | Planned | Topic ownership and scope are defined; detailed documents have not yet been created. |
+| Topic 04.8 — Relevance Feedback & Query Expansion | Documented | Explicit, implicit, and pseudo-relevance feedback, Rocchio, probabilistic feedback, local/global expansion, query drift, evaluation safeguards, and SEO boundaries are documented with cited IR literature and the original Rocchio report. |
+| Topics 04.9–04.12 | Planned | Topic ownership and scope are defined; detailed documents have not yet been created. |
 | Cross-domain integration | In progress | Parent navigation and links to existing Domain 02, 03, 05, 09, and 10 resources are established; integration will expand as related topic pages are developed. |
 
