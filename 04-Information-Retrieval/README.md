@@ -62,9 +62,9 @@ The domain is organized into four groups and twelve topics.
 | ID | Topic | Canonical scope |
 |---|---|---|
 | [04.11](04.11-Relevance-Assessment-and-Evaluation-Frameworks.md) | **Relevance Assessment & Evaluation Frameworks** | Defines relevance criteria and judgments, assessors and agreement, test collections, qrels, pooling, offline/user-centered/online evaluation frameworks, and methodological limitations. |
-| 04.12 | **Information Retrieval Evaluation Metrics** | Formal definitions, interpretation, and limitations of precision, recall, precision at k, average precision, MAP, MRR, DCG, NDCG, and related metrics. |
+| [04.12](04.12-Information-Retrieval-Evaluation-Metrics.md) | **Information Retrieval Evaluation Metrics** | Formal definitions, formulas, interpretation, and limitations of Precision, Recall, F-measure, P@k, R@k, AP/MAP, MRR, DCG/nDCG, bpref, ERR, RBP, and related measures. |
 
-Topic IDs define canonical ownership. Topics 04.1–04.11 are documented; topic 04.12 remains a roadmap entry until its file is created and reviewed.
+Topic IDs define canonical ownership. Topics 04.1–04.12 are documented. The twelve-topic roadmap is now fully developed; future work should focus on source audits, corrections, and cross-domain maintenance.
 
 ## Information Retrieval: Conceptual Model
 
@@ -149,7 +149,7 @@ These are starting points for research, not a frozen whitelist. Each topic must 
 - [04.9 — Semantic & Neural Information Retrieval](04.9-Semantic-and-Neural-Information-Retrieval.md) — covers semantic matching, embeddings, dense and neural sparse retrieval, bi-encoders, ANN, cross-encoders, and late interaction.
 - [04.10 — Hybrid & Advanced Retrieval Methods](04.10-Hybrid-and-Advanced-Retrieval-Methods.md) — covers lexical/dense and sparse/dense combinations, candidate merging, fusion, RRF, multi-stage retrieval, and trade-offs.
 - [04.11 — Relevance Assessment & Evaluation Frameworks](04.11-Relevance-Assessment-and-Evaluation-Frameworks.md) — covers relevance judgments, assessor agreement, test collections, qrels, pooling, and evaluation design.
-- 04.12 — Information Retrieval Evaluation Metrics — planned.
+- [04.12 — Information Retrieval Evaluation Metrics](04.12-Information-Retrieval-Evaluation-Metrics.md) — defines set-based, cutoff-based, ranked-list, graded-relevance, and user-model evaluation metrics, including Precision/Recall, AP/MAP, MRR, nDCG, bpref, ERR, and RBP.
 
 ---
 
@@ -172,6 +172,6 @@ These are starting points for research, not a frozen whitelist. Each topic must 
 | Topic 04.9 — Semantic & Neural Information Retrieval | Documented | Semantic representations, embeddings, dense and neural sparse retrieval, bi-encoders, ANN search, cross-encoders, ColBERT late interaction, evaluation, and evidence boundaries are documented with cited research papers and technical references. |
 | Topic 04.10 — Hybrid & Advanced Retrieval Methods | Documented | Hybrid lexical/dense and sparse/dense retrieval, candidate merging, score and rank fusion, RRF, multi-stage retrieval, orchestration, evaluation, and evidence boundaries are documented with cited research and implementation references. |
 | Topic 04.11 — Relevance Assessment & Evaluation Frameworks | Documented | Relevance criteria, binary and graded judgments, assessors and agreement, test collections, qrels, pooling, evaluation frameworks, experimental design, and limitations are documented with cited IR literature and NIST TREC materials. |
-| Topic 04.12 — Information Retrieval Evaluation Metrics | Planned | Topic ownership and scope are defined; the detailed document has not yet been created. |
+| Topic 04.12 — Information Retrieval Evaluation Metrics | Documented | Precision, Recall, F-measure, P@k, R@k, R-precision, AP/MAP, MRR, CG/DCG/nDCG, bpref, ERR, RBP, query aggregation, worked calculations, and metric-selection guidance are documented with cited IR literature and evaluation-tool references. |
 | Cross-domain integration | In progress | Parent navigation and links to existing Domain 02, 03, 05, 09, and 10 resources are established; integration will expand as related topic pages are developed. |
 
