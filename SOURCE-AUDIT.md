@@ -169,7 +169,7 @@ Domains 05–17 do not yet contain substantive topic files. Their future integra
 ## Domain 04 — Information Retrieval: Source-Level Audit
 
 **Audit date:** 2026-11-17  
-**Scope:** All twelve substantive topic documents in \`04-Information-Retrieval/\`, the Domain 04 index, and the applicable requirements in \`AGENTS.md\`.
+**Scope:** All twelve substantive topic documents in `04-Information-Retrieval/`, the Domain 04 index, and the applicable requirements in `AGENTS.md`.
 
 ### Audit Method
 
@@ -203,7 +203,7 @@ Domains 05–17 do not yet contain substantive topic files. Their future integra
 - **04.2:** added a direct multimodal retrieval survey reference so image/audio/video representation examples are not supported only by a metadata vocabulary.
 - **04.4:** added the official Lucene FST API reference for the finite-state-transducer dictionary example.
 - **04.7:** made explicit that the classical PRP optimality setup assumes document relevance independence in addition to correctly estimated probabilities and the stated loss model. The limitation for duplicate and near-duplicate results is now explained.
-- **04.12:** corrected Average Precision notation. \(R_q\) already denotes the ranked result list, so the AP denominator now uses \(|Rel_q|\), the size of the known relevant set. Corrected malformed double-backslash approximation commands in the worked example and stated the usual RBP persistence range \(0 \le p < 1\).
+- **04.12:** corrected Average Precision notation. `R_q` already denotes the ranked result list, so the AP denominator now uses `|Rel_q|`, the size of the known relevant set. Corrected malformed double-backslash approximation commands in the worked example and stated the usual RBP persistence range \(0 <= p < 1\).
 - **Roadmap synchronization:** replaced outdated “planned” wording with active links for topics 04.3, 04.4, 04.6, 04.7, 04.10, 04.11, and 04.12 where those topics had already been documented. References to Domains 05, 09, and 14 remain marked planned because those domains do not yet have substantive topic pages.
 
 ### Verification Results
