@@ -54,7 +54,7 @@ The domain is organized into four groups and twelve topics.
 | ID | Topic | Canonical scope |
 |---|---|---|
 | [04.8](04.8-Relevance-Feedback-and-Query-Expansion.md) | **Relevance Feedback & Query Expansion** | Explicit and implicit feedback, pseudo-relevance feedback, Rocchio and probabilistic query updates, and local/global query expansion methods. |
-| 04.9 | **Semantic & Neural Information Retrieval** | Semantic representations, embeddings, dense retrieval, neural retrievers, and learned query-document representations used to retrieve candidates. |
+| [04.9](04.9-Semantic-and-Neural-Information-Retrieval.md) | **Semantic & Neural Information Retrieval** | Semantic matching, embeddings, dense and neural sparse retrieval, bi-encoders, ANN search, cross-encoder and late-interaction architectures, and their trade-offs. |
 | 04.10 | **Hybrid & Advanced Retrieval Methods** | Combining lexical and semantic retrieval, sparse-dense methods, multi-vector approaches, fusion strategies, and advanced candidate-retrieval methods. |
 
 ### Group D — Information Retrieval Evaluation
@@ -64,7 +64,7 @@ The domain is organized into four groups and twelve topics.
 | 04.11 | **Relevance Assessment & Evaluation Frameworks** | Relevance judgments, graded assessment, test collections, qrels, pooling, evaluation design, and methodological limitations. |
 | 04.12 | **Information Retrieval Evaluation Metrics** | Formal definitions, interpretation, and limitations of precision, recall, precision at k, average precision, MAP, MRR, DCG, NDCG, and related metrics. |
 
-Topic IDs define canonical ownership. Topics 04.1–04.8 are documented; topics 04.9–04.12 remain roadmap entries until their files are created and reviewed.
+Topic IDs define canonical ownership. Topics 04.1–04.9 are documented; topics 04.10–04.12 remain roadmap entries until their files are created and reviewed.
 
 ## Information Retrieval: Conceptual Model
 
@@ -169,6 +169,7 @@ These are starting points for research, not a frozen whitelist. Each topic must 
 | Topic 04.6 — Vector Space Model & Term Weighting | Documented | Weighted query and document vectors, TF, DF, IDF, TF-IDF, length normalization, dot product, cosine similarity, ranked retrieval, limitations, and implementation boundaries are documented with cited IR literature and Lucene API documentation. |
 | Topic 04.7 — Probabilistic Information Retrieval Models | Documented | Probability Ranking Principle, Binary Independence Model, smoothing, BM25 scoring, parameter behavior, implementation differences, and evidence boundaries are documented with cited IR literature and Lucene API documentation. |
 | Topic 04.8 — Relevance Feedback & Query Expansion | Documented | Explicit, implicit, and pseudo-relevance feedback, Rocchio, probabilistic feedback, local/global expansion, query drift, evaluation safeguards, and SEO boundaries are documented with cited IR literature and the original Rocchio report. |
-| Topics 04.9–04.12 | Planned | Topic ownership and scope are defined; detailed documents have not yet been created. |
+| Topic 04.9 — Semantic & Neural Information Retrieval | Documented | Semantic representations, embeddings, dense and neural sparse retrieval, bi-encoders, ANN search, cross-encoders, ColBERT late interaction, evaluation, and evidence boundaries are documented with cited research papers and technical references. |
+| Topics 04.10–04.12 | Planned | Topic ownership and scope are defined; detailed documents have not yet been created. |
 | Cross-domain integration | In progress | Parent navigation and links to existing Domain 02, 03, 05, 09, and 10 resources are established; integration will expand as related topic pages are developed. |
 
