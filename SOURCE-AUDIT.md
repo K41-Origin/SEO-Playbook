@@ -154,13 +154,78 @@ The 17-domain architecture remains intact. Domains 05–17 are roadmap entries, 
 | Duplicate Related Topics entry in 03.3 | Removed |
 | Root/domain progress statements | Synchronized with current repository state |
 | Canonical topic ownership | No duplicate topic ownership identified in the reviewed architecture |
-| Full source-level claim audit of Domain 04 | Not claimed by this integration audit; requires a separate claim-by-claim source review |
+| Domain 04 source-level review | Complete; see the section below for claim-source, formula, and citation findings |
 
 ### Remaining Boundaries
 
-This audit verifies repository structure, topic ownership, navigation, and the documented distinction between adjacent subjects. It does not claim that every paragraph across all 42 topics is free of all repeated explanatory wording, nor does it replace a fresh source-by-source verification of every external reference in Domain 04.
+This integration audit verifies repository structure, topic ownership, navigation, and the documented distinction between adjacent subjects. The separate Domain 04 source-level review below covers its twelve topic documents. Neither audit claims that every paragraph across all 42 topics is free of repeated explanatory wording.
 
 Domains 05–17 do not yet contain substantive topic files. Their future integration must follow the canonical ownership map and avoid creating a second home for concepts already assigned to Domains 01–04.
 
 **Integration status:** The initial repository-wide integration audit for the existing Domains 01–04 is complete. Future domains must be connected to this structure as they are developed; the knowledge graph is not considered complete merely because the current links resolve.
+
+---
+
+## Domain 04 — Information Retrieval: Source-Level Audit
+
+**Audit date:** 2026-11-17  
+**Scope:** All twelve substantive topic documents in \`04-Information-Retrieval/\`, the Domain 04 index, and the applicable requirements in \`AGENTS.md\`.
+
+### Audit Method
+
+1. Reviewed each topic's definitions, technical mechanisms, worked examples, equations, implementation notes, SEO boundaries, and Related Topics section.
+2. Checked whether each cited source directly supports the nearby claim, prioritizing the original IR textbook, original research papers, standards, and official software documentation.
+3. Compared formula variants and implementation-specific behavior instead of presenting one library's behavior as a universal standard.
+4. Checked citation IDs against each References section and reviewed the bibliographic identity and destination of cited references. Where a publisher page was access-restricted or a DOI endpoint did not expose the full text, used an accessible original paper, author-hosted copy, official abstract, standards page, or official API documentation where available.
+5. Independently recalculated the numerical examples and checked the mathematical form of the central retrieval and evaluation equations.
+6. Checked internal Markdown links, stale roadmap language, and whether the source audit changed canonical topic ownership.
+
+### Topic-by-Topic Result
+
+| Topic | Source and technical review | Result |
+|---|---|---|
+| 04.1 — Introduction to Information Retrieval | IR definition, information need/query distinction, relevance, document unit, retrieval tasks, database comparison, and retrieval/ranking boundary checked against the IR textbook, information-needs research, TREC terminology, and multimodal retrieval literature. | Pass; source attribution strengthened. |
+| 04.2 — Information Representation & Document Modeling | Document granularity, identifiers, content, metadata, fields/zones, structured retrieval, and multimodal representation checked against IR literature, DCMI metadata terms, XML retrieval, and multimodal retrieval research. | Pass; multimodal claims received a direct survey source. |
+| 04.3 — Text Processing & Term Representation | Tokenization, Unicode segmentation and normalization, stop words, stemming, lemmatization, n-grams, and query/document analysis checked against the IR textbook, Unicode standards, Lucene Analysis documentation, Porter, and NLTK. | Pass. |
+| 04.4 — Information Retrieval Indexing & Data Structures | Inverted indexes, dictionaries, postings, skip pointers, positional indexes, biword indexes, BSBI, SPIMI, distributed/dynamic indexing, and compression checked against the IR textbook and Lucene's FST API. | Pass; direct FST implementation reference added. |
+| 04.5 — Boolean Retrieval Model | Boolean set semantics, complement scope, postings operations, complexity statements, query optimization, incidence matrices, and Lucene parser/API caveats checked against the IR textbook and Lucene API documentation. | Pass. |
+| 04.6 — Vector Space Model & Term Weighting | Vector construction, bag-of-words limits, TF/DF/IDF, TF-IDF, length normalization, dot product, cosine similarity, and Lucene-specific scoring checked against the IR textbook and Lucene API documentation. | Pass. |
+| 04.7 — Probabilistic Information Retrieval Models | Bayes' rule, PRP assumptions, BIM conditional independence, log-odds weighting, smoothing, IDF connection, BM25 formula, parameter behavior, and Lucene's IDF/defaults checked against the IR textbook and Lucene API documentation. | Pass; the PRP's document-independence assumption was made explicit. |
+| 04.8 — Relevance Feedback & Query Expansion | Explicit/implicit/pseudo feedback, local/global analysis, Rocchio, probabilistic feedback, query drift, and evaluation leakage checked against the IR textbook and Rocchio's original report. | Pass. |
+| 04.9 — Semantic & Neural Information Retrieval | Embeddings, bi-encoders, ANN, contrastive training, cross-encoders, ColBERT, SPLADE, and evaluation trade-offs checked against the cited original papers and Faiss documentation. | Pass. |
+| 04.10 — Hybrid & Advanced Retrieval Methods | Sparse/dense complementarity, score normalization, rank fusion, RRF, multi-stage retrieval, candidate recall, and OpenSearch implementation behavior checked against Pyserini, BEIR, the original RRF paper, and official OpenSearch documentation. | Pass; stale wording about future evaluation pages was replaced with active links. |
+| 04.11 — Relevance Assessment & Evaluation Frameworks | Relevance criteria, binary/graded judgments, Cohen's kappa, test collections, qrels, pooling, incomplete judgments, and TREC evaluation design checked against the IR textbook, TREC 2025/NIST materials, and original pooling research. | Pass. |
+| 04.12 — Information Retrieval Evaluation Metrics | Precision/Recall, F-measure, cutoff metrics, AP/MAP, MRR, DCG/nDCG, bpref, ERR, RBP, aggregation, and zero-relevant-query conventions checked against the IR textbook, original metric papers, TREC, and ir-measures documentation. Numerical examples were recalculated. | Pass; notation and LaTeX issues corrected. |
+
+### Material Corrections Made
+
+- **04.1:** strengthened support for multimodal query/document examples and retrieval-unit granularity with a 2025 multimodal retrieval survey and NIST TREC terminology. Replaced broad source attribution where a more specific source was available.
+- **04.2:** added a direct multimodal retrieval survey reference so image/audio/video representation examples are not supported only by a metadata vocabulary.
+- **04.4:** added the official Lucene FST API reference for the finite-state-transducer dictionary example.
+- **04.7:** made explicit that the classical PRP optimality setup assumes document relevance independence in addition to correctly estimated probabilities and the stated loss model. The limitation for duplicate and near-duplicate results is now explained.
+- **04.12:** corrected Average Precision notation. \(R_q\) already denotes the ranked result list, so the AP denominator now uses \(|Rel_q|\), the size of the known relevant set. Corrected malformed double-backslash approximation commands in the worked example and stated the usual RBP persistence range \(0 \le p < 1\).
+- **Roadmap synchronization:** replaced outdated “planned” wording with active links for topics 04.3, 04.4, 04.6, 04.7, 04.10, 04.11, and 04.12 where those topics had already been documented. References to Domains 05, 09, and 14 remain marked planned because those domains do not yet have substantive topic pages.
+
+### Verification Results
+
+| Check | Result |
+|---|---|
+| Domain 04 topic documents reviewed | 12 / 12 |
+| Reference entries across the 12 topics | 58 |
+| Unique external reference URLs in those entries | 54 |
+| Inline citation IDs mapped to reference entries | Pass; no missing or unused IDs |
+| Relative Markdown links | 152 checked; 0 broken |
+| Control characters in topic documents | 0 |
+| Malformed double-backslash LaTeX commands in checked formula lines | 0 |
+| Stale references to already-documented Domain 04 topics | Corrected |
+| Core worked calculations in 04.12 | Recalculated; results consistent |
+| Proprietary search-engine implementation claims | No unsupported Google/Bing internal implementation claims identified in the reviewed scope |
+
+### Source-Access and Interpretation Limits
+
+Some publisher-hosted textbook and journal pages expose bibliographic details or chapter summaries without unrestricted full text. Where this occurred, the audit used the Stanford-hosted textbook edition, author-hosted paper copies, official abstracts, standards, or official API documentation when available. A source's bibliographic record alone was not treated as proof of a detailed technical claim.
+
+The audit confirms the cited research methods and documented software behavior. It does not establish that Google, Bing, or another proprietary search engine deploys the same algorithms, parameter values, indexes, or evaluation procedures. The explicit evidence boundaries in the topic documents remain in force.
+
+**Domain 04 source-audit status:** Complete for the current documentation state as of 2026-11-17. Revisit time-sensitive API references, Unicode versions, benchmark documentation, and research claims when their sources change.
 
