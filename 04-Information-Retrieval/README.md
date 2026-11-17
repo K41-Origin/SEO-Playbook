@@ -164,6 +164,7 @@ These are starting points for research, not a frozen whitelist. Each topic must 
 | Topic 04.1 — Introduction to Information Retrieval | Documented | Foundational IR problem, terminology, relevance, system-level concepts, and SEO connections are documented with cited academic sources. |
 | Topic 04.2 — Information Representation & Document Modeling | Documented | Document units, granularity, content, metadata, fields, structure, modeling approaches, and task-dependent trade-offs are documented with cited IR literature and metadata standards. |
 | Topic 04.3 — Text Processing & Term Representation | Documented | Tokenization, Unicode-aware segmentation and normalization, stop-word handling, stemming, lemmatization, n-grams, positional representation, and query/document analysis are documented with cited IR literature, standards, and technical references. |
-| Topics 04.4–04.12 | Planned | Topic ownership and scope are defined; detailed documents have not yet been created. |
+| Topic 04.4 — Information Retrieval Indexing & Data Structures | Documented | Inverted indexes, dictionaries, postings, positional data, index construction, dynamic and distributed indexing, and compression are documented with cited IR literature. |
+| Topics 04.5–04.12 | Planned | Topic ownership and scope are defined; detailed documents have not yet been created. |
 | Cross-domain integration | In progress | Parent navigation and links to existing Domain 02, 03, 05, 09, and 10 resources are established; integration will expand as related topic pages are developed. |
 
