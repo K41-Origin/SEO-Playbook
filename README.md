@@ -128,6 +128,7 @@ Start here, then follow the topic links. Each domain index defines its scope and
   - [02.11 — Search Engine Types & Models](02-Search-Engine-Fundamentals/02.11-Search-Engine-Types-and-Models.md)
   - [02.12 — Search Engine Limitations](02-Search-Engine-Fundamentals/02.12-Search-Engine-Limitations.md)
 - [03 — Search Engine Algorithms](03-Search-Engine-Algorithms/README.md) — ranking systems, signals, relevance, quality, spam, machine learning, evaluation, testing, and ranking evolution.
+- [04 — Information Retrieval](04-Information-Retrieval/README.md) — information representation, retrieval models, semantic and hybrid retrieval, and formal IR evaluation.
   - [03.1 — Introduction to Search Ranking Systems](03-Search-Engine-Algorithms/03.1-Introduction-to-Search-Ranking-Systems.md)
   - [03.2 — Ranking Architecture & Multi-Stage Ranking](03-Search-Engine-Algorithms/03.2-Ranking-Architecture-and-Multi-Stage-Ranking.md)
   - [03.3 — Ranking Signals & Signal Interaction](03-Search-Engine-Algorithms/03.3-Ranking-Signals-and-Signal-Interaction.md)
@@ -152,6 +153,7 @@ Only existing documents are linked as destinations. Planned topics remain in the
 | Domain 01 — SEO Fundamentals | Documented and source-audited | Domain index and topics 01.1–01.5 are documented; source claims, references, and topic integration were reviewed on 2026-11-15. |
 | Domain 02 — Search Engine Fundamentals | Documented and source-audited | Domain index and topics 02.1–02.12 are documented; factual claims, source support, citations, scope, and cross-domain integration were reviewed on 2026-11-15. |
 | Domain 03 — Search Engine Algorithms | Documented and source-audited | Domain architecture and topics 03.1–03.13 are documented; factual claims, source support, lifecycle accuracy, citations, and cross-domain integration were reviewed on 2026-11-15. |
+| Domain 04 — Information Retrieval | Architecture established | Domain index and 12-topic roadmap documented; topic pages remain planned and have not yet been developed. |
 | Domains 04–17 | Planned | Domain-level content has not yet been developed in this repository. |
 | Cross-domain knowledge graph | Integrated and link-audited | Domains 01–03 are connected through canonical ownership, reciprocal topic links, and cross-domain links; all checked local links resolve, while planned domains remain roadmap references. |
 | Maintenance and review | Governance defined | Research, citation, integration, and review rules are maintained in `AGENTS.md`. |
