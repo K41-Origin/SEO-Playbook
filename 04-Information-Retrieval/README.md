@@ -153,7 +153,7 @@ These are starting points for research, not a frozen whitelist. Each topic must 
 
 ---
 
-*Domain 04 defines the canonical scope and roadmap for Information Retrieval. Its topic pages will be marked documented only after they are researched, sourced, integrated, and reviewed.*
+*Domain 04 defines the canonical scope and roadmap for Information Retrieval. All twelve topic pages are documented; their next maintenance stage is source-level auditing, technical correction, and continued integration as related domains are developed.*
 
 
 ## Development Status
