@@ -82,3 +82,85 @@ Some academic sources are publisher records or textbook chapter pages rather tha
 **Domains 01–03 passed the source-level review for the documentation currently in the repository as of 2026-11-15.**
 
 This is a dated review, not a permanent guarantee. Search documentation, policies, product behavior, and system names can change. Revisit affected claims when their primary sources change, and re-audit time-sensitive material before relying on it for implementation decisions.
+
+---
+
+## Repository-Wide Integration Audit
+
+**Audit date:** 2026-11-17  
+**Scope:** Repository architecture and cross-domain integration across all existing knowledge documents in Domains 01–04.
+
+### Inventory at Audit Time
+
+| Component | Verified inventory |
+|---|---:|
+| Top-level domains defined in the root architecture | 17 |
+| Domains with substantive topic documents | 4 |
+| Substantive topic documents in Domains 01–04 | 42 |
+| Domain indexes | 4 |
+| Repository Markdown governance/navigation files | 3 (root README, AGENTS, this audit) |
+| Planned domains without substantive topic files | 05–17 |
+
+The 17-domain architecture remains intact. Domains 05–17 are roadmap entries, not missing or failed documentation. They were not treated as existing content during this audit.
+
+### Integration Method
+
+1. Compared root architecture, domain indexes, topic IDs, and actual repository paths.
+2. Reviewed topic scopes, headings, boundary statements, and Related Topics sections across Domains 01–04.
+3. Compared adjacent subjects where duplication risk is highest: operational search processing vs. IR theory; retrieval vs. ranking; neural retrieval vs. neural ranking; and IR evaluation vs. ranking evaluation.
+4. Checked all twelve Domain 04 topic documents for local Markdown link targets and inline citation IDs against their References entries.
+5. Updated reciprocal links where an existing topic materially depends on or extends another domain's canonical explanation.
+6. Removed a duplicated Related Topics entry in 03.3 and synchronized repository/domain progress statements with the actual state.
+
+### Cross-Domain Ownership and Duplication Review
+
+| Relationship | Canonical ownership | Audit conclusion |
+|---|---|---|
+| SEO foundations vs. IR foundations | Domain 01 explains SEO's purpose and ecosystem; Domain 04.1 explains the general IR problem. | Related foundations, not duplicate topics. A direct navigation link now connects them. |
+| Document processing vs. document/text representation | Domain 02.5 owns operational parsing, rendering, and processing of acquired resources; Domain 04.2–04.3 own retrieval-oriented document modeling and text/term representation. | Similar vocabulary, different layer and purpose. Cross-links now state the distinction. |
+| Search indexing vs. IR indexing | Domain 02.6 owns search-engine indexing behavior and maintenance; Domain 04.4 owns general IR index structures and construction methods. | Not duplicates. A reciprocal conceptual boundary is documented. |
+| Query processing vs. text analysis and query expansion | Domain 02.7 owns the operational preparation of search requests; Domain 04.3 owns general text/term transformations; Domain 04.8 owns research methods for feedback and query expansion. | Adjacent stages and methods, not interchangeable coverage. Cross-links added. |
+| Operational retrieval vs. retrieval models | Domain 02.8 owns retrieval's role in the search-engine pipeline; Domain 04.5–04.10 own general retrieval models and methods. | No duplicate canonical ownership. Links now expose the deeper model-level explanations. |
+| Retrieval vs. ranking architecture | Domain 04.10 owns retrieval-side candidate fusion and orchestration; Domain 03.2 owns ranking-side multi-stage candidate evaluation. | Both may use stages and candidate sets, but their responsibilities differ. Cross-link added with explicit boundary. |
+| Relevance and matching | Domain 04.1, 04.6, and 04.9 explain general IR relevance, lexical scoring, and semantic retrieval; Domain 03.4 owns search-engine ranking-side relevance behavior. | Shared concept, different level of analysis. Cross-links added; neither topic should claim the other's canonical scope. |
+| Neural retrieval vs. neural ranking | Domain 04.9 owns neural candidate retrieval; Domain 03.11 owns learned candidate evaluation and ordering in ranking. | Not duplicates. Reciprocal links now clarify that a model family can appear in multiple pipeline roles. |
+| IR evaluation vs. ranking evaluation | Domain 04.11–04.12 own general IR assessment methodology and metric definitions; Domain 03.12 owns evaluation and testing as applied to ranking systems. | Metrics and methods may be reused, but the evaluation target and framework differ. Cross-links added. |
+| SEO visibility and business measurement vs. IR evaluation | Domain 01.2 and future Domain 14 own site-owner visibility/performance measurement; Domain 04.11–04.12 own research evaluation against relevance judgments. | Different measurement objects. Do not treat Search Console reporting as qrels-based IR evaluation. |
+
+### Changes Made During This Audit
+
+- Added a Domain 04.1 link to 01.1, connecting SEO fundamentals with the general IR problem.
+- Added links from 02.5 to 04.2 and 04.3.
+- Added a link from 02.6 to 04.4.
+- Added links from 02.7 to 04.3 and 04.8.
+- Added links from 02.8 to the canonical retrieval-method topics 04.5–04.10.
+- Added a link from 03.2 to 04.10 to distinguish retrieval fusion from ranking stages.
+- Added links from 03.4 to 04.6 and 04.9 for lexical and semantic retrieval foundations.
+- Added a link from 03.11 to 04.9 for neural retrieval.
+- Added links from 03.12 to 04.11 and 04.12 for general IR evaluation methodology and metrics.
+- Removed a repeated 03.10 Related Topics entry from 03.3.
+- Updated root and Domain 04 progress statements so they no longer describe completed Domain 04 integration as pending.
+
+### Verification Results
+
+| Check | Result |
+|---|---|
+| Existing domain/topic inventory vs. repository tree | Pass; 42 topic documents across Domains 01–04 |
+| Root architecture preserved | Pass; all 17 planned domains remain defined |
+| Domain 04 topic navigation | Pass; all 12 topic files exist and are indexed |
+| Domain 04 relative Markdown links | Pass; all checked targets resolve |
+| Domain 04 inline citation IDs vs. References entries | Pass; all checked IDs map to entries |
+| New cross-domain links | Added to existing targets in Domains 01–03 |
+| Duplicate Related Topics entry in 03.3 | Removed |
+| Root/domain progress statements | Synchronized with current repository state |
+| Canonical topic ownership | No duplicate topic ownership identified in the reviewed architecture |
+| Full source-level claim audit of Domain 04 | Not claimed by this integration audit; requires a separate claim-by-claim source review |
+
+### Remaining Boundaries
+
+This audit verifies repository structure, topic ownership, navigation, and the documented distinction between adjacent subjects. It does not claim that every paragraph across all 42 topics is free of all repeated explanatory wording, nor does it replace a fresh source-by-source verification of every external reference in Domain 04.
+
+Domains 05–17 do not yet contain substantive topic files. Their future integration must follow the canonical ownership map and avoid creating a second home for concepts already assigned to Domains 01–04.
+
+**Integration status:** The initial repository-wide integration audit for the existing Domains 01–04 is complete. Future domains must be connected to this structure as they are developed; the knowledge graph is not considered complete merely because the current links resolve.
+
