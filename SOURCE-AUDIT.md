@@ -211,8 +211,8 @@ Domains 05–17 do not yet contain substantive topic files. Their future integra
 | Check | Result |
 |---|---|
 | Domain 04 topic documents reviewed | 12 / 12 |
-| Reference entries across the 12 topics | 58 |
-| Unique external reference URLs in those entries | 54 |
+| Reference entries across the 12 topics | 59 |
+| Unique external reference URLs in those entries | 55 |
 | Inline citation IDs mapped to reference entries | Pass; no missing or unused IDs |
 | Relative Markdown links | 152 checked; 0 broken |
 | Control characters in topic documents | 0 |
