@@ -146,6 +146,7 @@ Start here, then follow the topic links. Each domain index defines its scope and
   - [04.2 — Information Representation & Document Modeling](04-Information-Retrieval/04.2-Information-Representation-and-Document-Modeling.md) — explains retrievable units, document granularity, metadata, fields, structure, and representation choices.
   - [04.3 — Text Processing & Term Representation](04-Information-Retrieval/04.3-Text-Processing-and-Term-Representation.md) — covers tokenization, normalization, linguistic processing, and retrieval-oriented term representations.
   - [04.4 — Information Retrieval Indexing & Data Structures](04-Information-Retrieval/04.4-Information-Retrieval-Indexing-and-Data-Structures.md) — covers inverted indexes, dictionaries, postings, positional data, index construction, and compression.
+  - [04.5 — Boolean Retrieval Model](04-Information-Retrieval/04.5-Boolean-Retrieval-Model.md) — covers Boolean operators, exact-match retrieval, postings-list evaluation, query optimization, and the limits of unranked matching.
 
 Only existing documents are linked as destinations. Planned topics remain in their domain roadmap until their pages are created.
 
@@ -157,7 +158,7 @@ Only existing documents are linked as destinations. Planned topics remain in the
 | Domain 01 — SEO Fundamentals | Documented and source-audited | Domain index and topics 01.1–01.5 are documented; source claims, references, and topic integration were reviewed on 2026-11-15. |
 | Domain 02 — Search Engine Fundamentals | Documented and source-audited | Domain index and topics 02.1–02.12 are documented; factual claims, source support, citations, scope, and cross-domain integration were reviewed on 2026-11-15. |
 | Domain 03 — Search Engine Algorithms | Documented and source-audited | Domain architecture and topics 03.1–03.13 are documented; factual claims, source support, lifecycle accuracy, citations, and cross-domain integration were reviewed on 2026-11-15. |
-| Domain 04 — Information Retrieval | In development | Domain index and 12-topic roadmap are established; topics 04.1–04.4 are documented, while topics 04.5–04.12 remain planned. |
+| Domain 04 — Information Retrieval | In development | Domain index and 12-topic roadmap are established; topics 04.1–04.5 are documented, while topics 04.6–04.12 remain planned. |
 | Domains 05–17 | Planned | Domain-level content has not yet been developed in this repository. |
 | Cross-domain knowledge graph | Integrated and link-audited | Domains 01–04 are connected through canonical ownership and cross-domain links; topic-level integration for Domain 04 will expand as its topic pages are documented. |
 | Maintenance and review | Governance defined | Research, citation, integration, and review rules are maintained in `AGENTS.md`. |
