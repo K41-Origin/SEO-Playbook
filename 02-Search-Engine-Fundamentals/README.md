@@ -67,7 +67,7 @@ Domain 02 owns the **search engine as a system**. It introduces the role of algo
 | Domain | Its canonical focus | Boundary with Domain 02 |
 |---|---|---|
 | **03 — Search Engine Algorithms** | Algorithms, ranking systems, signals, and evaluation mechanisms. | Domain 02 identifies where algorithmic decisions fit in the system; Domain 03 explains the algorithms and ranking behavior. |
-| **04 — Information Retrieval** | IR theory, retrieval models, indexing theory, scoring methods, and deeper retrieval techniques. | Domain 02 explains the operational role of indexing and retrieval; Domain 04 explains their theoretical and methodological foundations. |
+| **[04 — Information Retrieval](../04-Information-Retrieval/README.md)** | IR theory, retrieval models, indexing theory, scoring methods, and deeper retrieval techniques. | Domain 02 explains the operational role of indexing and retrieval; Domain 04 explains their theoretical and methodological foundations. |
 | **05 — Keyword & Search Intent** | Search queries, keywords, query classification, and searcher intent from the SEO perspective. | Domain 02 explains query handling inside a search system; Domain 05 studies queries and intent as SEO subjects. |
 | **06 — SERP & Search Features** | SERP composition, result formats, and search features. | Domain 02 covers result generation and delivery; Domain 06 covers what users see on the results page. |
 | **10 — Technical SEO** | Website-side technical conditions and optimization affecting search accessibility and processing. | Domain 02 explains crawler and processing behavior; Domain 10 covers the website-side implications and optimization. |
