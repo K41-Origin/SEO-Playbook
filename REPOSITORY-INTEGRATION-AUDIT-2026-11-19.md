@@ -420,7 +420,7 @@ This pass validates Markdown heading fragments in the 62 topic pages. It does no
 
 ### Primary-source verification sample
 
-Re-read the current 01.2 body and opened the official Google documentation supporting its newer Search Console and AI-search reporting statements. The sampled claims were checked against the specific product documentation rather than relying on snippets.
+Re-read the current 01.2 body and opened all 17 destinations in its References list. All 17 official Google/Microsoft source pages were retrievable and inspected. The selected newer Search Console and AI-search reporting claims were checked against the specific product documentation rather than relying on snippets.
 
 Verified in the official documentation:
 
