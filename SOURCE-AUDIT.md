@@ -772,3 +772,68 @@ All five references are cited inline and mapped to the claims they support. The 
 **05.7 — Keyword Clustering & Query Grouping: source-checked, navigation-checked, and integration-reviewed on 2026-11-18.**
 
 This conclusion applies to the current 05.7 version and the checks listed above. It does not certify future Domain 05 topics or replace a full repository-wide duplicate-text scan.
+
+
+---
+
+## Domain 05 — Topic 05.8 Source & Integration Audit
+
+**Audit date:** 2026-11-18  
+**Document:** `05-Keyword-and-Search-Intent/05.8-Keyword-Opportunity-and-Prioritization.md`  
+**Scope:** Keyword-cluster opportunity assessment, strategic and audience relevance, demand evidence, intent fit, existing visibility, competitive context, feasibility, effort, risk, confidence, optional multi-criteria scoring, sensitivity analysis, and prioritization handoff.
+
+### Source Verification
+
+| Ref. | Source | Verification result | Claims supported |
+|---|---|---|---|
+| [1] | Google Search Central — Creating helpful, reliable, people-first content | Current official Search Central guidance opened and inspected. | Supports audience usefulness, people-first purpose, expertise, originality, and evaluating whether content fulfils visitor goals. The document does not present this as a keyword score or ranking guarantee. |
+| [2] | Google Search Console Help — Performance report (Search results): Overview and basic setup | Current official help page opened and inspected. | Supports definitions of clicks, impressions, CTR, average position, query dimensions, context variation, and chart/table aggregation caveats. |
+| [3] | Roman — Handbook for Multi-Criteria Analysis | 2012 handbook opened; relevant sections on criteria, scoring, weighting, standardization, weighted summation, and sensitivity analysis inspected. | Supports the general multi-criteria decision framework and the optional weighted-sum model. The document explicitly preserves the subjectivity and assumptions involved; this source is not presented as an SEO-specific methodology. |
+| [4] | Triantaphyllou & Sánchez — A Sensitivity Analysis Approach for Some Deterministic Multi-Criteria Decision-Making Methods | Wiley publication record and abstract opened and inspected; DOI and bibliographic metadata verified. | Supports sensitivity analysis of criteria weights and performance values when multi-criteria inputs are imprecise or changeable. |
+| [5] | Google Search Central — Spam policies for Google web search | Current official policy page opened and inspected. | Supports the definitions and examples of doorway abuse and scaled content abuse. |
+
+All five references are cited inline and mapped to the claims they support. General decision-analysis sources support the optional assessment framework only; they do not validate a universal SEO scoring formula.
+
+### Scope and Content QA
+
+- Defines opportunity assessment as a context-specific decision about whether a query or cluster is worth pursuing for a particular site and objective.
+- Separates 05.4 metric interpretation, 05.5–05.6 intent/SERP evidence, 05.7 query grouping, 05.8 prioritization, and 05.9 page mapping.
+- Covers strategic fit, audience usefulness, demand evidence, intent/outcome fit, existing visibility, competitive context, feasibility, effort, risk, and confidence.
+- Distinguishes potential, feasibility, effort, risk, confidence, and priority rather than collapsing them into one undefined score.
+- Explains qualitative assessment and optional weighted additive scoring, including normalization, weights, redundancy, missing data, hard constraints, and sensitivity analysis.
+- Warns against double-counting correlated metrics and confusing CPC/advertiser competition or third-party difficulty with direct organic ranking measurements.
+- Explains that Search Console data is property-level performance evidence, not a complete market-demand dataset or future-ranking forecast.
+- Includes a fictional espresso-grinder example; no real keyword volumes, conversion rates, SERP measurements, or business results are claimed.
+- Defines practical decision outcomes and a documented handoff to 05.9.
+- Preserves Google policy distinctions for doorway abuse and scaled content abuse.
+
+### Cross-Domain Integration
+
+- Links to 05.4 for canonical keyword metric definitions and source limitations.
+- Links to 05.5 and 05.6 for intent hypotheses and SERP validation evidence.
+- Links to 05.7 for the canonical query-clustering decision; 05.8 assesses clusters rather than rebuilding them.
+- Defines 05.9 as the downstream owner of target-page assignment, mapping conflicts, and research deliverables.
+- Keeps content planning/production (Domain 08), on-page implementation (Domain 07), ongoing site-owner analytics (planned Domain 14), ranking systems (Domain 03), and formal decision analysis outside 05.8's canonical ownership.
+- Topic 05.7 now links directly to 05.8.
+- Domain 05 README and root README now list 05.8 as documented and source-checked; 05.9 remains planned.
+
+### Technical QA
+
+- The document includes parent navigation, Related Topics, and References sections.
+- Five inline citation IDs map to five reference entries; all five references are used.
+- Internal links point to existing topic files; 05.9 is described as a planned roadmap stage and is not presented as a working file link.
+- The fictional example is explicitly labeled; no empirical results or unsupported keyword metrics are presented.
+- Final line count, link resolution, citation mapping, and duplicate screening are to be recorded after the final repository re-fetch.
+
+### Duplicate and Ownership Review
+
+- The document's canonical scope is opportunity assessment and prioritization. It does not duplicate the detailed metric definitions in 05.4, intent taxonomies and SERP validation in 05.5–05.6, or clustering methods in 05.7.
+- It references the existing canonical topics rather than reproducing their full methods.
+- The weighted-sum and sensitivity-analysis material is adapted from general multi-criteria decision analysis and explicitly identified as an optional playbook framework, not an SEO industry standard.
+- The targeted exact-match and semantic ownership review is limited to the comparison set recorded after final QA; it is not a repository-wide duplicate scan.
+
+### Audit Conclusion
+
+**05.8 — Keyword Opportunity & Prioritization: source-checked and integration-reviewed on 2026-11-18.**
+
+This conclusion applies to the current 05.8 version and the checks recorded above. It does not certify future Domain 05 topics or replace a repository-wide duplicate-text scan.
