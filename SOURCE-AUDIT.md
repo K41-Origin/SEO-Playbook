@@ -229,3 +229,56 @@ The audit confirms the cited research methods and documented software behavior. 
 
 **Domain 04 source-audit status:** Complete for the current documentation state as of 2026-11-17. Revisit time-sensitive API references, Unicode versions, benchmark documentation, and research claims when their sources change.
 
+---
+
+## Cross-Domain Source Audit Refresh
+
+**Refresh date:** 2026-11-18  
+**Coverage:** All substantive topic documents currently present in Domains 01–04 (42 topics total), building on the documented source-level reviews of Domains 01–03 dated 2026-11-15 and Domain 04 dated 2026-11-17.
+
+This refresh does not pretend that planned domains contain auditable material. Domains 05–17 remain architecture/roadmap entries without substantive topic documents and cannot pass or fail a source audit until their content exists.
+
+### Current-Source Revalidation
+
+| Domain / file | Claim or source checked | Finding and action |
+|---|---|---|
+| 01.1 — SEO Core Concepts | Google's current guide for generative AI features in Search. | Confirmed that Google's published guidance says foundational SEO remains relevant; it does not require llms.txt, AI-only markup, or special content chunking for Google Search. Existing wording preserves this boundary. [5] |
+| 01.2 — Search Visibility | Search Console Generative AI reporting and current data anomalies. | Confirmed that the Search Generative AI performance report covers AI Overviews and AI Mode, with Discover handled by a separate report. Google also records a logging error that reduced reported Search Generative AI impressions for 2026-11-09 through 2026-11-11. Added a dated caveat and direct source so readers do not mistake that logging issue for a confirmed visibility decline. [1] |
+| 01.4 — SEO Objectives & Value | New Google documentation for identifying Search traffic via HTTP Referer. | Added the 2026-11-12 documentation. The new paragraph explicitly says the header does not include the search query, may be omitted, and can include other Google services using the same origins; it is complementary measurement, not a substitute for Search Console. [2][4] |
+| 02.3 — Web Discovery | Bing Webmaster API protocol retirement notice and URL submission status. | Current Microsoft pages still display the legacy SOAP/POX retirement date of 2026-08-31 in future tense while also documenting REST APIs and continued URL submission support. The topic retains a qualification: the notice is evidence of the announced retirement, not independent confirmation that every legacy endpoint has been decommissioned. [8] |
+| 03.7 — Spam Detection & Demotion Systems | Google's 2026-08-28 site reputation policy update. | Reconfirmed the EEA-specific enforcement distinction effective 2026-08-30. The topic correctly avoids describing the policy's manual-action effect as globally uniform. [6] |
+| 03.13 — Ranking Updates & System Evolution | November 2026 core update incident record. | The incident detail still records a 2026-11-10 start, global and all-language scope, and a rollout that may take up to two weeks. As of 2026-11-18, the dashboard had not published a completion duration or end timestamp. Updated the topic's status snapshot accordingly. [3] |
+| 01.2 — Search Visibility | Bing Webmaster Tools AI Performance and Topics Portfolio. | Rechecked the official October 2026 Topics Portfolio announcement and current AI Performance documentation. The feature is explicitly a beta and is described as a view of site citations and grounding-query themes, not as a general organic ranking report. Existing references and framing retain that distinction. [7][9] |
+
+### Interpretation and Freshness Controls
+
+- A Search Console logging anomaly is a reporting-quality issue; it is not evidence that the site's underlying search visibility changed.
+- A referrer-based visit count is not equivalent to a Search Console click count or a query-level performance report.
+- A rollout's stated maximum duration is not proof of its actual completion. The live status record remains authoritative for the event's current state.
+- Microsoft's API retirement notice is preserved with its documented wording and an explicit implementation caveat. No unverified claim of completed decommissioning was added.
+- Official provider documentation establishes what the provider publishes. It does not disclose every internal ranking model, signal weight, retrieval mechanism, or production implementation.
+
+### Consolidated Audit Status
+
+| Existing domain | Topic documents | Source-level audit baseline | 2026-11-18 refresh |
+|---|---:|---|---|
+| Domain 01 — SEO Fundamentals | 5 | Reviewed 2026-11-15 | Updated 01.2 and 01.4 for current reporting/measurement guidance |
+| Domain 02 — Search Engine Fundamentals | 12 | Reviewed 2026-11-15 | Rechecked volatile Bing API retirement wording and current operational caveat |
+| Domain 03 — Search Engine Algorithms | 13 | Reviewed 2026-11-15 | Updated 03.13 for the live November 2026 core update status; rechecked 03.7 policy nuance |
+| Domain 04 — Information Retrieval | 12 | Reviewed 2026-11-17 | No additional material source correction identified in this freshness pass; formula, citation, and source review remains recorded in the Domain 04 audit above |
+| **Total existing topic documents** | **42** | **All four existing domains have a documented source-level review** | **Current-source refresh completed for material volatile items identified in this pass** |
+
+**Audit conclusion:** the source-level audit for all substantive documentation currently present in Domains 01–04 is complete, with the dated reviews and this freshness refresh recorded here. This is not a claim that all 17 planned domains are audited, nor a permanent guarantee that time-sensitive sources will remain unchanged. Recheck volatile claims before implementation or publication and audit each future domain as its substantive documents are created.
+
+### References for the 2026-11-18 Refresh
+
+1. Google. ([Data anomalies in Search Console](https://support.google.com/webmasters/answer/6211453)). Search Console Help. Accessed 2026-11-18.
+2. Google. ([Identify Google Search traffic in your web analytics or server logs](https://developers.google.com/search/docs/monitor-debug/identify-google-search-traffic/)). Google Search Central. Added 2026-11-12. Accessed 2026-11-18.
+3. Google. ([November 2026 core update — incident details](https://status.search.google.com/incidents/WLxcJyC6jMWMfryxsKMc)). Google Search Status Dashboard. Incident began 2026-11-10. Accessed 2026-11-18.
+4. Google. ([Latest Google Search documentation updates](https://developers.google.com/search/updates)). Google Search Central. November 2026 updates. Accessed 2026-11-18.
+5. Google. ([Optimizing your website for generative AI features on Google Search](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide)). Google Search Central. Accessed 2026-11-18.
+6. Google. ([Update to the Site Reputation Policy](https://developers.google.com/search/blog/2026/08/update-site-reputation-policy)). Google Search Central Blog, 2026-08-28. Accessed 2026-11-18.
+7. Microsoft Bing. ([Introducing Topics Portfolio (Beta) in AI Performance](https://blogs.bing.com/webmaster/2026/10/introducing-topics-portfolio-beta-in-ai-performance/)). Bing Webmaster Blog, 2026-10-13. Accessed 2026-11-18.
+8. Microsoft. ([Bing Webmaster API](https://learn.microsoft.com/en-us/bingwebmaster/)) and ([Supported API Protocols](https://learn.microsoft.com/en-us/bingwebmaster/api-protocols)). Microsoft Learn. Accessed 2026-11-18.
+9. Microsoft Bing. ([AI Performance in Bing Webmaster Tools](https://www.bing.com/webmasters/help/ai-performance-9f8e7d6c)). Bing Webmaster Tools Help. Accessed 2026-11-18.
+
