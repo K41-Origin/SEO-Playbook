@@ -190,3 +190,42 @@ A further content-level review was performed against the current `main` branch. 
 This is a documented second-pass sample, not an exhaustive audit. It does not change the audit status table above. The remaining work includes the full Domain 01/03/05/06 comparative pass, remaining Domain 02/04 comparisons, claim-by-claim reference verification, volatile-source freshness checks, heading-anchor and external-link validation, and a complete per-topic regression register.
 
 **Verdict remains: NOT FULLY AUDITED.**
+
+
+## 10. Execution Update — 2026-11-19 (Domain 01/03/05 Sample and Consolidation)
+
+### Domain 05 workflow review
+
+Inspected the body text and references for 05.5–05.9. The canonical workflow is coherent:
+
+- 05.5 owns intent concepts and working taxonomies.
+- 05.6 owns SERP observation used to validate or revise intent hypotheses.
+- 05.7 owns research-side query grouping and clustering.
+- 05.8 owns opportunity assessment and prioritization.
+- 05.9 owns mapping selected clusters to page candidates and packaging the research handoff.
+
+The reviewed pages explicitly distinguish clustering from search-engine query clustering, SERP observation from SERP-feature implementation, and editorial keyword mapping from Google URL canonicalization. 05.8 and 05.9 have clear upstream/downstream responsibilities; their shared references to priority and feasibility are handoff inputs, not a reason to merge the topics. Their inspected references include primary academic intent/clustering research, Google Search Central documentation for provider-specific behavior, Search Console documentation for metric definitions, and decision-analysis literature for multi-criteria prioritization.
+
+This was a scoped review of 05.5–05.9, not verification of every sentence or all of Domain 05. The full 05.1–05.4 source and overlap pass remains open.
+
+### Domain 01 / Domain 03 sample
+
+Inspected 01.1, 01.4, 01.5, 03.4, and 03.12.
+
+- **01.1 vs 01.5:** 01.1 introduces the SEO discipline categories as a compact orientation; 01.5 owns the detailed editorial taxonomy and scope descriptions. Keep the list in 01.1 short.
+- **01.4 vs 01.2 / Domain 14:** 01.4 owns organizational objectives and business value. Search visibility concepts and site-owner reporting need to remain in their canonical topics/domains rather than expanding into a second analytics guide.
+- **03.4 vs 04.1 / 04.11:** 03.4 owns how ranking systems assess query-document matching; 04.1 owns the general IR concept of relevance; 04.11 owns human assessment design and relevance judgments. Shared terminology is necessary, but their system role and research method must remain distinct.
+- **03.12 vs 04.11 / 04.12:** a concrete consolidation issue was identified. 03.12 repeated a metric-definition table and explanatory relevance-judgment material already owned by Domain 04. It has now been shortened to identify the metric families used in ranking evaluation and link to 04.11 for judgment/test-collection design and 04.12 for formal metric definitions and calculations. The ranking-specific experimental design, guardrails, online testing, human evaluation context, and provider-attributed public disclosures remain in 03.12.
+
+### Remediation and regression
+
+- Updated `03-Search-Engine-Algorithms/03.12-Ranking-Evaluation-and-Testing.md` to remove duplicated metric definitions and duplicated assessment-method detail.
+- Commit: `5957339544b2622e65631d0a375c280d18498dd6`.
+- Re-fetched the updated file from `main` and verified both canonical Domain 04 boundary links are present and the duplicated Precision/Recall/MAP/MRR/NDCG definition table is absent.
+- No other Domain 01/03/05 file was changed in this pass.
+
+### Remaining scope
+
+This sample does not complete the audit. Full Domain 01/03/05 all-pairs comparisons, Domain 06 comparative review, the remaining Domain 02/04 pairs, all-claim source verification, freshness checks, heading-anchor and external-link validation, and final all-topic regression remain outstanding.
+
+**Verdict remains: NOT FULLY AUDITED.**
