@@ -1719,3 +1719,14 @@ All five sources were opened and inspected. Claims are scoped to Google's docume
 Google's documentation states that AI Overviews and AI Mode can surface supporting links, that ordinary Search eligibility applies to those links, and that no special AI-only markup or technical requirement is needed. Google also warns that generated responses can be wrong. The October 2026 announcement confirms that source-link presentation continues to evolve; therefore, the document describes interaction patterns and dated updates rather than a permanent visual specification.
 
 The topic does not claim a guaranteed citation method, fixed source-selection formula, universal feature availability, or complete disclosure of Google's internal AI Search architecture. Its integration review is topic-level and targeted. A comprehensive cross-topic semantic audit across all 11 Domain 06 pages remains the next planned review.
+
+
+## Repository-Wide Integration Audit — 2026-11-19
+
+A broader audit has now inventoried and retrieved all 62 substantive topic pages across Domains 01–06. The first-pass review checked document structure, reference-list presence, numeric citation-ID ranges, and high-risk ownership boundaries.
+
+**This is not a final source-audit sign-off.** Citation-number integrity does not prove source-to-claim accuracy. Claim-by-claim source verification, freshness review of every volatile statement, exhaustive link/anchor validation, pairwise semantic comparison, remediation, and regression QA remain in progress.
+
+The full audit scope, collision matrix, current findings, limitations, and remediation sequence are documented in [REPOSITORY-INTEGRATION-AUDIT-2026-11-19.md](REPOSITORY-INTEGRATION-AUDIT-2026-11-19.md).
+
+The earlier Domain 01–03 audit record above remains a historical record of that review. It must not be interpreted as a completed audit of the later-developed Domains 04–06 or as a certification that the current repository has passed the new repository-wide audit.
