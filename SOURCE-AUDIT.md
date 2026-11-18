@@ -1828,3 +1828,16 @@ The continuing review is recorded in `REPOSITORY-INTEGRATION-AUDIT-2026-11-19.md
 These are documented review passes and samples, not blanket proof that every external reference and every factual statement in all 62 topic pages has been verified. URL inspection errors/timeouts and JavaScript-only rendering are recorded as inspection limitations, not automatically misclassified as broken links.
 
 **Repository-wide source audit status: OPEN / NOT FULLY AUDITED.** Outstanding gates include complete claim-to-source verification, exhaustive external destination/redirect review, complete semantic overlap assessment across the 62 topic pages, and final regression QA after all remediation.
+
+
+## Post-Remediation Regression — 2026-11-19
+
+After the latest topic edits, eight modified pages (02.3, 02.11, 03.12, 04.8, 04.11, 04.12, 05.6, 06.4) were re-fetched from the current main branch.
+
+- Undefined numeric citation IDs: 0.
+- Unused numbered references: 0.
+- Relative Markdown links checked: 81.
+- Missing relative Markdown targets: 0.
+- Detailed record: `REPOSITORY-INTEGRATION-AUDIT-2026-11-19.md`, Section 34.
+
+This is a targeted post-remediation regression check, not a full rerun of all 62 topic pages or closure of the outstanding source/semantic gates.
