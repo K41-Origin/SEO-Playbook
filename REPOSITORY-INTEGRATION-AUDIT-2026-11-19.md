@@ -585,3 +585,30 @@ Some DOI resolvers returned publisher access restrictions in this interface, but
 All nine reference lists were inventoried, but the claim review above is selective. This is not a sentence-by-sentence audit of all statements or an exhaustive HTTP/redirect check for every Domain 05 reference. The workflow and ownership boundary review of 05.1–05.9 remains as recorded in earlier sections.
 
 **Audit verdict remains: NOT FULLY AUDITED.**
+
+
+## 23. Execution Update — 2026-11-19 (Domain 06 SERP and Search Feature Sources)
+
+### Reference inventory
+
+Extracted reference destinations from all 11 Domain 06 topic pages (06.1–06.11). Opened and inspected a broad sample across Google Search Central's visual elements gallery, organic appearance documentation, structured-data policies and feature guides, Google Search Help, Google Business Profile Help, Google News Publisher Center, Google's public Search/News explanations, Merchant Center, Shopping Help, and AI Mode/AI Overviews documentation.
+
+### Verified source/claim areas
+
+- Google's Search Help and Ads Help distinguish organic results from sponsored ads and document the current sponsored-results label. The cited October 2025 announcement describes the updated label and rollout.
+- Current Google documentation supports the page/site-name, favicon, title-link, snippet, publication-date, sitelink, featured-snippet, and robots-meta descriptions in 06.2 and 06.4.
+- Google's featured-snippet Help page confirms that snippets may appear in People Also Ask expansions and adjacent to Knowledge Graph information. The 06.4 topic correctly distinguishes the answer excerpt from the PAA exploration group itself.
+- Structured-data policy, testing, JavaScript-generated markup, product snippets, merchant listings, and the 2025/2026 Search documentation changelog support the sampled 06.3 claims. The changelog confirms the staged removal of deprecated Search features and clarifies that the Dataset type is not a Google Search rich result.
+- Google Business Profile Help confirms local result presentation in Search and Maps, public/business/user data sources, profile eligibility and management, and the documented local ranking guidance. The separate LocalBusiness structured-data page supports the implementation/presentation boundary.
+- Search Console's local-search opt-out documentation specifies domain-level scope and global local-result application, supporting the 06.6 qualification.
+- Google News Publisher Center states that Top Stories may appear for news-oriented queries, is automatically selected, and is not guaranteed by eligibility. Google's news explanation describes automated organization of news sources.
+- Preferred Sources Help confirms that the setting affects Top Stories and AI Mode/AI Overviews; it is a user preference on documented surfaces, not a general organic-ranking guarantee.
+- Google Images and Lens Help describes image-based search and result types. Video SEO and VideoObject documentation supports the visible video-result and markup descriptions.
+- Merchant Center confirms that free product listings may appear across Search, Images, Lens, YouTube, Gemini, Shopping, and other documented surfaces. Shopping Help distinguishes sponsored listings and describes personalization on the Shopping tab.
+- Current AI Overviews and AI Mode Help pages describe generated summaries/responses, links to explore, follow-up interaction, limitations, and availability. Google's AI-feature guide remains the authoritative site-owner guidance. The topic's latest feature claims were also checked against the official 2026 Google announcements listed in its References.
+
+### Scope limitation
+
+The 11 reference lists were inventoried, but not every destination in all 11 topics was opened, and this does not constitute sentence-by-sentence verification of every claim. The cross-topic semantic review for Domain 06 and full cross-domain semantic all-pairs review remain separate required gates. Earlier topic-specific QA and source records remain valid only within their stated scope.
+
+**Audit verdict remains: NOT FULLY AUDITED.**
