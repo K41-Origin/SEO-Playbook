@@ -1360,3 +1360,66 @@ The duplicate check compared normalized substantive paragraphs against 06.1 for 
 **06.5 is documented and integration-reviewed.** Its scope follows the approved Domain 06 roadmap and preserves the canonical ownership of adjacent topics.
 
 The source review verifies Google's published explanations as accessed on 2026-11-19. The 2020 Google post is used only for explanatory context and is explicitly qualified where it discusses historical layout behavior. The available sources do not disclose the full Knowledge Graph construction pipeline, entity-resolution algorithms, source weights, or a universal threshold for panel display. The targeted duplicate review does not prove the absence of every possible semantic overlap across the repository. Panel content, availability, and interface behavior can change and should be rechecked against current provider documentation during maintenance.
+
+
+---
+
+## Domain 06.6 — Local & Map-Based SERP Features
+
+**Review date:** 2026-11-19  
+**Document:** [06.6 — Local & Map-Based SERP Features](06-SERP-and-Search-Features/06.6-Local-and-Map-Based-SERP-Features.md)  
+**Review type:** Topic-level source, structure, and targeted integration review.
+
+### Research and Source Review
+
+The topic was researched against six official Google sources, opened and checked on 2026-11-19:
+
+1. Google Business Profile Help, **Tips to improve your local ranking on Google** — Google's published high-level local factors (relevance, distance, prominence), geographic context, and explicit statement that businesses cannot request or pay for a better organic local ranking.
+2. Google Business Profile Help, **Understand how Google sources & uses info in Business Profiles & local search results** — local result presentation across Search and Maps, multiple sources of Business Profile information, and examples of owner-provided and user-contributed information.
+3. Google Search Central, **Establish your business details with Google** (last updated 2025-12-10) — how business details and local Business Profiles relate to Search, Maps, and knowledge-panel presentation.
+4. Google Search Central, **Local business structured data** — the purpose and scope of LocalBusiness markup, examples of business details, and the distinction between website structured data and local Search appearance.
+5. Google Search Console Help, **Opt out of display on local search results and other Google properties** — the documented domain-level opt-out for crawled website content on local search results, its global scope for local results, and the stated removal window.
+6. Google Business Profile Help, **Get started with Google Business Profile** — the customer-visible business information and interactions available through Business Profiles across Search and Maps, plus eligibility context.
+
+All six numbered references are used by inline citations. Google-specific behavior is attributed to Google. "Local pack," "map pack," and "Local Finder" are explicitly framed as descriptive or practitioner terminology where Google does not establish a stable formal taxonomy.
+
+### Structural and Integration Checks
+
+| Check | Result |
+|---|---|
+| Topic document | Created; local/map presentation and visible Business Profile context documented |
+| Numbered references | 6 |
+| Missing citation IDs | 0 |
+| Unused reference entries | 0 |
+| Parent-domain navigation | Present |
+| Related Topics section | Present |
+| Internal Markdown links | 5 unique targets; all verified |
+| Broken internal file targets | 0 |
+| Reciprocal 06.5 relationship | Added |
+| Domain index | Updated with 06.6 link and status |
+| Root README | Updated to mark 06.1–06.6 documented |
+| Citation and source freshness | Official sources opened and checked on 2026-11-19; Search Central business-details page last updated 2025-12-10 |
+| Targeted exact-paragraph comparison | 0 repeated substantive paragraphs against 06.1–06.5 and 05.6 |
+
+The duplicate check compared normalized substantive paragraphs against 06.1 for SERP anatomy, 06.2 for standard organic-result elements, 06.3 for structured-data search appearances, 06.4 for featured snippets, 06.5 for knowledge panels and entity presentation, and 05.6 for SERP-based intent validation. No exact repeated substantive paragraphs were found. This is a targeted exact-paragraph check, not an exhaustive semantic comparison of every repository document.
+
+### Integration Decisions
+
+- 06.1 retains overall SERP anatomy; 06.6 documents local/map modules as specific presentation formats.
+- 06.2 retains standard organic-result components; local business listings have place- and business-specific information.
+- 06.3 retains rich results and structured-data search appearances. 06.6 distinguishes LocalBusiness website markup from local result presentation and does not claim that markup guarantees a local pack.
+- 06.4 retains featured snippets and direct answers; these are not local business discovery modules.
+- 06.5 retains entity-oriented knowledge panels. 06.6 distinguishes general knowledge panels from local Business Profiles and local result groups.
+- Domain 03 retains ranking systems and ranking evaluation. 06.6 summarizes only Google's published high-level local factors and does not invent weights or a scoring formula.
+- Domain 05.6 retains SERP-based intent research. 06.6 provides the vocabulary for identifying local and map-based presentations without duplicating intent classification.
+- Domain 09 retains semantic entity architecture; local result presentation is not semantic SEO implementation.
+- Domain 10 retains technical implementation, including structured data and technical controls. The local-results opt-out is described only for its documented user-visible scope.
+- Domain 13 retains local SEO strategy, Business Profile optimization, location targeting, and execution. 06.6 does not become a local SEO optimization guide.
+- Domain 14 retains site-owner performance analytics. Manual SERP observations are not presented as substitutes for performance reporting.
+- Paid local placements are explicitly distinguished from organic local results; advertising products and their auction mechanics remain outside this topic.
+
+### Review Result and Limits
+
+**06.6 is documented and integration-reviewed.** Its scope follows the approved Domain 06 roadmap and preserves canonical ownership of adjacent topics.
+
+The research verifies Google's published guidance as accessed on 2026-11-19. Google does not publish a complete local-ranking formula, exact factor weights, or a universal SERP layout for every query, location, device, language, and market. "Local pack," "map pack," and "Local Finder" are used as descriptive practitioner labels rather than asserted as stable official feature taxonomy. The 2025-12-10 Search Central business-details page is dated explicitly; other Help Center pages may change without a visible publication date. The targeted duplicate review does not establish the absence of every possible semantic overlap across the repository.
