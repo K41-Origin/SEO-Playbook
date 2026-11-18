@@ -1535,3 +1535,65 @@ The source set is intentionally Google-specific. The topic does not claim that o
 **06.8 is documented and source-reviewed.** The topic follows the approved Domain 06 roadmap and preserves canonical ownership of adjacent topics.
 
 Google's official documentation distinguishes image results, text-result images, Google Images, Lens, video results, Video mode, and Discover. The precise visual layout and availability can vary by surface, device, region, language, and query. The document does not claim a fixed card specification or guaranteed display of video enhancements. Its duplicate comparison is targeted and must not be represented as an exhaustive semantic audit of the entire repository.
+
+
+## Domain 06.9 — Shopping & Product Search Features
+
+**Review date:** 2026-11-19  
+**Document:** [06.9 — Shopping & Product Search Features](06-SERP-and-Search-Features/06.9-Shopping-and-Product-Search-Features.md)  
+**Review type:** Topic-level source, structure, and targeted integration review.
+
+### Research and Source Review
+
+The topic was checked against eight official Google sources on 2026-11-19:
+
+1. Google Search Central, **Where ecommerce content can appear on Google** — product discovery surfaces and the qualification that actual Search appearance can differ from examples.
+2. Google Search Central, **Share your product data with Google** — structured data, Merchant Center feeds, data-source combination, and surface-specific participation requirements.
+3. Google Merchant Center Help, **Free listings for products** — free-listing surfaces, eligibility, opt-in, and the explicit limitation that participation does not guarantee display.
+4. Google Shopping Help, **How Google Shopping works** — product discovery, seller destinations, Sponsored labels, personalization, filters, price/update delays, and aggregation of review ratings.
+5. Google Search Central, **Merchant listing structured data** — merchant purchase-page eligibility, offer information, pricing, and Merchant listings reporting.
+6. Google Search Central, **Product snippet structured data** — product snippet presentation and its distinction from merchant listing experiences.
+7. Google Ads Help, **About the Google Search Network** — Shopping ads as paid product advertisements and their Sponsored/Ad label behavior.
+8. Google Search Central, **Introduction to Product structured data** — product data provision methods and the distinction between product snippets and merchant listings.
+
+The sources are Google-specific and support statements about Google's own products and documented behavior. The topic does not generalize these rules to other search engines.
+
+### Structural and Integration Checks
+
+| Check | Result |
+|---|---|
+| Topic document | Created; product modules, Shopping, product snippets, merchant listings, free listings, paid Shopping ads, visible offer attributes, variants, and cross-surface discovery documented |
+| Numbered references | 8 |
+| Missing citation IDs | 0 |
+| Unused reference entries | 0 |
+| Internal Markdown link occurrences | 9 |
+| Unique internal Markdown targets | 8 |
+| Broken internal links | 0 |
+| Parent-domain navigation | Present |
+| Related Topics section | Present |
+| Domain index | Updated with 06.9 link and documented status |
+| Root README | Updated to mark 06.1–06.9 documented and 06.10–06.11 planned |
+| Reciprocal topic link | 06.8 now links to 06.9 |
+| Source freshness | Official sources opened and checked on 2026-11-19 |
+| Targeted exact-paragraph comparison | 0 repeated substantive paragraphs against 06.1–06.8 and 05.6; not an exhaustive semantic audit |
+
+### Integration Decisions
+
+- 06.1 retains overall SERP anatomy; 06.9 documents shopping/product-specific presentation.
+- 06.2 retains standard organic-result components. Product snippets are described here only as a product-specific enhanced result, not as a replacement for the standard-result model.
+- 06.3 retains general structured-data and rich-result concepts. Product snippets and merchant listings are described here in their product-specific visible context; implementation remains in Domain 10.
+- 06.6 retains local packs, Maps results, and Business Profile presentation. Local inventory is referenced only to distinguish product discovery from the broader local-result feature.
+- 06.8 retains image and Lens presentation. 06.9 describes the product-shopping context that can occur across those surfaces.
+- 06.10 retains general interactive query refinement. Product filters are mentioned only as observable controls within Shopping.
+- Domain 05 retains keyword discovery and intent inference. This topic does not reproduce shopping keyword research or SERP-intent methodology.
+- Domain 03 retains ranking systems and candidate evaluation. Product placement and visual prominence do not disclose ranking internals.
+- Domain 10 retains product structured-data implementation, Merchant Center feeds, product variants, crawlability, and validation.
+- Domain 08 retains product content, editorial review quality, and media production; Domain 13 retains local SEO strategy; Domain 14 retains site-owner performance measurement.
+
+### Review Result and Limits
+
+**06.9 is documented and source-reviewed.** The topic follows the approved Domain 06 roadmap and preserves canonical ownership of adjacent topics.
+
+Google documents product snippets and merchant listings as distinct product structured-data experiences, free listings as unpaid product placements, and Shopping ads as paid advertisements. Product data and feature availability vary by surface and market. Price, stock, seller information, and review ratings may change or differ across sources; the topic therefore avoids treating a visible value as permanent or universally complete.
+
+The five-state eligibility/display model in 06.9 is explicitly a practical diagnostic model, not an official Google taxonomy. The duplicate comparison is targeted and must not be represented as an exhaustive semantic audit of the entire repository.
