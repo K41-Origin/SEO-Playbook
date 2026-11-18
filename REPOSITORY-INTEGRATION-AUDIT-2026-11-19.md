@@ -742,3 +742,24 @@ The reviewed introductory and handoff sections do not show an additional ownersh
 This is a full scope/handoff review of the nine topic introductions and navigation boundaries, not a complete body-level semantic comparison of every 05-page pair or a sentence-by-sentence source audit.
 
 **Audit verdict remains: NOT FULLY AUDITED.**
+
+
+## 29. Execution Update — 2026-11-19 (Domain 01 Scope and Ownership Review)
+
+Re-read the purpose, opening sections, and related-topic handoffs for all five Domain 01 pages (01.1–01.5).
+
+| Topic | Canonical responsibility | Boundary confirmed |
+|---|---|---|
+| 01.1 SEO Core Concepts | Define SEO, its purpose, broad scope, and foundational search relationship. | Overview only; it does not replace specialist discipline guides or the measurement topic. |
+| 01.2 Search Visibility | Explain the concept and observable dimensions of organic search presence. | Visibility is explicitly a conceptual framework, not a single official Google metric; Search Console metric interpretation is referenced, not duplicated as a full analytics guide. |
+| 01.3 SEO Ecosystem | Map participants, organizations, systems, incentives, and relationships in the SEO environment. | Editorial ecosystem model; not a second search-engine architecture or an official provider taxonomy. |
+| 01.4 SEO Objectives & Value | Connect SEO activity to organizational goals, outcomes, contribution, and value. | Business objectives and measurement logic; not a duplicate visibility definition or full analytics implementation manual. |
+| 01.5 SEO Disciplines | Provide the playbook's editorial taxonomy of SEO workstreams and specialist contexts. | Taxonomy only; detailed execution is delegated to the specialist domains. |
+
+### Disposition
+
+The five topics form a coherent foundation: definition/purpose → visibility concept → ecosystem context → organizational value → discipline taxonomy. Their introductory overlap is necessary to establish context, but their stated ownership and navigation handoffs remain distinct. No new deletion or merge was justified by this scope review.
+
+This is a scope/ownership review of the five topic introductions and navigation boundaries, not a full body-level semantic comparison of all ten 01-page pairs or a sentence-by-sentence claim audit.
+
+**Audit verdict remains: NOT FULLY AUDITED.**
