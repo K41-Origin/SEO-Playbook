@@ -921,7 +921,7 @@ This conclusion applies to the current 05.9 version and the checks recorded abov
 | Domain indexes | 5 |
 | Root README, AGENTS.md, and SOURCE-AUDIT.md | 3 |
 | **Markdown files reviewed in the inventory** | **59** |
-| License file | 1 |
+| License file | 1 — GNU General Public License v3 (GPL-3.0) identified from the license header; legal text not modified. |
 | Established top-level domains | 17 |
 | Domains with substantive topic documents | 5 |
 | Planned domains without substantive topic documents | 12 (Domains 06–17) |
