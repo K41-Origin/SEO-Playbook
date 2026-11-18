@@ -1807,3 +1807,21 @@ The latest inventory and the explicit scope limitations are recorded in [REPOSIT
 - Audit record: `REPOSITORY-INTEGRATION-AUDIT-2026-11-19.md`, Section 16.
 
 This is a narrow navigation regression result. It does not establish external URL reachability or source-to-claim support for every reference. The repository-wide source audit remains open until the outstanding claim-level, external destination, semantic overlap, and final regression gates are evidenced.
+
+
+## Repository-Wide Source Review Addendum — 2026-11-19
+
+The continuing review is recorded in `REPOSITORY-INTEGRATION-AUDIT-2026-11-19.md`:
+
+- Section 16: 62/62 topic-page Markdown fragment extraction; 16/16 internal heading fragments resolve; one stale external Google JavaScript SEO anchor removed.
+- Section 17: all 17 reference destinations in 01.2 opened and inspected; selected Search Console, AI reporting, personalization-control, and data-anomaly claims checked.
+- Section 18: Domain 01 reference destinations reviewed; selected claims checked against Google, Microsoft, W3C, and UK Government sources. One Bing Help article rendered only as a JavaScript shell.
+- Section 19: Domain 02 reference inventory and source review; selected crawler, robots, indexing, rendering, query processing, serving, infrastructure, and retirement claims checked. NISO reference changed to its canonical publication page.
+- Section 20: Domain 03 reference inventory and source review; selected ranking, spam, freshness, personalization, news, neural IR, and evaluation claims checked.
+- Section 21: Domain 04 reference inventory and source review; selected IR, Unicode, Lucene, neural retrieval, hybrid retrieval, and evaluation claims checked.
+- Section 22: Domain 05 reference inventory and source review; selected keyword metrics, Trends, Search Console, query refinement, clustering, canonicalization, and prioritization claims checked.
+- Section 23: Domain 06 reference inventory and source review; selected SERP, rich-result, featured-snippet, local, news, image/video, shopping, interactive, and AI-feature claims checked.
+
+These are documented review passes and samples, not blanket proof that every external reference and every factual statement in all 62 topic pages has been verified. URL inspection errors/timeouts and JavaScript-only rendering are recorded as inspection limitations, not automatically misclassified as broken links.
+
+**Repository-wide source audit status: OPEN / NOT FULLY AUDITED.** Outstanding gates include complete claim-to-source verification, exhaustive external destination/redirect review, complete semantic overlap assessment across the 62 topic pages, and final regression QA after all remediation.
