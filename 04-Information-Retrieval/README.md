@@ -153,7 +153,7 @@ These are starting points for research, not a frozen whitelist. Each topic must 
 
 ---
 
-*Domain 04 defines the canonical scope and roadmap for Information Retrieval. All twelve topic pages are documented and source-audited as of 2026-11-17. Continue maintaining source freshness, technical accuracy, and integration as related domains are developed.*
+*Domain 04 defines the canonical scope and roadmap for Information Retrieval. All twelve topic pages are documented and source-audited as of 2026-11-17; source freshness was rechecked on 2026-11-18. Continue maintaining technical accuracy and integration as related domains are developed.*
 
 
 ## Development Status
@@ -173,6 +173,6 @@ These are starting points for research, not a frozen whitelist. Each topic must 
 | Topic 04.10 — Hybrid & Advanced Retrieval Methods | Documented; source-audited (2026-11-17) | Hybrid lexical/dense and sparse/dense retrieval, candidate merging, score and rank fusion, RRF, multi-stage retrieval, orchestration, evaluation, and evidence boundaries are documented with cited research and implementation references. |
 | Topic 04.11 — Relevance Assessment & Evaluation Frameworks | Documented; source-audited (2026-11-17) | Relevance criteria, binary and graded judgments, assessors and agreement, test collections, qrels, pooling, evaluation frameworks, experimental design, and limitations are documented with cited IR literature and NIST TREC materials. |
 | Topic 04.12 — Information Retrieval Evaluation Metrics | Documented; source-audited (2026-11-17) | Precision, Recall, F-measure, P@k, R@k, R-precision, AP/MAP, MRR, CG/DCG/nDCG, bpref, ERR, RBP, query aggregation, worked calculations, and metric-selection guidance are documented with cited IR literature and evaluation-tool references. |
-| Source-level audit | Complete (2026-11-17) | All 12 topic documents were reviewed for technical claim-source fit, mathematical definitions and formulae, citation integrity, and reference accuracy; corrections are recorded in the repository audit log. |
+| Source-level audit | Complete; freshness rechecked (2026-11-18) | All 12 topic documents were reviewed for technical claim-source fit, mathematical definitions and formulae, citation integrity, and reference accuracy on 2026-11-17; current-source freshness was rechecked on 2026-11-18. |
 | Cross-domain integration | Integrated (initial audit) | Reciprocal links connect IR foundations to operational processing, indexing, query handling, and retrieval in Domain 02, and to relevance, neural ranking, ranking architecture, and evaluation in Domain 03. Links to Domains 05, 09, 10, 14, 16, and 17 remain roadmap-level until those domains have substantive documents. |
 
