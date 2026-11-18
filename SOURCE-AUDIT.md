@@ -1782,7 +1782,7 @@ Re-fetched all 62 numbered topic pages on `main` and rechecked numeric citation 
 - Numbered references with no in-text citation: **0 across 62 pages**.
 - Missing relative Markdown file targets: **0 across 62 pages**.
 
-These are structural checks, not claim-support verification. Heading anchors and external URLs have not yet been exhaustively checked. The source-to-claim review, semantic all-pairs comparison, full volatile-claim freshness review, and final sign-off remain open. The 04.11 DOI `10.1016/S0306-4573(00)00010-8` is valid; a simple Markdown parser can mistakenly truncate it at the DOI's internal closing parenthesis.
+These are structural checks, not claim-support verification. A subsequent heading-fragment pass checked 14/14 internal Markdown heading fragments and removed one stale external fragment; see the later heading-fragment regression section. External URL reachability and redirects have not been exhaustively checked. The source-to-claim review, semantic all-pairs comparison, full volatile-claim freshness review, and final sign-off remain open. The 04.11 DOI `10.1016/S0306-4573(00)00010-8` is valid; a simple Markdown parser can mistakenly truncate it at the DOI's internal closing parenthesis.
 
 See [REPOSITORY-INTEGRATION-AUDIT-2026-11-19.md](REPOSITORY-INTEGRATION-AUDIT-2026-11-19.md), section 12.
 
@@ -1813,7 +1813,7 @@ This is a narrow navigation regression result. It does not establish external UR
 
 The continuing review is recorded in `REPOSITORY-INTEGRATION-AUDIT-2026-11-19.md`:
 
-- Section 16: 62/62 topic-page Markdown fragment extraction; 16/16 internal heading fragments resolve; one stale external Google JavaScript SEO anchor removed.
+- Section 16: 62/62 topic-page Markdown fragment extraction; 14/14 internal heading fragments resolve; one stale external Google JavaScript SEO anchor removed.
 - Section 17: all 17 reference destinations in 01.2 opened and inspected; selected Search Console, AI reporting, personalization-control, and data-anomaly claims checked.
 - Section 18: Domain 01 reference destinations reviewed; selected claims checked against Google, Microsoft, W3C, and UK Government sources. One Bing Help article rendered only as a JavaScript shell.
 - Section 19: Domain 02 reference inventory and source review; selected crawler, robots, indexing, rendering, query processing, serving, infrastructure, and retirement claims checked. NISO reference changed to its canonical publication page.
