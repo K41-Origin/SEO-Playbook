@@ -1747,3 +1747,14 @@ Additional repository-wide regression checks and targeted source corrections wer
 These changes were regression-checked for citation-number range and expected link/text presence. The exact updated blob SHAs and commit identifiers are available in Git history.
 
 **Audit status remains open.** This execution does not claim a fresh claim-by-claim source recheck of all 62 documents, exhaustive semantic comparison of all topic pairs, anchor/image validation, or external-URL validation. The historical domain-level audit records retain their original scopes and dates. Do not treat this update as final repository-wide audit sign-off.
+
+
+### Second Comparative Pass — 2026-11-19
+
+A further body-text and reference-list inspection covered Domain 02 topics 02.1, 02.2, 02.5–02.8 and Domain 04 topics 04.1, 04.3–04.8, 04.11, and 04.12. The pass confirmed the intended abstraction boundaries for the sampled pairs: search-engine overview vs architecture; resource parsing/rendering vs IR text preprocessing; operational search indexing vs IR index structures; system query processing vs SEO intent analysis; operational retrieval vs IR retrieval theory; and relevance-assessment design vs metric computation.
+
+The sampled reference lists use appropriate source classes for their stated subjects, including the Stanford IR textbook, Unicode standards, and versioned Apache Lucene API documentation. This was a scoped source-fit inspection, not a sentence-by-sentence validation of all claims, equations, or examples. No confirmed defect requiring a change was established in this sample. The 02.1/02.2 lifecycle overlap is retained as an intentional overview-to-detail relationship; 02.1 must stay concise and 02.2 remains the owner of architecture detail.
+
+Detailed findings and limitations are recorded in [REPOSITORY-INTEGRATION-AUDIT-2026-11-19.md](REPOSITORY-INTEGRATION-AUDIT-2026-11-19.md), section 9.
+
+**No audit sign-off is granted.** The remaining source-to-claim, full semantic all-pairs, Domain 01/03/05/06 comparative, external URL, heading-anchor, and final regression work remains open.
