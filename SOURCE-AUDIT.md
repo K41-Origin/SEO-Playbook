@@ -1180,3 +1180,65 @@ Targeted duplicate review was performed against the most relevant existing mater
 **06.2 is documented and integration-reviewed.** Its component-level scope follows the approved Domain 06 architecture and preserves the canonical ownership of adjacent topics.
 
 The source review verifies Google's published guidance, not every rendering behavior across every query, country, language, device, or search surface. The topic does not claim universal search-engine behavior, and the targeted integration review is not an exhaustive all-pairs semantic audit of every repository document. Provider documentation and presentation can change; volatile claims require rechecking against current primary sources.
+
+
+---
+
+## Domain 06.3 — Rich Results & Structured Data Search Appearance
+
+**Review date:** 2026-11-19  
+**Document:** [06.3 — Rich Results & Structured Data Search Appearance](06-SERP-and-Search-Features/06.3-Rich-Results-and-Structured-Data-Search-Appearance.md)  
+**Review type:** Topic-level source, structure, freshness, and targeted integration review.
+
+### Research and Source Review
+
+The topic was researched against current Google Search Central documentation, official Search Central announcements, and Schema.org's vocabulary guidance:
+
+1. Google Search Central's introduction to structured data for the definition, purpose, supported formats, accuracy expectations, and distinction between markup and feature eligibility. The page's last-updated date was checked as 2025-12-18.
+2. Google's general structured-data guidelines for no-guarantee language, technical access, required properties, content quality, relevance, and the separation between eligibility and actual display.
+3. Google's Search appearance documentation for the current overview of structured-data-supported Search features and early-adopter status.
+4. Schema.org's getting-started guidance for the broader vocabulary scope, distinguished from Google's supported Search feature set.
+5. Google's JavaScript structured-data guidance for rendered markup and the limits of source-only assumptions.
+6. Google's product-snippet documentation as a concrete example of feature-specific requirements.
+7. Google's structured-data testing documentation for the different roles of Rich Results Test and Schema Markup Validator.
+8. Google's June 12, 2025 announcement and September 8, 2025 update on selected structured-data feature retirements and reporting changes.
+9. Google's August 8, 2023 FAQ/How-To announcement, including its September 14, 2023 update confirming How-To rich-result deprecation.
+10. Google's documentation changelog for later corrections and clarifications, including the November 5, 2025 Book Actions and Dataset/Practice Problem updates.
+
+A material chronology correction was incorporated: although Google's June 2025 announcement initially listed Book Actions among types being phased out, its November 5, 2025 changelog removed the Book Actions deprecation banner because a Search feature still used that markup. The topic therefore does not incorrectly classify Book Actions as fully retired. It also distinguishes Dataset Search from Google web Search and records the Practice Problem support phase-out.
+
+All ten numbered references are used by inline citations. Provider-specific statements are attributed to Google; Schema.org is used only to describe the broader vocabulary, not to imply Google Search support.
+
+### Structural and Integration Checks
+
+| Check | Result |
+|---|---|
+| Topic document | Created; substantive guide to rich-result presentation and eligibility |
+| Numbered references | 10 |
+| Missing citation IDs | 0 |
+| Unused reference entries | 0 |
+| Parent-domain navigation | Present |
+| Related Topics section | Present |
+| Internal Markdown targets | 4 checked |
+| Broken internal file targets | 0 |
+| Provider-specific behavior | Explicitly attributed to Google |
+| Feature lifecycle freshness | Checked against official 2023–2025 announcements and current documentation |
+| Scope boundaries | Explicitly documented |
+
+Targeted integration review compared the topic's canonical scope against 06.1 for page-level SERP anatomy, 06.2 for standard organic-result components, 05.6 for SERP observation and intent validation, and the domain roadmap for 06.4–06.11. The review focused on ownership and substantive explanation, not merely shared terminology.
+
+### Integration Decisions
+
+- 06.1 retains the page-level SERP anatomy; 06.3 explains the structured-data-supported rich-result class and its eligibility/display limits.
+- 06.2 retains standard organic-result components. 06.3 does not reproduce title-link, snippet, attribution, or sitelink mechanics.
+- 06.3 distinguishes structured data, Schema.org vocabulary, Google-supported Search features, eligibility, processing, and actual display.
+- 06.3 does not duplicate technical markup implementation or the broader semantic entity model. Those remain in their implementation and semantic-SEO domains.
+- 06.4 retains featured snippets and direct answers; 06.5 retains knowledge panels and entity-oriented displays. A rich-looking SERP module is not automatically a structured-data rich result.
+- 05.6 retains the SERP-based intent-validation workflow. 06.3 discusses feature eligibility and presentation rather than query research.
+- Retired or restricted features are dated and tied to official announcements. The Book Actions exception in the November 2025 changelog is explicitly preserved to avoid stale retirement claims.
+
+### Review Result and Limits
+
+**06.3 is documented and integration-reviewed.** Its scope follows the approved Domain 06 architecture and maintains the canonical ownership of adjacent topics.
+
+The source review establishes Google's published documentation and announced feature changes as of 2026-11-19. It does not prove the behavior or availability of every feature in every market, language, device, query, or account context. The targeted integration review is not an exhaustive all-pairs semantic audit of every repository document. Feature support and reporting can change; volatile claims must be rechecked against current provider documentation before maintenance or implementation decisions.
