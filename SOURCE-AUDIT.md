@@ -1772,3 +1772,18 @@ Detailed findings and limitations are recorded in [REPOSITORY-INTEGRATION-AUDIT-
 The complete findings and limitations are recorded in [REPOSITORY-INTEGRATION-AUDIT-2026-11-19.md](REPOSITORY-INTEGRATION-AUDIT-2026-11-19.md), sections 10–11.
 
 **Repository-wide audit remains open. No final audit sign-off is granted.**
+
+
+### 62-Page Structural and Citation Regression — 2026-11-19
+
+Re-fetched all 62 numbered topic pages on `main` and rechecked numeric citation bookkeeping and relative Markdown file targets.
+
+- Numeric citation IDs outside the local reference list: **0 across 62 pages**.
+- Numbered references with no in-text citation: **0 across 62 pages**.
+- Missing relative Markdown file targets: **0 across 62 pages**.
+
+These are structural checks, not claim-support verification. Heading anchors and external URLs have not yet been exhaustively checked. The source-to-claim review, semantic all-pairs comparison, full volatile-claim freshness review, and final sign-off remain open. The 04.11 DOI `10.1016/S0306-4573(00)00010-8` is valid; a simple Markdown parser can mistakenly truncate it at the DOI's internal closing parenthesis.
+
+See [REPOSITORY-INTEGRATION-AUDIT-2026-11-19.md](REPOSITORY-INTEGRATION-AUDIT-2026-11-19.md), section 12.
+
+**Status: NOT FULLY AUDITED.**
