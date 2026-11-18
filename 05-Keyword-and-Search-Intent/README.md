@@ -69,7 +69,7 @@ The domain is organized into three groups. The sequence moves from collecting qu
 
 | Topic | Title | Canonical scope |
 |---|---|---|
-| 05.5 | Search Intent Concepts & Taxonomies | Explains informational, navigational, transactional, and other useful intent models; covers mixed, layered, ambiguous, and changing intent. |
+| [05.5](05.5-Search-Intent-Concepts-and-Taxonomies.md) | Search Intent Concepts & Taxonomies | Explains informational, navigational, transactional, and commercial-investigation models; covers mixed, layered, ambiguous, and context-dependent intent, with confidence-based classification hypotheses. |
 | 05.6 | SERP-Based Intent Analysis & Validation | Uses result types, page formats, result diversity, and query context as observable evidence to validate or challenge an intent hypothesis. Does not teach the mechanics of SERP features. |
 
 ### Group C — Keyword Strategy & Research Outputs
