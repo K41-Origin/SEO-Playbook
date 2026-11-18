@@ -96,7 +96,7 @@ For each identified collision or source weakness:
 | Numeric citation-ID range scan | Completed; no out-of-range IDs found in the retrieved pages |
 | Exact source-to-claim verification for all 62 pages | **Pending full claim-by-claim review** |
 | Freshness and current-status verification for all volatile claims | **Pending full review** |
-| Exhaustive internal-link and anchor validation | **Pending** |
+| Markdown relative file targets and internal heading-fragment validation (62 topic pages) | **Complete: 0 missing relative targets; 14/14 internal fragments resolve; 1 stale external fragment fixed** |
 | Pairwise semantic overlap review across all 62 pages | **Pending** |
 | Cross-domain consolidation and remediation | **Pending** |
 | Final regression QA and audit sign-off | **Pending** |
@@ -644,3 +644,34 @@ The reviewed boundaries are coherent with the canonical ownership map in this re
 No new cross-domain content rewrite was justified by this boundary pass. This is a focused review of the pre-identified high-risk collision groups, not an exhaustive semantic comparison of all 1,891 possible topic-page pairs. Exact-paragraph comparisons remain limited to the pairs documented in earlier sections.
 
 **Audit verdict remains: NOT FULLY AUDITED.**
+
+
+## 25. Current Audit Gate Status — Supersedes Earlier Pending Statements
+
+This section is the current source of truth for audit status. Earlier sections preserve the chronology of findings and may describe checks as pending because they had not yet been executed at the time those sections were written.
+
+| Audit gate | Current evidence | Status |
+|---|---|---|
+| Current topic inventory | 62/62 numbered topic pages re-fetched from `main` across Domains 01–06 | Complete |
+| Citation-number bookkeeping | 0 undefined numeric citation IDs; 0 unused numbered references across 62 pages | Complete |
+| Relative Markdown file targets | 0 missing relative Markdown targets across 62 pages | Complete |
+| Internal Markdown heading fragments | 14/14 internal fragments resolve to existing headings; 0 broken internal fragments | Complete |
+| Stale external fragment | One stale `#fix-links` fragment in 02.3 removed; canonical Google guide URL retained | Complete |
+| Reference-list inventory | Reference destinations extracted from all 62 topic pages | Complete |
+| External URL/redirect verification | Only selected destinations opened; some JavaScript-shell, timeout, and publisher-access cases remain unclassified; no exhaustive HTTP/redirect audit | Open |
+| Claim-to-source verification | Primary-source checks and claim mapping performed on selected statements in every domain; not every substantive claim in every page checked | Open |
+| Volatile-claim freshness | Current Google/Microsoft policy, product, reporting, and ranking changes sampled; not every volatile claim rechecked | Open |
+| Semantic duplication | Four selected exact-paragraph comparisons returned zero shared substantive paragraphs; 16 high-risk collision groups received ownership-boundary review | Partial |
+| Exhaustive semantic pair comparison | No complete review of all 1,891 unique pairs across 62 topic pages | Open |
+| Image, raw HTML, and non-Markdown link validation | Not exhaustively checked across the repository | Open |
+| Post-remediation regression | Selected updated files and commit diffs verified; no complete all-topic regression run after every remediation | Open |
+| Final audit sign-off | Mandatory gates above remain open | **NOT READY** |
+
+### Important interpretation
+
+- The 14/14 result applies only to internal Markdown heading fragments extracted from the 62 numbered topic pages. It is not a statement that every external anchor, HTML link, image, or embedded resource is valid.
+- Extracting every reference list is not equivalent to opening every URL or validating every claim against its cited source.
+- Reviewing the 16 high-risk collision groups is not equivalent to semantically comparing every possible topic pair.
+- Prior domain-level source audits remain valid only for the scope and date they document; they do not automatically certify the current repository state.
+
+**Current verdict: NOT FULLY AUDITED. Do not start Domain 07 on the basis of this audit record until the open gates are completed or explicitly accepted as residual limitations.**
