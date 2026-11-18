@@ -106,7 +106,7 @@ The roadmap defines canonical ownership, not a claim that every named feature is
 | Area | Status | Coverage |
 |---|---|---|
 | Domain architecture | Defined | Scope, ownership boundaries, three topic groups, and the 11-topic roadmap are established. |
-| 06.1 — Introduction to SERPs & SERP Anatomy | Next | Topic scope is defined; substantive documentation has not yet been created. |
+| [06.1 — Introduction to SERPs & SERP Anatomy](06.1-Introduction-to-SERPs-and-SERP-Anatomy.md) | Documented | Foundational SERP definition, structural model, major regions, result categories, query-dependent composition, observation method, and ownership boundaries documented. |
 | 06.2–06.11 | Planned | Canonical topic scopes are defined; substantive topic documents have not yet been created. |
 | Cross-domain integration | Architecture-reviewed (2026-11-19) | The roadmap was compared with existing Domains 01–05 and planned ownership boundaries. This is a prospective scope review, not a content-level duplicate audit of topic pages that do not yet exist. |
 | Source audit | Pending topic development | Each topic must receive claim-level source verification, citation checks, freshness review, and duplicate/integration QA when drafted. |
