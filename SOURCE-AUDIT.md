@@ -1730,3 +1730,20 @@ A broader audit has now inventoried and retrieved all 62 substantive topic pages
 The full audit scope, collision matrix, current findings, limitations, and remediation sequence are documented in [REPOSITORY-INTEGRATION-AUDIT-2026-11-19.md](REPOSITORY-INTEGRATION-AUDIT-2026-11-19.md).
 
 The earlier Domain 01–03 audit record above remains a historical record of that review. It must not be interpreted as a completed audit of the later-developed Domains 04–06 or as a certification that the current repository has passed the new repository-wide audit.
+
+
+## Repository-Wide Audit Execution Update — 2026-11-19
+
+Additional repository-wide regression checks and targeted source corrections were completed after the initial inventory.
+
+- Validated relative Markdown `.md` file targets in all 62 existing topic pages: **0 missing file targets**. Heading fragments/anchors and external URLs were not part of this specific scan.
+- Rechecked numeric citation-ID ranges across all 62 topic pages: **0 out-of-range IDs**. This is a mechanical check, not proof of claim-level source support.
+- Compared exact long substantive paragraphs in selected high-risk pairs (02.1/02.2, 04.11/04.12, 05.8/05.9, and 06.10/06.11): **0 identical paragraphs shared**. This is not a semantic all-pairs audit.
+- Updated 04.11 to distinguish TREC's general binary-judgment guidance from the task-specific 0–4 graded scale documented for the TREC 2025 RAG Relevance Judgment subtask.
+- Updated 04.12 to correct the ERR paper author to Donald Metzler and cite the paper DOI.
+- Updated 05.6 to link directly to the existing Domain 06 index rather than describing Domain 06 as planned.
+- Updated 04.8 to link directly to the completed Domain 05 index rather than describing Domain 05 as planned.
+
+These changes were regression-checked for citation-number range and expected link/text presence. The exact updated blob SHAs and commit identifiers are available in Git history.
+
+**Audit status remains open.** This execution does not claim a fresh claim-by-claim source recheck of all 62 documents, exhaustive semantic comparison of all topic pairs, anchor/image validation, or external-URL validation. The historical domain-level audit records retain their original scopes and dates. Do not treat this update as final repository-wide audit sign-off.
