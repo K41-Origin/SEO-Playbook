@@ -763,3 +763,33 @@ The five topics form a coherent foundation: definition/purpose → visibility co
 This is a scope/ownership review of the five topic introductions and navigation boundaries, not a full body-level semantic comparison of all ten 01-page pairs or a sentence-by-sentence claim audit.
 
 **Audit verdict remains: NOT FULLY AUDITED.**
+
+
+## 30. Execution Update — 2026-11-19 (Domain 02 Operational Search Pipeline Scope Review)
+
+Re-read the purpose, opening sections, and related-topic handoffs for all 12 Domain 02 pages (02.1–02.12). The operational lifecycle remains coherent, with the following ownership:
+
+| Topic | Canonical responsibility | Boundary confirmed |
+|---|---|---|
+| 02.1 | Define search engines and the high-level search lifecycle. | Introductory map, not the detailed component architecture. |
+| 02.2 | Explain logical architecture, major components, and system data paths. | System architecture, not IR theory or infrastructure deep dive. |
+| 02.3 | Explain how web resources become known to search systems. | Discovery and URL discovery sources, not crawler fetch execution. |
+| 02.4 | Explain crawler identity, access, fetch behavior, robots, and crawl management. | Acquisition/fetch stage, not rendering or index inclusion. |
+| 02.5 | Explain document parsing, processing, rendering, and extraction. | Operational page processing, not general IR tokenization/term representation. |
+| 02.6 | Explain operational search indexing and index lifecycle. | Search-engine index behavior, not IR indexing data structures as a discipline. |
+| 02.7 | Explain system-side query interpretation and preparation. | Operational query processing, not SEO search-intent research. |
+| 02.8 | Explain operational candidate retrieval from searchable collections. | Pipeline role and handoff, not formal IR retrieval models or ranking. |
+| 02.9 | Explain response construction, result representation, generative response assembly, and serving. | Downstream presentation pipeline, not ranking logic or the visible SERP feature catalogue. |
+| 02.10 | Explain distributed compute, storage, networking, reliability, and scale. | Infrastructure substrate, not the logical architecture or ranking algorithms. |
+| 02.11 | Classify search systems by scope, corpus, acquisition, and architecture. | System taxonomy, not formal retrieval model taxonomy in Domain 04. |
+| 02.12 | Explain limitations across discovery, crawling, processing, indexing, retrieval, and serving. | Cross-stage overview; detailed mechanisms remain with their owning topics. |
+
+### Disposition
+
+The 12 topics form a coherent operational progression: system definition/architecture → discovery → crawling → document processing → indexing → query processing → retrieval → response generation/serving, supported by infrastructure and bounded by system types and limitations.
+
+The repeated mention of lifecycle stages in 02.1, 02.2, and 02.12 is controlled overview context; detailed procedures and mechanisms remain in their dedicated pages. No additional merge or deletion was justified by this scope review.
+
+This is a full scope/handoff review of all 12 topic introductions and navigation boundaries, not a complete body-level semantic comparison of every 02-page pair or a sentence-by-sentence source audit.
+
+**Audit verdict remains: NOT FULLY AUDITED.**
