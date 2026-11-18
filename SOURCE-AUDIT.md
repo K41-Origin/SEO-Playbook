@@ -1508,14 +1508,14 @@ The source set is intentionally Google-specific. The topic does not claim that o
 |---|---|
 | Topic document | Created; image results, image previews, Lens, Video mode, video previews, key moments, and LIVE badge documented |
 | Numbered references | 6 |
-| Missing citation IDs | Pending final citation QA |
-| Unused reference entries | Pending final citation QA |
+| Missing citation IDs | 0 |
+| Unused reference entries | 0 |
 | Parent-domain navigation | Present |
 | Related Topics section | Present |
 | Domain index | Updated with 06.8 link and development status |
 | Root README | Updated to mark 06.1–06.8 documented |
 | Source freshness | Official sources opened and checked on 2026-11-19 |
-| Targeted duplicate comparison | Pending final repository-level file comparison |
+| Targeted exact-paragraph comparison | 0 repeated substantive paragraphs against 06.1–06.7; not an exhaustive semantic audit |
 
 ### Integration Decisions
 
