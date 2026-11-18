@@ -107,12 +107,15 @@ The intended relationship is a connected knowledge workflow, not a rigid linear 
 
 ## Development Status
 
-**Domain architecture documented; topics 07.1–07.3 documented; topics 07.4–07.10 planned.**
+**Domain architecture documented; topics 07.1–07.4 documented; topics 07.5–07.10 planned.**
 
 | Topic | Status |
 |---|---|
 | [07.1 — Introduction to On-Page SEO](07.1-Introduction-to-On-Page-SEO.md) | Documented |
-| 07.2–07.10 | Planned |
+| [07.2 — Page-Level Relevance & Optimization Principles](07.2-Page-Level-Relevance-and-Optimization-Principles.md) | Documented |
+| [07.3 — Title Tags & Page Title Optimization](07.3-Title-Tags-and-Page-Title-Optimization.md) | Documented |
+| [07.4 — Meta Descriptions & Snippet Optimization](07.4-Meta-Descriptions-and-Snippet-Optimization.md) | Documented |
+| 07.5–07.10 | Planned |
 
 The roadmap defines the intended scope and ownership of each topic. Only topics explicitly marked documented have completed topic-level documentation.
 
