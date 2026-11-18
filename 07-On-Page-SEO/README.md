@@ -72,7 +72,7 @@ The domain is organized into three groups: foundational principles, core page-le
 | 07.4 | Meta Descriptions & Snippet Optimization | Covers the meta description element, useful page-specific summaries, intent and content alignment, duplication, length considerations, and common mistakes. Distinguishes authored descriptions from search-generated snippets; does not claim meta descriptions are a direct ranking factor or that search engines always use them. |
 | 07.5 | Heading Structure & Hierarchy Optimization | Covers H1–H6 semantics, logical hierarchy, descriptive headings, information organization, multiple-H1 considerations, accessibility, and common mistakes. Editorial substance and content quality remain in Domain 08. |
 | 07.6 | URL Structure & Page-Level URL Optimization | Covers readable and descriptive URL design, slugs, word and separator choices, path organization, consistency, and practical trade-offs. Redirects, canonicalization, parameter handling, and crawl/index controls remain in Domain 10. |
-| 07.7 | Image SEO & Image Element Optimization | Covers image relevance and context, alternative text, descriptive filenames, captions where useful, informative versus decorative images, accessibility, and common mistakes. Image delivery, compression, responsive behavior, and performance remain in Domain 10. |
+| [07.7 — Image SEO & Image Element Optimization](07.7-Image-SEO-and-Image-Element-Optimization.md) | Covers image relevance and context, alternative text, descriptive filenames, captions where useful, informative versus decorative images, accessibility, and common mistakes. Image delivery, compression, responsive behavior, and performance remain in Domain 10. |
 | 07.8 | HTML Semantics & Page Element Optimization | Covers semantic versus generic HTML elements, meaningful document structure, appropriate use of main/article/section/header/footer/nav and related elements, and accessibility implications. Does not claim semantic HTML automatically improves rankings or expand into rendering infrastructure. |
 
 ### Group C — Implementation & Quality Control
@@ -107,7 +107,7 @@ The intended relationship is a connected knowledge workflow, not a rigid linear 
 
 ## Development Status
 
-**Domain architecture documented; topics 07.1–07.6 documented; topics 07.7–07.10 planned.**
+**Domain architecture documented; topics 07.1–07.7 documented; topics 07.8–07.10 planned.**
 
 | Topic | Status |
 |---|---|
@@ -117,7 +117,8 @@ The intended relationship is a connected knowledge workflow, not a rigid linear 
 | [07.4 — Meta Descriptions & Snippet Optimization](07.4-Meta-Descriptions-and-Snippet-Optimization.md) | Documented |
 | [07.5 — Heading Structure & Hierarchy Optimization](07.5-Heading-Structure-and-Hierarchy-Optimization.md) | Documented |
 | [07.6 — URL Structure & Page-Level URL Optimization](07.6-URL-Structure-and-Page-Level-URL-Optimization.md) | Documented |
-| 07.7–07.10 | Planned |
+| [07.7 — Image SEO & Image Element Optimization](07.7-Image-SEO-and-Image-Element-Optimization.md) | Documented |
+| 07.8–07.10 | Planned |
 
 The roadmap defines the intended scope and ownership of each topic. Only topics explicitly marked documented have completed topic-level documentation.
 
