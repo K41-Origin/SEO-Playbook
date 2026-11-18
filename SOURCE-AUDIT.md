@@ -1003,3 +1003,67 @@ The next domain must follow the ownership boundaries above, reuse existing canon
 
 1. Google. ([Google Search Status Dashboard](https://status.search.google.com/)). Latest published dashboard update inspected 2026-11-19; displayed last update 2026-11-18.
 2. Google. ([November 2026 core update — incident details](https://status.search.google.com/incidents/WLxcJyC6jMWMfryxsKMc)). Incident began 2026-11-10; scope and rollout wording inspected 2026-11-19.
+
+
+---
+
+## Domain 06 — SERP & Search Features: Architecture and Integration Review
+
+**Review date:** 2026-11-19  
+**Repository:** `K41-Origin/SEO-Playbook`  
+**Review type:** Prospective domain-architecture and ownership review. This is not a claim-level source audit of substantive Domain 06 topic content; those topic documents have not yet been created.
+
+### Scope Reviewed
+
+The Domain 06 architecture was designed against:
+
+- Root architecture and editorial/governance requirements in `README.md` and `AGENTS.md`.
+- Existing domain indexes and substantive topic coverage in Domains 01–05.
+- The current canonical ownership boundaries recorded in the repository-wide integration audit.
+- The planned responsibilities of Domains 07–17, especially on-page SEO, content, semantic SEO, technical SEO, local SEO, analytics, and AI/search evolution.
+
+### Architecture Decision
+
+The approved domain index is [06 — SERP & Search Features](06-SERP-and-Search-Features/README.md). It defines three groups and eleven topic scopes:
+
+| Group | Topics | Ownership |
+|---|---|---|
+| Group A — SERP Foundations & Organic Result Presentation | 06.1 Introduction to SERPs & SERP Anatomy; 06.2 Organic Search Result Elements & Presentation | SERP structure and standard organic-result components. |
+| Group B — Search Features & Enhanced Results | 06.3 Rich Results & Structured Data Search Appearance; 06.4 Featured Snippets & Direct Answers; 06.5 Knowledge Panels & Entity-Based Search Features; 06.6 Local & Map-Based SERP Features; 06.7 News & Top Stories Search Features; 06.8 Image & Video Search Features; 06.9 Shopping & Product Search Features | Distinct enhanced, specialized, and vertical search presentation formats. |
+| Group C — Interactive & AI-Powered Search Experiences | 06.10 Interactive SERP & Query Refinement Features; 06.11 AI-Powered SERP Features & Search Experiences | Interactive query exploration and user-visible AI search interfaces. |
+
+### Canonical Ownership Findings
+
+| Potential overlap | Canonical separation |
+|---|---|
+| SERP intent observation vs. feature documentation | Domain 05.6 owns the research method for observing SERPs and validating intent hypotheses. Domain 06 owns the feature taxonomy, documented behavior, eligibility, and presentation being observed. |
+| Result generation/serving vs. SERP presentation | Domain 02.9 owns search-result generation and serving architecture, including generative response assembly. Domain 06 owns the user-visible result interface and feature formats. |
+| Ranking/selection vs. feature display | Domain 03 owns ranking systems, candidate evaluation, ordering, and specialized ranking behavior. Domain 06 documents how features are presented and does not infer ranking internals from appearance. |
+| Structured data implementation vs. rich-result appearance | Domain 10 owns technical implementation and validation. Domain 06 owns supported search appearances, eligibility concepts, and display limitations. Valid markup does not guarantee display. |
+| Page optimization/content production vs. search appearance | Domains 07 and 08 own page-level optimization and content workflows. Domain 06 describes how result components appear, not how to manufacture eligibility through editorial or on-page checklists. |
+| Local SEO strategy vs. local SERP modules | Domain 13 owns local SEO strategy and execution. Domain 06 documents local packs, maps, and other location-oriented result presentation. |
+| Semantic entity architecture vs. knowledge panels | Domain 09 owns semantic entities and topical relationships. Domain 06 documents visible knowledge panels and entity-oriented search presentations. |
+| Organic performance measurement vs. SERP features | Domain 14 owns site-owner performance measurement. Domain 06 does not duplicate Search Console or analytics reporting workflows. |
+| AI search architecture/evolution vs. visible AI experience | Domain 02.9 owns generative response assembly and serving architecture; Domain 06.11 owns visible AI search presentation and interaction; Domain 16 owns broader AI/search evolution and strategic implications. |
+
+### Duplication and Integration Controls
+
+1. No existing Domain 05 content was reassigned. Its SERP inspection remains a query-research method, not a feature encyclopedia.
+2. Domain 06 topics are scoped by distinct presentation objects or interface functions. Similar-looking features must not be collapsed into one category without evidence.
+3. Eligibility, structured-data validity, and actual feature display are treated as separate states.
+4. Feature availability must be qualified by engine, market, language, device, query, policy, and observation date where relevant.
+5. Topic documents must reuse and link to existing canonical explanations instead of reproducing search processing, ranking, IR theory, intent research, implementation, or analytics.
+6. Feature status and provider documentation are volatile. Each topic must verify current primary sources during research and record freshness where it materially affects the claim.
+
+### Integration Changes
+
+- Created `06-SERP-and-Search-Features/README.md` with domain purpose, scope, canonical boundaries, three groups, eleven topic scopes, research principles, development status, related domains, and domain-level source entry points.
+- Updated the root `README.md` navigation and development status to reflect that Domain 06 architecture is defined while its substantive topic pages remain unwritten.
+- Updated Domain 05's index to link to Domain 06 as the canonical owner of SERP feature documentation.
+- Preserved the existing 17-domain architecture; no new top-level domain was introduced.
+
+### Review Result and Limits
+
+**Domain 06 architecture: approved and integration-reviewed.** Its proposed ownership is distinct from the existing substantive content in Domains 01–05 at the scope level.
+
+This review does not establish that future Domain 06 topic prose is duplicate-free, factually verified, or source-audited. Those checks must be performed for each topic after drafting, including targeted comparison against existing related documents and the other Domain 06 topics. The first topic scheduled for development is 06.1 — Introduction to SERPs & SERP Anatomy.
