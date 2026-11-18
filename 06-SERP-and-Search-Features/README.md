@@ -108,8 +108,8 @@ The roadmap defines canonical ownership, not a claim that every named feature is
 | Domain architecture | Defined | Scope, ownership boundaries, three topic groups, and the 11-topic roadmap are established. |
 | [06.1 — Introduction to SERPs & SERP Anatomy](06.1-Introduction-to-SERPs-and-SERP-Anatomy.md) | Documented | Foundational SERP definition, structural model, major regions, result categories, query-dependent composition, observation method, and ownership boundaries documented. |
 | [06.2 — Organic Search Result Elements & Presentation](06.2-Organic-Search-Result-Elements-and-Presentation.md) | Documented | Standard organic-result components, Google-specific presentation behavior, title links, snippets, attribution, visible URLs, byline dates, sitelinks, optional enrichments, and observation boundaries documented. |
-| Cross-domain integration | Architecture-reviewed (2026-11-19) | The roadmap was compared with existing Domains 01–05 and planned ownership boundaries. This is a prospective scope review, not a content-level duplicate audit of topic pages that do not yet exist. |
-| Source audit | Pending topic development | Topics 06.1–06.2 have received topic-level source verification, citation checks, freshness review, and targeted duplicate/integration QA. Remaining topics require the same review when drafted. |
+| Cross-domain integration | Architecture and topic-level review (2026-11-19) | The roadmap was compared with existing Domains 01–05; topics 06.1–06.2 received targeted content-level integration reviews. Topics 06.3–06.11 still require topic-level review after drafting. |
+| Source audit | Topic-level reviews in progress | Topics 06.1–06.2 have received source verification, citation checks, freshness review, and targeted duplicate/integration QA. Topics 06.3–06.11 require the same review when drafted. |
 
 ## Related Domains
 
