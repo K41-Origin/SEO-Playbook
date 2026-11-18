@@ -1658,3 +1658,64 @@ All cited sources were opened and inspected. The topic attributes Google-specifi
 Google's current documentation identifies related searches and related questions as exploration features, and states that expanding a related question displays a featured snippet. Search Help documents result-type filters and Search tools as dynamic and query-dependent. Autocomplete predictions may reflect multiple contextual signals and are not a direct measure of search volume.
 
 The contextual topic-chip discussion is explicitly qualified by the 2022 rollout announcement. The document does not claim that the exact interface or rollout remains universally available in 2026. The duplicate comparison is targeted and must not be represented as an exhaustive semantic audit of the entire repository.
+
+
+## Domain 06.11 — AI-Powered SERP Features & Search Experiences
+
+**Review date:** 2026-11-19  
+**Document:** [06.11 — AI-Powered SERP Features & Search Experiences](06-SERP-and-Search-Features/06.11-AI-Powered-SERP-Features-and-Search-Experiences.md)  
+**Review type:** Topic-level source, structure, freshness, and targeted integration review.
+
+### Research and Source Review
+
+The topic was checked against five official Google sources on 2026-11-19:
+
+1. Google Search Central, **AI features and your website** — documented roles of AI Overviews and AI Mode, conditional display, query fan-out at a high level, supporting links, ordinary Search eligibility, absence of special AI-only technical requirements, Search Console reporting, and preview controls.
+2. Google Search Help, **Find information in faster & easier ways with AI Overviews in Google Search** — AI Overview purpose, limitations, transition into AI Mode, context continuity, Web filter, and user verification guidance.
+3. Google Search Help, **Get AI-powered responses with AI Mode in Google Search** — AI Mode interactions, query fan-out description, follow-up questions, known limitations, verification guidance, and interactive generated visuals with explicitly limited availability.
+4. Google, **More ways to connect with the web from Search** (2026-10-15) — recent changes to inline links, source context, timely articles, and source discovery in AI Mode and AI Overviews.
+5. Google, **Just ask anything: a seamless new Search experience** (2026-01-27) — transition from AI Overviews into AI Mode and conversational follow-up continuity.
+
+All five sources were opened and inspected. Claims are scoped to Google's documented products; the topic does not generalize Google's interface, availability, or query fan-out description to other search engines.
+
+### Structural and Integration Checks
+
+| Check | Result |
+|---|---|
+| Topic document | Created; AI Overviews, AI Mode, generated answer presentation, source links, conversational continuity, multimodal/interactive experiences, reliability, eligibility, measurement boundary, and observation method documented |
+| Numbered references | 5 |
+| Missing citation IDs | 0 |
+| Unused reference entries | 0 |
+| Parent-domain navigation | Present |
+| Related Topics section | Present |
+| Domain index | Updated with 06.11 link and documented status |
+| Root README | Updated to mark all 11 Domain 06 topics documented |
+| Reciprocal topic link | 06.10 now links to 06.11 |
+| Source freshness | Official sources opened and checked on 2026-11-19; latest cited product announcement dated 2026-10-15 |
+| Targeted duplicate review | Conceptual overlap reviewed against 06.1–06.10 and adjacent domains; this is not an exhaustive all-pairs semantic audit |
+
+### Integration Decisions
+
+- 06.1 retains page-level SERP anatomy; 06.11 describes AI-specific modules and journeys without repeating the general page structure.
+- 06.2 retains conventional organic-result components. Links embedded in generated answers are described only in their AI presentation context.
+- 06.3 retains structured-data rich results; AI-generated responses are not rich results.
+- 06.4 retains selected page excerpts and classic featured snippets; AI Overviews are generated syntheses, not featured snippets.
+- 06.5 retains Knowledge Panels and entity-oriented panels; AI-generated summaries are a different presentation type.
+- 06.8 retains Google Images, Lens, and image/video result presentation. 06.11 covers multimodal interaction only when it is part of an AI-powered conversational experience.
+- 06.9 retains shopping/product modules; AI-specific commerce interactions are not expanded without direct product evidence.
+- 06.10 retains conventional query refinement, autocomplete, filters, related searches, and PAA. 06.11 owns AI-specific conversational follow-ups and transitions.
+- Domain 02 retains internal query processing, retrieval orchestration, response assembly, and serving. Google's query fan-out explanation is reported only at the high level Google publishes; it is not treated as a complete architecture disclosure.
+- Domain 03 retains ranking and candidate evaluation. Source placement in a generated response does not reveal hidden ranking weights or a stable citation formula.
+- Domain 04 retains retrieval theory and models; this topic does not reproduce general IR or RAG theory.
+- Domain 05 retains keyword discovery, demand, and intent research. AI prompts are not direct keyword-demand metrics.
+- Domains 08 and 10 retain content production and technical implementation, respectively. AI eligibility is summarized only to prevent false claims about special markup or guaranteed inclusion.
+- Domain 14 retains performance measurement. The topic reports Google's documented Search Console grouping under Web but does not define attribution or AI-specific KPIs.
+- Domain 16 retains broader AI/search evolution and strategy; 06.11 remains focused on the visible product experience.
+
+### Review Result and Limits
+
+**06.11 is documented and source-reviewed.** It completes the approved 11-topic Domain 06 roadmap.
+
+Google's documentation states that AI Overviews and AI Mode can surface supporting links, that ordinary Search eligibility applies to those links, and that no special AI-only markup or technical requirement is needed. Google also warns that generated responses can be wrong. The October 2026 announcement confirms that source-link presentation continues to evolve; therefore, the document describes interaction patterns and dated updates rather than a permanent visual specification.
+
+The topic does not claim a guaranteed citation method, fixed source-selection formula, universal feature availability, or complete disclosure of Google's internal AI Search architecture. Its integration review is topic-level and targeted. A comprehensive cross-topic semantic audit across all 11 Domain 06 pages remains the next planned review.
