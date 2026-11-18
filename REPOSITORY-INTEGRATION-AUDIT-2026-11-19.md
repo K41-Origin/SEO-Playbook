@@ -391,3 +391,26 @@ Checked Google's November 5, 2025 Search results simplification announcement and
 These primary-source checks validate the sampled volatile statements and do not close the repository-wide claim-to-source gate. Other volatile claims, external URLs, anchors, and semantic overlap pairs remain outside this pass.
 
 **Verdict remains: NOT FULLY AUDITED.**
+
+
+## 16. Execution Update — 2026-11-19 (Topic-Page Heading-Fragment Audit)
+
+### Markdown fragment review
+
+Re-fetched all 62 numbered topic pages and extracted Markdown links containing URL fragments. Resolved every internal fragment against the target Markdown file's actual heading slugs.
+
+- Topic pages inspected: **62/62**.
+- Internal heading-fragment references identified: **16**.
+- Internal heading-fragment references resolved: **16/16**.
+- Broken internal heading-fragment references: **0**.
+- External fragment references identified: **1**.
+- External fragment defect: the 02.3 reference pointed to a non-existent `#fix-links` anchor on Google's current JavaScript SEO guide. The current page contains no corresponding heading/anchor. Removed the stale fragment while retaining the canonical Google guide URL.
+- Remediation commit: `2a4940351ef0cc7c505d86918dd9080e36919c29`.
+
+The 16 internal fragments target existing headings in the Domain 02, Domain 05, Domain 06, or root README indexes. The 02.3 external source now points to the page without a stale fragment.
+
+### Scope limitation
+
+This pass validates Markdown heading fragments in the 62 topic pages. It does not certify every external URL's HTTP status, redirect destination, content relevance, or claim-level support. Raw HTML links, embedded images, and links outside the extracted Markdown-link syntax require separate checks.
+
+**Audit verdict remains: NOT FULLY AUDITED.**
