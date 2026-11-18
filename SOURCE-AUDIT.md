@@ -823,14 +823,14 @@ All five references are cited inline and mapped to the claims they support. Gene
 - Five inline citation IDs map to five reference entries; all five references are used.
 - Internal links point to existing topic files; 05.9 is described as a planned roadmap stage and is not presented as a working file link.
 - The fictional example is explicitly labeled; no empirical results or unsupported keyword metrics are presented.
-- Final line count, link resolution, citation mapping, and duplicate screening are to be recorded after the final repository re-fetch.
+- Final repository re-fetch confirmed the document at 581 lines. All 5 inline citation IDs map to 5 References entries, and every reference is cited. All 9 relative Markdown links resolve to existing files; all 5 external reference destinations were opened and inspected. No TODO, TBD, or PLACEHOLDER markers were found.
 
 ### Duplicate and Ownership Review
 
 - The document's canonical scope is opportunity assessment and prioritization. It does not duplicate the detailed metric definitions in 05.4, intent taxonomies and SERP validation in 05.5–05.6, or clustering methods in 05.7.
 - It references the existing canonical topics rather than reproducing their full methods.
 - The weighted-sum and sensitivity-analysis material is adapted from general multi-criteria decision analysis and explicitly identified as an optional playbook framework, not an SEO industry standard.
-- The targeted exact-match and semantic ownership review is limited to the comparison set recorded after final QA; it is not a repository-wide duplicate scan.
+- A normalized sentence-level exact-match screen against 05.1–05.7 found no repeated substantive explanatory prose. Two matches were reference-title/link entries for shared Google sources, not duplicated explanations. The review found no canonical ownership conflict in that comparison set. A repository-wide exact-duplicate scan against all substantive documents in Domains 01–04 and the rest of the repository was not executed; no repository-wide duplicate-free claim is made.
 
 ### Audit Conclusion
 
