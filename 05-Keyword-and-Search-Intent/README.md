@@ -34,8 +34,11 @@ Keyword research is not a list-exporting contest. A large spreadsheet full of vo
 | Domain 07 — On-Page SEO (planned) | Page-level optimization and implementation | Domain 05 identifies query targets and intent; Domain 07 owns on-page implementation. |
 | Domain 08 — Content SEO (planned) | Content planning, production, optimization, and maintenance | Domain 05 produces research and query-to-page recommendations. Domain 08 owns editorial strategy and content execution. |
 | Domain 09 — Semantic SEO (planned) | Entities, semantic relationships, topical coverage, and semantic content architecture | Keyword clustering in Domain 05 groups queries for research and targeting; semantic entity/topic modeling belongs to Domain 09. Similar words do not make the concepts interchangeable. |
-| Domain 13 — International & Local SEO (planned) | International and local search strategy | Domain 05 covers general query research. Locale-specific demand, language-market adaptation, and local strategy belong to Domain 13 when developed. |
+| Domain 13 — International & Local SEO (planned) | International and local search strategy | Domain 05 owns the general keyword-research method and may apply it to a specified market or language. Domain 13 owns localization decisions, international site/market strategy, and local SEO execution; it should reuse Domain 05 research methods rather than duplicate them. |
 | Domain 14 — SEO Analytics (planned) | Site-owner performance measurement and reporting | Domain 05 may use Search Console query data as research evidence; Domain 14 owns ongoing organic performance analysis and reporting. |
+| Domain 15 — Advanced SEO (planned) | Advanced SEO methods and specialist applications; detailed ownership is not yet defined in the repository architecture. | Domain 05 remains the canonical home for keyword research. Domain 15 may apply or extend that research in a clearly defined advanced context, but should link to Domain 05 rather than recreate its core workflow, metrics, or intent taxonomy. |
+| Domain 16 — AI & Search Evolution (planned) | AI-driven discovery and changes in search systems and user interaction. | Domain 05 may research queries and audience needs expressed through search interfaces. AI-side query fan-out, retrieval orchestration, and answer-generation mechanisms belong to the relevant search-system domains, not keyword research. |
+| Domain 17 — k41-version (experimental) | SEO experiments, unconventional strategies, and original k41 investigations. | Domain 05 owns the canonical research methods and evidence standards. Domain 17 may test experimental keyword tactics, but must link to the relevant Domain 05 method and label hypotheses, test conditions, and evidence maturity. |
 
 Planned domain paths above are ownership references only. Their files do not exist yet and are not working navigation destinations.
 
@@ -95,7 +98,7 @@ The domain is organized into three groups. The sequence moves from collecting qu
 | Domain architecture | Established | Scope, ownership boundaries, three topic groups, and nine-topic roadmap are defined. |
 | 05.1 — Introduction to Keyword Research | Documented and source-checked | Foundational concepts, workflow, evidence boundaries, and research deliverable standards are documented. |
 | Topics 05.2–05.9 | Planned | Topic pages have not yet been created. |
-| Cross-domain integration | Initial boundaries defined | Existing relationships to Domains 01–04 are identified; reciprocal topic links will be added as pages are documented. |
+| Cross-domain integration | Architecture audited | Ownership boundaries checked against existing Domains 01–04 and planned Domains 06–17; detailed findings are recorded in `SOURCE-AUDIT.md`. Reciprocal topic links will be added as pages are documented. |
 | Source audit | Pending | Each substantive topic will receive claim-level citations and source verification before being marked complete. |
 
 ## Related Domains
