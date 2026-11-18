@@ -793,3 +793,34 @@ The repeated mention of lifecycle stages in 02.1, 02.2, and 02.12 is controlled 
 This is a full scope/handoff review of all 12 topic introductions and navigation boundaries, not a complete body-level semantic comparison of every 02-page pair or a sentence-by-sentence source audit.
 
 **Audit verdict remains: NOT FULLY AUDITED.**
+
+
+## 31. Execution Update — 2026-11-19 (Domain 03 Ranking-System Scope Review)
+
+Re-read the purpose, opening sections, and related-topic handoffs for all 13 Domain 03 pages (03.1–03.13).
+
+| Topic | Canonical responsibility | Boundary confirmed |
+|---|---|---|
+| 03.1 | Define search ranking systems and core terminology. | Foundational overview, not a complete ranking architecture or formula. |
+| 03.2 | Explain ranking architecture and multi-stage candidate evaluation. | Ranking-stage organization and efficiency/effectiveness trade-offs, not retrieval itself or result serving. |
+| 03.3 | Explain ranking signals, features, factors, and interactions. | Evidence inputs and terminology, not a definitive public factor list or one system's weight table. |
+| 03.4 | Explain query-document relevance matching in ranking. | Ranking-side relevance assessment, not SEO intent classification or human judgment methodology. |
+| 03.5 | Explain link graph analysis and PageRank. | Search-engine-side link evidence, not website-side internal-link implementation. |
+| 03.6 | Explain content quality, helpfulness, reliability, and originality systems. | Search-engine-side quality evaluation, not editorial production guidance or spam-policy enforcement. |
+| 03.7 | Explain spam detection, signal neutralization, demotion, and enforcement. | Policy/manipulation treatment, not ordinary low-quality evaluation or update lifecycle. |
+| 03.8 | Explain query-dependent freshness and temporal relevance. | Temporal ranking relevance, not publication-date markup, content refresh workflow, or update history. |
+| 03.9 | Explain contextual ranking and documented personalization. | Request/user context and documented result variability, not local implementation or all specialized result systems. |
+| 03.10 | Explain specialized local, review, news, site-diversity, and deduplication ranking systems. | Ranking-side selection/evaluation, not the visible SERP feature presentation or editorial execution. |
+| 03.11 | Explain machine-learning and neural methods used in ranking. | Ranking-side learned evaluation/order; formal neural candidate retrieval remains in 04.9, operational query processing in 02.7, broader AI product evolution in 16. |
+| 03.12 | Explain ranking evaluation, offline/online testing, experiments, and launch guardrails. | Ranking-system evaluation; formal IR assessment/metrics are linked to 04.11/04.12 and site-owner performance to 14. |
+| 03.13 | Explain ranking-update lifecycle, system evolution, and interpretation of public announcements. | Change lifecycle, not detailed spam mechanisms, freshness mechanisms, or AI product evolution. |
+
+### Disposition
+
+The 13-topic structure is coherent. The main cross-domain boundaries are explicit in the topic introductions and navigation: retrieval (02/04) vs ranking (03); SEO intent (05) vs system query processing (02); ranking evaluation (03) vs IR evaluation (04) vs SEO analytics (14); specialized ranking (03.10) vs visible SERP presentation (06); and neural retrieval (04.9) vs neural ranking (03.11).
+
+The previously identified 03.12 duplication of detailed IR metrics and relevance-judgment material remains remediated. No additional merge or deletion was justified by this scope review.
+
+This is a scope/handoff review of all 13 topic introductions and navigation boundaries, not a full body-level semantic comparison of every 03-page pair or a sentence-by-sentence source audit.
+
+**Audit verdict remains: NOT FULLY AUDITED.**
