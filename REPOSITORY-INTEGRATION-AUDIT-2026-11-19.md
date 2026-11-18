@@ -824,3 +824,34 @@ The previously identified 03.12 duplication of detailed IR metrics and relevance
 This is a scope/handoff review of all 13 topic introductions and navigation boundaries, not a full body-level semantic comparison of every 03-page pair or a sentence-by-sentence source audit.
 
 **Audit verdict remains: NOT FULLY AUDITED.**
+
+
+## 32. Execution Update — 2026-11-19 (Domain 04.12 Metric Formula and Worked-Example QA)
+
+Reviewed the formal definitions and the complete one-query worked example in 04.12. Cross-checked the metric families against the Stanford/Cambridge IR textbook, Järvelin–Kekäläinen's cumulative-gain paper, NIST/TREC materials, ir-measures documentation, Buckley–Voorhees on incomplete judgments, Chapelle et al. on ERR, and Moffat–Zobel on RBP.
+
+### Arithmetic regression
+
+For the published example, the query has four known relevant documents. The run's graded labels are `[3,0,2,1,0]`; the fourth known relevant document (grade 1) is not retrieved.
+
+Recalculation confirms:
+
+- `P@3 = 2/3 ≈ 0.667`.
+- `R@3 = 2/4 = 0.5`.
+- `F1@3 = 4/7 ≈ 0.571`.
+- `AP = (1 + 2/3 + 3/4 + 0)/4 ≈ 0.604`.
+- `RR = MRR = 1` for the single-query example.
+- With exponential gain `2^g - 1` and logarithmic discount `log2(i+1)`, `DCG@5 ≈ 8.931`.
+- The ideal ranking must include **all four known relevant documents**, including the unreturned D6: `[3,2,1,1,0]`. This gives `IDCG@5 ≈ 9.823` and `nDCG@5 ≈ 0.909`.
+
+The example is arithmetically correct. In particular, the ideal ranking correctly includes the relevant document absent from the retrieved run; omitting it would incorrectly inflate nDCG.
+
+### Formula/definition review
+
+The reviewed definitions distinguish set metrics (Precision/Recall/F1), cutoff metrics (P@k/R@k/R-precision), ranked binary metrics (AP/MAP/MRR), graded metrics (CG/DCG/nDCG), incomplete-judgment evaluation (bpref), cascade-style graded evaluation (ERR), and persistence-based evaluation (RBP). Their stated limitations and parameter/label dependencies are appropriately qualified.
+
+No formula or numerical correction was established in this pass.
+
+**Scope:** This closes the formula and worked-example review for 04.12 only. It does not close a full source-to-claim audit of every statement in Domain 04 or any other domain.
+
+**Audit verdict remains: NOT FULLY AUDITED.**
