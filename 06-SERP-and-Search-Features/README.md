@@ -64,7 +64,7 @@ The domain is organized into three groups. The sequence moves from the structure
 | Topic | Title | Canonical scope |
 |---|---|---|
 | 06.1 | Introduction to SERPs & SERP Anatomy | Defines SERPs and explains their overall structure, major regions, result composition, layout variation, and the distinction between standard results and specialized presentation modules. Establishes the vocabulary needed by the remaining Domain 06 topics without duplicating search processing or intent research. |
-| 06.2 | Organic Search Result Elements & Presentation | Documents the visible components of standard organic results, including title links, snippets, displayed URLs, site names, favicons, breadcrumbs, and sitelinks. Focuses on presentation behavior and documented controls, not on-page implementation. |
+| [06.2](06.2-Organic-Search-Result-Elements-and-Presentation.md) | Organic Search Result Elements & Presentation | Documents the visible components of standard organic results, including title links, snippets, source attribution, visible URLs, site names, favicons, breadcrumbs, byline dates, sitelinks, and optional result enrichments. Focuses on provider-documented presentation behavior, not page implementation. |
 
 ### Group B — Search Features & Enhanced Results
 
@@ -107,9 +107,9 @@ The roadmap defines canonical ownership, not a claim that every named feature is
 |---|---|---|
 | Domain architecture | Defined | Scope, ownership boundaries, three topic groups, and the 11-topic roadmap are established. |
 | [06.1 — Introduction to SERPs & SERP Anatomy](06.1-Introduction-to-SERPs-and-SERP-Anatomy.md) | Documented | Foundational SERP definition, structural model, major regions, result categories, query-dependent composition, observation method, and ownership boundaries documented. |
-| 06.2–06.11 | Planned | Canonical topic scopes are defined; substantive topic documents have not yet been created. |
+| [06.2 — Organic Search Result Elements & Presentation](06.2-Organic-Search-Result-Elements-and-Presentation.md) | Documented | Standard organic-result components, Google-specific presentation behavior, title links, snippets, attribution, visible URLs, byline dates, sitelinks, optional enrichments, and observation boundaries documented. |
 | Cross-domain integration | Architecture-reviewed (2026-11-19) | The roadmap was compared with existing Domains 01–05 and planned ownership boundaries. This is a prospective scope review, not a content-level duplicate audit of topic pages that do not yet exist. |
-| Source audit | Pending topic development | Each topic must receive claim-level source verification, citation checks, freshness review, and duplicate/integration QA when drafted. |
+| Source audit | Pending topic development | Topics 06.1–06.2 have received topic-level source verification, citation checks, freshness review, and targeted duplicate/integration QA. Remaining topics require the same review when drafted. |
 
 ## Related Domains
 
