@@ -303,3 +303,25 @@ The following checks remain open and are not implied by the completed structural
 6. Final regression and human editorial sign-off after all findings are remediated.
 
 **Verdict remains: NOT FULLY AUDITED.** Structural checks passed; source-support, semantic consolidation, anchor/external-link, and complete freshness checks remain open.
+
+
+## 13. Execution Update — 2026-11-19 (Targeted Domain 02/03 Source Revalidation)
+
+### Domain 02.4 — current Bing publisher-preference change
+
+Re-fetched the current 02.4 document and inspected the cited Microsoft announcement directly. The October 30, 2026 Bing announcement confirms the distinction between AI Training and AI Grounding preferences, their separate configuration surfaces, the fact that they do not control crawler access or traditional Bing Search eligibility, and the staged transition dates. The document's treatment of these controls as announced/future-effective changes (rather than already universally active behavior) is consistent with the source as of November 19, 2026. The linked Microsoft announcement is current and accessible. This verification covers the 02.4 section and its cited announcement, not all claims or references in 02.4.
+
+Google's current crawling documentation was also checked for the adjacent claims: Google's robots.txt parser does not support `crawl-delay`; Google's current crawl-budget documentation describes crawl capacity and crawl demand; and Google's current crawling myths page explicitly says crawling is not a ranking signal. The sampled 02.4 statements are consistent with those official sources.
+
+### Domain 03.1–03.6 — comparative structural sample
+
+Re-fetched the six topic documents and compared their heading-level responsibilities and reference lists. The sequence is coherent at the structural level: ranking overview (03.1), multi-stage architecture (03.2), signal categories and interactions (03.3), query-document matching (03.4), link analysis/PageRank (03.5), and content quality/helpfulness/originality systems (03.6). This heading/reference inspection is not a full paragraph-level semantic comparison or sentence-level source verification. No edit was made on the basis of headings alone.
+
+### Evidence and limitations
+
+- Current Microsoft announcement: https://blogs.bing.com/search/2026/10/your-content-your-choice-clearer-preferences-for-training-and-grounding/
+- Current Google robots.txt interpretation: https://developers.google.com/crawling/docs/robots-txt/robots-txt-spec
+- Current Google crawl-budget documentation: https://developers.google.com/crawling/docs/crawl-budget
+- Current Google crawling myths documentation: https://developers.google.com/crawling/docs/myths-about-crawling
+
+This is a targeted verification increment only. It does not close the repository-wide audit gates listed in Section 12. The audit remains **NOT FULLY AUDITED**.
