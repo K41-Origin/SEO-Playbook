@@ -512,3 +512,66 @@ All five references are cited inline in the document. No unused reference remain
 **05.3 — Keyword Expansion & Query Variations: source-checked, navigation-checked, and integration-reviewed on 2026-11-18.**
 
 This conclusion applies to the current 05.3 version and the checks listed above. It does not certify future Domain 05 topics or replace a full repository-wide duplicate-text scan.
+
+
+---
+
+## Domain 05 — Topic 05.4 Source & Integration Audit
+
+**Audit date:** 2026-11-18  
+**Document:** `05-Keyword-and-Search-Intent/05.4-Keyword-Data-Sources-and-Metrics.md`  
+**Scope:** Keyword data-source roles, metric definitions, estimation and reporting limitations, comparability controls, and SEO research workflow.
+
+### Source Verification
+
+| Ref. | Source | Verification result | Claims supported |
+|---|---|---|---|
+| [1] | Google Ads Help — About Keyword Planner forecasts and historical metrics | Official Google Ads Help page inspected. | Average monthly searches, close variants, advertiser competition, top-of-page bid ranges, forecast inputs, rounding, and the distinction between historical metrics and forecasts. |
+| [2] | Google Ads API — Generate historical metrics | Official Google Ads API documentation inspected. | Historical monthly volumes, competition index range, geo/language request parameters, and close-variant deduplication in API responses. |
+| [3] | Google Search Console Help — How are you performing on Google? | Official Search Console Help page inspected. | Performance-report definitions for impressions, clicks, CTR, available dimensions, and property-level reporting scope. |
+| [4] | Daniel Waisberg, Google Search Central — A deep dive into Search Console performance data filtering and limits | Official Google Search Central article inspected; published 2022-10-19. | Average position definition, anonymized-query omission, chart/table discrepancies, and report/export limits. |
+| [5] | Google Trends Help — FAQ about Google Trends data | Official Google Trends Help page inspected. | Sampling, anonymization, aggregation, normalization, 0–100 relative scale, low-volume suppression, duplicate filtering, and statistical noise. |
+
+All five references are cited inline in the document. No unused reference remains. Vendor-specific KD and traffic-potential metrics are explicitly described as provider-defined; the document does not invent a universal formula or cite one vendor as if its methodology applied to all platforms.
+
+### Scope and Content QA
+
+- The document distinguishes estimated market search activity, relative interest, property visibility, property clicks, paid advertising context, vendor-modeled SEO metrics, and first-party business outcomes.
+- It defines search volume, monthly history, impressions, clicks, CTR, average position, CPC, advertiser competition, competition index, keyword difficulty, traffic potential, and Trends relative-interest index.
+- It distinguishes Keyword Planner historical metrics from campaign forecasts and paid-search competition from organic ranking difficulty.
+- It states that Search Console query data describes reported performance for a property, not total market demand, and documents privacy filtering and export limitations.
+- It explains that Google Trends uses sampled, normalized relative-interest data rather than absolute search counts.
+- It distinguishes internal site search, customer feedback, and sales/support records from external search-demand measurements.
+- It provides comparability controls for geography, language, network/search type, date range, device, close variants, and currency.
+- Missing, anonymized, unavailable, below-threshold, zero, and not-checked values are treated as different states.
+- The worked example is explicitly fictional; all numeric values are illustrative and not claimed as observed market data.
+- Intent classification, SERP validation, clustering, prioritization, and page mapping remain outside this topic.
+
+### Cross-Domain Integration
+
+- 05.2 links to 05.4 to distinguish audience-language observations from measured or estimated keyword metrics.
+- 05.3 hands its expanded candidate-query inventory to 05.4 for source evaluation and metric interpretation.
+- The Domain 05 README and root README list 05.4 as documented and source-checked; topics 05.5–05.9 remain planned.
+- Domain 14 is identified as the canonical future home for ongoing site-owner organic performance analysis. Domain 05 uses Search Console query data as research evidence without duplicating the planned analytics domain.
+- The topic links to the Domain 05 index, prerequisite/relevant topic pages, and the planned Domain 14 architecture anchor.
+
+### Technical QA
+
+- All relative Markdown links in 05.4 resolve against the current repository tree.
+- Five inline citation numbers map to five reference entries; all references are cited.
+- No TODO, TBD, or placeholder markers were detected.
+- Parent navigation, Related Topics, and References sections are present.
+- The document ends with its References section, consistent with `AGENTS.md`.
+
+### Duplicate and Ownership Review
+
+- A normalized sentence-level exact-match check was run against 05.1, 05.2, 05.3, and 02.7. It found zero repeated substantive sentences in that comparison set.
+- The semantic review confirms that 05.4 owns SEO keyword-data source selection and metric interpretation; 05.2 owns initial audience-language/seed evidence; 05.3 owns candidate expansion; and Domain 14 is reserved for ongoing site-owner analytics and reporting.
+- The relationship with Search Console is intentional but bounded: Domain 05 explains how to use query-level property data as one keyword-research input; Domain 14 will own ongoing performance analysis and reporting.
+- A repository-wide exact duplicate scan against every substantive document in Domains 01–04 was **not executed for this audit**. The zero-duplicate result above applies only to the four named comparison documents. No claim of repository-wide duplicate-free status is made.
+
+### Audit Conclusion
+
+**05.4 — Keyword Data Sources & Metrics: source-checked, navigation-checked, and integration-reviewed on 2026-11-18.**
+
+This conclusion applies to the current 05.4 version and the checks listed above. It does not certify future Domain 05 topics or replace a full repository-wide duplicate-text scan.
