@@ -1067,3 +1067,59 @@ The approved domain index is [06 — SERP & Search Features](06-SERP-and-Search-
 **Domain 06 architecture: approved and integration-reviewed.** Its proposed ownership is distinct from the existing substantive content in Domains 01–05 at the scope level.
 
 This review does not establish that future Domain 06 topic prose is duplicate-free, factually verified, or source-audited. Those checks must be performed for each topic after drafting, including targeted comparison against existing related documents and the other Domain 06 topics. The first topic scheduled for development is 06.1 — Introduction to SERPs & SERP Anatomy.
+
+
+---
+
+## Domain 06.1 — Introduction to SERPs & SERP Anatomy
+
+**Review date:** 2026-11-19  
+**Document:** [06.1 — Introduction to SERPs & SERP Anatomy](06-SERP-and-Search-Features/06.1-Introduction-to-SERPs-and-SERP-Anatomy.md)  
+**Review type:** Topic-level source, structure, and targeted integration review.
+
+### Research and Source Review
+
+The topic was researched against current provider documentation and official product help:
+
+1. Google Search Central's Visual Elements Gallery for the structure and terminology of visible Google Search elements.
+2. Google's guide to how Search works for query-dependent search features and contextual result variation.
+3. Google Ads Help for the distinction between paid advertisements and organic search results.
+4. Google Search Help for result-type navigation and the conditional availability of filters.
+5. Microsoft's Bing search documentation for provider-specific enhanced experiences, paid-result labeling, and contextual variation.
+6. Google's official 2025 announcement about the presentation of sponsored-result labels.
+7. Google Search Help for documented reasons search results can differ between users.
+8. Google Search Central's Search Appearance documentation as the current entry point to feature-specific documentation.
+
+All eight numbered references are used by inline citations in the topic. The source set supports the claims for which it is cited; provider-specific statements are not generalized into universal search-engine behavior.
+
+### Structural and Integration Checks
+
+| Check | Result |
+|---|---|
+| Topic document | Created; 323 lines, approximately 26.8K characters |
+| Numbered references | 8 |
+| Missing citation IDs | 0 |
+| Unused reference entries | 0 |
+| Relative Markdown links | 8 checked |
+| Broken relative file targets | 0 |
+| Targeted exact-paragraph comparison | 0 matches against 05.6, 02.1, 02.9, and 03.10 |
+| Parent-domain navigation | Present |
+| Related Topics section | Present |
+| Scope and ownership boundaries | Explicitly documented |
+
+The targeted duplicate check compared normalized substantive paragraphs against the most relevant existing documents: 05.6 for SERP observation and intent validation, 02.1 for search-engine fundamentals, 02.9 for result generation and serving, and 03.10 for specialized ranking systems. It found no exact repeated substantive paragraphs. This is a targeted exact-paragraph check, not an exhaustive semantic comparison against every repository document.
+
+### Integration Decisions
+
+- 06.1 owns the overall SERP definition and anatomy: page-level regions, result groups, individual result representations, and the distinction between organic, paid, and specialized result categories.
+- 05.6 retains the research workflow for using observed SERPs to validate search-intent hypotheses. 06.1 describes the interface being observed; it does not duplicate intent classification or validation.
+- 02.1 and 02.9 retain search-engine fundamentals and result generation/serving architecture. 06.1 does not claim that the visible page reveals internal processing.
+- 03.10 retains ranking-side treatment of specialized result classes. 06.1 describes their visible placement and presentation only.
+- 06.2 is reserved for detailed organic-result components such as title links, snippets, attribution, favicons, site names, visible URLs, and sitelinks.
+- Topics 06.3–06.11 retain the detailed mechanics of individual enhanced, specialized, interactive, and AI-powered features.
+
+### Review Result and Limits
+
+**06.1 is documented and integration-reviewed.** Its scope is consistent with the approved Domain 06 architecture and preserves the canonical ownership of the related existing topics.
+
+The review does not establish universal SERP behavior across every engine, market, device, language, query, or user context. Search interfaces and feature availability change; volatile claims must be refreshed against current provider documentation when the topic is maintained. The targeted duplicate check does not prove the absence of every possible semantic overlap in the repository.
