@@ -494,3 +494,33 @@ The 02.11 NISO reference previously linked directly to a PDF endpoint that the s
 - This pass does not constitute a URL-by-URL destination review of every Domain 02 reference, or sentence-by-sentence source verification across all 12 pages. Earlier targeted checks for 02.4 and 02.7 remain scoped to the claims described in prior sections.
 
 **Audit verdict remains: NOT FULLY AUDITED.**
+
+
+## 20. Execution Update — 2026-11-19 (Domain 03 Ranking Sources and Volatile Claims)
+
+### Reference inventory
+
+Extracted reference destinations from all 13 Domain 03 topic pages (03.1–03.13). Opened a representative cross-section of the official Google ranking-systems guide and Search documentation, Google's public ranking and testing explanations, Google Search Status history, Microsoft Bing documentation, original research papers, ACL Anthology, arXiv, NIST/TREC, Cambridge University Press, and Tampere University's research portal.
+
+### Verified source/claim areas
+
+- Google's public ranking-systems guide and ranking explanation support the carefully qualified descriptions of publicly disclosed systems and broad ranking factors; they do not expose a complete production ranking specification.
+- The NYU cascade-ranking paper directly describes multi-stage candidate generation and increasingly expensive rankers over smaller candidate sets.
+- The dense-retrieval survey (arXiv:2211.14876), BERT paper (ACL Anthology N19-1423), and Transformer paper (arXiv:1706.03762) resolve to the cited research works.
+- Google's reviews-system documentation describes its reviews system as rewarding high-quality reviews with insightful analysis and original research.
+- Google Search documentation confirms the April 2026 back-button-hijacking spam policy and its June 15, 2026 enforcement date; the official documentation-updates page records the April 13 policy addition and April 14/23 spam-report/manual-action clarifications.
+- Google's current personalization help pages support the distinction between contextual variation and individual personalization. The current Search Services History and Personalized Recommendations settings are still rolling out gradually. The Personal Intelligence help page documents the AI Mode feature-specific age/history prerequisites and the additional memory experience's US/English limitation. The Preferred Sources guide documents its own limited Search surfaces and controls.
+- Google News Publisher Center documents News ranking factors and states that Top Stories can appear for news-oriented queries; eligibility is not a ranking guarantee.
+- The Google Search Status Dashboard currently records the 2026 ranking update history, including the November 10 core update and September/August spam updates.
+- NIST/TREC's evaluation-measures PDF supports the sampled metric definitions; the TREC QA page describes the distinct judged-answer-string problem for QA tasks. The Tampere University record confirms the authorship, publication, and DOI for the 2002 cumulative-gain paper.
+- The Microsoft Bing Systemic Risk Assessment PDF resolves to Microsoft's August 2024 report. Its publication date and scope must remain explicit; it is not evidence of undocumented current ranking weights.
+
+### Inspection caveats
+
+Some Bing Webmaster Help pages return only a JavaScript shell in the inspection interface. This is not treated as proof of a broken destination. The Stanford-hosted original PageRank report URL on port 8090 could not be fetched directly in this interface, but the same 1998 paper's full text was retrievable from the Fordham-hosted archive already listed alongside it in 03.5. The source remains bibliographically attributed to the Stanford Digital Library Technologies Project; the Fordham link is an archive copy, not the original host.
+
+### Scope limitation
+
+This pass is a cross-domain source review and selected claim verification, not a complete claim-by-claim verification of every statement and every external destination in all 13 Domain 03 pages. The existing 03.12 metric-definition duplication remediation remains in force.
+
+**Audit verdict remains: NOT FULLY AUDITED.**
