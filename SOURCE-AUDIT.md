@@ -884,7 +884,9 @@ All six references are cited inline and mapped to claims within their actual sco
 
 - The document includes a parent-domain link, Related Topics, and References sections.
 - Six inline citation IDs map to six reference entries; all references are cited.
-- All relative Markdown links, citation mapping, placeholders, and line count are checked after final repository re-fetch.
+- Final repository re-fetch confirmed the document at 642 lines. All 14 Markdown links were checked: 8 relative links resolve to existing files (including both cross-domain links), and 6 external reference links were opened and inspected.
+- All 6 inline citation IDs map to 6 References entries, and every reference is cited.
+- No TODO, TBD, or PLACEHOLDER markers were found.
 - No real site data or empirical outcomes are presented in the illustrative example.
 
 ### Duplicate and Ownership Review
@@ -893,7 +895,8 @@ All six references are cited inline and mapped to claims within their actual sco
 - It does not reproduce the metric definitions in 05.4, intent/SERP validation in 05.5–05.6, query clustering methods in 05.7, or opportunity scoring in 05.8.
 - Technical canonicalization and migration redirects are explained only to establish boundaries; their implementation remains outside Domain 05.
 - Query overlap is not automatically labelled as cannibalization or treated as a ranking penalty.
-- The targeted duplicate and ownership review is limited to the directly related Domain 05 topics and selected cross-domain references. It is not a repository-wide exact-duplicate scan.
+- A normalized sentence-level exact-match screen against 05.1–05.8 found no repeated substantive explanatory prose. Five exact matches were bibliography entries for shared source titles/links, not duplicated explanations.
+- The review found no canonical ownership conflict in the compared Domain 05 topics. A repository-wide exact-duplicate scan against all substantive documents in Domains 01–04 and the rest of the repository was not executed; no repository-wide duplicate-free claim is made.
 
 ### Audit Conclusion
 
