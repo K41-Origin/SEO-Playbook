@@ -462,3 +462,35 @@ The selected passages in 01.2 and 01.4 were compared to source text for Search C
 This review establishes destination retrieval for the inspected Domain 01 references and supports only the sampled claim mappings. It does not constitute a sentence-by-sentence verification of every claim in 01.1–01.5, nor does it verify every reference in Domains 02–06.
 
 **Audit verdict remains: NOT FULLY AUDITED.**
+
+
+## 19. Execution Update — 2026-11-19 (Domain 02 Source-Destination Review)
+
+### Reference inventory and primary-source checks
+
+Extracted the reference destinations from all 12 Domain 02 topic pages (02.1–02.12). Opened a broad sample of Google Search Central and Crawling Infrastructure documentation, WHATWG HTML parsing, IETF RFC 9309, Microsoft Learn lifecycle/Foundry documentation, Microsoft Support's Bing Search explanation, the cited USENIX distributed-systems papers, Google SRE chapters, and the Elastic enterprise-search overview.
+
+Selected checks confirmed:
+
+- Google crawler roles, robots.txt interpretation, HTTP status handling, crawl-budget scope, and crawling myths are described by the current Google Crawling Infrastructure documentation.
+- RFC 9309 is the current IETF Standards Track Robots Exclusion Protocol specification.
+- The WHATWG HTML parsing reference resolves to the Living Standard, updated November 17, 2026.
+- Google's current documentation supports the sampled JavaScript rendering, indexable file type, canonicalization, duplicate URL, noindex, and lazy-loading statements.
+- Microsoft's Bing Search API retirement announcement specifies August 11, 2025; current Foundry documentation distinguishes GA Web Search and Grounding with Bing Search from the retired general-purpose Bing Search APIs.
+- The USENIX Bigtable and MapReduce papers resolve to their original conference papers. The Google SRE links resolve to the cited production environment, service practices, monitoring, SLO, and frontend load-balancing chapters.
+
+### Remediation
+
+The 02.11 NISO reference previously linked directly to a PDF endpoint that the source-inspection interface could not retrieve. Replaced it with NISO's canonical publication page for **RP-19-2020, Open Discovery Initiative**, which identifies the Recommended Practice, approval/publication dates, ISBN, DOI, and direct link to the document.
+
+- File: `02-Search-Engine-Fundamentals/02.11-Search-Engine-Types-and-Models.md`
+- Commit: `47ba06e3db79cf5d46687bf4349233da4b343e3f`
+- The replacement page was opened and its publication metadata inspected.
+
+### Destination-inspection limitations
+
+- Several Bing Webmaster Help destinations render only a JavaScript application shell in the inspection interface. This is not classified as a broken HTTP destination; the underlying article content could not be independently read here.
+- Stanford IR book HTML/PDF endpoints timed out during this pass. They are not classified as broken based on timeout alone.
+- This pass does not constitute a URL-by-URL destination review of every Domain 02 reference, or sentence-by-sentence source verification across all 12 pages. Earlier targeted checks for 02.4 and 02.7 remain scoped to the claims described in prior sections.
+
+**Audit verdict remains: NOT FULLY AUDITED.**
