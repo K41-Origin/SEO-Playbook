@@ -699,3 +699,19 @@ No formula or numerical-example correction was established in this targeted pass
 **Scope:** This closes the formula-level review for 04.5–04.7 only. It does not validate all mathematics, examples, or source mappings in every Domain 04 topic.
 
 **Audit verdict remains: NOT FULLY AUDITED.**
+
+
+## 27. Execution Update — 2026-11-19 (Domain 06 Semantic Boundary Remediation)
+
+A focused review of the complete 06.1–06.11 scope statements, introductory sections, and related-topic handoffs found one overly broad ownership assignment in 06.4.
+
+- **Finding:** 06.4's comparison table directed generic utility/built-in answer interfaces (for example, calculators) to 06.10. That was too broad: 06.10 owns interactive refinement and query-exploration controls, not every built-in answer utility.
+- **Remediation:** changed the canonical-topic cell to state that utility/built-in answer interfaces are feature-specific and are not automatically featured snippets. This avoids assigning all direct-answer utilities to the query-refinement topic.
+- **File:** `06-SERP-and-Search-Features/06.4-Featured-Snippets-and-Direct-Answers.md`
+- **Commit:** `d9668c4339b42aaf7fafa3f42a4c6a2cc5347b88`.
+
+The rest of the reviewed Domain 06 ownership map remains: 06.1 page anatomy; 06.2 standard organic-result components; 06.3 rich-result/structured-data appearance; 06.4 featured snippets; 06.5 knowledge panels; 06.6 local/map presentations; 06.7 news; 06.8 image/video; 06.9 shopping/product; 06.10 conventional interactive refinement; 06.11 AI-generated/conversational Search experiences.
+
+This closes the targeted scope-statement comparison for Domain 06 at the level of introductions and ownership handoffs. It does not close a sentence-by-sentence feature overlap review, all 55 within-domain page pairs, or the full 1,891-pair repository review.
+
+**Audit verdict remains: NOT FULLY AUDITED.**
