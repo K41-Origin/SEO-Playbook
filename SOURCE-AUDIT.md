@@ -1423,3 +1423,60 @@ The duplicate check compared normalized substantive paragraphs against 06.1 for 
 **06.6 is documented and integration-reviewed.** Its scope follows the approved Domain 06 roadmap and preserves canonical ownership of adjacent topics.
 
 The research verifies Google's published guidance as accessed on 2026-11-19. Google does not publish a complete local-ranking formula, exact factor weights, or a universal SERP layout for every query, location, device, language, and market. "Local pack," "map pack," and "Local Finder" are used as descriptive practitioner labels rather than asserted as stable official feature taxonomy. The 2025-12-10 Search Central business-details page is dated explicitly; other Help Center pages may change without a visible publication date. The targeted duplicate review does not establish the absence of every possible semantic overlap across the repository.
+
+---
+
+## Domain 06.7 — News & Top Stories Search Features
+
+**Review date:** 2026-11-19  
+**Document:** [06.7 — News & Top Stories Search Features](06-SERP-and-Search-Features/06.7-News-and-Top-Stories-Search-Features.md)  
+**Review type:** Topic-level source, structure, and targeted integration review.
+
+### Research and Source Review
+
+The topic was researched against seven official Google sources, opened and checked on 2026-11-19:
+
+1. Google Publisher Center Help, **News content across Google** — definitions and distinctions for Top Stories, the News tab, Google News, publisher automatic consideration, and policy eligibility.
+2. Google Search, **How news works on Google** — Google's published explanation of news organization, source diversity, news-ranking considerations, freshness, prominence, authoritativeness, usability, location, and distinctions between Search, Google News, and Discover.
+3. Google Search Help, **Preferred Sources in Google Search** — current Top Stories behavior and the user-controlled preferred-source feature, including its effect on source visibility.
+4. Google, **Google News content policies** — publisher transparency requirements, prohibited deceptive practices, news-surface enforcement, and the policy's scope.
+5. Google Search Central, **Article structured data** — Article/NewsArticle/BlogPosting properties and the explicit statement that structured data is not required for Top Stories eligibility.
+6. Google, **Get the full news story with Full Coverage in Search** (2021-03-08) — historical context for the Full Coverage experience in Search; the document does not treat the 2021 launch description as a guarantee of current layout or availability.
+7. Google Publisher Center Help, **Ranking within Google News** — Google News-specific ranking factors and personalization distinctions, used only to distinguish the Google News product from news features in Search.
+
+All seven numbered references are used by inline citations. The topic attributes Google-specific behavior to Google and does not generalize its news surfaces to other search engines.
+
+### Structural and Integration Checks
+
+| Check | Result |
+|---|---|
+| Topic document | Created; Top Stories, News tab, news cards, story context, and publisher-facing eligibility documented |
+| Numbered references | 7 |
+| Missing citation IDs | 0 |
+| Unused reference entries | 0 |
+| Parent-domain navigation | Present |
+| Related Topics section | Present |
+| Domain index | Updated with 06.7 link and development status |
+| Root README | Updated to mark 06.1–06.7 documented |
+| Citation and source freshness | Official sources opened and checked on 2026-11-19 |
+| Targeted duplicate comparison | Pending final repository-level file comparison |
+
+### Integration Decisions
+
+- 06.1 retains overall SERP anatomy; 06.7 documents news-specific modules.
+- 06.2 retains standard organic-result components. News cards may reuse familiar headline/source/link patterns but add news-oriented context; this page does not reproduce the standard result component taxonomy.
+- 06.3 retains structured-data rich results. Article structured data is described only to clarify its relationship to Top Stories eligibility; markup implementation remains in Domain 10.
+- 06.4 retains featured snippets and direct answers; a news article group is not an answer excerpt.
+- 06.5 retains entity-oriented panels; news story groupings are not Knowledge Panels.
+- 06.6 retains local/map-based features; geographic variation in news is not local business discovery.
+- Domain 03 retains news ranking mechanisms and evaluation. This topic summarizes only Google's published high-level explanations and does not infer hidden weights or selection logic.
+- Domain 05.6 retains SERP-based intent validation; 06.7 provides the vocabulary for recording news modules.
+- Domain 08 retains editorial production, reporting, and content quality workflows. Domain 10 retains Article structured-data implementation and technical validation.
+- Domain 14 retains publisher/site-owner performance measurement. Manual SERP observations are not Search Console performance reporting.
+- Domain 16 retains broader AI/search evolution. Discover and AI-powered Search experiences are not silently folded into the news SERP taxonomy.
+
+### Review Result and Limits
+
+**06.7 is documented and source-reviewed.** The topic follows the approved Domain 06 roadmap and preserves canonical ownership of adjacent topics.
+
+Google's public descriptions establish the general purpose and broad behavior of Top Stories and the News tab, but do not provide a permanent card specification, universal appearance rule, complete selection model, or exact ranking weights. Some Google News and Search experiences have distinct personalization and availability behavior; the document qualifies those differences rather than treating all news surfaces as one product. The Full Coverage source is historical and is not used as proof of current UI availability. The duplicate review is targeted and must not be represented as an exhaustive semantic audit of the entire repository.
