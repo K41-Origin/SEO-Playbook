@@ -612,3 +612,35 @@ Extracted reference destinations from all 11 Domain 06 topic pages (06.1–06.11
 The 11 reference lists were inventoried, but not every destination in all 11 topics was opened, and this does not constitute sentence-by-sentence verification of every claim. The cross-topic semantic review for Domain 06 and full cross-domain semantic all-pairs review remain separate required gates. Earlier topic-specific QA and source records remain valid only within their stated scope.
 
 **Audit verdict remains: NOT FULLY AUDITED.**
+
+
+## 24. Execution Update — 2026-11-19 (High-Risk Cross-Domain Ownership Review)
+
+The 16 high-risk collision groups identified in the initial inventory were revisited as ownership-boundary checks. The following dispositions define which document owns the primary explanation and which document may only cross-reference it.
+
+| Collision group | Canonical ownership and disposition |
+|---|---|
+| 01.1 / 01.4 / 01.5 | 01.1 owns the foundational SEO definition and scope; 01.4 owns organizational objectives and value; 01.5 owns the taxonomy of SEO disciplines. Keep the overview concise and link to the deeper topic. |
+| 01.2 / Domain 14 | 01.2 owns the concept and sources of search visibility; Domain 14 owns site-owner performance measurement, reporting, and analysis. Do not turn 01.2 into a Search Console analytics manual. |
+| 02.1 / 02.2 | 02.1 owns the search-engine concept, purpose, and high-level lifecycle; 02.2 owns the component architecture and system relationships. |
+| 02.5 / 04.3 | 02.5 owns web-document fetching, parsing, DOM/rendering, and extraction in the operational search pipeline; 04.3 owns IR text normalization, tokenization, stemming, and term representation after text has been supplied to an IR system. |
+| 02.6 / 04.4 | 02.6 owns operational web-search indexing and index lifecycle; 04.4 owns IR index construction, dictionaries, postings, compression, and data structures as general IR concepts. |
+| 02.7 / 05.5 | 02.7 owns system-side query processing, interpretation, normalization, and preparation; 05.5 owns SEO-side search-intent concepts and practitioner taxonomies. |
+| 02.8 / 04.1 / 04.5–04.10 | 02.8 owns the operational retrieval stage in a search-engine pipeline; 04.1 owns IR's general problem definition and 04.5–04.10 own formal retrieval models and methods. |
+| 03.4 / 04.1 / 04.11 | 03.4 owns search-ranking relevance matching and query-document evaluation; 04.1 owns general IR relevance as a relationship to an information need; 04.11 owns human relevance judgments and assessment design. |
+| 03.12 / 04.11 / 04.12 | 03.12 owns ranking-system evaluation, experiments, online testing, and provider-specific testing context; 04.11 owns IR assessment design and judgment reliability; 04.12 owns formal IR metric definitions and computation. The duplicated metric-definition material was removed from 03.12 in the documented remediation. |
+| 05.5 / 05.6 | 05.5 owns intent concepts and taxonomies; 05.6 owns evidence-based SERP observation and validation of intent hypotheses. |
+| 05.7 / 04.8 | 05.7 owns SEO practitioner-side keyword/query grouping for planning; 04.8 owns IR-side relevance feedback and query expansion methods. Neither is the search engine's undisclosed query-clustering implementation. |
+| 05.8 / 05.9 | 05.8 owns opportunity evaluation and prioritization; 05.9 owns the downstream research handoff that maps prioritized query clusters to suitable existing or proposed pages. |
+| 06.1 / 06.2 / 06.3–06.11 | 06.1 owns page-level SERP anatomy; 06.2 owns standard organic-result components; 06.3–06.11 own the specific rich-result, answer, entity, local, news, visual, shopping, interactive, and AI feature presentations. |
+| 06.10 / 06.11 | 06.10 owns conventional interactive refinement and query-exploration controls; 06.11 owns AI-generated and conversational Search experiences. PAA question expansion remains an interactive exploration control even when its answer displays a featured snippet. |
+| 06.3 / Domain 10 | 06.3 owns structured-data-driven Search appearance, documented eligibility, and visible feature behavior; Domain 10 owns technical implementation, validation, and site-side structured-data maintenance. |
+| 05.6 / 06.3–06.11 | 05.6 may observe visible SERP features as evidence for intent analysis; Domain 06 owns their feature mechanics, eligibility, and presentation. SERP observation is not feature implementation. |
+
+### Disposition
+
+The reviewed boundaries are coherent with the canonical ownership map in this report and the existing topic navigation. The only confirmed material duplication in this high-risk set already had a recorded remediation: 03.12's detailed IR metric and judgment material was removed in favor of canonical Domain 04 references.
+
+No new cross-domain content rewrite was justified by this boundary pass. This is a focused review of the pre-identified high-risk collision groups, not an exhaustive semantic comparison of all 1,891 possible topic-page pairs. Exact-paragraph comparisons remain limited to the pairs documented in earlier sections.
+
+**Audit verdict remains: NOT FULLY AUDITED.**
