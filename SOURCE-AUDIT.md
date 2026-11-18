@@ -1822,6 +1822,8 @@ The continuing review is recorded in `REPOSITORY-INTEGRATION-AUDIT-2026-11-19.md
 - Section 22: Domain 05 reference inventory and source review; selected keyword metrics, Trends, Search Console, query refinement, clustering, canonicalization, and prioritization claims checked.
 - Section 23: Domain 06 reference inventory and source review; selected SERP, rich-result, featured-snippet, local, news, image/video, shopping, interactive, and AI-feature claims checked.
 - Section 27: Domain 06 scope review found and corrected an overbroad 06.4 handoff that assigned generic utility answers to 06.10; utility answer interfaces are now kept feature-specific.
+- Sections 28–33: purpose/scope introductions and related-topic handoffs were reviewed across Domains 01–06 (all 62 topic pages). This confirms the high-level workflow and ownership boundaries, not full body-level semantic all-pairs review.
+- Sections 26 and 32: formula and worked-example checks completed for 04.5–04.7 and 04.12; no mathematical correction was established.
 
 These are documented review passes and samples, not blanket proof that every external reference and every factual statement in all 62 topic pages has been verified. URL inspection errors/timeouts and JavaScript-only rendering are recorded as inspection limitations, not automatically misclassified as broken links.
 
