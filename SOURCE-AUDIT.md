@@ -1566,8 +1566,8 @@ The sources are Google-specific and support statements about Google's own produc
 | Numbered references | 8 |
 | Missing citation IDs | 0 |
 | Unused reference entries | 0 |
-| Internal Markdown link occurrences | 9 |
-| Unique internal Markdown targets | 8 |
+| Internal Markdown link occurrences | 8 |
+| Unique internal Markdown targets | 7 |
 | Broken internal links | 0 |
 | Parent-domain navigation | Present |
 | Related Topics section | Present |
