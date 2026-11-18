@@ -414,3 +414,28 @@ The 16 internal fragments target existing headings in the Domain 02, Domain 05, 
 This pass validates Markdown heading fragments in the 62 topic pages. It does not certify every external URL's HTTP status, redirect destination, content relevance, or claim-level support. Raw HTML links, embedded images, and links outside the extracted Markdown-link syntax require separate checks.
 
 **Audit verdict remains: NOT FULLY AUDITED.**
+
+
+## 17. Execution Update — 2026-11-19 (Domain 01.2 Volatile Search Console Claims)
+
+### Primary-source verification sample
+
+Re-read the current 01.2 body and opened the official Google documentation supporting its newer Search Console and AI-search reporting statements. The sampled claims were checked against the specific product documentation rather than relying on snippets.
+
+Verified in the official documentation:
+
+- Search results Performance report dimensions, anonymized-query behavior, canonical URL aggregation, search appearance grouping, and multimodal query limitations.
+- Performance report discrepancies, row limits, data delays, and Pacific Time reporting.
+- Search Console Generative AI performance reporting for AI Overviews and AI Mode, including its reported dimensions and the distinction from Discover reporting.
+- Search generative AI control scope, default/inherited behavior, exclusion effect, and explicit separation from ranking signals, AI training controls, and general Search indexing.
+- Discover generative AI reporting's scroll-into-view impression rule, per-session counting, page/country/date dimensions, and aggregation behavior.
+- Bing Webmaster Tools AI Performance preview launch, June 2026 preview additions, and October 2026 Topics Portfolio beta. The Microsoft sources describe Citation Share as observational and Topics Portfolio measures as approximate/directional.
+- The November 9–11, 2026 Search Generative AI impression logging anomaly. The official anomaly notice explicitly classifies it as a data-logging issue only.
+- Google platform properties for social/video content and the Search Console reporting described in the current guide.
+- AI Mode and AI Overview external-link click counting, position methodology, and result-specific rules in Google's current Search Console metric methodology.
+
+### Disposition
+
+The sampled 01.2 claims and their corresponding references are consistent with the official source text checked. No correction was established in this sample. This does not mean all 17 references or every sentence in 01.2 have been independently checked, and it does not substitute for claim-level verification of the other 61 topic pages.
+
+**Audit verdict remains: NOT FULLY AUDITED.**
