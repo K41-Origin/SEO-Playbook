@@ -661,7 +661,7 @@ This section is the current source of truth for audit status. Earlier sections p
 | External URL/redirect verification | Only selected destinations opened; some JavaScript-shell, timeout, and publisher-access cases remain unclassified; no exhaustive HTTP/redirect audit | Open |
 | Claim-to-source verification | Primary-source checks and claim mapping performed on selected statements in every domain; not every substantive claim in every page checked | Open |
 | Volatile-claim freshness | Current Google/Microsoft policy, product, reporting, and ranking changes sampled; not every volatile claim rechecked | Open |
-| Semantic duplication | Four selected exact-paragraph comparisons returned zero shared substantive paragraphs; 16 high-risk collision groups received ownership-boundary review | Partial |
+| Semantic duplication | Purpose/scope introductions and related-topic handoffs reviewed for all 62 pages; 16 high-risk collision groups received ownership-boundary review; four selected exact-paragraph comparisons returned zero shared substantive paragraphs | Partial |
 | Exhaustive semantic pair comparison | No complete review of all 1,891 unique pairs across 62 topic pages | Open |
 | Image, raw HTML, and non-Markdown link validation | Not exhaustively checked across the repository | Open |
 | Post-remediation regression | Selected updated files and commit diffs verified; no complete all-topic regression run after every remediation | Open |
