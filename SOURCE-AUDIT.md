@@ -282,3 +282,35 @@ This refresh does not pretend that planned domains contain auditable material. D
 8. Microsoft. ([Bing Webmaster API](https://learn.microsoft.com/en-us/bingwebmaster/)) and ([Supported API Protocols](https://learn.microsoft.com/en-us/bingwebmaster/api-protocols)). Microsoft Learn. Accessed 2026-11-18.
 9. Microsoft Bing. ([AI Performance in Bing Webmaster Tools](https://www.bing.com/webmasters/help/ai-performance-9f8e7d6c)). Bing Webmaster Tools Help. Accessed 2026-11-18.
 
+## Domain 05 — Topic 05.1 Source Audit
+
+**Audit date:** 2026-11-18  
+**Document:** `05-Keyword-and-Search-Intent/05.1-Introduction-to-Keyword-Research.md`  
+**Scope:** Foundational definition, terminology, research purpose and workflow, source interpretation, SEO boundaries, and research-output standards.
+
+### Source Verification
+
+| Source | Claims checked | Outcome |
+|---|---|---|
+| Google Ads Help — Use Keyword Planner | Keyword idea discovery from terms/websites, search metrics, advertising cost and campaign-planning purpose. | Supported. The document explicitly distinguishes this advertising research tool from a complete organic SEO measurement system. |
+| Broder — A Taxonomy of Web Search (2002) | Informational, navigational, and transactional intent; the limits of inferring intent from query text. | Supported by the original paper. The document treats the taxonomy as an analytical framework, not a certain classifier. |
+| Google Trends Help — FAQ about Google Trends data | Sampling, normalization to a 0–100 relative scale, low-volume terms, filtering, and statistical noise. | Supported. The document does not present Trends values as absolute search counts. |
+| Google Ads Help — About Keyword Planner forecasts | Historical search metrics, advertiser competition, and forecast dependencies. | Supported. Advertising competition and campaign forecasts are not presented as organic ranking difficulty or traffic predictions. |
+| Google Search Console Help — How are you performing on Google? | Query dimensions, clicks, impressions, report filters, and property-scoped reporting. | Supported. The document distinguishes site performance data from total market demand and notes query-data omissions. |
+
+### Technical and Editorial QA
+
+- All five inline citation numbers map to exactly five reference entries.
+- All five references are cited in the document.
+- All eight relative Markdown links resolve on the current branch.
+- Parent-domain navigation is present.
+- Cross-domain links connect the topic to Domains 01–04 without reproducing their canonical explanations.
+- No control characters or malformed citation markers were detected.
+- Keyword research is scoped to audience/query research and SEO decision support. Query processing, retrieval theory, ranking mechanics, SERP-feature taxonomy, content production, semantic entity architecture, and ongoing analytics remain assigned to their canonical domains.
+- The document explicitly distinguishes a keyword research unit, an actual search query, a broader topic, and the underlying information need.
+
+### Audit Conclusion
+
+**05.1 — Introduction to Keyword Research: source-checked and documentation QA passed on 2026-11-18.**
+
+This status applies to the claims and scope in this version of 05.1. It does not certify the remaining Domain 05 topics, which must be researched and audited individually before they are marked complete.
