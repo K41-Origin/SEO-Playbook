@@ -63,7 +63,7 @@ The domain is organized into three groups. The sequence moves from collecting qu
 | [05.1](05.1-Introduction-to-Keyword-Research.md) | Introduction to Keyword Research | Defines keyword research, its purpose, outputs, workflow, and role in SEO strategy. Establishes the difference between a keyword, a query, a topic, and an information need without duplicating IR theory. |
 | [05.2](05.2-Seed-Keyword-and-Audience-Language-Discovery.md) | Seed Keyword & Audience-Language Discovery | Establishes initial seed concepts from audience needs, product/service knowledge, customer language, and first-party evidence. Records source context and separates observed wording from researcher interpretation; detailed query expansion remains in 05.3. |
 | [05.3](05.3-Keyword-Expansion-and-Query-Variations.md) | Keyword Expansion & Query Variations | Expands seeds into lexical variants, attributes, use cases, task and question patterns, comparisons, and locale-specific formulations; preserves source provenance and meaningful distinctions while controlling discovery bias and duplicate records. |
-| 05.4 | Keyword Data Sources & Metrics | Evaluates Keyword Planner, Google Trends, Search Console, internal site search, third-party tools, and qualitative sources; defines volume, trend, competition, CPC, and difficulty caveats. |
+| [05.4](05.4-Keyword-Data-Sources-and-Metrics.md) | Keyword Data Sources & Metrics | Evaluates Keyword Planner, Search Console, Google Trends, third-party platforms, first-party business data, and qualitative sources; defines search volume, impressions, clicks, CTR, position, CPC, advertiser competition, keyword difficulty, and traffic-potential caveats. |
 
 ### Group B — Search Intent & SERP Interpretation
 
@@ -99,9 +99,10 @@ The domain is organized into three groups. The sequence moves from collecting qu
 | 05.1 — Introduction to Keyword Research | Documented and source-checked | Foundational concepts, workflow, evidence boundaries, and research deliverable standards are documented. |
 | 05.2 — Seed Keyword & Audience-Language Discovery | Documented and source-checked | Seed discovery workflow, audience-language sources, evidence quality controls, and scope boundaries are documented. |
 | 05.3 — Keyword Expansion & Query Variations | Documented and source-checked | Expansion dimensions, discovery-source limitations, provenance, normalization, deduplication, and research handoff are documented. |
-| Topics 05.4–05.9 | Planned | Topic pages have not yet been created. |
+| 05.4 — Keyword Data Sources & Metrics | Documented and source-checked | Source purposes, metric definitions, data limitations, comparability controls, and research workflow are documented. |
+| Topics 05.5–05.9 | Planned | Topic pages have not yet been created. |
 | Cross-domain integration | Architecture audited | Ownership boundaries checked against existing Domains 01–04 and planned Domains 06–17; detailed findings are recorded in `SOURCE-AUDIT.md`. Reciprocal topic links will be added as pages are documented. |
-| Source audit | Pending | Each substantive topic receives claim-level citations and source verification before being marked complete; 05.1–05.3 have completed their individual source checks. |
+| Source audit | Pending | Each substantive topic receives claim-level citations and source verification before being marked complete; 05.1–05.4 have completed their individual source checks. |
 
 ## Related Domains
 
