@@ -855,3 +855,33 @@ No formula or numerical correction was established in this pass.
 **Scope:** This closes the formula and worked-example review for 04.12 only. It does not close a full source-to-claim audit of every statement in Domain 04 or any other domain.
 
 **Audit verdict remains: NOT FULLY AUDITED.**
+
+
+## 33. Execution Update — 2026-11-19 (Domain 04 Information Retrieval Scope Review)
+
+Re-read the purpose, opening sections, and related-topic handoffs for all 12 Domain 04 pages (04.1–04.12).
+
+| Topic | Canonical responsibility | Boundary confirmed |
+|---|---|---|
+| 04.1 | Define the IR problem, information needs, queries, documents, collections, and relevance. | General discipline foundation, not one search engine's operational pipeline. |
+| 04.2 | Explain information representation and document modeling. | What the retrievable unit represents, not web-page parsing or text tokenization. |
+| 04.3 | Explain text processing and term representation. | IR tokenization, normalization, stemming, and term representation, not search-engine page rendering. |
+| 04.4 | Explain IR indexing structures and data organization. | General inverted indexes and related data structures, not operational web-index lifecycle. |
+| 04.5 | Explain Boolean retrieval and set-based matching. | Logical retrieval without inherent ranked scoring. |
+| 04.6 | Explain the Vector Space Model, TF-IDF, and cosine similarity. | Classical vector-space scoring, not probabilistic scoring or proprietary search ranking. |
+| 04.7 | Explain PRP, BIM, probabilistic scoring, and BM25. | Probabilistic lexical retrieval, not a public Google/Bing ranking formula. |
+| 04.8 | Explain relevance feedback and query expansion. | IR-side query reformulation from relevance evidence, not SEO keyword expansion or search-engine query preprocessing. |
+| 04.9 | Explain semantic/neural retrieval representations and candidate retrieval methods. | Retrieval-side learned matching, not ranking-side neural evaluation (03.11) or semantic SEO implementation (09). |
+| 04.10 | Explain hybrid and advanced retrieval combinations, fusion, and trade-offs. | Retrieval-method fusion, not production search architecture or final ranking evaluation. |
+| 04.11 | Explain relevance judgments, assessment design, qrels, test collections, and judgment reliability. | Assessment framework, not metric computation or ranking-specific experimentation. |
+| 04.12 | Define and interpret formal IR evaluation metrics. | Metric definitions and calculations, not relevance-assessment design, ranking evaluation, or SEO analytics. |
+
+### Disposition
+
+The 12-topic progression is coherent: IR problem and representations → text processing/indexing → lexical retrieval models → feedback/semantic/hybrid retrieval → assessment and evaluation metrics.
+
+The previously documented 02/04 operational-vs-theoretical boundaries remain explicit. The 04.11/04.12 split is sound after 03.12's metric-detail consolidation. The formula and example QA for 04.5–04.7 and 04.12 is recorded separately in Sections 26 and 32.
+
+This is a scope/handoff review of all 12 topic introductions and navigation boundaries, not a full body-level semantic comparison of every 04-page pair or a sentence-by-sentence source audit.
+
+**Audit verdict remains: NOT FULLY AUDITED.**
