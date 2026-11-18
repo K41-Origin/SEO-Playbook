@@ -1459,7 +1459,7 @@ All seven numbered references are used by inline citations. The topic attributes
 | Domain index | Updated with 06.7 link and development status |
 | Root README | Updated to mark 06.1–06.7 documented |
 | Citation and source freshness | Official sources opened and checked on 2026-11-19 |
-| Targeted duplicate comparison | Pending final repository-level file comparison |
+| Targeted exact-paragraph comparison | 0 repeated substantive paragraphs against 06.1–06.6; this is not an exhaustive semantic audit |
 
 ### Integration Decisions
 
