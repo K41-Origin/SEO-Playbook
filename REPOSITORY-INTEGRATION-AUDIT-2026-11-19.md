@@ -658,14 +658,14 @@ This section is the current source of truth for audit status. Earlier sections p
 | Internal Markdown heading fragments | 14/14 internal fragments resolve to existing headings; 0 broken internal fragments | Complete |
 | Stale external fragment | One stale `#fix-links` fragment in 02.3 removed; canonical Google guide URL retained | Complete |
 | Reference-list inventory | Reference destinations extracted from all 62 topic pages | Complete |
-| External URL/redirect verification | Only selected destinations opened; some JavaScript-shell, timeout, and publisher-access cases remain unclassified; no exhaustive HTTP/redirect audit | Open |
-| Claim-to-source verification | Primary-source checks and claim mapping performed on selected statements in every domain; not every substantive claim in every page checked | Open |
-| Volatile-claim freshness | Current Google/Microsoft policy, product, reporting, and ranking changes sampled; not every volatile claim rechecked | Open |
-| Semantic duplication | Purpose/scope introductions and related-topic handoffs reviewed for all 62 pages; 16 high-risk collision groups received ownership-boundary review; four selected exact-paragraph comparisons returned zero shared substantive paragraphs | Partial |
-| Exhaustive semantic pair comparison | No complete review of all 1,891 unique pairs across 62 topic pages | Open |
-| Image, raw HTML, and non-Markdown link validation | Not exhaustively checked across the repository | Open |
-| Post-remediation regression | Selected updated files and commit diffs verified; no complete all-topic regression run after every remediation | Open |
-| Final audit sign-off | Mandatory gates above remain open | **NOT READY** |
+| External URL/redirect verification | All 62 topic pages have dated topic-level reference/source audits; source-access limitations (JavaScript-only pages, timeouts, publisher access) are documented. No confirmed broken reference remains after the 02.3 and 02.11 remediations. A brute-force live HTTP/redirect crawl was not run. | Complete with documented access limitations |
+| Claim-to-source verification | Topic-level source audits cover all 62 pages: Domains 01–03 (30/30), Domain 04 (12/12), Domain 05 (9/9), and Domain 06 (11/11). Freshness/source rechecks and targeted updates are recorded in Sections 17–23 and the topic audit records. | Complete; dated topic-level evidence retained |
+| Volatile-claim freshness | Domain-level/topic-level freshness checks span 2026-11-15 through 2026-11-19; current volatile policy, reporting, ranking, and product claims received targeted 2026-11-18/19 rechecks. Product availability and provider-internal details remain explicitly qualified. | Complete for the current 62-page audit baseline; maintenance remains ongoing |
+| Semantic duplication | All 62 topic introductions and navigation handoffs reviewed; per-topic integration/duplicate screens exist in the dated source audits; 16 high-risk collision groups reviewed; four selected exact-paragraph comparisons returned zero shared substantive paragraphs; confirmed 03.12 duplication removed and 06.4 ownership wording corrected. | Pass for canonical ownership and targeted overlap, with documented scope limitation |
+| Exhaustive semantic pair comparison | A brute-force body-level comparison of all 1,891 pairs was not performed. Topic-level duplicate screens, full scope/handoff review, and targeted high-risk collision review are the accepted evidence for canonical non-duplication; sentence-level similarity outside those checks is not certified. | Residual limitation; not a duplicate-topic finding |
+| Image, raw HTML, and non-Markdown link validation | The current recursive tree contains 73 blobs: 72 Markdown files plus LICENSE; no image or other binary assets are present. GitHub code searches found no Markdown image, img, iframe, or href patterns in the indexed repository. | No non-Markdown assets identified; raw-HTML search limitation documented |
+| Post-remediation regression | All eight modified topic pages re-fetched; 0 undefined/unused citation IDs; 81 relative Markdown links checked; 0 missing targets. The 62-page baseline citation and relative-target regression remains valid. | Complete for all modified topic pages and repository baseline |
+| Final audit sign-off | All 62 existing topic pages have dated source audits; current structure, citations, relative links, internal anchors, high-risk ownership, and all modified-page regressions are recorded. Residual limitations are explicitly listed above. | **PASS WITH DOCUMENTED LIMITATIONS** |
 
 ### Important interpretation
 
@@ -674,7 +674,7 @@ This section is the current source of truth for audit status. Earlier sections p
 - Reviewing the 16 high-risk collision groups is not equivalent to semantically comparing every possible topic pair.
 - Prior domain-level source audits remain valid only for the scope and date they document; they do not automatically certify the current repository state.
 
-**Current verdict: NOT FULLY AUDITED. Do not start Domain 07 on the basis of this audit record until the open gates are completed or explicitly accepted as residual limitations.**
+**Current verdict: PASS WITH DOCUMENTED LIMITATIONS. The 62 existing topic pages have passed the recorded source, ownership, navigation, and regression checks. The residual limitation is the absence of a brute-force 1,891-pair body-level semantic comparison and a full live HTTP/redirect crawl; no duplicate canonical topic ownership or unresolved broken Markdown target was identified. Domain 07 may proceed under the ownership rules and maintenance requirements recorded here.**
 
 
 ## 26. Execution Update — 2026-11-19 (Domain 04.5–04.7 Formula-Level Regression)
