@@ -837,3 +837,66 @@ All five references are cited inline and mapped to the claims they support. Gene
 **05.8 — Keyword Opportunity & Prioritization: source-checked and integration-reviewed on 2026-11-18.**
 
 This conclusion applies to the current 05.8 version and the checks recorded above. It does not certify future Domain 05 topics or replace a repository-wide duplicate-text scan.
+
+
+---
+
+## Domain 05 — Topic 05.9 Source & Integration Audit
+
+**Audit date:** 2026-11-19  
+**Document:** `05-Keyword-and-Search-Intent/05.9-Keyword-to-Page-Mapping-and-Research-Deliverables.md`  
+**Scope:** Mapping validated and prioritized keyword clusters to existing or proposed pages; page inventory; page-purpose and task fit; mapping relationship patterns; existing-page versus new-page decisions; consolidation; query overlap and mapping-conflict diagnosis; research deliverables and downstream handoff.
+
+### Source Verification
+
+| Ref. | Source | Verification result | Claims supported |
+|---|---|---|---|
+| [1] | Google Search Central — SEO Starter Guide | Official guide opened and relevant sections inspected. | Supports logical site organization, descriptive URLs, avoiding unnecessary duplicate content, useful and original content, and not assuming every query variation must be explicitly repeated. |
+| [2] | Google Search Central — Site Moves and Migrations | Official guide opened; URL inventory, old-to-new URL mapping, relevant destinations, and redirect guidance inspected. | Supports URL inventory inputs and migration-specific mapping/redirect context only. The document explicitly distinguishes a research keyword map from a technical site migration. |
+| [3] | Google Search Central — What is canonicalization | Official canonicalization page opened; definition, duplicate URL examples, representative URL selection, and hint-versus-rule qualification inspected. Last updated 2026-08-20. | Supports the distinction between duplicate/very similar URL canonicalization and practitioner keyword-to-page mapping. |
+| [4] | Google Search Console Help — Performance report (Search results): Overview and basic setup | Official help page opened and inspected. | Supports query and page dimensions, clicks, impressions, CTR, average position, and context-dependent search result observations. |
+| [5] | Google Search Console Help — Performance report (Search results): About the data | Official help page opened; property-level versus page-level aggregation inspected. | Supports the caveat that query/page overlap analysis must account for aggregation differences and report interpretation. |
+| [6] | Google Search Central — Spam policies for Google web search | Official policy page opened; Doorway abuse section inspected. | Supports the warning against substantially similar pages created to rank for similar queries and funnel users to a final destination. |
+
+All six references are cited inline and mapped to claims within their actual scope. In particular, canonicalization is not presented as a keyword-targeting control, and migration URL mapping is not conflated with the routine research deliverable.
+
+### Scope and Content QA
+
+- Defines keyword-to-page mapping as a research decision connecting validated query clusters to suitable existing or proposed destinations.
+- Separates 05.7 clustering, 05.8 opportunity prioritization, 05.9 page mapping, and downstream content, on-page, technical, internal-link, and analytics work.
+- Explains that cluster-to-page relationships are not necessarily one-to-one: multiple clusters may share a page, distinct tasks may require separate pages, and uncertain cases may remain provisional.
+- Covers page inventory sources and fields, URL/page-state verification, search-task alignment, page purpose, coverage, SERP fit, business fit, and existing visibility.
+- Defines explicit mapping outcomes: keep, improve, reposition, consolidate, create, separate, provisional, and defer/no mapping.
+- Distinguishes query overlap, duplicate content, mapping conflict, and canonicalization.
+- Treats keyword cannibalization as a practitioner diagnostic label, not proof of a Google penalty or algorithmic condition.
+- Includes a fictional home-espresso-grinder example; no live SERP, Search Console, traffic, or business results are claimed.
+- Defines mapping-table fields, page-inventory deliverables, conflict register, and research handoff summary.
+
+### Cross-Domain Integration
+
+- Links to 05.4–05.8 for metrics, intent/SERP evidence, clustering, and opportunity prioritization.
+- Defines 05.9 as the final Domain 05 research output and downstream handoff.
+- Keeps editorial strategy and content production in planned Domain 08; page-level optimization in Domain 07; technical URL/indexation implementation in Domain 10; internal-link implementation in Domain 11; and ongoing performance reporting in Domain 14.
+- Clarifies that the Domain 05 mapping recommendation does not authorize redirects, canonical tags, indexation directives, or content publication.
+- Domain 05 README and root README now list 05.9 as documented and source-checked; the 05.8 → 05.9 relationship is reciprocal.
+
+### Technical QA
+
+- The document includes a parent-domain link, Related Topics, and References sections.
+- Six inline citation IDs map to six reference entries; all references are cited.
+- All relative Markdown links, citation mapping, placeholders, and line count are checked after final repository re-fetch.
+- No real site data or empirical outcomes are presented in the illustrative example.
+
+### Duplicate and Ownership Review
+
+- The canonical scope is practitioner keyword-cluster-to-page mapping and research handoff.
+- It does not reproduce the metric definitions in 05.4, intent/SERP validation in 05.5–05.6, query clustering methods in 05.7, or opportunity scoring in 05.8.
+- Technical canonicalization and migration redirects are explained only to establish boundaries; their implementation remains outside Domain 05.
+- Query overlap is not automatically labelled as cannibalization or treated as a ranking penalty.
+- The targeted duplicate and ownership review is limited to the directly related Domain 05 topics and selected cross-domain references. It is not a repository-wide exact-duplicate scan.
+
+### Audit Conclusion
+
+**05.9 — Keyword-to-Page Mapping & Research Deliverables: source-checked and integration-reviewed on 2026-11-19.**
+
+This conclusion applies to the current 05.9 version and the checks recorded above. It does not certify every document in the repository or replace a repository-wide duplicate-text scan.
