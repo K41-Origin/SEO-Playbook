@@ -1123,3 +1123,60 @@ The targeted duplicate check compared normalized substantive paragraphs against 
 **06.1 is documented and integration-reviewed.** Its scope is consistent with the approved Domain 06 architecture and preserves the canonical ownership of the related existing topics.
 
 The review does not establish universal SERP behavior across every engine, market, device, language, query, or user context. Search interfaces and feature availability change; volatile claims must be refreshed against current provider documentation when the topic is maintained. The targeted duplicate check does not prove the absence of every possible semantic overlap in the repository.
+
+
+---
+
+## Domain 06.2 — Organic Search Result Elements & Presentation
+
+**Review date:** 2026-11-19  
+**Document:** [06.2 — Organic Search Result Elements & Presentation](06-SERP-and-Search-Features/06.2-Organic-Search-Result-Elements-and-Presentation.md)  
+**Review type:** Topic-level source, structure, and targeted integration review.
+
+### Research and Source Review
+
+The topic was researched against current Google Search Central documentation and an official Search Central announcement:
+
+1. Google Search Central's Visual Elements Gallery for the component model of text results, attribution, title links, snippets, byline dates, sitelinks, text-result images, rich attributes, and presentation variation.
+2. Google's site-name documentation for the distinction between site names and page-specific title links, and for automated site-name generation.
+3. Google's favicon documentation for the provider-specific search favicon requirements and crawl conditions; the source was checked for its 2026-10-27 update.
+4. Google's January 23, 2025 announcement documenting the removal of breadcrumb display from mobile Search results while retaining desktop display.
+5. Google's title-link documentation for the multiple sources used in automated title-link generation and common cases where displayed text differs from the HTML title.
+6. Google's snippet documentation for query-dependent snippet generation, the primary use of page content, conditional meta-description use, and documented snippet controls.
+7. Google's byline-date documentation for estimated publication/significant-update dates and conditional display.
+8. Google's sitelinks documentation for automated link grouping, query usefulness, and publisher best practices.
+
+All eight numbered references are used by inline citations. The document treats Google behavior as Google-specific and does not claim that the same components or rules apply to every search engine.
+
+### Structural and Integration Checks
+
+| Check | Result |
+|---|---|
+| Topic document | Created; substantive component-level guide |
+| Numbered references | 8 |
+| Missing citation IDs | 0 |
+| Unused reference entries | 0 |
+| Parent-domain navigation | Present |
+| Related Topics section | Present |
+| Planned-topic links | None presented as working file links |
+| Provider attribution | Google-specific behavior labeled as such |
+| Scope boundaries | Explicitly documented |
+
+Targeted duplicate review was performed against the most relevant existing material: 06.1 for page-level SERP anatomy, 05.6 for SERP observation and intent validation, and 02.9 for result generation and serving. The review focused on canonical scope and substantive explanation, not merely shared terminology. It also checked the topic's relationship with the planned 06.3 rich-result and 06.8 image-result topics.
+
+### Integration Decisions
+
+- 06.1 retains the canonical explanation of page-level SERP anatomy; 06.2 owns the component-level presentation of standard organic results.
+- 06.2 distinguishes the site name from the page-specific title link, and the displayed title link from the HTML `<title>`.
+- 06.2 distinguishes the displayed snippet from the meta description and records Google's documented query-dependent snippet behavior.
+- The mobile breadcrumb change is attributed to Google's dated 2025 announcement; it is not generalized to other providers.
+- Sitelinks are documented as an automated Google presentation behavior. Internal-link implementation remains outside Domain 06.
+- Text-result images and rich attributes are identified only as optional extensions; detailed image and rich-result mechanics remain assigned to 06.8 and 06.3.
+- 05.6 retains the intent-validation workflow. 06.2 supplies the component vocabulary for recording observations without duplicating the research method.
+- Domain 02.9 retains operational result generation and serving. 06.2 does not infer internal retrieval or ranking mechanisms from visible result components.
+
+### Review Result and Limits
+
+**06.2 is documented and integration-reviewed.** Its component-level scope follows the approved Domain 06 architecture and preserves the canonical ownership of adjacent topics.
+
+The source review verifies Google's published guidance, not every rendering behavior across every query, country, language, device, or search surface. The topic does not claim universal search-engine behavior, and the targeted integration review is not an exhaustive all-pairs semantic audit of every repository document. Provider documentation and presentation can change; volatile claims require rechecking against current primary sources.
