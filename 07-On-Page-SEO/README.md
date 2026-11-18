@@ -107,13 +107,14 @@ The intended relationship is a connected knowledge workflow, not a rigid linear 
 
 ## Development Status
 
-**Domain architecture documented; topic documents not yet created.**
+**Domain architecture documented; topic 07.1 documented; topics 07.2–07.10 planned.**
 
 | Topic | Status |
 |---|---|
-| 07.1–07.10 | Planned |
+| [07.1 — Introduction to On-Page SEO](07.1-Introduction-to-On-Page-SEO.md) | Documented |
+| 07.2–07.10 | Planned |
 
-The roadmap defines the intended scope and ownership of each topic. It does not mean the topic research or documentation has been completed.
+The roadmap defines the intended scope and ownership of each topic. Only topics explicitly marked documented have completed topic-level documentation.
 
 ## Related Domains
 
