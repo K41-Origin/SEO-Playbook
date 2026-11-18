@@ -933,10 +933,11 @@ The repository tree was checked against the root architecture and domain indexes
 1. Re-read the current root `AGENTS.md` requirements and checked the root README, all five domain indexes, and the actual repository inventory.
 2. Reviewed topic titles, section hierarchies, opening scope statements, Related Topics, handoffs, and canonical ownership across all 51 existing topic documents.
 3. Reused the dated source-level reviews recorded above: Domains 01–03 (2026-11-15), Domain 04 (2026-11-17), the cross-domain freshness refresh (2026-11-18), and individual source/integration audits for Domain 05 topics 05.1–05.9 (2026-11-18 to 2026-11-19).
-4. Ran a structural citation check across the existing topic documents. Inline citation identifiers were checked against each document's References section.
-5. Reviewed exact paragraph duplication within each domain's topic set, excluding headings, navigation, and references. Additional comparisons targeted the highest-risk cross-domain boundaries.
-6. Reviewed navigation, status statements, and ownership handoffs against the current repository tree. Historical audit entries remain historical records and are not silently rewritten to reflect later repository states.
-7. Rechecked the live Google Search Status Dashboard for the volatile November 2026 core-update snapshot in 03.13.
+4. Ran a structural citation check across all 51 topic documents: 294 inline citation identifiers were checked against their References sections; no missing identifiers or unused numbered references were found. This is a structural integrity check, not a substitute for the claim-level source reviews recorded in the dated audits above.
+5. Checked 775 relative Markdown links across all 51 topic documents, the root README, and all five domain indexes against the current repository tree; no broken internal targets were found. All 51 topic documents contain a Related Topics section and parent-domain navigation.
+6. Reviewed exact paragraph duplication within each domain's topic set, excluding headings, navigation, and references. Additional comparisons targeted the highest-risk cross-domain boundaries.
+7. Reviewed navigation, status statements, and ownership handoffs against the current repository tree. Historical audit entries remain historical records and are not silently rewritten to reflect later repository states.
+8. Rechecked the live Google Search Status Dashboard for the volatile November 2026 core-update snapshot in 03.13.
 
 ### Canonical Ownership and Integration Findings
 
@@ -969,8 +970,8 @@ The repository tree was checked against the root architecture and domain indexes
 |---|---|
 | Existing topic inventory vs. repository tree | Pass: 51 topic documents across Domains 01–05 |
 | Root architecture | Pass: all 17 established domains preserved |
-| Inline citation IDs vs. References entries in topic documents | Pass: no missing citation IDs or unused topic-level reference entries identified in the structural sweep |
-| Existing domain/topic navigation | Pass: no broken target identified in the current reviewed navigation; prior topic-level link checks remain recorded in the dated audits above |
+| Inline citation IDs vs. References entries in topic documents | Pass: 294 inline citation IDs checked across 51 topic documents; no missing IDs or unused numbered references. Claim-level support remains governed by the dated source reviews. |
+| Existing domain/topic navigation | Pass: 775 relative Markdown links checked across 51 topic documents, root README, and five domain indexes; 0 broken internal targets. |
 | Parent and Related Topics navigation | Present across the substantive topic documents reviewed |
 | Domain 05 individual source audits | Complete: 05.1–05.9 have individual audit records |
 | Root/domain progress status | Corrected to match the existence and audit state of Domain 05.1–05.9 |
@@ -983,7 +984,7 @@ The repository tree was checked against the root architecture and domain indexes
 2. **Domain 05 README:** replaced the stale “Source audit: Pending” status with the completed 05.1–05.9 audit state; updated the cross-domain integration row so it no longer says reciprocal links will be added later.
 3. **Domain 03 README:** narrowed the 03.11 description to neural methods used for ranking-side candidate evaluation and ordering; explicitly assigned neural candidate retrieval to Domain 04.9.
 4. **02.8 — Search Retrieval:** clarified that 03.11 covers ranking-side learned evaluation, while neural candidate retrieval belongs to 04.9.
-5. **02.9 — Search Result Generation & Serving:** clarified that 03.11 covers ranking-side neural methods, while response generation and serving—including the documented generative response path—belong to Domain 02.9.
+5. **02.9 — Search Result Generation & Serving:** explicitly separated ranking-side learned candidate evaluation (03.11) from generative response assembly and serving (02.9), including the documented generative AI response path.
 
 ### Volatile Source Recheck
 
