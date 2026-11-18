@@ -1796,3 +1796,14 @@ All 62 numbered topic documents in Domains 01–06 were individually re-fetched 
 The latest inventory and the explicit scope limitations are recorded in [REPOSITORY-INTEGRATION-AUDIT-2026-11-19.md](REPOSITORY-INTEGRATION-AUDIT-2026-11-19.md), section 14.
 
 **Status remains NOT FULLY AUDITED.** No claim-by-claim, all-external-URL, all-anchor, or exhaustive semantic all-pairs sign-off is implied by the re-fetch.
+
+
+## Repository-Wide Heading-Fragment Regression — 2026-11-19
+
+- Re-fetched all 62 numbered topic pages in Domains 01–06.
+- Extracted and checked all 16 internal Markdown heading-fragment references against their target headings: **16/16 resolve; 0 broken internal fragments**.
+- Found one stale external fragment in 02.3 pointing to a non-existent `#fix-links` anchor on Google's current JavaScript SEO guide. Removed the stale fragment and retained the canonical guide URL.
+- Remediation commit: `2a4940351ef0cc7c505d86918dd9080e36919c29`.
+- Audit record: `REPOSITORY-INTEGRATION-AUDIT-2026-11-19.md`, Section 16.
+
+This is a narrow navigation regression result. It does not establish external URL reachability or source-to-claim support for every reference. The repository-wide source audit remains open until the outstanding claim-level, external destination, semantic overlap, and final regression gates are evidenced.
