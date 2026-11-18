@@ -450,3 +450,65 @@ All three listed references are cited inline in the document. No unused referenc
 **05.2 — Seed Keyword & Audience-Language Discovery: source-checked and integration QA passed on 2026-11-18.**
 
 This audit verifies the sources, scope, links, and duplicate-text screen for this version of 05.2. It does not certify future Domain 05 topics or guarantee that planned domains cannot introduce overlap. Each new document must be checked against the canonical ownership map before and after drafting.
+
+
+---
+
+## Domain 05 — Topic 05.3 Source & Integration Audit
+
+**Audit date:** 2026-11-18  
+**Document:** `05-Keyword-and-Search-Intent/05.3-Keyword-Expansion-and-Query-Variations.md`  
+**Scope:** SEO-practitioner keyword expansion, candidate-query generation, discovery-source interpretation, provenance, normalization, deduplication, and research handoff.
+
+### Source Verification
+
+| Ref. | Source | Verification result | Claims supported |
+|---|---|---|---|
+| [1] | Google Ads Help — Use Keyword Planner | Official Google Ads Help page inspected. | Keyword Planner can generate ideas related to products, services, keywords, and websites; its documented purpose is keyword research for Search advertising campaigns. |
+| [2] | Google Ads Help — Best practices for finding new keywords | Official Google Ads Help page inspected. | Google recommends thinking in customer language, choosing an appropriate level of specificity, using several relevant phrases, and applying location context deliberately. The page also notes that some inputs may return only a few relevant ideas. |
+| [3] | Google Search Help — How Google autocomplete predictions work | Official Google Search Help page inspected. | Predictions can reflect real searches, language, location, trending interest, and past searches; word/phrase patterns may also contribute. Google distinguishes Autocomplete from Google Trends and cautions that predictions are not assertions. |
+| [4] | Google Trends Help — Find related searches | Official Google Trends Help page inspected. | Defines Top and Rising related searches and the documented meaning of the Breakout label. |
+| [5] | Google Search Central — SEO Starter Guide | Official Search Central documentation inspected; last updated 2025-12-10. | People with different levels of subject knowledge may use different terms for similar subjects; Google also cautions against excessive keyword repetition, including variations. |
+
+All five references are cited inline in the document. No unused reference remains.
+
+### Scope and Content QA
+
+- The document defines expansion as SEO-practitioner discovery of candidate query formulations from an existing seed inventory.
+- It covers lexical/naming variants, attributes, audience and use cases, problems/tasks, question patterns, comparisons, and language/locale differences.
+- It distinguishes seeds, generated variations, candidate queries, and source-observed queries.
+- It treats tool outputs as source-specific discovery evidence, not as proof of demand, representative audience language, or a complete query inventory.
+- It records source provenance, input context, collection date, evidence status, and parent-seed relationships.
+- It distinguishes exact duplicates, superficial formatting variants, and meaningful query differences; normalization is not allowed to erase potentially meaningful product, task, audience, locale, or specification distinctions.
+- The worked example is explicitly fictional and does not claim actual search volume, observed customer language, or measured query behavior.
+- The handoff stops at an expanded candidate-query inventory. Metrics and data provenance methodology remain in 05.4; intent classification in 05.5; SERP validation in 05.6; clustering in 05.7; prioritization in 05.8; and page mapping in 05.9.
+
+### Cross-Domain Integration
+
+- 05.2 now links forward to 05.3 as the next step after seed discovery.
+- 02.7 links to 05.3 and explicitly distinguishes practitioner-side candidate discovery from operational query processing and rewriting.
+- 04.8 links to 05.3 and distinguishes SEO keyword expansion from Information Retrieval query expansion based on feedback or retrieval evidence.
+- 05.3 links back to its parent index and prerequisite 05.1/05.2 documents, and to 02.7 and 04.8 for the relevant technical boundaries.
+- Root README and Domain 05 README now list 05.3 as documented and source-checked; topics 05.4–05.9 remain planned.
+
+### Technical QA
+
+- All five relative Markdown links in 05.3 resolve against the current repository tree.
+- Five inline citation numbers map to five reference entries; all references are cited.
+- No TODO, TBD, or placeholder markers were detected.
+- Parent-domain navigation and the required Related Topics and References sections are present.
+- The document ends with its References section, as required by `AGENTS.md`.
+
+### Duplicate and Ownership Review
+
+- Reviewed 05.3 against the canonical Domain 05 roadmap and the directly adjacent documents 05.1, 05.2, 02.7, and 04.8.
+- No canonical ownership conflict was identified: 05.3 owns SEO-practitioner candidate discovery; 05.2 owns seed discovery; 05.4 owns data-source and metric methodology; 05.5–05.9 own the subsequent interpretation and decision stages.
+- The boundary with 02.7 is operational: search-engine query parsing and processing are not keyword-research expansion.
+- The boundary with 04.8 is methodological: IR query expansion modifies a query representation within a retrieval process, while 05.3 expands a research inventory before SEO targeting decisions.
+- A repository-wide normalized sentence-level duplicate scan against all 42 Domain 01–04 topic documents was **not executed for this audit**. The audit therefore does not claim zero exact duplicate sentences across the full repository. The semantic review above is limited to the named adjacent documents and the established domain ownership map.
+
+### Audit Conclusion
+
+**05.3 — Keyword Expansion & Query Variations: source-checked, navigation-checked, and integration-reviewed on 2026-11-18.**
+
+This conclusion applies to the current 05.3 version and the checks listed above. It does not certify future Domain 05 topics or replace a full repository-wide duplicate-text scan.
