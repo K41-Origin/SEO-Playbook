@@ -707,3 +707,68 @@ All five references are cited inline and support the claims assigned to them. Go
 **05.6 — SERP-Based Intent Analysis & Validation: source-checked, navigation-checked, and integration-reviewed on 2026-11-18.**
 
 This conclusion applies to the current 05.6 version and the checks listed above. It does not certify future Domain 05 topics or replace a full repository-wide duplicate-text scan.
+
+
+---
+
+## Domain 05 — Topic 05.7 Source & Integration Audit
+
+**Audit date:** 2026-11-18  
+**Document:** `05-Keyword-and-Search-Intent/05.7-Keyword-Clustering-and-Query-Grouping.md`  
+**Scope:** SEO query clustering and grouping, evidence signals, SERP overlap, practical clustering workflows, cluster boundaries, and research handoff.
+
+### Source Verification
+
+| Ref. | Source | Verification result | Claims supported |
+|---|---|---|---|
+| [1] | Hu et al. — Mining Query Subtopics from Search Log Data | Microsoft Research publication record inspected; SIGIR 2012. | Supports that queries can be ambiguous and multifaceted, and describes query-subtopic mining using search-log behavior. The document explicitly limits this evidence to the paper's search-log research context. |
+| [2] | Sadikov et al. — Clustering Query Refinements by User Intent | Google Research publication record and abstract inspected; WWW 2010. | Supports research on grouping query refinements by likely underlying intent using document-click and session co-occurrence information. It is not presented as an SEO keyword-export clustering recipe. |
+| [3] | Google Search Central — What is canonicalization | Official documentation inspected; last updated 2026-08-20. | Supports the distinction between Google's indexing-time clustering of duplicate or very similar pages/URLs and the SEO researcher's grouping of search queries. |
+| [4] | Google Search Central — Spam policies for Google web search | Official policy page inspected. | Supports the distinction between useful query grouping and creating substantially similar doorway pages or large volumes of unoriginal content for ranking manipulation. |
+| [5] | scikit-learn developers — jaccard_score documentation | Current technical documentation inspected. | Supports the set-similarity definition used for the illustrative Jaccard comparison formula. The document applies the formula to observed SERP URL sets as its own research-method adaptation, not as an SEO or Google standard. |
+
+All five references are cited inline and mapped to the claims they support. The research papers are used to establish that query facets and intent-based query refinement clustering are studied research problems; they do not validate a universal practitioner-side SEO clustering algorithm.
+
+### Scope and Content QA
+
+- Defines keyword clustering as a practical SEO research grouping decision based on shared query need, task, topic focus, and evidence.
+- Separates intent, SERP overlap, lexical similarity, semantic similarity, task relevance, and business context as complementary signals.
+- Explains Jaccard similarity for comparing observed organic URL sets and labels its use in SERP analysis as a methodological adaptation.
+- Clarifies that SERP overlap is descriptive evidence and that thresholds are operational heuristics requiring calibration and validation.
+- Covers manual, rule-based, SERP-overlap, semantic/embedding-assisted, and hybrid approaches with their limitations.
+- Defines a repeatable workflow for query normalization, evidence attachment, candidate generation, SERP comparison, same-task testing, cluster assignment, boundary review, and decision history.
+- Covers merge, split, provisional, over-clustering, and under-clustering decisions.
+- The espresso-grinder example is explicitly fictional and illustrative; no live SERP collection, market dataset, or real keyword metrics are claimed.
+- Distinguishes SEO query clustering from intent classification (05.5), SERP validation (05.6), IR similarity methods (Domain 04), semantic entity/topic modeling (Domain 09), and Google's URL canonicalization.
+- Explains that a cluster informs downstream prioritization (05.8) and page mapping (05.9), but does not automatically mandate one page per cluster.
+- Warns against creating substantially similar pages solely to target similar query variants and accurately attributes Google's doorway-abuse and scaled-content-abuse policies.
+
+### Cross-Domain Integration
+
+- Links to 05.3 for candidate query expansion and 05.4 for keyword-data context.
+- Links to 05.5 for intent hypotheses and 05.6 for validated SERP observations.
+- Links to the Domain 05 architecture anchors for planned 05.8 prioritization and 05.9 page mapping; these topics remain planned.
+- Links to Domain 04 for canonical ownership of formal information-retrieval representations and similarity methods without duplicating their technical explanation.
+- Links to root Domain 06 architecture for future SERP-feature taxonomy and mechanics.
+- Topic 05.6 now links directly to 05.7 as its query-grouping handoff.
+- Domain 05 README and root README list 05.7 as documented and source-checked; topics 05.8–05.9 remain planned.
+
+### Technical QA
+
+- The document includes parent navigation, Related Topics, and References sections.
+- Five inline citation IDs map to five reference entries; all five references are used.
+- All relative Markdown links and checked anchors resolve to existing files or the documented architecture anchors for planned topics.
+- The document ends with its References section, consistent with `AGENTS.md`.
+- No TODO, TBD, or PLACEHOLDER markers were found in the final document.
+
+### Duplicate and Ownership Review
+
+- A normalized sentence-level exact-match screen was run against 05.3, 05.4, 05.5, 05.6, the Domain 04 README, and 03.4. It found zero repeated substantive sentences in that comparison set.
+- The review found no canonical ownership conflict: 05.7 owns SEO query grouping decisions; 05.5 owns intent concepts; 05.6 owns SERP validation; Domain 04 owns formal IR methods; Domain 09 will own semantic entity/topic modeling; Domain 02 owns search-system processing; Domain 03 owns ranking-side relevance; and 05.8–05.9 own downstream prioritization and page mapping.
+- A repository-wide normalized sentence-level duplicate scan against every substantive document in Domains 01–04 was **not executed for this audit**. No repository-wide duplicate-free claim is made.
+
+### Audit Conclusion
+
+**05.7 — Keyword Clustering & Query Grouping: source-checked, navigation-checked, and integration-reviewed on 2026-11-18.**
+
+This conclusion applies to the current 05.7 version and the checks listed above. It does not certify future Domain 05 topics or replace a full repository-wide duplicate-text scan.
