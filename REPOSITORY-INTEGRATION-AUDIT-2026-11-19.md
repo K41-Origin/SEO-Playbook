@@ -439,3 +439,26 @@ Verified in the official documentation:
 The sampled 01.2 claims and their corresponding references are consistent with the official source text checked. No correction was established in this sample. This does not mean all 17 references or every sentence in 01.2 have been independently checked, and it does not substitute for claim-level verification of the other 61 topic pages.
 
 **Audit verdict remains: NOT FULLY AUDITED.**
+
+
+## 18. Execution Update — 2026-11-19 (Domain 01 Reference-Destination and Selected Claim Review)
+
+### Reference destination review
+
+Opened and inspected the reference destinations listed by all five Domain 01 topic pages (01.1–01.5), including the 17 references in 01.2. The destinations reviewed include Google Search Central, Search Console Help, Google Analytics Help, Microsoft Bing Webmaster publications, W3C recommendations, and Google Business Profile Help.
+
+- Most destinations returned readable current source content and matched the cited subject.
+- The Bing Webmaster Guidelines URL returned its official JavaScript application shell rather than readable article text in the inspection interface. This is **not** treated as a 404 or a proven broken URL; its full article content could not be independently inspected through this interface.
+- The W3C Web Architecture Recommendation is an older 2004 Recommendation. It remains a primary standards reference for the general Web architecture concepts cited; its age is not itself a defect, but it must not be used to support modern search-engine implementation claims.
+- The WCAG 2.2 reference resolves to the W3C Recommendation.
+- Current Search Console and Analytics help pages were checked against the specific terminology and measurement distinctions used in 01.2 and 01.4.
+
+### Claim/source spot review
+
+The selected passages in 01.2 and 01.4 were compared to source text for Search Console metric definitions, query anonymization and table limits, property/page aggregation, reporting time zones and processing delays, generative AI Search/Discover reporting, AI feature controls, platform properties, the November 2026 reporting anomaly, Analytics key-event/conversion terminology, and attribution settings. The inspected primary sources support the sampled statements.
+
+### Limitations
+
+This review establishes destination retrieval for the inspected Domain 01 references and supports only the sampled claim mappings. It does not constitute a sentence-by-sentence verification of every claim in 01.1–01.5, nor does it verify every reference in Domains 02–06.
+
+**Audit verdict remains: NOT FULLY AUDITED.**
