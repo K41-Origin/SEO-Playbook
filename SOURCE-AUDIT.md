@@ -1301,3 +1301,62 @@ Targeted integration review compared the topic with 06.1 for page-level SERP ana
 **06.4 is documented and integration-reviewed.** Its scope follows the approved Domain 06 roadmap and preserves the ownership of adjacent topics.
 
 The source review verifies Google's published guidance as accessed on 2026-11-19; it does not establish the behavior of every query, device, language, market, or search interface. The topic intentionally does not claim a universal direct-answer taxonomy or disclose Google's internal selection process. The targeted integration review is not an exhaustive all-pairs semantic audit of every repository document. Feature behavior and documentation can change and should be rechecked during maintenance.
+
+
+---
+
+## Domain 06.5 — Knowledge Panels & Entity-Based Search Features
+
+**Review date:** 2026-11-19  
+**Document:** [06.5 — Knowledge Panels & Entity-Based Search Features](06-SERP-and-Search-Features/06.5-Knowledge-Panels-and-Entity-Based-Search-Features.md)  
+**Review type:** Topic-level source, structure, and targeted integration review.
+
+### Research and Source Review
+
+The topic was researched against Google's current Knowledge Panel Help documentation and Google's official explanation of the Knowledge Graph:
+
+1. Google's **About knowledge panels** page for the definition, automatic generation, multi-source information, content-owner feedback, image sourcing, and the explicit distinction between knowledge panels and Business Profiles.
+2. Google's **How Google's Knowledge Graph works** page for Knowledge Graph facts, multiple source types, automatic panel display, query relevance, correction processes, and the limitations of public disclosure.
+3. Google's Search Liaison post **A reintroduction to our Knowledge Graph and knowledge panels** (2020-05-20) for examples of visible panel components, subject-dependent composition, source diversity, and the historically documented desktop/mobile presentation differences. The post is treated as historical explanatory context where interface layout is concerned, not as a guarantee of the current layout.
+4. Google's **Submit feedback on content about you** page for verification-dependent feedback, automatic display decisions, review limits, and the distinction between correcting source information and directly editing generated descriptions.
+5. Google's **Get verified on Google** page for eligibility, claim/verification steps, the fact that not all panels are claimable, and the separate Business Profile route for eligible local businesses.
+
+All five numbered references are used by inline citations. Google-specific behavior is attributed to Google. The document does not generalize Google's Knowledge Graph implementation into a universal search-engine architecture.
+
+### Structural and Integration Checks
+
+| Check | Result |
+|---|---|
+| Topic document | Created; entity-oriented panel presentation and publisher-facing limits documented |
+| Numbered references | 5 |
+| Missing citation IDs | 0 |
+| Unused reference entries | 0 |
+| Parent-domain navigation | Present |
+| Related Topics section | Present |
+| Internal Markdown links | 7 occurrences; 6 unique targets |
+| Broken internal file targets | 0 after path verification |
+| Reciprocal 06.4 relationship | Added |
+| Domain index | Updated with 06.5 link and status |
+| Root README | Updated to mark 06.1–06.5 documented |
+| Citation and source freshness | Official source pages opened and checked on 2026-11-19 |
+| Targeted exact-paragraph comparison | 0 repeated substantive paragraphs against 06.1–06.4 and 05.6 |
+
+The duplicate check compared normalized substantive paragraphs against 06.1 for SERP anatomy, 06.2 for organic-result components, 06.3 for structured-data rich results, 06.4 for featured snippets, and 05.6 for SERP observation and intent validation. No exact repeated substantive paragraphs were found. This is a targeted exact-paragraph check, not an exhaustive semantic comparison of every document in the repository.
+
+### Integration Decisions
+
+- 06.1 retains page-level SERP anatomy; 06.5 documents the entity-oriented panel as one specific presentation.
+- 06.2 retains standard organic-result components. A knowledge panel is not a conventional URL result with an expanded snippet.
+- 06.3 retains structured-data rich results and their feature-specific eligibility. 06.5 does not treat structured data as a panel-creation switch or guarantee.
+- 06.4 retains featured snippets as selected page excerpts. A featured snippet shown beside Knowledge Graph information remains distinct from the entity panel.
+- 06.6 retains local and map-based SERP presentation. 06.5 distinguishes general knowledge panels from Google Business Profiles; local strategy and execution remain outside Domain 06.
+- Domain 09 retains semantic entity modeling and entity-aware content architecture. 06.5 describes the visible Search presentation and does not duplicate semantic SEO implementation.
+- Domain 13 retains local SEO strategy. 06.5 does not become a Business Profile setup or optimization guide.
+- Domain 02 and Domain 03 retain operational search architecture and ranking mechanisms. The topic does not infer entity resolution, graph construction, ranking weights, or internal selection logic from visible panels.
+- 05.6 retains the SERP-based intent-validation method. 06.5 provides the feature vocabulary for recording entity-panel observations without duplicating keyword research.
+
+### Review Result and Limits
+
+**06.5 is documented and integration-reviewed.** Its scope follows the approved Domain 06 roadmap and preserves the canonical ownership of adjacent topics.
+
+The source review verifies Google's published explanations as accessed on 2026-11-19. The 2020 Google post is used only for explanatory context and is explicitly qualified where it discusses historical layout behavior. The available sources do not disclose the full Knowledge Graph construction pipeline, entity-resolution algorithms, source weights, or a universal threshold for panel display. The targeted duplicate review does not prove the absence of every possible semantic overlap across the repository. Panel content, availability, and interface behavior can change and should be rechecked against current provider documentation during maintenance.
