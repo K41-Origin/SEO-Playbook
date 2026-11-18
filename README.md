@@ -155,6 +155,8 @@ Start here, then follow the topic links. Each domain index defines its scope and
   - [04.11 — Relevance Assessment & Evaluation Frameworks](04-Information-Retrieval/04.11-Relevance-Assessment-and-Evaluation-Frameworks.md) — covers relevance judgments, assessor agreement, test collections, qrels, pooling, evaluation frameworks, and methodological limitations.
   - [04.12 — Information Retrieval Evaluation Metrics](04-Information-Retrieval/04.12-Information-Retrieval-Evaluation-Metrics.md) — covers Precision, Recall, F-measure, P@k, R@k, AP/MAP, MRR, DCG/nDCG, bpref, ERR, RBP, and metric-selection trade-offs.
 
+- [05 — Keyword & Search Intent](05-Keyword-and-Search-Intent/README.md) — keyword discovery, keyword data and metrics, search intent, SERP-based intent validation, query clustering, prioritization, and keyword-to-page research mapping.
+
 Only existing documents are linked as destinations. Planned topics remain in their domain roadmap until their pages are created.
 
 ## Development Status
