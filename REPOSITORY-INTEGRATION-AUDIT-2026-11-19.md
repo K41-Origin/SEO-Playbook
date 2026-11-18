@@ -355,3 +355,39 @@ Re-fetched all 62 numbered topic documents individually from `main` in this exec
 The complete inventory re-fetch closes only the file-existence/retrieval check. It does not close the remaining audit gates in Section 12. In particular, no automated or human result has yet been recorded here for every heading fragment, every external URL, every substantive claim/source pair, or every one of the 1,891 unique topic-page pairs.
 
 **Verdict: NOT FULLY AUDITED.** The audit record remains deliberately unsigned until those checks have been executed and their findings remediated.
+
+
+## 15. Execution Update — 2026-11-19 (Primary-Source Revalidation of Volatile Policy Claims)
+
+### 02.4 — Bing AI publisher preferences
+
+Re-fetched the current 02.4 page and checked its October 30, 2026 Microsoft announcement against the exact dates and scope. The page's sampled claims match the primary source:
+
+- AI Training and AI Grounding are separate content-use preferences.
+- They do not control Bingbot crawl access or traditional Bing Search eligibility.
+- New preferences begin to take effect on February 1, 2027 as Microsoft recrawls pages.
+- For legacy `NoArchive`/`NoCache` users, the temporary grounding transition opens December 15, 2026; the March 1, 2027 deadline and September 30, 2027 expiry are correctly distinguished.
+- The IETF work is an Internet-Draft effort, not described as a finalized standard.
+
+Primary source checked: Microsoft Bing, October 30, 2026. The document's date-sensitive statements are consistent with the announcement as of November 19, 2026.
+
+### 03.7 — Google site reputation enforcement and spam policy
+
+Checked the August 28, 2026 Google Search Central announcement directly. The 03.7 statement that the site-reputation manual-action effect differs for EEA and non-EEA users from August 30, 2026 is supported by the announcement. Also checked Google's April 13, 2026 back-button-hijacking policy announcement: the definition, classification under malicious practices, and June 15, 2026 enforcement date match the primary source. These checks support the sampled statements only; they do not verify every paragraph or every cited source in 03.7.
+
+### 06.3 — structured-data retirement clarifications
+
+Checked Google's November 5, 2025 Search results simplification announcement and current documentation updates. The announcement confirms removal of selected structured-data types from Search Console and its API beginning January 2026. Existing 06.3 treatment distinguishes the 2025 feature phase-outs from the later Book Actions documentation correction and the Dataset/Practice Problem clarifications. The precise feature status must continue to be checked against the current feature-specific documentation; the general announcement alone is not a universal feature inventory.
+
+### Evidence checked
+
+- Google site reputation policy update: https://developers.google.com/search/blog/2026/08/update-site-reputation-policy
+- Google back button hijacking policy: https://developers.google.com/search/blog/2026/04/back-button-hijacking
+- Microsoft Bing publisher preferences: https://blogs.bing.com/search/2026/10/your-content-your-choice-clearer-preferences-for-training-and-grounding/
+- Google November 2025 Search results simplification: https://developers.google.com/search/blog/2025/11/update-on-our-efforts
+
+### Scope limitation
+
+These primary-source checks validate the sampled volatile statements and do not close the repository-wide claim-to-source gate. Other volatile claims, external URLs, anchors, and semantic overlap pairs remain outside this pass.
+
+**Verdict remains: NOT FULLY AUDITED.**
