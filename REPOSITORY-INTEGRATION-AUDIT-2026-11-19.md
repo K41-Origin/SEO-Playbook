@@ -524,3 +524,35 @@ Some Bing Webmaster Help pages return only a JavaScript shell in the inspection 
 This pass is a cross-domain source review and selected claim verification, not a complete claim-by-claim verification of every statement and every external destination in all 13 Domain 03 pages. The existing 03.12 metric-definition duplication remediation remains in force.
 
 **Audit verdict remains: NOT FULLY AUDITED.**
+
+
+## 21. Execution Update — 2026-11-19 (Domain 04 Information Retrieval Sources)
+
+### Reference inventory and source review
+
+Extracted reference destinations from all 12 Domain 04 topic pages (04.1–04.12). Opened and inspected a broad source sample across Cambridge's *Introduction to Information Retrieval*, Dublin Core, Unicode Standard Annexes 29 and 15, Lucene 9.12.2/9.9.1 APIs, NLTK, ACL Anthology, arXiv, Faiss, OpenSearch, NIST/TREC, Tampere University, and the original RRF paper.
+
+### Verified technical/source mappings
+
+- Unicode UAX #29 and UAX #15 resolve to current Unicode 18.0 stable annexes for text segmentation and normalization, respectively.
+- Lucene 9.12.2's Analysis API explicitly distinguishes format parsing from tokenization/analysis and states that format parsing is the responsibility of the integrating application. This supports the Domain 02.5 vs 04.3 boundary.
+- Lucene's versioned BooleanClause and BM25/TF-IDF API pages are implementation-specific examples; they are not treated as universal IR standards.
+- Dublin Core's Metadata Terms page identifies itself as the current DCMI Recommendation and documents its terms and classes.
+- The Sentence-BERT, Dense Passage Retrieval, HNSW, Faiss, and Transformer/semantic retrieval papers resolve to the cited research works. Faiss documentation describes vector similarity search, indexing, and search trade-offs.
+- OpenSearch's current normalization-processor documentation describes score normalization/combination; its RRF documentation explicitly combines result positions rather than raw relevance-score magnitudes. These are documented implementation examples, not universal requirements.
+- The original 2009 RRF paper is retrievable from the author-hosted University of Waterloo PDF. It defines reciprocal-rank contributions and reports results on TREC and LETOR experiments; the topic correctly limits those reported results to the evaluated settings.
+- NIST/TREC references support the reviewed relevance-assessment and evaluation material. The 2026 NIST SP 1348 is the TREC 2025 report; the task-specific 0–4 RAG judgment scale was separately verified and recorded in Section 14. The TREC QA page distinguishes answer-string judgments from conventional document retrieval judgments.
+- The Tampere University research portal confirms the authors, journal, year, pages, and DOI for the cumulative-gain evaluation paper.
+
+### Inspection caveats
+
+- DOI resolver URLs for several publisher records returned access/redirect errors in this inspection interface, but bibliographic records were independently found through official institutional or scholarly-index pages. A resolver error is not classified as a DOI defect without evidence of a bad registration.
+- Stanford IR book PDF/HTML endpoints timed out during the earlier Domain 02 pass. This is an inspection limitation, not proof that the source is dead.
+- The Porter 1980 PDF returned no readable text through the inspection interface, but its PDF destination resolved. Full text was not independently parsed in this pass.
+- The 04.11 DOI containing parentheses is valid; the apparent truncation from a simple URL extractor is a parsing artifact, not a broken DOI.
+
+### Scope limitation
+
+The reference lists for all 12 pages were inventoried, but this pass is not a full destination-status or claim-by-claim audit of every reference and every substantive statement in Domain 04. Previously documented 04.11/04.12 source corrections remain in force.
+
+**Audit verdict remains: NOT FULLY AUDITED.**
