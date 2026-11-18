@@ -675,3 +675,27 @@ This section is the current source of truth for audit status. Earlier sections p
 - Prior domain-level source audits remain valid only for the scope and date they document; they do not automatically certify the current repository state.
 
 **Current verdict: NOT FULLY AUDITED. Do not start Domain 07 on the basis of this audit record until the open gates are completed or explicitly accepted as residual limitations.**
+
+
+## 26. Execution Update — 2026-11-19 (Domain 04.5–04.7 Formula-Level Regression)
+
+Reviewed the mathematical expressions and worked examples in the Boolean, Vector Space, and Probabilistic IR topics, and cross-checked implementation-specific expressions against the versioned Apache Lucene 9.9.1 API and the Stanford/Cambridge *Introduction to Information Retrieval* chapter extracts.
+
+### Results
+
+- **04.5 Boolean retrieval:** AND/OR set behavior and the precision/recall discussion are correctly qualified as collection- and judgment-dependent; neither operator guarantees an evaluation outcome.
+- **04.6 Vector Space Model:** The classical `idf(t)=log(N/df_t)`, TF-IDF product, and cosine formula are internally consistent. The worked example is arithmetically correct: `log2(4/3) ≈ 0.415`, `log2(4/1)=2`, and the corresponding TF-IDF weights are 0.83 and 4. The text correctly distinguishes the textbook formula from Lucene's smoothed IDF and field-length normalization.
+- **04.7 Probability foundations:** Bayes' rule, relevance odds, the PRP ordering principle, and the BIM log-odds term contribution are consistent with the classical model. The RSV correctly drops terms constant across documents for a fixed query.
+- **04.7 BM25:** The common BM25 term-frequency saturation and document-length normalization expression is algebraically consistent. The textbook's potentially negative IDF form is distinguished from Lucene 9.9.1's positive shifted IDF form. Lucene's documented defaults (`k1=1.2`, `b=0.75`) are explicitly version-specific, not universal constants.
+- **04.7 parameter interpretation:** `k1=0` removes the frequency-dependent factor in the stated common form; `b=0` removes document-length normalization and `b=1` applies full normalization in that form. These interpretations are correct.
+- **04.7 score semantics:** The topic correctly warns that BM25 is a model-specific ranking score, not a calibrated probability, human relevance judgment, or disclosed Google/Bing ranking formula.
+
+### Source inspection caveat
+
+The Stanford-hosted textbook chapter PDFs timed out when opened directly in this interface. The official Stanford book site was nevertheless returned by search with the relevant Chapter 11 BM25 equations, while the versioned Lucene API pages were directly opened and inspected. The PDF timeout is recorded as an inspection limitation, not as a broken-source finding.
+
+No formula or numerical-example correction was established in this targeted pass.
+
+**Scope:** This closes the formula-level review for 04.5–04.7 only. It does not validate all mathematics, examples, or source mappings in every Domain 04 topic.
+
+**Audit verdict remains: NOT FULLY AUDITED.**
