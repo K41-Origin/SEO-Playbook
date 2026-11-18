@@ -556,3 +556,32 @@ Extracted reference destinations from all 12 Domain 04 topic pages (04.1–04.12
 The reference lists for all 12 pages were inventoried, but this pass is not a full destination-status or claim-by-claim audit of every reference and every substantive statement in Domain 04. Previously documented 04.11/04.12 source corrections remain in force.
 
 **Audit verdict remains: NOT FULLY AUDITED.**
+
+
+## 22. Execution Update — 2026-11-19 (Domain 05 Keyword and Search Intent Sources)
+
+### Reference inventory and source checks
+
+Extracted reference destinations from all nine Domain 05 topic pages (05.1–05.9). Opened and inspected the principal Google Ads Keyword Planner guidance, Google Trends methodology and related-search definitions, Search Console performance documentation, Google Search Central guidance, UK Government user-needs guidance, Microsoft Research query-subtopic research, Google's query-refinement research record, scikit-learn Jaccard documentation, and the cited multi-criteria decision-analysis research.
+
+### Verified claim areas
+
+- Keyword Planner documentation describes keyword discovery, monthly search estimates, campaign forecasts, and the role of campaign settings such as bid, budget, seasonality, and historical ad quality. These are advertising-tool estimates, not direct organic-search forecasts.
+- Google Trends documentation states that it uses a sample of search requests, anonymizes/categorizes/aggregates them, normalizes by geography/time, and scales relative interest from 0–100. It explicitly warns that Trends is not a perfect mirror of search activity.
+- Search Console's Performance report documentation supports the distinction between property-level and page-level aggregation, clicks/impressions/CTR/position, and report-specific data limits. The report describes a property's observed Google performance, not total market search demand.
+- Google's Autocomplete Help page identifies common query patterns, language, location, trending interest, and past searches as inputs to predictions. Google Trends' related-search help distinguishes top and rising searches and defines its breakout threshold.
+- Microsoft's query-subtopic paper supports the distinction between query subtopic mining from search logs and SEO practitioner-side keyword grouping. Google's query-refinement paper is a separate engine-side research concept, not the definition of SEO keyword clustering.
+- Google's canonicalization documentation explicitly describes representative URL selection and duplicate URL consolidation. This supports the boundary that SEO keyword clustering is not Google canonicalization.
+- The site-move and Search Console data sources support the mapping handoff's need to distinguish existing URLs, page/property reporting, and actual URL migration from keyword-to-page planning.
+- The UK Government user-needs guide supports the general research principle of starting with users' needs; it is not treated as a source for search-engine ranking behavior.
+- The multi-criteria decision analysis handbook and Triantaphyllou/Sánchez paper support the limited methodological statements about criteria weighting and sensitivity analysis. The 05.8 text explicitly treats the scoring model as an optional practitioner decision aid, not a search-volume formula or Google ranking model.
+
+### Destination caveats
+
+Some DOI resolvers returned publisher access restrictions in this interface, but the cited bibliographic records were found through publisher, institutional, or scholarly records. The Romanian-hosted PDF of the multi-criteria handbook was indexed by search and its content was available in the result extract, although direct PDF opening failed in this interface. Such retrieval limitations are not treated as proof of a broken publication.
+
+### Scope limitation
+
+All nine reference lists were inventoried, but the claim review above is selective. This is not a sentence-by-sentence audit of all statements or an exhaustive HTTP/redirect check for every Domain 05 reference. The workflow and ownership boundary review of 05.1–05.9 remains as recorded in earlier sections.
+
+**Audit verdict remains: NOT FULLY AUDITED.**
