@@ -1758,3 +1758,17 @@ The sampled reference lists use appropriate source classes for their stated subj
 Detailed findings and limitations are recorded in [REPOSITORY-INTEGRATION-AUDIT-2026-11-19.md](REPOSITORY-INTEGRATION-AUDIT-2026-11-19.md), section 9.
 
 **No audit sign-off is granted.** The remaining source-to-claim, full semantic all-pairs, Domain 01/03/05/06 comparative, external URL, heading-anchor, and final regression work remains open.
+
+
+### Additional Consolidation and Comparative Samples — 2026-11-19
+
+- Reviewed Domain 05 topics 05.5–05.9 for workflow ownership and source fit; the intent → SERP validation → clustering → prioritization → page mapping sequence remains distinct.
+- Reviewed selected Domain 01 and 03 pages. Identified repeated IR evaluation definitions in 03.12 that were already owned by 04.11 and 04.12.
+- Consolidated 03.12 by replacing its repeated relevance-judgment explanation and metric-definition table with a concise description of metric families and explicit links to the canonical Domain 04 topics. Ranking-specific testing, experiments, guardrails, and provider-attributed evaluation practices remain in 03.12.
+- Regression-checked the updated 03.12 file from the main branch: both Domain 04 links are present and the repeated metric-definition table is absent.
+- Reviewed selected Domain 06 pages (06.1, 06.2, 06.3, 06.10, 06.11) for scope boundaries. No confirmed defect requiring an edit was found in this sample.
+- Checked current official Google Search documentation updates and selected feature/report pages for freshness. This is a spot check, not a validation of all external URLs or all volatile claims.
+
+The complete findings and limitations are recorded in [REPOSITORY-INTEGRATION-AUDIT-2026-11-19.md](REPOSITORY-INTEGRATION-AUDIT-2026-11-19.md), sections 10–11.
+
+**Repository-wide audit remains open. No final audit sign-off is granted.**
