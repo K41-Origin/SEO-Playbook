@@ -1242,3 +1242,62 @@ Targeted integration review compared the topic's canonical scope against 06.1 fo
 **06.3 is documented and integration-reviewed.** Its scope follows the approved Domain 06 architecture and maintains the canonical ownership of adjacent topics.
 
 The source review establishes Google's published documentation and announced feature changes as of 2026-11-19. It does not prove the behavior or availability of every feature in every market, language, device, query, or account context. The targeted integration review is not an exhaustive all-pairs semantic audit of every repository document. Feature support and reporting can change; volatile claims must be rechecked against current provider documentation before maintenance or implementation decisions.
+
+
+---
+
+## Domain 06.4 — Featured Snippets & Direct Answers
+
+**Review date:** 2026-11-19  
+**Document:** [06.4 — Featured Snippets & Direct Answers](06-SERP-and-Search-Features/06.4-Featured-Snippets-and-Direct-Answers.md)  
+**Review type:** Topic-level source, structure, freshness, and targeted integration review.
+
+### Research and Source Review
+
+The topic was researched against current Google Search Central documentation and official Google Search Help:
+
+1. Google's featured-snippet documentation for the definition, presentation reversal, publisher controls, automated selection, and click-through behavior. The page's displayed last-updated date was checked as 2025-12-10.
+2. Google Search Help for documented placements, query-answer relevance, helpfulness, multiple possible boxes, and feature-specific policy boundaries.
+3. Google's snippet documentation for the distinction between ordinary search snippets and featured snippets, query-dependent excerpt generation, and snippet-control options.
+4. Google's robots directive specification for the exact effects and limitations of `nosnippet`, `data-nosnippet`, and `max-snippet`, including crawler-access requirements and the separate treatment of structured data.
+5. Google's Visual Elements Gallery for the distinction between standard text-result elements and interactive exploration features such as related questions.
+
+The topic deliberately avoids presenting paragraph, list, or table layouts as a formal, exhaustive Google taxonomy. The current official sources support the selected-page-excerpt model and documented placements, but do not establish a stable universal list of snippet formats. “Direct answer” is treated as descriptive language rather than an official, universal feature category.
+
+All five numbered references are used by inline citations. Google-specific behavior is attributed to Google; no universal claims are made about other search engines.
+
+### Structural and Integration Checks
+
+| Check | Result |
+|---|---|
+| Topic document | Created; substantive guide to featured snippets and direct-answer distinctions |
+| Numbered references | 5 |
+| Missing citation IDs | 0 |
+| Unused reference entries | 0 |
+| Parent-domain navigation | Present |
+| Related Topics section | Present |
+| Internal Markdown targets | 5 checked |
+| Broken internal file targets | 0 |
+| Provider attribution | Google-specific behavior explicitly labeled |
+| Freshness review | Current official guidance checked on 2026-11-19; featured-snippet page last updated 2025-12-10 |
+| Scope boundaries | Explicitly documented |
+
+Targeted integration review compared the topic with 06.1 for page-level SERP anatomy, 06.2 for standard organic-result components and ordinary snippets, 06.3 for structured-data rich results, and 05.6 for SERP observation and intent validation. The review focused on canonical ownership and substantive explanation rather than shared terminology alone.
+
+### Integration Decisions
+
+- 06.1 retains the page-level SERP anatomy; 06.4 documents one specific answer-oriented presentation.
+- 06.2 retains standard organic-result components and ordinary query-dependent snippets; 06.4 covers selected excerpts elevated as featured snippets.
+- 06.3 retains structured-data-supported rich results. 06.4 does not imply that structured data is required for featured snippets.
+- 06.5 retains knowledge panels; a featured snippet displayed beside Knowledge Graph information remains a distinct page-excerpt feature.
+- 06.10 retains interactive question and query-exploration interfaces. A People Also Ask expansion may display a featured snippet, but the question group and the excerpt are not the same feature.
+- 06.11 retains AI-generated search presentations. Direct-answer wording is not used to collapse generated responses and extracted publisher passages into one category.
+- 05.6 retains the method for interpreting SERPs as evidence of query intent. 06.4 supplies the feature vocabulary and does not duplicate intent classification or validation.
+- Domain 10 retains technical implementation of robots directives. 06.4 explains only their user-visible snippet implications.
+- Domain 02.9 and Domain 03 retain serving and ranking-system explanations. The topic does not infer internal selection or ranking logic from visible presentation.
+
+### Review Result and Limits
+
+**06.4 is documented and integration-reviewed.** Its scope follows the approved Domain 06 roadmap and preserves the ownership of adjacent topics.
+
+The source review verifies Google's published guidance as accessed on 2026-11-19; it does not establish the behavior of every query, device, language, market, or search interface. The topic intentionally does not claim a universal direct-answer taxonomy or disclose Google's internal selection process. The targeted integration review is not an exhaustive all-pairs semantic audit of every repository document. Feature behavior and documentation can change and should be rechecked during maintenance.
