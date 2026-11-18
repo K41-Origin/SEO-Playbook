@@ -640,3 +640,68 @@ All five references are cited inline. No reference is unused. The commercial-inv
 **05.5 — Search Intent Concepts & Taxonomies: source-checked, navigation-checked, and integration-reviewed on 2026-11-18.**
 
 This conclusion applies to the current 05.5 version and the checks listed above. It does not certify future Domain 05 topics or replace a full repository-wide duplicate-text scan.
+
+
+---
+
+## Domain 05 — Topic 05.6 Source & Integration Audit
+
+**Audit date:** 2026-11-18  
+**Document:** `05-Keyword-and-Search-Intent/05.6-SERP-Based-Intent-Analysis-and-Validation.md`  
+**Scope:** SERP observation for query-intent research, result and destination-page classification, observation context, validation outcomes, and handoff to query clustering.
+
+### Source Verification
+
+| Ref. | Source | Verification result | Claims supported |
+|---|---|---|---|
+| [1] | Google Search Central — Visual Elements Gallery of Google Search | Current official documentation inspected. | Defines visible result elements and documents variation by device, country, query language, and other factors. Used for SERP observation context and broad result-type distinctions, not as an intent taxonomy. |
+| [2] | Google Search Central — In-depth Guide to How Google Search Works | Official Search Central guide inspected; last updated 2025-12-18. | Supports the description of serving results and the relevance of query context such as location, language, and device. |
+| [3] | Google Search Central — Influencing Title Links in Google Search | Current official documentation inspected. | Supports the statement that title links are automatically generated using multiple page and web sources and should not be treated as exact page descriptions. |
+| [4] | Google Search Central — Control Your Snippets in Search Results | Current official documentation inspected. | Supports the statement that snippets are automatically generated from page content and can vary by query. |
+| [5] | Google Search Help — Why Your Google Search Results Differ from Others | Current official help page inspected. | Supports variation related to time, context, location, language, device, and personalization. The page notes that Search settings are being updated, so operational setting details are not treated as timeless. |
+
+All five references are cited inline and support the claims assigned to them. Google documentation is used for Google's documented behavior only; it is not presented as proof of universal behavior across all search engines.
+
+### Scope and Content QA
+
+- Defines SERP-based intent analysis as an evidence-based research method, not direct access to a searcher's private motivation or a search engine's internal intent label.
+- Separates broad result types, destination page types, result-level evidence, and overall SERP composition.
+- Separates organic destination analysis from ads and other visible SERP features.
+- Defines observation context fields: engine, exact query, market/location, language, device, timestamp, search state, filters, and observation depth.
+- Includes a repeatable observation protocol without claiming that one fixed number of results is universally sufficient.
+- Provides evidence patterns for informational, navigational, transactional, commercial-investigation, and local/provider-seeking hypotheses.
+- Defines validation outcomes: supported, partially supported, refined, contradicted, and inconclusive.
+- Requires preservation of original hypotheses, supporting and contradictory evidence, confidence, and rationale.
+- Clearly states that SERP result patterns do not disclose ranking factors or prove the exact motivation of every searcher.
+- The worked example is explicitly fictional and illustrative; no live SERP research or real ranking data is claimed.
+- Clustering remains the responsibility of 05.7; SERP-feature taxonomy and mechanics remain the responsibility of Domain 06.
+
+### Cross-Domain Integration
+
+- 05.6 links to 05.4 for keyword-metric limitations and 05.5 for initial intent hypotheses.
+- 05.6 hands validated query-level evidence to 05.7 without making the clustering decision itself.
+- 05.5 now links directly to 05.6 as its validation stage.
+- 02.9 is linked for the search-system serving-stage explanation; 05.6 does not duplicate system implementation.
+- 03.4 is linked for ranking-side relevance; 05.6 does not infer ranking factors from visible result composition.
+- Domain 06 is referenced through the root architecture anchor as the future owner of SERP-feature taxonomy and mechanics.
+- Domain 05 README and root README now list 05.6 as documented and source-checked; topics 05.7–05.9 remain planned.
+
+### Technical QA
+
+- The document includes parent navigation, Related Topics, and References sections.
+- Five inline citation IDs map to five reference entries; all five references are used.
+- Local links target existing topic files or explicit architecture anchors for planned topics.
+- The document ends with its References section, consistent with `AGENTS.md`.
+- No TODO, TBD, or placeholder markers are intended in the published document.
+
+### Duplicate and Ownership Review
+
+- Reviewed the new topic against the directly related existing Domain 05 documents 05.4 and 05.5, and the established ownership boundaries for 02.9, 03.4, and planned Domain 06.
+- The topic's canonical ownership is SERP observation as evidence for validating query-intent hypotheses. It does not own the taxonomy/mechanics of SERP visual features, search serving architecture, ranking evaluation, or keyword clustering.
+- A repository-wide normalized sentence-level duplicate scan against all substantive documents in Domains 01–04 was **not executed for this audit**. The audit makes no claim of repository-wide duplicate-free status.
+
+### Audit Conclusion
+
+**05.6 — SERP-Based Intent Analysis & Validation: source-checked, navigation-checked, and integration-reviewed on 2026-11-18.**
+
+This conclusion applies to the current 05.6 version and the checks listed above. It does not certify future Domain 05 topics or replace a full repository-wide duplicate-text scan.
