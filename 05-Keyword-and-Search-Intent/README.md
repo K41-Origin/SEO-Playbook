@@ -77,7 +77,7 @@ The domain is organized into three groups. The sequence moves from collecting qu
 | Topic | Title | Canonical scope |
 |---|---|---|
 | [05.7](05.7-Keyword-Clustering-and-Query-Grouping.md) | Keyword Clustering & Query Grouping | Groups queries using intent, SERP overlap, lexical similarity, semantic and task relevance; defines merge/split decisions, cluster confidence, and research handoffs. Distinguishes SEO query clusters from semantic topic models and search-engine URL canonicalization. |
-| 05.8 | Keyword Opportunity & Prioritization | Assesses relevance, demand, business value, intent fit, current visibility, effort, and uncertainty to prioritize research opportunities without reducing decisions to one arbitrary score. |
+| [05.8](05.8-Keyword-Opportunity-and-Prioritization.md) | Keyword Opportunity & Prioritization | Assesses strategic and audience relevance, demand evidence, intent fit, current visibility, feasibility, effort, risk, and uncertainty; documents transparent prioritization decisions without treating any score as universal. |
 | 05.9 | Keyword-to-Page Mapping & Research Deliverables | Turns validated clusters into target-page assignments, identifies mapping conflicts and coverage gaps, and defines a clear handoff to content planning without owning content production. |
 
 ## Research Principles
@@ -103,9 +103,10 @@ The domain is organized into three groups. The sequence moves from collecting qu
 | 05.5 — Search Intent Concepts & Taxonomies | Documented and source-checked | Core web-search taxonomies, SEO commercial-investigation refinement, mixed and ambiguous intent, inference limits, and preliminary classification workflow are documented. |
 | 05.6 — SERP-Based Intent Analysis & Validation | Documented and source-checked | SERP observation protocol, result/page-type classification, context controls, intent validation outcomes, and research handoff are documented. |
 | 05.7 — Keyword Clustering & Query Grouping | Documented and source-checked | Evidence-based query grouping, SERP-overlap limitations, hybrid clustering workflow, cluster boundaries, over/under-clustering, and research handoff are documented. |
-| Topics 05.8–05.9 | Planned | Topic pages have not yet been created. |
+| 05.8 — Keyword Opportunity & Prioritization | Documented and source-checked | Opportunity dimensions, feasibility and effort assessment, optional multi-criteria scoring, sensitivity checks, prioritization workflows, and research handoff are documented. |
+| 05.9 — Keyword-to-Page Mapping & Research Deliverables | Planned | Topic page has not yet been created. |
 | Cross-domain integration | Architecture audited | Ownership boundaries checked against existing Domains 01–04 and planned Domains 06–17; detailed findings are recorded in `SOURCE-AUDIT.md`. Reciprocal topic links will be added as pages are documented. |
-| Source audit | Pending | Each substantive topic receives claim-level citations and source verification before being marked complete; 05.1–05.7 have completed their individual source checks. |
+| Source audit | Pending | Each substantive topic receives claim-level citations and source verification before being marked complete; 05.1–05.8 have completed their individual source checks. |
 
 ## Related Domains
 
