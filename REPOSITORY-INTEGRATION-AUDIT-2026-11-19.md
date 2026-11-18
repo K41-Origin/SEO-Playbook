@@ -229,3 +229,28 @@ Inspected 01.1, 01.4, 01.5, 03.4, and 03.12.
 This sample does not complete the audit. Full Domain 01/03/05 all-pairs comparisons, Domain 06 comparative review, the remaining Domain 02/04 pairs, all-claim source verification, freshness checks, heading-anchor and external-link validation, and final all-topic regression remain outstanding.
 
 **Verdict remains: NOT FULLY AUDITED.**
+
+
+## 11. Execution Update — 2026-11-19 (Domain 06 Comparative Sample and Freshness Spot Check)
+
+### Domain 06 boundary review
+
+Inspected the current bodies and reference lists for 06.1, 06.2, 06.3, 06.10, and 06.11.
+
+- **06.1 vs 06.2:** 06.1 owns page-level SERP regions and composition; 06.2 owns the visible components of an individual standard organic result. The distinction is explicit.
+- **06.1 vs 06.3–06.11:** 06.1 provides a concise structural overview and delegates individual feature mechanics to the feature-specific topics. The overview/detail relationship is appropriate as long as 06.1 does not reproduce their full explanations.
+- **06.3 vs Domain 10:** 06.3 owns structured data's relationship to Google Search appearance, feature eligibility, and display variability. Implementation and technical validation remain outside its canonical scope.
+- **06.10 vs 06.11:** 06.10 owns conventional interface refinement and exploration controls; 06.11 owns AI-generated answer presentation and AI-specific conversational experiences. Both may discuss follow-up interaction, but their product mechanism and scope differ.
+- **06.10 vs Domain 05 / 02:** 06.10 describes visible controls and user actions; Domain 05 owns keyword/intent research, while Domain 02 owns internal query processing. This separation is explicit.
+
+The sample's references are appropriately provider-specific: Google Search Help for interface behavior, Search Central for documented appearance features, and dated official announcements for product changes. The five-page sample is not a complete 06.1–06.11 pairwise review.
+
+### External freshness spot check
+
+A live check of Google's official Search documentation updates page confirmed that the page currently includes November 2026 documentation changes, including the November 12 Search traffic identification documentation update, and that its changelog records the January 6, 2026 removal of Practice Problem structured-data documentation. The current AI-features guidance and Search Console Performance report data guidance were also retrievable from official Google sources. This supports the continued use of the changelog and feature-specific official pages as freshness controls; it does not validate every URL or every volatile claim in the repository.
+
+### Current audit status
+
+No confirmed 06-page defect requiring an edit was established in this sample. No 06 page was merged or removed. The Domain 06 all-eleven-page comparative pass, including every feature-to-feature boundary and all current product-status claims, remains outstanding.
+
+**Verdict remains: NOT FULLY AUDITED.**
