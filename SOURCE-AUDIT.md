@@ -314,3 +314,89 @@ This refresh does not pretend that planned domains contain auditable material. D
 **05.1 — Introduction to Keyword Research: source-checked and documentation QA passed on 2026-11-18.**
 
 This status applies to the claims and scope in this version of 05.1. It does not certify the remaining Domain 05 topics, which must be researched and audited individually before they are marked complete.
+
+
+---
+
+## Domain 05 — Full Cross-Domain Integration Audit
+
+**Audit date:** 2026-11-18  
+**Scope:** Domain 05 architecture, its current substantive topic 05.1, the 42 substantive topic documents in Domains 01–04, and the planned ownership boundaries for Domains 06–17.
+
+### Audit Method
+
+1. Rechecked the repository's 17-domain architecture and the Domain 05 topic roadmap against the current root README and domain index.
+2. Reviewed the canonical scope and topic structure of Domains 01–04 and the full text/section structure of all 42 existing topic documents for potential overlap with 05.1.
+3. Compared normalized sentence content between 05.1 and the 42 existing topic documents as a mechanical duplicate-text screen. This check supplements, but does not replace, semantic review.
+4. Examined the conceptual boundaries most likely to collide: SEO purpose and visibility, query processing, retrieval, ranking relevance, IR information needs, semantic retrieval, SERP features, content/page implementation, local/international SEO, analytics, AI search, and experimental methods.
+5. Reviewed the planned Domain 06–17 names and the ownership statements already present in Domain 05. Clarified forward boundaries where the roadmap previously left an avoidable ambiguity.
+6. Checked whether Domain 05.1's workflow previews are clearly identified as introductions to later topics rather than competing canonical explanations.
+
+### Existing-Domain Findings
+
+| Domain | Canonical ownership | Relationship to Domain 05 | Finding |
+|---|---|---|---|
+| 01 — SEO Fundamentals | SEO purpose, visibility, ecosystem, objectives, and disciplines | Domain 05 applies SEO research to query demand and audience needs. | No duplicate topic ownership. 05.1's brief explanation of SEO's use of keyword research is contextual, not a second treatment of SEO fundamentals or visibility metrics. |
+| 02 — Search Engine Fundamentals | Search-engine architecture and operational crawling, processing, indexing, query processing, retrieval, and serving | Domain 05 studies submitted queries as research evidence; Domain 02 studies how search systems process them. | No duplicate topic ownership. Query processing and retrieval mechanics remain outside Domain 05. |
+| 03 — Search Engine Algorithms | Ranking architecture, ranking signals, relevance assessment, spam/quality systems, and ranking evaluation | Domain 05 infers user needs and evaluates SEO opportunities; Domain 03 documents search-system evaluation and ranking behavior. | No duplicate topic ownership. Query-intent hypotheses are not presented as ranking-system disclosures or ranking guarantees. |
+| 04 — Information Retrieval | Formal IR problems, document and term representation, retrieval models, semantic/neural retrieval, relevance assessment, and IR evaluation | Domain 05 uses the practical SEO distinction between keyword, query, topic, and information need; Domain 04 owns the formal IR treatment of information needs, queries, documents, representations, and retrieval. | No duplicate topic ownership. The shared terminology in 05.1 is a deliberate bridge for SEO readers, not a replacement for IR theory or retrieval models. |
+
+### Domain 05.1 Duplicate-Content Screen
+
+- All 42 existing topic documents in Domains 01–04 were checked against 05.1.
+- The normalized sentence-level screen found **no exact repeated substantive sentences** between 05.1 and those 42 topic documents.
+- Shared terms such as *query*, *search*, *relevance*, *intent*, *keyword*, and *information need* are expected domain vocabulary. Their presence alone is not evidence of duplicated content.
+- The main conceptual adjacency is between 05.1 and 04.1: both need to distinguish an information need from a query. Domain 04.1 owns the formal IR problem; 05.1 explains why that distinction matters when SEO practitioners research and interpret search language.
+- 05.1 also previews intent analysis, metrics, clustering, prioritization, and page mapping. The document explicitly assigns their detailed treatment to 05.5–05.9 and the data-source methodology to 05.4. These previews are acceptable orientation, but later topics must not copy the introductory explanations wholesale.
+
+### Forward Integration Findings: Planned Domains 06–17
+
+The planned domains do not yet contain substantive topic pages. The following is therefore an **architecture-level collision assessment**, not a content audit of documents that do not exist.
+
+| Planned domain | Potential collision with Domain 05 | Required ownership boundary |
+|---|---|---|
+| 06 — SERP & Search Features | Domain 05.6 uses visible SERPs to interpret query intent. | Domain 05 owns the research question and intent inference; Domain 06 owns SERP feature taxonomy, formats, eligibility, and mechanics. |
+| 07 — On-Page SEO | Keyword targets and page assignments can be mistaken for page optimization. | Domain 05.9 ends at research recommendations and handoff; Domain 07 owns implementation on the page. |
+| 08 — Content SEO | Keyword research can drift into briefs, editorial planning, writing, and maintenance. | Domain 05 identifies query needs and research opportunities; Domain 08 owns content strategy and execution. |
+| 09 — Semantic SEO | Keyword clustering can be mislabeled as entity or topical architecture. | Domain 05 groups queries for research and page-targeting decisions; Domain 09 owns entities, semantic relationships, and topical architecture. |
+| 10 — Technical SEO | Search Console and website data may surface technical symptoms. | Domain 05 may record a technical caveat affecting query evidence; Domain 10 owns technical diagnosis and implementation. |
+| 11 — Internal Linking | Keyword-to-page mapping may be confused with internal link architecture. | Domain 05 maps query groups to candidate pages; Domain 11 owns internal link structures, link placement, and implementation. |
+| 12 — Off-Page SEO | Competitor or market research may mention external sites and links. | Domain 05 researches query demand and intent; Domain 12 owns off-site authority, backlink strategy, and execution. |
+| 13 — International & Local SEO | Keyword research necessarily varies by language, geography, and market. | Domain 05 owns the general research method and can apply it to a specified market; Domain 13 owns localization decisions, international strategy, and local SEO execution. |
+| 14 — SEO Analytics | Search Console query data can be used in keyword research. | Domain 05 uses query-level performance as one research input; Domain 14 owns ongoing site-performance measurement, reporting, attribution, and business analysis. |
+| 15 — Advanced SEO | An umbrella domain could absorb or recreate specialist methods without a clear remit. | Domain 05 remains the canonical home for keyword research. Domain 15's exact scope must be defined before its topic roadmap is approved; advanced applications should reference, not duplicate, Domain 05 foundations. |
+| 16 — AI & Search Evolution | AI interfaces and query expansion may introduce new forms of query research and query processing. | Domain 05 may study audience queries and demand in search interfaces. AI-side query fan-out, retrieval orchestration, and answer generation belong to search-system/AI documentation. |
+| 17 — k41-version | Experimental keyword tactics may repeat core keyword-research methods. | Domain 05 owns canonical methods and research standards; Domain 17 owns documented experiments, hypotheses, test conditions, risks, and maturity labels. |
+
+The Domain 05 index was updated to record the Domain 13, 15, 16, and 17 boundaries explicitly. Domain 15 remains a governance dependency: its remit is too broad to audit beyond this non-duplication rule until its scope is formally defined.
+
+### Topic-Level Scope Controls for 05.1–05.9
+
+| Topic | Canonical responsibility | Duplication guardrail |
+|---|---|---|
+| 05.1 — Introduction to Keyword Research | Define the discipline, its core vocabulary, overall workflow, and evidence standards. | Orient the reader; do not replace the detailed methods in 05.2–05.9 or the formal theory in Domains 02–04. |
+| 05.2 — Seed Keyword & Audience-Language Discovery | Identify initial terms from audience needs, offerings, and first-party knowledge. | Do not become the expansion-method or metric-evaluation chapter. |
+| 05.3 — Keyword Expansion & Query Variations | Generate related formulations and query patterns from seeds. | Do not turn into a full source/metric comparison or clustering chapter. |
+| 05.4 — Keyword Data Sources & Metrics | Explain data provenance, metric definitions, methodology, and limitations. | Do not become ongoing website performance analytics or a ranking-difficulty guarantee. |
+| 05.5 — Search Intent Concepts & Taxonomies | Explain intent models, mixed intent, ambiguity, and classification limits. | Do not claim to reveal a search engine's internal intent classifier. |
+| 05.6 — SERP-Based Intent Analysis & Validation | Use observable result patterns to test an intent hypothesis. | Do not duplicate the taxonomy or explain SERP feature mechanics. |
+| 05.7 — Keyword Clustering & Query Grouping | Group queries for research and targeting decisions. | Do not build entity graphs or semantic topical architecture. |
+| 05.8 — Keyword Opportunity & Prioritization | Compare relevance, demand evidence, value, feasibility, effort, and uncertainty. | Do not collapse the decision into an unsupported universal score or duplicate SEO ROI reporting. |
+| 05.9 — Keyword-to-Page Mapping & Research Deliverables | Assign validated query groups to candidate pages and document handoff decisions. | Stop before editorial production, on-page implementation, and internal-link architecture. |
+
+### Audit Result and Remaining Risks
+
+| Check | Result |
+|---|---|
+| Existing topic documents in Domains 01–04 screened against 05.1 | 42 / 42 |
+| Exact repeated substantive sentences detected by normalized sentence screen | 0 |
+| Existing-domain canonical ownership conflicts identified | 0 |
+| Domain 05 topic roadmap has explicit canonical scopes | 9 / 9 |
+| Planned Domains 06–17 assessed for prospective collision | 12 / 12 at architecture level |
+| Forward boundary clarifications added to Domain 05 index | Domains 13, 15, 16, and 17 |
+| Substantive content audit of Domains 06–17 | Not applicable; no topic documents exist yet |
+| Substantive content audit of Domain 05.2–05.9 | Pending; pages do not exist yet |
+
+**Conclusion:** Domain 05 is structurally compatible with the established ownership of Domains 01–04. Its current topic 05.1 does not duplicate substantive text from the 42 existing topic documents, and its research-oriented responsibility is distinct from search-engine processing, ranking, and formal IR. The planned boundaries for Domains 06–17 are now clearer, but they are not a guarantee against future duplication: each new topic must be checked against this ownership map before drafting and again during integration review.
+
+**Overall status:** Domain 05 architecture and 05.1 integration audit passed, with one future governance dependency: define Domain 15's scope before building its detailed roadmap.
