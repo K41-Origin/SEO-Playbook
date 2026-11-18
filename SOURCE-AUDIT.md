@@ -400,3 +400,53 @@ The Domain 05 index was updated to record the Domain 13, 15, 16, and 17 boundari
 **Conclusion:** Domain 05 is structurally compatible with the established ownership of Domains 01–04. Its current topic 05.1 does not duplicate substantive text from the 42 existing topic documents, and its research-oriented responsibility is distinct from search-engine processing, ranking, and formal IR. The planned boundaries for Domains 06–17 are now clearer, but they are not a guarantee against future duplication: each new topic must be checked against this ownership map before drafting and again during integration review.
 
 **Overall status:** Domain 05 architecture and 05.1 integration audit passed, with one future governance dependency: define Domain 15's scope before building its detailed roadmap.
+
+
+---
+
+## Domain 05 — Topic 05.2 Source & Integration Audit
+
+**Audit date:** 2026-11-18  
+**Document:** `05-Keyword-and-Search-Intent/05.2-Seed-Keyword-and-Audience-Language-Discovery.md`
+
+### Source Verification
+
+| Ref. | Source | Verification result | Claims supported |
+|---|---|---|---|
+| [1] | Google Ads Help — Use Keyword Planner | Official Google Ads Help page inspected. | Keyword Planner can generate ideas from product/service-related terms and websites; its documented context is Google Ads Search campaign research. |
+| [2] | Government Digital Service — Learning about users and their needs | Official GOV.UK user-research guidance inspected. | User needs can be researched through existing evidence, interviews, observation, and people who work with users; user language should be recognizable and needs should be grounded in evidence rather than assumptions. |
+| [3] | Google Search Central — SEO Starter Guide | Official Google Search Central documentation inspected; page states last updated 2025-12-10. | People with different levels of subject knowledge may use different terms for similar content; anticipating audience language can be useful. |
+
+All three listed references are cited inline in the document. No unused reference remains.
+
+### Scope and Content QA
+
+- The document defines seed keywords as initial research anchors, not validated targets or demand measurements.
+- It distinguishes the site's offering and internal terminology from audience language and observed user needs.
+- It covers direct user research, customer/support evidence, existing site-search interactions, public discussions, subject-matter knowledge, keyword tools, and competitor websites as distinct discovery inputs.
+- It separates observed wording from extracted concepts, researcher interpretation, evidence status, and unresolved questions.
+- It explicitly warns that recurrence in support or public discussions does not establish market-wide prevalence or search volume.
+- The workflow stops at an annotated seed inventory. Query expansion (05.3), data-source and metric methodology (05.4), intent taxonomy (05.5), SERP validation (05.6), clustering (05.7), prioritization (05.8), and page mapping (05.9) remain separately owned.
+- Examples are explicitly labeled fictional/illustrative and are not represented as actual customer or search data.
+- Privacy and source-selection caveats are included for customer records and public discussions.
+
+### Cross-Domain Integration
+
+- Domain 02.7 now links to 05.2 to distinguish SEO seed discovery from operational query processing.
+- Domain 04.1 now links to 05.2 to connect audience-language discovery with information-need concepts without duplicating formal IR theory.
+- Domain 05 index and root README now list 05.2 as documented and source-checked.
+- The document's relative links to the Domain 05 index, 05.1, 02.7, and 04.1 were checked against existing repository paths. The Domain 05 index anchor used for planned 05.3/05.4 topics resolves to the existing Domain Structure section.
+
+### Duplicate-Content Screen
+
+- Compared 05.2 against all **42 existing substantive topic documents** in Domains 01–04.
+- A normalized sentence-level screen detected **zero exact repeated substantive sentences**.
+- Shared vocabulary such as audience, query, language, keyword, product, user need, and search is expected and is not by itself evidence of duplication.
+- Semantic boundary review found no ownership conflict with Domains 01–04. The deliberate overlap with 04.1 is limited to using the concept of an information need as context for SEO seed discovery; formal IR definitions and retrieval theory remain in Domain 04.
+- The distinction from 02.7 is explicit: 05.2 studies the audience language used to form research seeds; 02.7 documents how search systems process submitted queries.
+
+### Audit Conclusion
+
+**05.2 — Seed Keyword & Audience-Language Discovery: source-checked and integration QA passed on 2026-11-18.**
+
+This audit verifies the sources, scope, links, and duplicate-text screen for this version of 05.2. It does not certify future Domain 05 topics or guarantee that planned domains cannot introduce overlap. Each new document must be checked against the canonical ownership map before and after drafting.
