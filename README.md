@@ -156,6 +156,7 @@ Start here, then follow the topic links. Each domain index defines its scope and
   - [04.12 — Information Retrieval Evaluation Metrics](04-Information-Retrieval/04.12-Information-Retrieval-Evaluation-Metrics.md) — covers Precision, Recall, F-measure, P@k, R@k, AP/MAP, MRR, DCG/nDCG, bpref, ERR, RBP, and metric-selection trade-offs.
 
 - [05 — Keyword & Search Intent](05-Keyword-and-Search-Intent/README.md) — keyword discovery, keyword data and metrics, search intent, SERP-based intent validation, query clustering, prioritization, and keyword-to-page research mapping.
+  - [05.1 — Introduction to Keyword Research](05-Keyword-and-Search-Intent/05.1-Introduction-to-Keyword-Research.md) — defines the research discipline, core terminology, workflow, data-source limits, and quality standards.
 
 Only existing documents are linked as destinations. Planned topics remain in their domain roadmap until their pages are created.
 
@@ -168,7 +169,7 @@ Only existing documents are linked as destinations. Planned topics remain in the
 | Domain 02 — Search Engine Fundamentals | Documented and source-audited | Domain index and topics 02.1–02.12 are documented; factual claims, source support, citations, scope, and cross-domain integration were reviewed on 2026-11-15, with a freshness recheck of Bing Webmaster API retirement wording on 2026-11-18. |
 | Domain 03 — Search Engine Algorithms | Documented and source-audited | Domain architecture and topics 03.1–03.13 are documented; factual claims and lifecycle accuracy were reviewed on 2026-11-15, with a 2026-11-18 recheck of the EEA site-reputation policy and November core-update status. |
 | Domain 04 — Information Retrieval | Documented, integration-audited, and source-audited | All 12 topics and the domain index are documented. Technical claims, formulae, source fit, citations, and references were reviewed on 2026-11-17; freshness was rechecked on 2026-11-18. |
-| Domain 05 — Keyword & Search Intent | Architecture established | Domain index, scope boundaries, and nine-topic roadmap are documented; topic pages 05.1–05.9 remain planned. |
+| Domain 05 — Keyword & Search Intent | In development | Domain architecture and topic 05.1 are documented; 05.1 has source-checked references, while 05.2–05.9 remain planned. |
 | Domains 06–17 | Planned | Domain-level content has not yet been developed in this repository. |
 | Cross-domain knowledge graph | Initial integration audit passed | Existing domains 01–04 have explicit ownership boundaries and cross-domain links; reciprocal links were added where operational retrieval, IR theory, ranking, and evaluation materially intersect. Domain 05 now has an approved scope and roadmap; its topic pages will be integrated as they are created. Domains 06–17 remain planned. |
 | Maintenance and review | Governance defined | Research, citation, integration, and review rules are maintained in `AGENTS.md`. |
