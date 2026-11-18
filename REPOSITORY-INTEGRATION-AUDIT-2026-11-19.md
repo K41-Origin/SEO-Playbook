@@ -400,8 +400,8 @@ These primary-source checks validate the sampled volatile statements and do not 
 Re-fetched all 62 numbered topic pages and extracted Markdown links containing URL fragments. Resolved every internal fragment against the target Markdown file's actual heading slugs.
 
 - Topic pages inspected: **62/62**.
-- Internal heading-fragment references identified: **16**.
-- Internal heading-fragment references resolved: **16/16**.
+- Internal heading-fragment references identified: **14**.
+- Internal heading-fragment references resolved: **14/14**.
 - Broken internal heading-fragment references: **0**.
 - External fragment references identified: **1**.
 - External fragment defect: the 02.3 reference pointed to a non-existent `#fix-links` anchor on Google's current JavaScript SEO guide. The current page contains no corresponding heading/anchor. Removed the stale fragment while retaining the canonical Google guide URL.
