@@ -107,7 +107,7 @@ The intended relationship is a connected knowledge workflow, not a rigid linear 
 
 ## Development Status
 
-**Domain architecture documented; topic 07.1 documented; topics 07.2–07.10 planned.**
+**Domain architecture documented; topics 07.1–07.2 documented; topics 07.3–07.10 planned.**
 
 | Topic | Status |
 |---|---|
