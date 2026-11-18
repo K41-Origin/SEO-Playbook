@@ -1597,3 +1597,64 @@ The sources are Google-specific and support statements about Google's own produc
 Google documents product snippets and merchant listings as distinct product structured-data experiences, free listings as unpaid product placements, and Shopping ads as paid advertisements. Product data and feature availability vary by surface and market. Price, stock, seller information, and review ratings may change or differ across sources; the topic therefore avoids treating a visible value as permanent or universally complete.
 
 The five-state eligibility/display model in 06.9 is explicitly a practical diagnostic model, not an official Google taxonomy. The duplicate comparison is targeted and must not be represented as an exhaustive semantic audit of the entire repository.
+
+
+## Domain 06.10 — Interactive SERP & Query Refinement Features
+
+**Review date:** 2026-11-19  
+**Document:** [06.10 — Interactive SERP & Query Refinement Features](06-SERP-and-Search-Features/06.10-Interactive-SERP-and-Query-Refinement-Features.md)  
+**Review type:** Topic-level source, structure, and targeted integration review.
+
+### Research and Source Review
+
+The topic was checked against seven official Google sources on 2026-11-19:
+
+1. Google Search Help, **Refine Google searches** — Advanced Search access, result-type filters, operators, related results, and related searches.
+2. Google Search Help, **Narrow your search results with filters** — dynamic result types, Search tools, filter behavior, and examples of criteria by result type.
+3. Google Search Help, **How Google autocomplete predictions work** — prediction purpose, language/location/trending/past-search context, policy limitations, and distinction from Google Trends.
+4. Google Search Help, **How Search works with your activity** — possible personalization and past-search context, with the qualification that most same-query/same-location searches return the same results.
+5. Google Search Central, **Visual Elements Gallery of Google Search** — current exploration-feature taxonomy, related searches, related questions/PAA, featured-snippet behavior, and interface variability. The gallery was last updated 2026-02-04.
+6. Google Search Central, **Featured snippets and your website** — confirmation that featured snippets can appear within a related questions/PAA group.
+7. Google, **Zooming in on an easier way to explore on Search** (2022-12-06) — contextual topic chips, add/remove interaction, dynamic topics, and original rollout context. This is historical evidence for the documented interaction model, not proof of current universal availability.
+
+All cited sources were opened and inspected. The topic attributes Google-specific behavior to Google and does not generalize its controls or feature availability to other search engines.
+
+### Structural and Integration Checks
+
+| Check | Result |
+|---|---|
+| Topic document | Created; autocomplete, result-type navigation, Search tools, Advanced Search, related searches, related questions/PAA, topic suggestions, and observation method documented |
+| Numbered references | 7 |
+| Missing citation IDs | 0 |
+| Unused reference entries | 0 |
+| Internal Markdown link occurrences | 13 |
+| Unique internal Markdown targets | 12 |
+| Broken internal links | 0 |
+| Parent-domain navigation | Present |
+| Related Topics section | Present |
+| Domain index | Updated with 06.10 link and documented status |
+| Root README | Updated to mark 06.1–06.10 documented and 06.11 planned |
+| Reciprocal topic links | 06.4 and 06.9 now link to 06.10; 06.8 already links to 06.10 |
+| Source freshness | Official sources opened and checked on 2026-11-19 |
+| Targeted exact-paragraph comparison | 0 repeated substantive paragraphs against 06.1–06.9 and 05.4, 05.6, 05.7; not an exhaustive semantic audit |
+
+### Integration Decisions
+
+- 06.1 retains overall SERP anatomy. 06.10 documents interactive controls and exploration behavior within that page.
+- 06.2 retains standard organic-result components. 06.10 does not re-document title links, snippets, attribution, or sitelinks.
+- 06.3 retains structured-data rich results, including FAQ rich-result concepts. PAA is documented separately as an algorithmically generated related-question group.
+- 06.4 retains featured-snippet answer presentation and snippet controls. 06.10 documents the PAA interaction that exposes a featured snippet.
+- 06.6–06.9 retain the presentation of local, news, image/video, and shopping/product result types. 06.10 references their tabs only as result-type navigation controls.
+- Domain 05 retains keyword discovery, demand analysis, intent inference, and clustering. Autocomplete predictions and related searches are discovery clues, not direct demand metrics or ready-made intent classifications.
+- Domain 02 retains internal query processing, rewriting, retrieval, and serving. Visible predictions and filters do not disclose those mechanisms.
+- Domain 03 retains ranking systems and candidate evaluation. Interface suggestions do not expose ranking signals.
+- 06.11 retains AI Overviews, AI Mode, generative answers, and AI-specific conversational follow-ups. 06.10 does not absorb AI-powered search experiences into general refinement.
+- Domain 14 retains site-owner performance measurement. This topic's observation framework is not a substitute for Search Console reporting.
+
+### Review Result and Limits
+
+**06.10 is documented and source-reviewed.** The topic follows the approved Domain 06 roadmap and preserves canonical ownership of adjacent topics.
+
+Google's current documentation identifies related searches and related questions as exploration features, and states that expanding a related question displays a featured snippet. Search Help documents result-type filters and Search tools as dynamic and query-dependent. Autocomplete predictions may reflect multiple contextual signals and are not a direct measure of search volume.
+
+The contextual topic-chip discussion is explicitly qualified by the 2022 rollout announcement. The document does not claim that the exact interface or rollout remains universally available in 2026. The duplicate comparison is targeted and must not be represented as an exhaustive semantic audit of the entire repository.
