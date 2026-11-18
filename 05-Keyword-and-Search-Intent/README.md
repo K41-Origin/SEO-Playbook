@@ -100,9 +100,10 @@ The domain is organized into three groups. The sequence moves from collecting qu
 | 05.2 — Seed Keyword & Audience-Language Discovery | Documented and source-checked | Seed discovery workflow, audience-language sources, evidence quality controls, and scope boundaries are documented. |
 | 05.3 — Keyword Expansion & Query Variations | Documented and source-checked | Expansion dimensions, discovery-source limitations, provenance, normalization, deduplication, and research handoff are documented. |
 | 05.4 — Keyword Data Sources & Metrics | Documented and source-checked | Source purposes, metric definitions, data limitations, comparability controls, and research workflow are documented. |
-| Topics 05.5–05.9 | Planned | Topic pages have not yet been created. |
+| 05.5 — Search Intent Concepts & Taxonomies | Documented and source-checked | Core web-search taxonomies, SEO commercial-investigation refinement, mixed and ambiguous intent, inference limits, and preliminary classification workflow are documented. |
+| Topics 05.6–05.9 | Planned | Topic pages have not yet been created. |
 | Cross-domain integration | Architecture audited | Ownership boundaries checked against existing Domains 01–04 and planned Domains 06–17; detailed findings are recorded in `SOURCE-AUDIT.md`. Reciprocal topic links will be added as pages are documented. |
-| Source audit | Pending | Each substantive topic receives claim-level citations and source verification before being marked complete; 05.1–05.4 have completed their individual source checks. |
+| Source audit | Pending | Each substantive topic receives claim-level citations and source verification before being marked complete; 05.1–05.5 have completed their individual source checks. |
 
 ## Related Domains
 
