@@ -254,3 +254,52 @@ A live check of Google's official Search documentation updates page confirmed th
 No confirmed 06-page defect requiring an edit was established in this sample. No 06 page was merged or removed. The Domain 06 all-eleven-page comparative pass, including every feature-to-feature boundary and all current product-status claims, remains outstanding.
 
 **Verdict remains: NOT FULLY AUDITED.**
+
+
+## 12. Execution Update — 2026-11-19 (62-Page Structural and Citation Regression)
+
+### Full topic-page re-fetch
+
+Re-fetched all 62 numbered topic pages across Domains 01–06 from the current `main` branch after the prior remediation commits. The current repository tree still contains 62 numbered topic pages.
+
+### Citation-reference integrity
+
+For each of the 62 topic pages, compared in-text numeric citation markers with the numbered entries in that page's `## References` section.
+
+- Pages checked: **62/62**.
+- Out-of-range or undefined numeric citation IDs: **0**.
+- Numbered reference entries with no matching in-text citation: **0**.
+
+This validates reference-number bookkeeping only. It does not prove that each source supports the exact sentence beside its citation, that the source remains current, or that a reference is the best available source.
+
+### Relative Markdown target integrity
+
+Re-ran a path-resolution check against the current recursive Git tree for every relative Markdown link in all 62 topic pages. The check normalizes `.` and `..` path segments and verifies that each resolved target exists in the repository.
+
+- Topic pages checked: **62/62**.
+- Missing relative Markdown file targets: **0**.
+
+This check does not validate fragment/heading anchors, images, raw HTML links, or external URL reachability. Those are separate checks and are not included in the zero-missing result.
+
+### External-source spot verification
+
+A fresh web spot check of official Google Search documentation confirmed that the current documentation changelog records November 2025 structured-data changes, 2026 updates, and the current AI-features guidance. A Microsoft Learn spot check confirmed the August 11, 2025 retirement of Bing Search APIs and the current Foundry Web Search / Grounding with Bing options. These checks support the source-selection approach in the sampled pages; they are not a URL-by-URL validation of all references.
+
+### Findings and cautions
+
+- The reference-number and relative-file-link regression checks pass across all 62 topic pages.
+- The 04.11 DOI URL previously flagged by a naive Markdown-link parser is not malformed: the closing parenthesis in the DOI suffix is part of the DOI itself (`10.1016/S0306-4573(00)00010-8`). A parser that terminates a Markdown URL at the first `)` will incorrectly truncate it. Do not “fix” this valid DOI by changing the bibliographic identifier; use angle-bracket URL syntax or percent-encoding only if a future Markdown renderer demonstrably requires it.
+- No broad claim is made that all external references are reachable or claim-supporting.
+
+### Remaining mandatory work
+
+The following checks remain open and are not implied by the completed structural regression:
+
+1. Claim-by-claim source support review across all 62 topic pages.
+2. Exhaustive semantic all-pairs overlap review across all 62 topic pages, with documented disposition for every material overlap.
+3. Heading-anchor validation for all internal fragment links.
+4. External URL status and destination validation for every reference and inline external link.
+5. Claim-level freshness review for every volatile provider feature, product name, policy, API, date, and reporting behavior.
+6. Final regression and human editorial sign-off after all findings are remediated.
+
+**Verdict remains: NOT FULLY AUDITED.** Structural checks passed; source-support, semantic consolidation, anchor/external-link, and complete freshness checks remain open.
