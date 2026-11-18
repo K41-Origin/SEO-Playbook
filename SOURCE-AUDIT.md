@@ -1480,3 +1480,58 @@ All seven numbered references are used by inline citations. The topic attributes
 **06.7 is documented and source-reviewed.** The topic follows the approved Domain 06 roadmap and preserves canonical ownership of adjacent topics.
 
 Google's public descriptions establish the general purpose and broad behavior of Top Stories and the News tab, but do not provide a permanent card specification, universal appearance rule, complete selection model, or exact ranking weights. Some Google News and Search experiences have distinct personalization and availability behavior; the document qualifies those differences rather than treating all news surfaces as one product. The Full Coverage source is historical and is not used as proof of current UI availability. The duplicate review is targeted and must not be represented as an exhaustive semantic audit of the entire repository.
+
+---
+
+## Domain 06.8 — Image & Video Search Features
+
+**Review date:** 2026-11-19  
+**Document:** [06.8 — Image & Video Search Features](06-SERP-and-Search-Features/06.8-Image-and-Video-Search-Features.md)  
+**Review type:** Topic-level source, structure, and targeted integration review.
+
+### Research and Source Review
+
+The topic was checked against six official Google sources on 2026-11-19:
+
+1. Google Search Central, **Google image SEO best practices** — distinction between text-result images, Google Images, and Discover; image discovery, indexing, landing-page context, and image understanding.
+2. Google Search Central, **Visual Elements Gallery of Google Search** (last updated 2026-02-04) — canonical Google terminology and visible elements for image results, text-result images, video results, thumbnails, title links, and attribution.
+3. Google Search Help, **Search with an image on Google** — Google Lens entry paths and documented result categories such as objects, similar images, and related websites.
+4. Google Search Central, **Video SEO best practices** — video surfaces, watch-page/indexing conditions, thumbnail and preview behavior, key moments, LIVE badge, and Search Console monitoring context.
+5. Google Search Central, **Video structured data: VideoObject, Clip, BroadcastEvent** — documented video enhancements, key-moment methods, LIVE badge behavior, and structured-data relationships.
+6. Google Search Central, **Introduction to structured data** — general distinction between structured data and guaranteed search appearance.
+
+The source set is intentionally Google-specific. The topic does not claim that other engines use the same presentation or feature eligibility rules.
+
+### Structural and Integration Checks
+
+| Check | Result |
+|---|---|
+| Topic document | Created; image results, image previews, Lens, Video mode, video previews, key moments, and LIVE badge documented |
+| Numbered references | 6 |
+| Missing citation IDs | Pending final citation QA |
+| Unused reference entries | Pending final citation QA |
+| Parent-domain navigation | Present |
+| Related Topics section | Present |
+| Domain index | Updated with 06.8 link and development status |
+| Root README | Updated to mark 06.1–06.8 documented |
+| Source freshness | Official sources opened and checked on 2026-11-19 |
+| Targeted duplicate comparison | Pending final repository-level file comparison |
+
+### Integration Decisions
+
+- 06.1 retains overall SERP anatomy; 06.8 documents image/video-specific presentation.
+- 06.2 retains standard organic-result components. Text-result images are included here only to distinguish them from dedicated image results; standard text-result attribution and snippet mechanics remain in 06.2.
+- 06.3 retains the general rich-result and structured-data presentation model. Video enhancements are described here as visible behavior; implementation remains in Domain 10.
+- 06.7 retains news and Top Stories. A video thumbnail inside news coverage is not automatically a video-search feature.
+- 06.10 retains interactive query refinement. Lens is covered here as visual query input and visual-result experience; broader refinement controls remain in 06.10.
+- Domain 02 retains image/video discovery, processing, indexing, and serving mechanisms. This topic describes the user-visible surfaces.
+- Domain 03 retains ranking systems and candidate evaluation. Visible placement does not disclose ranking logic.
+- Domain 08 retains media production and content maintenance. Domain 10 retains technical image/video SEO, asset accessibility, sitemaps, structured-data implementation, and validation.
+- Domain 14 retains site-owner performance measurement. This topic's observation framework is not a replacement for Search Console reporting.
+- Domain 16 retains broader AI discovery and ecosystem evolution. Discover and Lens are described only as distinct user-visible surfaces where relevant.
+
+### Review Result and Limits
+
+**06.8 is documented and source-reviewed.** The topic follows the approved Domain 06 roadmap and preserves canonical ownership of adjacent topics.
+
+Google's official documentation distinguishes image results, text-result images, Google Images, Lens, video results, Video mode, and Discover. The precise visual layout and availability can vary by surface, device, region, language, and query. The document does not claim a fixed card specification or guaranteed display of video enhancements. Its duplicate comparison is targeted and must not be represented as an exhaustive semantic audit of the entire repository.
