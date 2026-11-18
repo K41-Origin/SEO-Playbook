@@ -1801,7 +1801,7 @@ The latest inventory and the explicit scope limitations are recorded in [REPOSIT
 ## Repository-Wide Heading-Fragment Regression — 2026-11-19
 
 - Re-fetched all 62 numbered topic pages in Domains 01–06.
-- Extracted and checked all 16 internal Markdown heading-fragment references against their target headings: **16/16 resolve; 0 broken internal fragments**.
+- Extracted and checked all 14 internal Markdown heading-fragment references against their target headings: **14/14 resolve; 0 broken internal fragments**.
 - Found one stale external fragment in 02.3 pointing to a non-existent `#fix-links` anchor on Google's current JavaScript SEO guide. Removed the stale fragment and retained the canonical guide URL.
 - Remediation commit: `2a4940351ef0cc7c505d86918dd9080e36919c29`.
 - Audit record: `REPOSITORY-INTEGRATION-AUDIT-2026-11-19.md`, Section 16.
