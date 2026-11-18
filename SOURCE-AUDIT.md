@@ -575,3 +575,67 @@ All five references are cited inline in the document. No unused reference remain
 **05.4 — Keyword Data Sources & Metrics: source-checked, navigation-checked, and integration-reviewed on 2026-11-18.**
 
 This conclusion applies to the current 05.4 version and the checks listed above. It does not certify future Domain 05 topics or replace a full repository-wide duplicate-text scan.
+
+
+---
+
+## Domain 05 — Topic 05.5 Source & Integration Audit
+
+**Audit date:** 2026-11-18  
+**Document:** `05-Keyword-and-Search-Intent/05.5-Search-Intent-Concepts-and-Taxonomies.md`  
+**Scope:** Search-intent concepts, established web-search taxonomies, practical SEO classification refinements, ambiguity, context, inference limits, and preliminary classification workflow.
+
+### Source Verification
+
+| Ref. | Source | Verification result | Claims supported |
+|---|---|---|---|
+| [1] | Andrei Broder — A Taxonomy of Web Search | Original ACM SIGIR Forum paper and accessible author paper inspected. | Establishes the three-part informational, navigational, and transactional taxonomy and its web-search goal framing. |
+| [2] | Daniel E. Rose and Danny Levinson — Understanding User Goals in Web Search | WWW 2004 paper inspected through an accessible full-text copy and bibliographic record. | Supports more detailed goal categories, resource-seeking behavior, and the limitation that the same query may express different goals. |
+| [3] | Bernard J. Jansen, Danielle L. Booth, and Amanda Spink — Determining the informational, navigational, and transactional intent of Web queries | Published research record and abstract inspected. | Supports a hierarchical classification with subcategories for informational, navigational, and transactional intent. |
+| [4] | Google Search Central — SEO Starter Guide | Current official Search Central documentation inspected; last updated 2025-12-10. | Supports anticipating different terms used by readers and writing with the audience in mind. It is not cited as an official intent taxonomy. |
+| [5] | Google Search Central — Creating Helpful, Reliable, People-First Content | Current official Search Central guidance inspected. | Supports the people-first content principle and evaluating whether content benefits its intended audience. It does not define or validate the SEO intent taxonomy. |
+
+All five references are cited inline. No reference is unused. The commercial-investigation label is explicitly described as a practical SEO refinement, not as one of Broder's original categories or an official Google taxonomy.
+
+### Scope and Content QA
+
+- Defines search intent as the goal behind a query and distinguishes it from information need, query, and broader task.
+- Explains informational, navigational, and transactional intent based on established web-search research.
+- Explains commercial investigation as a practical SEO refinement and preserves its distinction from immediate transaction.
+- Covers finer goal patterns including fact finding, explanation, instruction, troubleshooting, advice, list discovery, comparison, destination seeking, resource seeking, action seeking, and local-provider seeking.
+- Explains mixed, layered, ambiguous, and context-dependent intent.
+- Treats query modifiers as clues rather than deterministic rules.
+- Defines an initial classification workflow with primary and secondary labels, confidence, rationale, and unresolved ambiguity.
+- Clearly states that intent labels are analytical hypotheses and do not disclose proprietary search-engine classifiers or guarantee ranking outcomes.
+- The worked coffee-equipment example is explicitly fictional and illustrative, not actual query-log, customer, metric, or SERP data.
+- SERP-based validation is reserved for 05.6; clustering, prioritization, and page mapping remain in 05.7–05.9.
+
+### Cross-Domain Integration
+
+- Links to 05.1–05.4 for the prerequisite concepts and evidence inputs.
+- Links to 05.6 and 05.7 through the existing Domain 05 architecture anchor; those topic pages remain planned.
+- Links to 02.7 to distinguish SEO researcher intent inference from operational search-query processing.
+- Links to 03.4 to distinguish user-goal interpretation from ranking-side relevance and query-document matching.
+- Links to 04.1 for the formal IR distinction between information need and query.
+- Domain 05 README and root README now list 05.5 as documented and source-checked; topics 05.6–05.9 remain planned.
+
+### Technical QA
+
+- The document includes parent navigation, Related Topics, and References sections.
+- Five inline citation IDs map to five reference entries; all five references are used.
+- All local links target existing files or the documented Domain 05 architecture anchor for planned topics.
+- The document ends with its References section, consistent with `AGENTS.md`.
+- The worked example is labeled fictional; no fabricated empirical results or keyword metrics are presented.
+
+### Duplicate and Ownership Review
+
+- Reviewed the new topic against the Domain 05 architecture and the directly related existing topics 05.1–05.4, plus the established ownership boundaries for 02.7, 03.4, and 04.1.
+- No canonical ownership conflict was identified: 05.5 owns the conceptual taxonomy and preliminary SEO-research inference; 05.6 owns live SERP-based validation; 05.7 owns query grouping; Domain 02 owns operational query processing; Domain 03 owns ranking-side relevance; Domain 04 owns formal IR concepts.
+- The distinction between informational intent and information need is intentional: Domain 04 explains the general IR concept, while 05.5 applies user-goal interpretation to SEO keyword research.
+- A repository-wide normalized sentence-level duplicate scan against all substantive documents in Domains 01–04 was **not executed for this audit**. This audit therefore makes no claim of repository-wide duplicate-free status.
+
+### Audit Conclusion
+
+**05.5 — Search Intent Concepts & Taxonomies: source-checked, navigation-checked, and integration-reviewed on 2026-11-18.**
+
+This conclusion applies to the current 05.5 version and the checks listed above. It does not certify future Domain 05 topics or replace a full repository-wide duplicate-text scan.
