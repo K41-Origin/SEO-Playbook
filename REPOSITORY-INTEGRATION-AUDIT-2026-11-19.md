@@ -112,3 +112,48 @@ For each identified collision or source weakness:
 5. Run the comparative Domain 06 audit across all eleven pages.
 6. Revalidate all 62 documents' citations, external source status, and internal navigation.
 7. Update root and domain status only after evidence-backed remediation and regression checks.
+
+
+## 8. Execution Update — 2026-11-19
+
+The following additional checks and corrections have now been executed against the current `main` branch.
+
+### Completed regression checks
+
+| Check | Scope | Result | Limitation |
+|---|---:|---|---|
+| Relative Markdown file-target validation | All 62 topic pages | 0 missing relative `.md` targets | Fragment/heading anchors and external URLs were not included in this check. |
+| Numeric citation range validation | All 62 topic pages | 0 out-of-range numeric citation IDs | This does not verify that each citation supports its exact claim or that every reference is used. |
+| Exact long-paragraph duplicate comparison | 4 selected high-risk pairs: 02.1/02.2, 04.11/04.12, 05.8/05.9, 06.10/06.11 | 0 identical substantive paragraphs shared | Exact paragraph equality is not a semantic-equivalence test and does not cover all 1,891 possible topic pairs. |
+| Targeted source verification | 04.11, 04.12, and TREC/NIST supporting material | Corrected one over-generalized TREC statement and one author-name/citation issue | This is targeted verification, not a fresh claim-by-claim recheck of all 62 pages. |
+
+### Corrections committed
+
+1. **04.11 — Relevance Assessment & Evaluation Frameworks:** clarified that TREC does not have one universal relevance scale. NIST's general English relevance-judgment guidance describes binary judgments, while the TREC 2025 RAG Relevance Judgment subtask documented a task-specific 0–4 graded scale. Added the track-specific source and made the distinction explicit.
+2. **04.12 — Information Retrieval Evaluation Metrics:** corrected the ERR paper author's name to Donald Metzler and replaced the Google Research listing with the paper's DOI citation.
+3. **05.6 — SERP-Based Intent Analysis & Validation:** replaced an outdated “Domain 06 planned” reference with a direct link to the now-existing Domain 06 index and corrected its ownership description.
+4. **04.8 — Relevance Feedback & Query Expansion:** replaced an outdated “Domain 05 planned” label with a direct link to the completed Domain 05 index and clarified the distinction between IR query expansion and SEO keyword expansion.
+
+### Targeted ownership review
+
+The exact-paragraph checks found no copied long paragraphs in the four selected high-risk pairs. Their canonical responsibilities remain distinct:
+
+- **02.1 / 02.2:** search-engine definition and lifecycle overview vs. functional architecture and data flow.
+- **04.11 / 04.12:** relevance assessment, test collections, qrels, pooling, and evaluation design vs. metric definitions, equations, cutoffs, and worked calculations.
+- **05.8 / 05.9:** opportunity assessment and prioritization vs. keyword-to-page mapping and research handoff.
+- **06.10 / 06.11:** conventional interactive refinement vs. generative AI search interactions.
+
+These checks support the documented ownership boundaries; they do not establish that every topic pair is free of conceptual repetition.
+
+### Remaining limitations — audit is not signed off
+
+The repository-wide audit remains **open** because the following work has not been demonstrated as complete:
+
+- A fresh claim-by-claim source-support review across all 62 pages, including all equations, examples, volatile claims, and provider-specific statements.
+- A full semantic comparison of all topic pairs and shared workflow examples; no exhaustive all-pairs semantic result is claimed.
+- Validation of Markdown heading anchors, images, and every external source URL.
+- Consolidation of all findings into a final per-topic pass/fail register and a complete final regression report.
+
+The existing dated domain-level source audits remain supporting evidence for their recorded scopes. They are not silently promoted into proof that every current claim and every cross-domain boundary has been revalidated in this execution.
+
+**Current verdict: partially remediated; not fully audited; not ready for final audit sign-off.**
