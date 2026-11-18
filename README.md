@@ -184,7 +184,7 @@ Only existing documents are linked as destinations. Planned topics remain in the
 | Cross-domain knowledge graph | Integration audit passed for all existing topic domains | Domains 01–05 have documented canonical ownership boundaries and cross-domain navigation. Domain 06 has a defined scope and all 11 topics are documented and integrated at topic level. A comprehensive cross-topic semantic audit remains pending. Topics 05.1–05.9 complete the current keyword-research workflow and have been checked against adjacent existing domains. The 2026-11-19 audit found no repeated substantive paragraphs in the per-domain and selected high-risk cross-domain comparisons; it was not an exhaustive all-pairs semantic or repository-wide exact-sentence scan. New Domain 06 topics must reuse existing canonical explanations rather than reproduce them. |
 | Maintenance and review | Governance defined | Research, citation, integration, and review rules are maintained in `AGENTS.md`. |
 
-**Current development focus:** conduct a comprehensive integration and semantic-overlap audit across all 11 Domain 06 topics; continue maintaining existing documentation with source and accuracy updates as search systems evolve.
+**Current development focus:** complete the repository-wide source and integration audit across the 62 existing topic pages in Domains 01–06. The current scope, first-pass findings, unresolved checks, and remediation sequence are recorded in [REPOSITORY-INTEGRATION-AUDIT-2026-11-19.md](REPOSITORY-INTEGRATION-AUDIT-2026-11-19.md). The audit is not yet signed off; continue maintaining existing documentation with source and accuracy updates as search systems evolve.
 
 ---
 
