@@ -114,7 +114,7 @@ The roadmap defines canonical ownership, not a claim that every named feature is
 | [06.9 — Shopping & Product Search Features](06.9-Shopping-and-Product-Search-Features.md) | Documented | Product modules, product snippets versus merchant listings, free listings versus Shopping ads, visible offer attributes, cross-surface product discovery, and ownership boundaries documented. |
 | [06.10 — Interactive SERP & Query Refinement Features](06.10-Interactive-SERP-and-Query-Refinement-Features.md) | Documented | Autocomplete, result-type navigation, Search tools and filters, related searches, related questions/People Also Ask, contextual topic suggestions, observation methods, and canonical boundaries documented. |
 | Cross-domain integration | Architecture and topic-level review (2026-11-19) | The roadmap was compared with existing Domains 01–05; topics 06.1–06.11 received topic-level content and integration reviews; a repository-wide semantic integration audit remains a separate next step. |
-| Source audit | Topic-level reviews in progress | Topics 06.1–06.11 have received source verification, citation checks, freshness review, and targeted duplicate/integration QA. A comprehensive cross-topic semantic audit remains pending. |
+| Source audit | Topic-level reviews completed; repository-wide semantic audit pending | Topics 06.1–06.11 have received source verification, citation checks, freshness review, and targeted duplicate/integration QA. A comprehensive cross-topic semantic audit remains pending. |
 
 ## Related Domains
 
