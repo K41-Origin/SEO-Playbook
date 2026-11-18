@@ -157,3 +157,36 @@ The repository-wide audit remains **open** because the following work has not be
 The existing dated domain-level source audits remain supporting evidence for their recorded scopes. They are not silently promoted into proof that every current claim and every cross-domain boundary has been revalidated in this execution.
 
 **Current verdict: partially remediated; not fully audited; not ready for final audit sign-off.**
+
+
+## 9. Execution Update — 2026-11-19 (Second Comparative Pass)
+
+A further content-level review was performed against the current `main` branch. This pass inspected the actual body text and reference lists—not only titles or topic indexes—for the following 14 pages:
+
+- Domain 02: 02.1, 02.2, 02.5, 02.6, 02.7, 02.8.
+- Domain 04: 04.1, 04.3, 04.4, 04.5, 04.6, 04.7, 04.8, 04.11, 04.12.
+
+### Findings and ownership decisions
+
+1. **02.1 vs 02.2 — controlled overview overlap.** Both introduce the search-engine lifecycle. This is acceptable only as a deliberate overview-to-detail relationship: 02.1 defines the system and gives the reader a high-level map; 02.2 owns component responsibilities, the content-preparation/query-time paths, and data flow. The shared pipeline summary should remain brief in 02.1 and must not be expanded into a second architecture explanation.
+2. **02.5 vs 04.3 — distinct processing layers.** 02.5 begins with acquired resources and owns format interpretation, parsing, rendering, and extraction. 04.3 begins with a usable text sequence and owns tokenization, normalization, linguistic preprocessing, and term representation. The boundary is explicit in 04.3 and is conceptually sound.
+3. **02.6 vs 04.4 — distinct indexing layers.** 02.6 owns search-engine-level selection, canonicalization, eligibility, storage, and maintenance. 04.4 owns IR indexing theory and structures such as dictionaries, postings, compression, and construction methods. The pages share the word “indexing” but not the same explanatory responsibility.
+4. **02.7 vs 05.5 — system processing vs SEO interpretation.** 02.7 describes how a search system handles query input. It explicitly hands query meaning and SEO intent analysis to Domain 05. The distinction is sound; the full 05.5/05.6 comparison remains pending.
+5. **02.8 vs 04 retrieval topics — operational handoff vs theory.** 02.8 owns the role of candidate retrieval in the search pipeline and uses inverted indexes only as an attributed foundational example. IR models, scoring, feedback, and advanced retrieval methods remain in Domain 04. This is an appropriate overview/detail boundary, but the complete comparison against 04.5–04.10 remains pending.
+6. **04.11 vs 04.12 — assessment design vs metric computation.** 04.11 owns task definition, relevance criteria, assessors, qrels, pooling, and test-collection validity. 04.12 owns metric definitions, formulas, cutoffs, aggregation, and interpretation. The explicit handoff is clear.
+7. **04.6 and 04.7 — source-fit spot check.** 04.6 cites the Stanford IR textbook's vector-space chapter and a versioned Apache Lucene TF-IDF API for implementation-specific behavior. 04.7 cites the probabilistic IR textbook chapter and a versioned Lucene BM25 API. These are appropriate source types for the inspected scope. This was a source-list and sampled-content fit check, not a line-by-line verification of every formula or worked example.
+8. **04.3 and 04.4 — source-fit spot check.** 04.3 uses the IR textbook, Lucene analysis documentation, and Unicode standards for language segmentation and normalization. 04.4 uses the IR textbook's indexing chapters and Lucene FST documentation for the relevant data-structure example. The source types fit the subjects inspected.
+9. **04.8 — IR query expansion vs SEO keyword expansion.** The page explicitly limits itself to general IR feedback and query reformulation, and its latest reference navigation points to Domain 05. The distinction is appropriate; the full comparison against 05.7 remains pending.
+
+### Issues found in this pass
+
+- No confirmed content defect requiring an edit was established in the sampled material above.
+- No page was deleted or merged: shared vocabulary and introductory summaries are not sufficient evidence of duplication.
+- The 02.1/02.2 overlap is intentional but should remain tightly controlled to avoid duplicating architecture detail.
+- This pass did not verify every cited sentence, every formula, every example, every external URL, or every possible pair.
+
+### Scope and status
+
+This is a documented second-pass sample, not an exhaustive audit. It does not change the audit status table above. The remaining work includes the full Domain 01/03/05/06 comparative pass, remaining Domain 02/04 comparisons, claim-by-claim reference verification, volatile-source freshness checks, heading-anchor and external-link validation, and a complete per-topic regression register.
+
+**Verdict remains: NOT FULLY AUDITED.**
