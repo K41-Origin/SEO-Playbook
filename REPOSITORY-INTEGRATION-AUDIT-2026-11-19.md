@@ -715,3 +715,30 @@ The rest of the reviewed Domain 06 ownership map remains: 06.1 page anatomy; 06.
 This closes the targeted scope-statement comparison for Domain 06 at the level of introductions and ownership handoffs. It does not close a sentence-by-sentence feature overlap review, all 55 within-domain page pairs, or the full 1,891-pair repository review.
 
 **Audit verdict remains: NOT FULLY AUDITED.**
+
+
+## 28. Execution Update — 2026-11-19 (Domain 05 Full Workflow Scope Review)
+
+Re-read the purpose, scope, opening sections, and related-topic handoffs for all nine Domain 05 pages (05.1–05.9) to verify the workflow and distinguish adjacent responsibilities.
+
+| Stage | Canonical owner | Boundary confirmed |
+|---|---|---|
+| Overall research purpose and evidence-to-decision workflow | 05.1 | Overview only; detailed seed discovery, expansion, metrics, intent, validation, clustering, prioritization, and mapping are delegated to later topics. |
+| Starting concepts and audience vocabulary | 05.2 | Seed construction and audience-language evidence; not demand measurement or final target selection. |
+| Candidate query generation and variation | 05.3 | Expansion and variation inventory; generated candidates are not proof of search demand or a page assignment. |
+| Data-source selection and metric interpretation | 05.4 | Definitions, provenance, measurement scope, and metric limitations; not intent classification or opportunity prioritization. |
+| Intent concepts and taxonomies | 05.5 | Initial intent hypotheses and terminology; not empirical SERP validation or search-engine internal classification. |
+| SERP-based validation | 05.6 | Observed results as evidence; not feature implementation or ranking-system reverse engineering. |
+| SEO query grouping | 05.7 | Practitioner-side grouping after interpretation/validation; not IR relevance feedback or search-engine internal query clustering. |
+| Opportunity evaluation and prioritization | 05.8 | Strategic fit, feasibility, effort, uncertainty, and priority; not redoing the cluster or assigning final URLs. |
+| Keyword-to-page mapping and research handoff | 05.9 | Match prioritized query groups to existing/proposed pages and record conflicts/gaps; not content production, on-page implementation, or canonicalization. |
+
+### Disposition
+
+The nine-topic sequence is internally coherent: **research purpose → seeds → expansion → data interpretation → intent hypothesis → SERP validation → query grouping → prioritization → page mapping**.
+
+The reviewed introductory and handoff sections do not show an additional ownership collision requiring content removal. The introductory descriptions necessarily repeat a small amount of workflow context, but they do not duplicate the later topics' detailed procedures in the inspected sections.
+
+This is a full scope/handoff review of the nine topic introductions and navigation boundaries, not a complete body-level semantic comparison of every 05-page pair or a sentence-by-sentence source audit.
+
+**Audit verdict remains: NOT FULLY AUDITED.**
