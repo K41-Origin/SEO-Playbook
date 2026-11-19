@@ -94,7 +94,7 @@ The domain follows the editorial lifecycle: establish direction, plan work, deve
 | Topic | Title | Canonical scope |
 |---|---|---|
 | 08.8 | [Content Optimization & Revision](08.8-Content-Optimization-and-Revision.md) | Covers evidence-led substantive improvement of existing content: diagnosing editorial problems, correcting gaps and inaccuracies, improving clarity and explanations, and aligning the asset with its intended reader task. Page-element implementation remains in Domain 07. |
-| 08.9 | Content Maintenance, Updating & Lifecycle Management | Covers ongoing editorial maintenance, update triggers, ownership, review cadence decisions, material-change records, consolidation or retirement decisions, and lifecycle governance. Search-engine freshness ranking remains in Domain 03. |
+| 08.9 | [Content Maintenance, Updating & Lifecycle Management](08.9-Content-Maintenance-Updating-and-Lifecycle-Management.md) | Covers ongoing editorial maintenance, update triggers, ownership, risk-based review cadence, material-change records, consolidation or retirement decisions, and lifecycle governance. Search-engine freshness ranking remains in Domain 03. |
 | 08.10 | Content Inventory & Editorial Auditing | Covers content inventories and audits focused on editorial substance, accuracy, usefulness, duplication of editorial purpose, maintenance status, and recommended lifecycle actions. Does not audit HTML elements or attribute SEO performance. |
 
 The roadmap defines intended topic ownership. A topic is not documented until its substantive file exists, has been researched, and meets the repository's documentation and citation requirements.
@@ -128,7 +128,7 @@ The roadmap defines intended topic ownership. A topic is not documented until it
 
 ## Development Status
 
-**Domain architecture documented. Topics 08.1–08.8 are documented; topics 08.9–08.10 remain planned.**
+**Domain architecture documented. Topics 08.1–08.9 are documented; topic 08.10 remains planned.**
 
 The domain structure was established after reviewing the existing repository architecture and the documented ownership boundaries in Domains 01–07. This is an architectural scope decision, not a claim that every possible body-level overlap across all repository documents has been exhaustively compared.
 
@@ -142,7 +142,7 @@ The domain structure was established after reviewing the existing repository arc
 | 08.6 — Content Creation & Production Workflow | Documented |
 | 08.7 — Editorial Review, Accuracy & Quality Assurance | Documented |
 | 08.8 — Content Optimization & Revision | Documented |
-| 08.9 — Content Maintenance, Updating & Lifecycle Management | Planned |
+| 08.9 — Content Maintenance, Updating & Lifecycle Management | Documented |
 | 08.10 — Content Inventory & Editorial Auditing | Planned |
 
 Only topics whose substantive files exist and have completed the required research and documentation review may be marked documented.
