@@ -63,30 +63,61 @@ The roadmap is organized into four groups. The sequence moves from modeling enti
 | Topic | Title | Canonical scope |
 |---|---|---|
 | 09.1 | Introduction to Semantic SEO | Defines semantic SEO, its purpose, terminology, workflow, outputs, evidence boundaries, and relationship to the wider SEO discipline. Establishes what semantic SEO is—and what it is not. |
-| 09.2 | Entity Fundamentals & Entity Identification | Explains entities as identifiable things or concepts in a knowledge model; covers entity categories, candidate identification, naming, and the difference between a real-world referent and the words used to describe it. |
-| 09.3 | Entity Attributes, Identity & Disambiguation | Covers attributes, identifiers, aliases, entity boundaries, ambiguity, and disambiguation decisions. Focuses on defensible knowledge modeling, not search-engine entity extraction algorithms. |
+| 09.2 | Entity Fundamentals & Entity Identification | Establishes what counts as an entity in a knowledge model; covers entity categories, candidate discovery, initial identification, naming, and the distinction between a referent and the expressions used to describe it. It does not resolve difficult identity collisions or teach search-engine entity extraction. |
+| 09.3 | Entity Attributes, Identity & Disambiguation | Defines how an identified entity is described and distinguished: attributes, identifiers, aliases, entity boundaries, identity evidence, ambiguity resolution, and disambiguation decisions. It takes candidate entities from 09.2 and does not cover entity extraction/linking algorithms internal to search systems. |
 
 ### Group B — Semantic Relationships & Knowledge Representation
 
 | Topic | Title | Canonical scope |
 |---|---|---|
-| 09.4 | Semantic Relationships & Relationship Modeling | Defines relationships between entities and concepts, relationship direction and types, constraints, context, provenance, and the difference between explicit facts and inferred associations. |
-| 09.5 | Ontologies, Taxonomies & Controlled Vocabularies | Compares conceptual schemas, hierarchical classification, and controlled terms; explains when each model is useful and how to choose a suitable level of formality for website knowledge. |
-| 09.6 | Knowledge Graphs & Knowledge Representation | Explains graph-based representation, nodes, edges, properties, triples, graph scope, and practical knowledge-model patterns. Does not duplicate retrieval algorithms or claim that a website graph mirrors a search engine's private knowledge graph. |
+| 09.4 | Semantic Relationships & Relationship Modeling | Defines the meaning of relationships between entities and concepts: relationship types, direction, domain/range constraints, context, provenance, and the distinction between asserted facts and inferred associations. It owns relationship semantics, not graph storage formats or website navigation links. |
+| 09.5 | Ontologies, Taxonomies & Controlled Vocabularies | Compares formal conceptual schemas, hierarchical classification systems, and controlled terms; covers their components, differences, selection, and governance as knowledge-modeling structures. It defines the schema or vocabulary, not individual relationship assertions (09.4) or graph serialization (09.6). |
+| 09.6 | Knowledge Graphs & Knowledge Representation | Explains graph-based knowledge representation: nodes, edges, properties, triples, graph scope, schema-to-graph mapping, and practical modeling patterns. It explains how modeled knowledge can be represented as a graph, not how search engines retrieve/rank graph data or how to implement structured data technically. |
 
 ### Group C — Topical Modeling & Coverage
 
 | Topic | Title | Canonical scope |
 |---|---|---|
-| 09.7 | Topical Modeling & Knowledge Domains | Organizes a subject into concepts, subdomains, dependencies, and meaningful boundaries. Distinguishes topical models from query clusters, editorial calendars, and URL inventories. |
-| 09.8 | Topical Coverage & Semantic Completeness | Evaluates whether a topical model represents relevant concepts, relationships, attributes, and user-facing information needs. Covers omission, redundancy, scope control, and uncertainty without reducing completeness to word count or article count. |
+| 09.7 | Topical Modeling & Knowledge Domains | Organizes a subject as a conceptual knowledge domain: concepts, subdomains, dependencies, and scope boundaries. The output is an abstract model of the subject, not a keyword cluster, editorial calendar, content inventory, or page/URL architecture. |
+| 09.8 | Topical Coverage & Semantic Completeness | Evaluates whether a defined topical model adequately represents relevant concepts, relationships, attributes, and information needs within its declared scope. Covers omissions, redundancy, relevance, and uncertainty at the knowledge-model level—not editorial quality audits of published assets or keyword-volume coverage. |
 
 ### Group D — Semantic Information Architecture
 
 | Topic | Title | Canonical scope |
 |---|---|---|
-| 09.9 | Semantic Information Architecture for Websites | Translates validated knowledge models into website-level information organization, page roles, conceptual grouping, and content-architecture decisions. Editorial execution remains in Domain 08; keyword-to-page research remains in Domain 05; internal-link strategy remains in Domain 11. |
-| 09.10 | Semantic Architecture Validation & Governance | Defines quality checks, provenance, consistency, change control, model maintenance, and governance for semantic models and website information architecture. Does not replace Domain 08 editorial audits, Domain 10 technical audits, or Domain 14 performance analysis. |
+| 09.9 | Semantic Information Architecture for Websites | Translates a validated topical/knowledge model into website-level information organization, conceptual groupings, page roles, and content-architecture specifications. It defines the intended information structure, not editorial production (08), keyword-to-page research mapping (05), page-level HTML implementation (07), technical delivery (10), or internal-link strategy (11). |
+| 09.10 | Semantic Model Validation, Maintenance & Governance | Defines validation criteria for entity identity, relationship integrity, schema consistency, provenance, scope, and alignment between the knowledge model and its website architecture; covers versioning, change control, ownership, and maintenance of those semantic models. It does not own organization-wide content governance (08.2), editorial/content audits (08.10), technical implementation audits (10), internal-link audits (11), or organic performance measurement (14). |
+
+
+## Architecture Audit — 2026-11-19
+
+The ten-topic roadmap was reviewed against the existing repository domains and against its own topic boundaries before substantive topic documentation begins.
+
+### Audit findings and boundary decisions
+
+| Potential collision | Audit decision |
+|---|---|
+| 09.2 Entity Identification vs 09.3 Identity & Disambiguation | Keep both. 09.2 identifies and names candidate entities; 09.3 resolves identity, attributes, aliases, ambiguity, and entity boundaries after identification. |
+| 09.4 Relationship Modeling vs 09.5 Ontologies & Taxonomies | Keep both. 09.4 defines the meaning and evidence of individual relationship types/assertions; 09.5 defines the schema, classification system, and controlled vocabulary used to organize those concepts. |
+| 09.4 Relationship Modeling vs 09.6 Knowledge Graphs | Keep both. 09.4 owns relationship semantics; 09.6 owns graph-based representation of modeled entities and relationships. |
+| 09.7 Topical Modeling vs 09.8 Topical Coverage | Keep both. 09.7 builds the conceptual model and defines its scope; 09.8 evaluates the model's coverage and identifies omissions or unnecessary overlap within that scope. |
+| 09.7/09.8 vs 09.9 Semantic Information Architecture | Keep separate. 09.7–09.8 model and assess the subject domain; 09.9 translates the validated model into website information organization and page-role specifications. |
+| 09.8 Topical Coverage vs Domain 08 editorial audit | Keep separate. 09.8 evaluates conceptual coverage in the knowledge model; Domain 08 evaluates published content assets and editorial quality. |
+| 09.9 Semantic Architecture vs Domain 11 Internal Linking | Keep separate. 09.9 defines conceptual grouping and information structure; Domain 11 decides and implements hyperlink relationships. |
+| 09.10 Validation/Governance vs Domains 08, 10, 11, and 14 | Narrow 09.10 to semantic-model and semantic-architecture integrity. Editorial, technical, internal-link, and performance audits remain with their canonical domains. |
+| Semantic SEO vs Domain 04 semantic retrieval | Keep separate. Domain 04 explains retrieval-system representations and algorithms; Domain 09 models website knowledge and its information organization. |
+
+### Topic dependency and handoff sequence
+
+`09.1` establishes terminology and scope. `09.2` identifies candidate entities; `09.3` resolves identity and attributes. `09.4` models relationship meaning, while `09.5` supplies suitable conceptual schemas and vocabularies; both inform `09.6` where graph representation is useful. `09.7` organizes the subject domain and `09.8` assesses its coverage. `09.9` translates the validated model into website information architecture. `09.10` validates and governs the model and its architectural representation over time.
+
+This is a logical dependency map, not a rigid requirement that every project use every modeling technique. A taxonomy may be sufficient where an ontology or graph would add needless complexity.
+
+### Audit conclusion
+
+**PASS WITH SCOPE CLARIFICATIONS.** The ten-topic structure is coherent and can proceed to topic documentation. The review identified boundary risks but no need to add another topic or create a new domain. The scope refinements above are incorporated into the roadmap.
+
+This is an architecture and repository-boundary audit, not a source audit of future substantive claims. Each topic must still undergo claim-level research, citation, and technical review under `AGENTS.md` when written.
 
 ## Domain Workflow
 
