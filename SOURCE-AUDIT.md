@@ -1930,3 +1930,32 @@ The repository-wide audit is closed with documented limitations. The authoritati
 ### Audit Status
 
 **Domain 08 passed its source and integration audit on 2026-11-19, after the documented remediations.** Recheck volatile Google documentation and external publishing guidance when the sources change or when the affected workflow is materially revised.
+
+
+## 33. Repository-Wide Exact-Text and Citation Regression — 2026-11-19
+
+The repository-wide comparison covered all 82 substantive topic documents in Domains 01–08. It found no repeated substantive paragraphs at or above 120 normalized characters. The initial sentence-level comparison found one repeated evidence-boundary sentence in 04.6 and 04.7; 04.7 was rewritten so its caveat now specifically addresses the Probability Ranking Principle, probabilistic models, and the cited BM25 implementation. The post-remediation comparison found zero repeated substantive sentences at or above 100 normalized characters.
+
+The same scan found one duplicate bibliography destination in 05.1: the Broder paper's DOI URL was linked once through the paper title and again through a separate DOI hyperlink. The second hyperlink was removed; the DOI remains as plain text. Citation IDs still map to all numbered reference entries.
+
+Final regression results:
+
+| Check | Final result |
+|---|---:|
+| Repeated substantive paragraphs (≥120 normalized characters) | 0 |
+| Repeated substantive sentences (≥100 normalized characters) | 0 |
+| Duplicate bibliography URLs within topic documents | 0 |
+| Citation ID / reference-list mismatches | 0 |
+| Broken relative Markdown targets in 82 topic documents | 0 |
+| Broken relative Markdown targets in root README and eight domain indexes | 0 |
+| Missing topic ID, parent-index link, Related Topics, or References requirement | 0 |
+| Missing topic destinations from domain indexes | 0 |
+
+All 3,321 possible topic-document pairs were screened using five-token shingle Jaccard similarity. The highest score was 0.0199. The highest-scoring candidate pairs were reviewed and retained as distinct canonical topics. This lexical screen is not a semantic model and does not prove the absence of every paraphrase or conceptual overlap. The detailed method, pair dispositions, remediation, and residual limitations are recorded in [REPOSITORY-INTEGRATION-AUDIT-2026-11-19.md](REPOSITORY-INTEGRATION-AUDIT-2026-11-19.md). [1]
+
+**Repository-wide exact-text, citation, and Markdown-navigation regression: PASS WITH DOCUMENTED LIMITATIONS.** The prior dated source audits for Domains 01–08 remain the basis for claim-to-source verification; this addendum does not claim a new source-by-source revalidation of all external references. [1][2]
+
+## References
+
+1. SEO-Playbook. ([Repository Integration Audit — 2026-11-19](REPOSITORY-INTEGRATION-AUDIT-2026-11-19.md)). Repository-wide content duplication, lexical similarity, editorial consistency, navigation, remediation, and residual limitations.
+2. SEO-Playbook. ([AGENTS.md](AGENTS.md)). Mandatory source citation, editorial voice, documentation workflow, repository governance, and integration requirements.
