@@ -1873,6 +1873,7 @@ The repository-wide audit is closed with documented limitations. The authoritati
 5. Reviewed canonical ownership and handoffs across adjacent Domain 08 topics and selected high-risk interfaces with Domains 03, 05, and 07.
 6. Checked every relative Markdown link in the ten topic documents against the current repository tree, then updated reciprocal navigation, stale planned-topic wording, and source references where needed.
 7. Rechecked changed files and repository status after remediation.
+8. Performed a post-audit state check against the current repository tree. This caught stale "planned" labels in 08.3's Related Topics list for 08.5, 08.6, and 08.9 even though those files existed; the labels were replaced with working links, and the list was completed with the directly relevant 08.7 and 08.8 handoffs.
 
 ### Verification Results
 
@@ -1882,6 +1883,7 @@ The repository-wide audit is closed with documented limitations. The authoritati
 | Domain index reviewed | Pass |
 | Exact repeated substantive paragraphs (>140 normalized characters) across Domain 08 topic documents | None found |
 | Internal relative Markdown links in the ten topic documents | Pass; all targets resolve against the current main tree |
+| Post-audit current-state link and status recheck | Pass after correcting stale 08.3 Related Topics labels for existing topics 08.5–08.9 |
 | Numeric citation IDs and matching reference entries | Pass in the mechanical citation scan; source support was separately inspected |
 | External source pages opened and checked | 26 source URLs attempted; accessible source content inspected; one source returned HTTP 403 and was removed |
 | Stale source references remediated | 08.9 legacy GOV.UK URL replaced with current guidance; 08.9 Google date guidance updated to current publication-date documentation; 08.8 Search Console source narrowed to the Performance report; 08.10 inaccessible New Brunswick source removed |
@@ -1913,6 +1915,7 @@ The repository-wide audit is closed with documented limitations. The authoritati
 - Updated 07.5's stale statement that Domain 08 was planned; linked the existing 08.5 document and clarified the editorial-outline versus HTML-heading boundary.
 - Added reciprocal navigation from 03.6 to 08.7/08.8, from 05.9 to 08.3/08.4, and from 07.2/07.5 to 08.4/08.5.
 - Updated stale Domain 08 roadmap wording in the Domain 05 and Domain 06 indexes, Domain 07.1 and 07.7/07.10, and Domain 08.6/08.8. Existing Domain 08 pages are now linked as current canonical destinations.
+- Post-audit recheck corrected stale "planned" labels in 08.3's Related Topics list for existing topics 08.5, 08.6, and 08.9; added direct links to 08.7 and 08.8 because their review and revision handoffs are relevant to portfolio planning.
 
 ### Limitations
 
