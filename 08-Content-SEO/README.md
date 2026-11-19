@@ -72,7 +72,7 @@ The domain follows the editorial lifecycle: establish direction, plan work, deve
 | Topic | Title | Canonical scope |
 |---|---|---|
 | 08.1 | [Introduction to Content SEO](08.1-Introduction-to-Content-SEO.md) | Defines Content SEO, its purpose, editorial lifecycle, core principles, terminology, and boundaries with adjacent SEO disciplines. Establishes the domain's canonical ownership. |
-| 08.2 | Content Strategy & Governance | Covers editorial strategy, objectives, governance, roles, decision rights, standards, policies, and accountability for content operations. Does not redo keyword or audience-language research. |
+| 08.2 | [Content Strategy & Governance](08.2-Content-Strategy-and-Governance.md) | Covers editorial strategy, objectives, governance, roles, decision rights, standards, policies, and accountability for content operations. Does not redo keyword or audience-language research. |
 
 ### Group B — Content Planning & Development
 
@@ -128,14 +128,14 @@ The roadmap defines intended topic ownership. A topic is not documented until it
 
 ## Development Status
 
-**Domain architecture documented. Topic 08.1 is documented; topics 08.2–08.10 remain planned.**
+**Domain architecture documented. Topics 08.1–08.2 are documented; topics 08.3–08.10 remain planned.**
 
 The domain structure was established after reviewing the existing repository architecture and the documented ownership boundaries in Domains 01–07. This is an architectural scope decision, not a claim that every possible body-level overlap across all repository documents has been exhaustively compared.
 
 | Topic | Status |
 |---|---|
 | 08.1 — Introduction to Content SEO | Documented |
-| 08.2 — Content Strategy & Governance | Planned |
+| 08.2 — Content Strategy & Governance | Documented |
 | 08.3 — Content Planning & Portfolio Management | Planned |
 | 08.4 — Content Briefs & Editorial Specifications | Planned |
 | 08.5 — Content Outlining & Information Development | Planned |
