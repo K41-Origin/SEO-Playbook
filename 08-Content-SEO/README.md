@@ -86,7 +86,7 @@ The domain follows the editorial lifecycle: establish direction, plan work, deve
 
 | Topic | Title | Canonical scope |
 |---|---|---|
-| 08.6 | Content Creation & Production Workflow | Covers drafting and producing content from an approved brief through production-ready assets, including format selection, collaboration, source use, original contribution, and production controls. |
+| 08.6 | [Content Creation & Production Workflow](08.6-Content-Creation-and-Production-Workflow.md) | Covers drafting and producing content from an approved brief and outline through review-ready assets, including format selection, collaboration, source packs, AI-assisted production controls, versioning, and handoff to 08.7. |
 | 08.7 | [Editorial Review, Accuracy & Quality Assurance](08.7-Editorial-Review-Accuracy-and-Quality-Assurance.md) | Covers fact-checking, source verification, attribution, editorial review, accuracy, consistency, risk review, corrections, approval, and publication readiness. Does not reproduce Domain 03's search-engine quality systems. |
 
 ### Group D — Content Optimization & Lifecycle
@@ -128,7 +128,7 @@ The roadmap defines intended topic ownership. A topic is not documented until it
 
 ## Development Status
 
-**Domain architecture documented. Topics 08.1–08.5, 08.7, and 08.8 are documented; topics 08.6 and 08.9–08.10 remain planned.**
+**Domain architecture documented. Topics 08.1–08.8 are documented; topics 08.9–08.10 remain planned.**
 
 The domain structure was established after reviewing the existing repository architecture and the documented ownership boundaries in Domains 01–07. This is an architectural scope decision, not a claim that every possible body-level overlap across all repository documents has been exhaustively compared.
 
@@ -139,7 +139,7 @@ The domain structure was established after reviewing the existing repository arc
 | 08.3 — Content Planning & Portfolio Management | Documented |
 | 08.4 — Content Briefs & Editorial Specifications | Documented |
 | 08.5 — Content Outlining & Information Development | Documented |
-| 08.6 — Content Creation & Production Workflow | Planned |
+| 08.6 — Content Creation & Production Workflow | Documented |
 | 08.7 — Editorial Review, Accuracy & Quality Assurance | Documented |
 | 08.8 — Content Optimization & Revision | Documented |
 | 08.9 — Content Maintenance, Updating & Lifecycle Management | Planned |
