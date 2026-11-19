@@ -1855,3 +1855,72 @@ The repository-wide audit is closed with documented limitations. The authoritati
 - Eight modified topic pages passed post-remediation citation and relative-link regression.
 
 **Final result: PASS WITH DOCUMENTED LIMITATIONS.** A brute-force 1,891-pair body-level semantic scan and a live HTTP/redirect crawl of every external URL were not performed. The topic-level audit records, ownership review, and documented access limitations must not be misrepresented as those exhaustive scans. No duplicate canonical topic ownership or unresolved broken internal Markdown target was identified. Domain 07 may proceed under the canonical ownership map and root AGENTS.md.
+
+
+## Domain 08 — Content SEO Source & Integration Audit
+
+**Audit date:** 2026-11-19  
+**Branch reviewed:** `main`  
+**Scope:** `08-Content-SEO/README.md`, substantive topics 08.1–08.10, their cited external sources, and high-risk integration points with Domains 03, 05, and 07, plus root README and AGENTS.md.  
+**Status:** Passed after source and integration remediation, with documented limitations.
+
+### Method
+
+1. Retrieved all ten substantive topic documents and the Domain 08 index from the current main branch.
+2. Read the repository's complete `AGENTS.md` requirements and checked each topic's structure, references, numeric citation use, and scope declarations.
+3. Opened the cited external source pages and checked their current accessible content against the claims and examples they were cited for. Google Search claims were checked against current Google Search Central documentation; editorial workflow claims were compared with the relevant government and institutional publishing guidance.
+4. Compared all substantive paragraphs across the ten Domain 08 topic documents for exact normalized matches longer than 140 characters.
+5. Reviewed canonical ownership and handoffs across adjacent Domain 08 topics and selected high-risk interfaces with Domains 03, 05, and 07.
+6. Checked every relative Markdown link in the ten topic documents against the current repository tree, then updated reciprocal navigation, stale planned-topic wording, and source references where needed.
+7. Rechecked changed files and repository status after remediation.
+
+### Verification Results
+
+| Check | Result |
+|---|---|
+| Domain 08 substantive topics reviewed | 10 / 10 |
+| Domain index reviewed | Pass |
+| Exact repeated substantive paragraphs (>140 normalized characters) across Domain 08 topic documents | None found |
+| Internal relative Markdown links in the ten topic documents | Pass; all targets resolve against the current main tree |
+| Numeric citation IDs and matching reference entries | Pass in the mechanical citation scan; source support was separately inspected |
+| External source pages opened and checked | 26 source URLs attempted; accessible source content inspected; one source returned HTTP 403 and was removed |
+| Stale source references remediated | 08.9 legacy GOV.UK URL replaced with current guidance; 08.9 Google date guidance updated to current publication-date documentation; 08.8 Search Console source narrowed to the Performance report; 08.10 inaccessible New Brunswick source removed |
+| Cross-domain handoffs | Updated reciprocal links between 03.6 and 08.7/08.8, 05.9 and 08.3/08.4, and 07.2/07.5 and 08.4/08.5 |
+| Root and domain status | Updated to reflect audit completion and limitations |
+
+### Canonical Ownership and Duplication Findings
+
+| Interface | Canonical ownership | Finding / resolution |
+|---|---|---|
+| 08.1 ↔ 01.5 | 01.5 owns the high-level discipline taxonomy; 08.1 owns the detailed Content SEO introduction | Distinct depth and purpose; no duplicated canonical ownership. |
+| 08.2 ↔ 08.3 | 08.2 owns strategic direction, governance, decision rights, and standards; 08.3 owns portfolio planning, prioritization, capacity, and calendars | Strategy/governance and portfolio operations remain distinct. |
+| 08.3 ↔ 08.10 | 08.3 owns planning decisions; 08.10 owns portfolio inventory and editorial audit diagnosis | 08.3 consumes audit findings rather than reproducing the audit method. |
+| 08.4 ↔ 08.5 | 08.4 owns asset-level requirements and acceptance criteria; 08.5 owns information development and substantive outline | Brief requirements and information architecture are separate workflow stages. |
+| 08.5 ↔ 07.5 | 08.5 owns editorial information flow; 07.5 owns HTML heading elements and hierarchy | Reciprocal boundary link clarified; no duplicate ownership. |
+| 08.6 ↔ 08.7 | 08.6 owns drafting and production through review-ready handoff; 08.7 owns formal claim verification, editorial review, and release QA | Production source packs do not replace formal fact-checking. |
+| 08.7 ↔ 03.6 | 08.7 owns human/org editorial QA; 03.6 owns search-engine quality and originality systems | Reciprocal links added; shared terminology is explicitly different in layer and purpose. |
+| 08.8 ↔ 08.9 | 08.8 owns substantive revision; 08.9 owns ongoing maintenance triggers and lifecycle governance | Update and revision decisions remain differentiated. |
+| 08.9 ↔ 08.10 | 08.9 owns per-asset lifecycle execution; 08.10 owns portfolio-level inventory and audit | Audit recommendations hand off to lifecycle owners rather than replacing their workflow. |
+| 08.8/08.10 ↔ 07/10/14 | Domain 07 owns page-element audits; Domain 10 owns technical audits; Domain 14 owns performance measurement | Editorial diagnosis does not take over page implementation, technical controls, or performance attribution. |
+| 05.9 ↔ 08.3/08.4 | Domain 05 owns keyword research and keyword-to-page mapping; 08.3/08.4 own editorial planning and briefs | Reciprocal handoff links added without duplicating keyword research. |
+
+### Material Remediation
+
+- Replaced 08.9's legacy GOV.UK content-maintenance reference with the current *Manage existing GOV.UK content* guidance, which documents review-date status in Whitehall Publisher and ongoing content checks.
+- Replaced 08.9's 2019 Google date article with the current *Influence your byline dates in Google Search* documentation.
+- Replaced 08.8's broad Search Console starter reference with the official Search results Performance report overview, which directly documents report metrics and dimensions.
+- Removed 08.10's Government of New Brunswick reference after the source returned HTTP 403 during this audit. Rewrote the affected claims to rely on accessible NN/G and Australian Public Service Academy sources that were opened and checked.
+- Updated 07.5's stale statement that Domain 08 was planned; linked the existing 08.5 document and clarified the editorial-outline versus HTML-heading boundary.
+- Added reciprocal navigation from 03.6 to 08.7/08.8, from 05.9 to 08.3/08.4, and from 07.2/07.5 to 08.4/08.5.
+
+### Limitations
+
+- The exact-paragraph comparison detects repeated normalized paragraphs above the stated length threshold. It does not prove the absence of every semantic paraphrase, shared short phrase, repeated table pattern, or conceptual overlap.
+- Cross-domain semantic review targeted the highest-risk interfaces and the repository's documented ownership boundaries; it was not a brute-force comparison of every Domain 08 paragraph against every paragraph in all other domains.
+- Source pages were opened and inspected, but dynamic page rendering and browser extraction can omit some content. One source (Government of New Brunswick) returned HTTP 403 and was removed rather than treated as verified.
+- Several documents contain original operational frameworks, templates, and illustrative examples. These are labeled or described as SEO-Playbook models/examples and are not presented as external universal standards.
+- This is a dated audit. It does not guarantee that external guidance or search documentation will remain unchanged.
+
+### Audit Status
+
+**Domain 08 passed its source and integration audit on 2026-11-19, after the documented remediations.** Recheck volatile Google documentation and external publishing guidance when the sources change or when the affected workflow is materially revised.
