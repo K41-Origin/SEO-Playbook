@@ -80,7 +80,7 @@ The domain is organized into three groups: foundational principles, core page-le
 | Topic | Title | Canonical scope |
 |---|---|---|
 | [07.9 — On-Page Optimization Workflow & Implementation](07.9-On-Page-Optimization-Workflow-and-Implementation.md) | Defines a repeatable workflow for selecting pages, reviewing evidence, identifying opportunities, planning changes, prioritizing work, implementing elements, documenting decisions, and performing quality control across new and existing pages. |
-| 07.10 | On-Page SEO Auditing & Quality Assessment | Defines an audit framework for title elements, meta descriptions, headings, URLs, image elements, and HTML semantics. Covers issue classification, severity, prioritization, consistency checks, and audit records. Performance measurement and outcome attribution remain in Domain 14. |
+| [07.10 — On-Page SEO Auditing & Quality Assessment](07.10-On-Page-SEO-Auditing-and-Quality-Assessment.md) | Defines an audit framework for title elements, meta descriptions, headings, URLs, image elements, and HTML semantics. Covers audit scope, evidence, issue classification, severity, prioritization, consistency checks, sampling, reporting, and remediation validation. Performance measurement and outcome attribution remain in Domain 14. |
 
 ## Cross-Domain Integration
 
@@ -107,7 +107,7 @@ The intended relationship is a connected knowledge workflow, not a rigid linear 
 
 ## Development Status
 
-**Domain architecture documented; topics 07.1–07.9 documented; topic 07.10 planned.**
+**Domain architecture and topics 07.1–07.10 documented.**
 
 | Topic | Status |
 |---|---|
@@ -120,7 +120,7 @@ The intended relationship is a connected knowledge workflow, not a rigid linear 
 | [07.7 — Image SEO & Image Element Optimization](07.7-Image-SEO-and-Image-Element-Optimization.md) | Documented |
 | [07.8 — HTML Semantics & Page Element Optimization](07.8-HTML-Semantics-and-Page-Element-Optimization.md) | Documented |
 | [07.9 — On-Page Optimization Workflow & Implementation](07.9-On-Page-Optimization-Workflow-and-Implementation.md) | Documented |
-| 07.10 | Planned |
+| [07.10 — On-Page SEO Auditing & Quality Assessment](07.10-On-Page-SEO-Auditing-and-Quality-Assessment.md) | Documented |
 
 The roadmap defines the intended scope and ownership of each topic. Only topics explicitly marked documented have completed topic-level documentation.
 
