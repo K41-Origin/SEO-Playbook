@@ -87,7 +87,7 @@ The domain follows the editorial lifecycle: establish direction, plan work, deve
 | Topic | Title | Canonical scope |
 |---|---|---|
 | 08.6 | Content Creation & Production Workflow | Covers drafting and producing content from an approved brief through production-ready assets, including format selection, collaboration, source use, original contribution, and production controls. |
-| 08.7 | Editorial Review, Accuracy & Quality Assurance | Covers fact-checking, source verification, attribution, editorial review, accuracy, consistency, risk review, corrections, approval, and publication readiness. Does not reproduce Domain 03's search-engine quality systems. |
+| 08.7 | [Editorial Review, Accuracy & Quality Assurance](08.7-Editorial-Review-Accuracy-and-Quality-Assurance.md) | Covers fact-checking, source verification, attribution, editorial review, accuracy, consistency, risk review, corrections, approval, and publication readiness. Does not reproduce Domain 03's search-engine quality systems. |
 
 ### Group D — Content Optimization & Lifecycle
 
@@ -128,7 +128,7 @@ The roadmap defines intended topic ownership. A topic is not documented until it
 
 ## Development Status
 
-**Domain architecture documented. Topics 08.1–08.5 are documented; topics 08.6–08.10 remain planned.**
+**Domain architecture documented. Topics 08.1–08.5 and 08.7 are documented; topics 08.6 and 08.8–08.10 remain planned.**
 
 The domain structure was established after reviewing the existing repository architecture and the documented ownership boundaries in Domains 01–07. This is an architectural scope decision, not a claim that every possible body-level overlap across all repository documents has been exhaustively compared.
 
@@ -140,7 +140,7 @@ The domain structure was established after reviewing the existing repository arc
 | 08.4 — Content Briefs & Editorial Specifications | Documented |
 | 08.5 — Content Outlining & Information Development | Documented |
 | 08.6 — Content Creation & Production Workflow | Planned |
-| 08.7 — Editorial Review, Accuracy & Quality Assurance | Planned |
+| 08.7 — Editorial Review, Accuracy & Quality Assurance | Documented |
 | 08.8 — Content Optimization & Revision | Planned |
 | 08.9 — Content Maintenance, Updating & Lifecycle Management | Planned |
 | 08.10 — Content Inventory & Editorial Auditing | Planned |
