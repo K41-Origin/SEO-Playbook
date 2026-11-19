@@ -175,7 +175,9 @@ These are modeling and planning outputs. They do not automatically prescribe a n
 | Area | Status | Coverage |
 |---|---|---|
 | Domain architecture | Established | Purpose, ownership boundaries, four topic groups, ten-topic roadmap, workflow, inputs/outputs, and cross-domain dependencies are defined. |
-| 09.1 | Documented; source-checked | Introduction to Semantic SEO defines the domain's working scope, terminology, workflow, evidence boundaries, and cross-domain handoffs. |\n| 09.2–09.10 | Planned | Topic scopes and sequence are defined; substantive topic documents remain to be created. |
+| 09.1 | Documented; source-checked | Introduction to Semantic SEO defines the domain's working scope, terminology, workflow, evidence boundaries, and cross-domain handoffs. |
+| 09.2 | Documented; source-checked | Entity Fundamentals & Entity Identification defines entity concepts, candidate categories, discovery sources, first-pass identification, and the handoff to identity resolution. |
+| 09.3–09.10 | Planned | Topic scopes and sequence are defined; substantive topic documents remain to be created. |
 | Cross-domain integration | Initial topic integration completed | Topics 09.1 and 09.2 link to relevant existing upstream and adjacent documentation; Domain 09 ownership boundaries remain aligned with Domains 02–08 and planned Domains 10, 11, 14, and 17. Further reciprocal links will be added as topics are documented. |
 | Source audit | Pending | Substantive claims and topic documents will require claim-level source research and verification under AGENTS.md. |
 
