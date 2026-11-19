@@ -128,7 +128,7 @@ The roadmap defines intended topic ownership. A topic is not documented until it
 
 ## Development Status
 
-**Domain architecture documented. Topics 08.1–08.10 are documented.**
+**Domain architecture and topics 08.1–08.10 documented. Source and integration audit passed on 2026-11-19, with documented limitations.** See the [source audit record](../SOURCE-AUDIT.md#domain-08--content-seo-source--integration-audit).
 
 The domain structure was established after reviewing the existing repository architecture and the documented ownership boundaries in Domains 01–07. This is an architectural scope decision, not a claim that every possible body-level overlap across all repository documents has been exhaustively compared.
 
