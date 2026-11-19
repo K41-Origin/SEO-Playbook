@@ -175,8 +175,8 @@ These are modeling and planning outputs. They do not automatically prescribe a n
 | Area | Status | Coverage |
 |---|---|---|
 | Domain architecture | Established | Purpose, ownership boundaries, four topic groups, ten-topic roadmap, workflow, inputs/outputs, and cross-domain dependencies are defined. |
-| 09.1–09.10 | Planned | Topic scopes and sequence are defined; substantive topic documents have not yet been created. |
-| Cross-domain integration | Architecture reviewed | Boundaries are mapped against existing Domains 02–08 and planned Domains 10, 11, 14, and 17. Topic-level reciprocal links and detailed source checks will be completed as each topic is documented. |
+| 09.1 | Documented; source-checked | Introduction to Semantic SEO defines the domain's working scope, terminology, workflow, evidence boundaries, and cross-domain handoffs. |\n| 09.2–09.10 | Planned | Topic scopes and sequence are defined; substantive topic documents remain to be created. |
+| Cross-domain integration | Initial topic integration completed | Topic 09.1 links to its existing upstream and adjacent documentation; Domain 09 ownership boundaries remain aligned with Domains 02–08 and planned Domains 10, 11, 14, and 17. Reciprocal links and detailed source checks will be added as further topics are documented. |
 | Source audit | Pending | Substantive claims and topic documents will require claim-level source research and verification under AGENTS.md. |
 
 ## Related Domains
