@@ -955,7 +955,7 @@ The current 62-topic repository has source/integration audit coverage, coherent 
 
 ### Scope
 
-This pass covers the **82 substantive topic documents currently present in Domains 01–08**, all eight domain indexes, the root README, AGENTS.md, and the existing source/integration audit records. The current repository tree contains 95 files; Domains 09–17 remain planned and have no substantive topic pages in this branch. The 17-domain architecture is preserved. [1][2]
+This pass covers the **82 substantive topic documents currently present in Domains 01–08**, all eight domain indexes, the root README, AGENTS.md, and the existing source/integration audit records. The current repository tree contains 95 files; Domains 09–17 remain planned and have no substantive topic pages in this branch. The 17-domain architecture is preserved. [1][2] This section supersedes Section 35's earlier 62-topic snapshot for the current main-branch state.
 
 This is a repository-wide content-integrity and integration pass. It consolidates the dated source-level audits already recorded for Domains 01–08; it does **not** claim that every external source URL or every factual sentence was newly re-opened and re-verified during this one pass. The earlier source-audit records remain the evidence for those claim-to-source reviews. [3]
 
