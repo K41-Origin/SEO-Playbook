@@ -1861,7 +1861,7 @@ The repository-wide audit is closed with documented limitations. The authoritati
 
 **Audit date:** 2026-11-19  
 **Branch reviewed:** `main`  
-**Scope:** `08-Content-SEO/README.md`, substantive topics 08.1–08.10, their cited external sources, and high-risk integration points with Domains 03, 05, and 07, plus root README and AGENTS.md.  
+**Scope:** `08-Content-SEO/README.md`, substantive topics 08.1–08.10, their cited external sources, and high-risk integration points with Domains 03, 05, 06, and 07, plus root README and AGENTS.md.  
 **Status:** Passed after source and integration remediation, with documented limitations.
 
 ### Method
@@ -1912,6 +1912,7 @@ The repository-wide audit is closed with documented limitations. The authoritati
 - Removed 08.10's Government of New Brunswick reference after the source returned HTTP 403 during this audit. Rewrote the affected claims to rely on accessible NN/G and Australian Public Service Academy sources that were opened and checked.
 - Updated 07.5's stale statement that Domain 08 was planned; linked the existing 08.5 document and clarified the editorial-outline versus HTML-heading boundary.
 - Added reciprocal navigation from 03.6 to 08.7/08.8, from 05.9 to 08.3/08.4, and from 07.2/07.5 to 08.4/08.5.
+- Updated stale Domain 08 roadmap wording in the Domain 05 and Domain 06 indexes, Domain 07.1 and 07.7/07.10, and Domain 08.6/08.8. Existing Domain 08 pages are now linked as current canonical destinations.
 
 ### Limitations
 
