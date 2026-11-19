@@ -79,7 +79,7 @@ The domain follows the editorial lifecycle: establish direction, plan work, deve
 | Topic | Title | Canonical scope |
 |---|---|---|
 | 08.3 | [Content Planning & Portfolio Management](08.3-Content-Planning-and-Portfolio-Management.md) | Turns approved research, business context, and editorial needs into a managed content plan and portfolio. Covers prioritization, planning horizons, editorial calendars, ownership, dependencies, and portfolio balance—not keyword opportunity scoring or semantic topic-map construction. |
-| 08.4 | Content Briefs & Editorial Specifications | Defines the editorial handoff from planning to production: purpose, audience task, scope, key questions, evidence requirements, constraints, deliverables, and acceptance criteria. Does not replace Domain 05's keyword-to-page mapping. |
+| 08.4 | [Content Briefs & Editorial Specifications](08.4-Content-Briefs-and-Editorial-Specifications.md) | Translates approved portfolio work into asset-level purpose, audience task, scope, key questions, evidence requirements, constraints, deliverables, and acceptance criteria. Consumes Domain 05 research without repeating keyword-to-page mapping. |
 | 08.5 | Content Outlining & Information Development | Covers the development of a coherent information sequence, explanation, argument, and substantive outline before or during drafting. Does not own HTML heading semantics or semantic content architecture. |
 
 ### Group C — Content Creation & Quality
@@ -128,7 +128,7 @@ The roadmap defines intended topic ownership. A topic is not documented until it
 
 ## Development Status
 
-**Domain architecture documented. Topics 08.1–08.3 are documented; topics 08.4–08.10 remain planned.**
+**Domain architecture documented. Topics 08.1–08.4 are documented; topics 08.5–08.10 remain planned.**
 
 The domain structure was established after reviewing the existing repository architecture and the documented ownership boundaries in Domains 01–07. This is an architectural scope decision, not a claim that every possible body-level overlap across all repository documents has been exhaustively compared.
 
@@ -137,7 +137,7 @@ The domain structure was established after reviewing the existing repository arc
 | 08.1 — Introduction to Content SEO | Documented |
 | 08.2 — Content Strategy & Governance | Documented |
 | 08.3 — Content Planning & Portfolio Management | Documented |
-| 08.4 — Content Briefs & Editorial Specifications | Planned |
+| 08.4 — Content Briefs & Editorial Specifications | Documented |
 | 08.5 — Content Outlining & Information Development | Planned |
 | 08.6 — Content Creation & Production Workflow | Planned |
 | 08.7 — Editorial Review, Accuracy & Quality Assurance | Planned |
