@@ -949,3 +949,104 @@ All **62 existing substantive topic pages** across Domains 01–06 have dated to
 The current 62-topic repository has source/integration audit coverage, coherent canonical topic ownership, verified Markdown navigation/citation structure, and post-remediation regression evidence. No duplicate canonical topic ownership or unresolved broken internal Markdown target was identified.
 
 **Domain 07 is clear to begin.** Its documentation must follow root AGENTS.md, the ownership map in this report, and the existing topic/source-audit pattern. Do not reproduce canonical explanations already owned by Domains 01–06.
+
+
+## 36. Full Repository Content Duplication, Editorial Consistency & Integration Audit — 2026-11-19
+
+### Scope
+
+This pass covers the **82 substantive topic documents currently present in Domains 01–08**, all eight domain indexes, the root README, AGENTS.md, and the existing source/integration audit records. The current repository tree contains 95 files; Domains 09–17 remain planned and have no substantive topic pages in this branch. The 17-domain architecture is preserved. [1][2]
+
+This is a repository-wide content-integrity and integration pass. It consolidates the dated source-level audits already recorded for Domains 01–08; it does **not** claim that every external source URL or every factual sentence was newly re-opened and re-verified during this one pass. The earlier source-audit records remain the evidence for those claim-to-source reviews. [3]
+
+### Methods
+
+1. Re-fetched all 82 current topic documents from the main branch into one comparison snapshot.
+2. Normalized Markdown text for duplicate detection by removing formatting, link destinations, URLs, and code delimiters while retaining substantive wording.
+3. Compared substantive paragraphs of at least 120 normalized characters across all topic documents.
+4. Compared normalized sentences of at least 100 characters across all topic documents.
+5. Calculated five-token shingle Jaccard similarity for all **3,321 possible topic-document pairs** (82 × 81 ÷ 2). The similarity screen was used to identify candidate overlaps for scope review; it is not a semantic-language model.
+6. Checked numbered inline citation IDs against numbered entries in each document's References section, and checked duplicate bibliography URLs within each topic.
+7. Checked relative Markdown file targets in all 82 topic documents, the root README, and all eight domain indexes against the current repository tree.
+8. Checked that each topic document has its topic ID in its heading, a parent-index link, a Related Topics section, and a References section; checked that each domain index links to all topic files that exist in that domain.
+9. Reviewed representative openings and conclusions across Domains 01–08 against the k41 voice and editorial requirements in AGENTS.md, and reviewed the highest lexical-overlap pairs for canonical ownership and workflow boundaries.
+
+### Duplicate-content results and remediation
+
+| Check | Before remediation | Final result |
+|---|---:|---:|
+| Repeated substantive paragraphs (≥120 normalized characters) | 0 | **0** |
+| Repeated substantive sentences (≥100 normalized characters) | 1 | **0** |
+| Duplicate bibliography URLs within a topic document | 1 document | **0** |
+| Citation ID / numbered reference-list mismatches | 0 | **0** |
+| Broken internal Markdown file targets | 0 | **0** |
+
+The one repeated sentence appeared in the closing evidence-boundary notes of **04.6 — Vector Space Model & Term Weighting** and **04.7 — Probabilistic Information Retrieval Models**. Both documents needed to warn readers not to mistake classical IR models for disclosure of a proprietary search engine's production formula. The 04.7 note was rewritten to state the boundary in terms specific to the Probability Ranking Principle, probabilistic models, and the cited BM25 implementation. The two pages now retain distinct explanations without repeating the same sentence.
+
+In **05.1 — Introduction to Keyword Research**, the Broder paper's DOI URL appeared twice in the same reference entry: once as the linked paper title and again as a separately linked DOI. The second hyperlink was removed while the DOI text was retained. This removes a duplicate destination without losing bibliographic information.
+
+The full 82-document comparison was rerun against the post-remediation versions of both files. It found no repeated substantive paragraphs or sentences and no duplicate bibliography URL within a topic document.
+
+### Lexical-overlap and canonical-ownership review
+
+The highest five-token shingle Jaccard score was **0.0199**. The highest-scoring pairs were reviewed as adjacent topics with shared domain vocabulary, not automatically classified as duplicates:
+
+| Pair | Canonical distinction |
+|---|---|
+| 04.6 / 04.7 | Vector-space weighting and cosine similarity versus probabilistic relevance models, BIM, and BM25. |
+| 02.8 / 02.9 | Candidate retrieval in the search pipeline versus result generation and serving. |
+| 06.7 / 06.8 | News and Top Stories presentation versus image and video search presentation. |
+| 02.7 / 02.8 | Query preparation versus retrieval of candidate resources. |
+| 03.1 / 03.3 | Ranking-system foundations versus ranking signals and their interaction. |
+| 04.1 / 04.2 | The information-retrieval problem versus document representation and modeling. |
+| 02.5 / 02.6 | Document processing/rendering versus search-index construction and maintenance. |
+| 02.2 / 02.9 | Search-engine architecture versus the serving stage and result generation. |
+| 02.6 / 02.7 | Index-side preparation versus query-side processing. |
+| 06.8 / 06.9 | Image/video search features versus shopping/product search features. |
+
+These pairs share unavoidable technical vocabulary and adjacent pipeline context. The reviewed documents retain different questions, mechanisms, outputs, and canonical ownership. No content removal was justified from this lexical screen.
+
+### Editorial voice and documentation consistency
+
+The 82 topic documents were checked for the structural requirements that support consistent documentation:
+
+- **82/82** contain the topic identifier in the document heading.
+- **82/82** link to their parent domain index.
+- **82/82** contain a Related Topics section and a References section.
+- **82/82** have numbered inline citation IDs that map to their numbered reference entries.
+- **8/8** domain indexes link to every topic file currently present in their domain.
+- The root README's architecture and development status match the current tree: Domains 01–08 are documented; Domains 09–17 remain planned.
+
+Representative editorial review across the eight domains found the intended k41 voice: direct openings, conversational but technically precise explanations, skepticism toward unsupported SEO claims, selective dry humor, and clear evidence boundaries. The voice is not applied as forced slang or sarcasm in every paragraph. This is a qualitative editorial review, not a claim that style can be proven by a mechanical counter. [1][2]
+
+### Navigation and repository integration
+
+- Relative Markdown targets in the 82 topic documents: **0 missing**.
+- Relative Markdown targets in the root README and eight domain indexes: **0 missing**.
+- Topic coverage in each domain index: **all existing topic files linked**.
+- Parent-index, Related Topics, and References requirements: **82/82 present**.
+- The root README and domain indexes continue to preserve the 17-domain architecture and distinguish existing pages from planned domains.
+- Existing cross-domain ownership dispositions and handoffs recorded in the earlier audit sections remain in force. This pass adds the repository-wide exact-text and lexical-similarity evidence; it does not reassign canonical ownership. [2][3][4]
+
+### Residual limitations
+
+1. Exact paragraph and sentence comparison establishes that no repeated text meeting the stated normalization and length thresholds remains. It cannot prove that no short phrase, table pattern, translated passage, or semantic paraphrase exists.
+2. The 3,321-pair shingle comparison is a lexical similarity screen. The top candidate pairs were reviewed, but this is not an exhaustive human semantic review of every pair and does not establish zero conceptual overlap.
+3. This pass relies on the existing dated source audits for Domains 01–08. It is not a new claim-by-claim source revalidation of all 82 documents.
+4. A brute-force live HTTP status and redirect crawl of every external reference URL was not run. Existing source-access limitations remain documented in SOURCE-AUDIT.md.
+5. Domains 09–17 have no substantive topic documents yet. Their future content must be checked against the existing ownership map before drafting and again after integration.
+
+### Final disposition
+
+**Repository-wide content-integrity and integration result: PASS WITH DOCUMENTED LIMITATIONS.**
+
+The current 82 topic documents have no repeated substantive paragraphs or sentences after remediation, no citation-bookkeeping defects, no duplicate bibliography URLs within individual topic documents, and no unresolved internal Markdown file targets. The canonical ownership map and navigation structure remain coherent across the eight documented domains.
+
+This result does not certify the absence of every semantic paraphrase or replace ongoing source-freshness maintenance. New topics and material revisions must repeat the duplicate, source, style, and integration checks before being marked complete.
+
+## References
+
+1. SEO-Playbook. ([AGENTS.md](AGENTS.md)). Canonical editorial voice, source citation, documentation workflow, repository governance, and integration requirements.
+2. SEO-Playbook. ([Root README](README.md)). Project identity, 17-domain architecture, repository navigation, and current development status.
+3. SEO-Playbook. ([SOURCE-AUDIT.md](SOURCE-AUDIT.md)). Dated source-level audits, claim-source checks, corrections, and domain-level evidence limitations for Domains 01–08.
+4. SEO-Playbook. ([Domain 01 — SEO Fundamentals](01-SEO-Fundamentals/README.md)), ([Domain 02 — Search Engine Fundamentals](02-Search-Engine-Fundamentals/README.md)), ([Domain 03 — Search Engine Algorithms](03-Search-Engine-Algorithms/README.md)), ([Domain 04 — Information Retrieval](04-Information-Retrieval/README.md)), ([Domain 05 — Keyword & Search Intent](05-Keyword-and-Search-Intent/README.md)), ([Domain 06 — SERP & Search Features](06-SERP-and-Search-Features/README.md)), ([Domain 07 — On-Page SEO](07-On-Page-SEO/README.md)), and ([Domain 08 — Content SEO](08-Content-SEO/README.md)). Canonical domain scopes, topic maps, ownership boundaries, and development states.
