@@ -1249,8 +1249,8 @@ The six highest-scoring pairs were:
 | 06.4 Featured Snippets ↔ 06.5 Knowledge Panels | 0.015612 |
 | 06.7 News & Top Stories ↔ 06.8 Image & Video Search | 0.013496 |
 | 06.8 Image & Video Search ↔ 06.9 Shopping & Product Search | 0.011942 |
-| 06.6 Local & Map-Based SERP ↔ 06.7 News & Top Stories | 0.010541 |
 | 03.3 Ranking Signals ↔ 03.6 Content Quality Systems | 0.010618 |
+| 06.6 Local & Map-Based SERP ↔ 06.7 News & Top Stories | 0.010541 |
 | 08.6 Content Production ↔ 08.8 Content Optimization & Revision | 0.010466 |
 
 The top 20 candidate pairs were manually reviewed using their topic headings, stated ownership boundaries, and shared lexical fragments. The reviewed overlaps were attributable to adjacent subjects, standard SEO/search terminology, recurring evidence and observation conventions, and shared navigation/ownership language. The pairs retain distinct canonical questions and deliverables; no duplicated substantive explanation requiring a merge or deletion was identified.
