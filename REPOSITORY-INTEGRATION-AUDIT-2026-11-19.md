@@ -1271,7 +1271,7 @@ The 92-document corpus and the current domain indexes were also checked for the 
 | Undefined inline citation IDs | 0 |
 | Unused numbered references | 0 |
 | Duplicate bibliography URLs within a topic's References section | 0 after remediation |
-| Broken relative Markdown links in the 92-document corpus before the final handoff-link refinements | 0 |
+| Broken relative Markdown file targets after final handoff-link refinements | **0** across all 92 topic documents; **0** across the root README, nine domain indexes, and audit records checked (the literal `URL` placeholder in AGENTS.md's citation-format example is not a file link) |
 | Missing topic entries in the nine domain indexes | 0 |
 | Malformed literal escaped-newline sequences found and corrected | 5 documents |
 
