@@ -117,7 +117,7 @@ This is a logical dependency map, not a rigid requirement that every project use
 
 **PASS WITH SCOPE CLARIFICATIONS.** The ten-topic structure is coherent and can proceed to topic documentation. The review identified boundary risks but no need to add another topic or create a new domain. The scope refinements above are incorporated into the roadmap.
 
-This is an architecture and repository-boundary audit, not a source audit of future substantive claims. Each topic must still undergo claim-level research, citation, and technical review under `AGENTS.md` when written.
+The architecture and repository-boundary audit is separate from claim-level source review. All ten topic documents are now written; source-reference revalidation and its limitations are recorded in [SOURCE-AUDIT.md](../SOURCE-AUDIT.md), Section 34. Ongoing claim-level maintenance remains required under `AGENTS.md`.
 
 ## Domain Workflow
 
@@ -185,8 +185,8 @@ These are modeling and planning outputs. They do not automatically prescribe a n
 | 09.8 | Documented; source-checked | Topical Coverage & Semantic Completeness evaluates concepts, attributes, relationships, information requirements, omissions, redundancy, relevance, and uncertainty against declared scope. |
 | 09.9 | Documented; source-checked | Semantic Information Architecture for Websites translates the validated topical model into user-oriented information groups, page roles, labels, metadata, page boundaries, and architecture specifications. |
 | 09.10 | Documented; source-checked | Semantic Model Validation, Maintenance & Governance defines structural, logical, evidence, scope, and architecture-alignment checks; provenance, ownership, severity, versioning, deprecation, change control, and ongoing maintenance. |
-| Cross-domain integration | Topic-level integration completed; broader audit remains separate | Topics 09.1–09.10 connect to relevant existing upstream and adjacent documentation. Domain 09 ownership boundaries remain aligned with Domains 02–08 and the documented/planned responsibilities of Domains 10, 11, 14, and 17. |
-| Source audit | Topic-level source checks completed; ongoing freshness maintenance required | Topic documents include claim-level references checked during drafting. Revalidate volatile standards and source freshness during future maintenance under AGENTS.md. |
+| Cross-domain integration | Consolidation refresh completed 2026-11-21; PASS WITH DOCUMENTED LIMITATIONS | Topics 09.1–09.10 connect to relevant upstream and adjacent documentation. Ten high-risk cross-domain ownership boundaries were reviewed; stale Domain 09/08 planned labels, malformed Related Topics line breaks, and selected navigation defects were corrected. A combined 92-document all-pairs semantic review has not been performed. See [repository integration audit, Section 37](../REPOSITORY-INTEGRATION-AUDIT-2026-11-19.md). |
+| Source audit | Revalidated 2026-11-21; PASS WITH DOCUMENTED LIMITATIONS | Ten topic documents contain 38 numbered reference entries across 25 unique source destinations, which were reopened and inspected. Citation bookkeeping passed and no mismatch was confirmed in the core claims reviewed. This is not a sentence-by-sentence independent proof of every factual statement; volatile standards and source freshness still require maintenance under AGENTS.md. See [SOURCE-AUDIT.md, Section 34](../SOURCE-AUDIT.md). |
 
 ## Related Domains
 
