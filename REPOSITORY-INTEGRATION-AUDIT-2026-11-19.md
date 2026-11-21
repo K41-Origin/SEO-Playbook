@@ -1154,3 +1154,157 @@ This is not an absolute proof of no duplication across all 92 documents. The com
 3. [Root README](README.md) — current domain architecture and development status.
 4. Domain indexes for [03](03-Search-Engine-Algorithms/README.md), [04](04-Information-Retrieval/README.md), [05](05-Keyword-and-Search-Intent/README.md), [06](06-SERP-and-Search-Features/README.md), [07](07-On-Page-SEO/README.md), [08](08-Content-SEO/README.md), and [09](09-Semantic-SEO/README.md) — current scope, topic ownership, and cross-domain links.
 
+
+
+## 38. Combined 92-Document Exact-Text & All-Pairs Lexical Regression — 2026-11-21
+
+This section supersedes the 865-pair limitation recorded in Section 37. Section 37 remains a valid snapshot of the earlier consolidation state; Section 38 is the current result for all 92 topic documents in Domains 01–09.
+
+### 38.1 Scope and corpus
+
+- Repository: `K41-Origin/SEO-Playbook`
+- Branch: `main`
+- Topic documents fetched and compared: **92**
+- Domain coverage: Domains 01–09
+- Pair count: **4,186**, equal to 92 × 91 ÷ 2.
+- Within-domain pairs: **446**.
+- Cross-domain pairs: **3,740**.
+- All 3,740 cross-domain pairs were included; there is no remaining 865-pair Domain 09 exclusion.
+
+| Domain | Topic documents |
+|---|---:|
+| 01 — SEO Fundamentals | 5 |
+| 02 — Search Engine Fundamentals | 12 |
+| 03 — Search Engine Algorithms | 13 |
+| 04 — Information Retrieval | 12 |
+| 05 — Keyword & Search Intent | 9 |
+| 06 — SERP & Search Features | 11 |
+| 07 — On-Page SEO | 10 |
+| 08 — Content SEO | 10 |
+| 09 — Semantic SEO | 10 |
+| **Total** | **92** |
+
+### 38.2 Comparison methods
+
+The audit used two complementary normalized exact-text checks and one all-pairs lexical screen.
+
+**A. Exact substantive paragraph comparison**
+
+- Compared paragraph blocks from the substantive body of each topic document.
+- Excluded navigation/reference material (Related Topics, References, Further Reading), headings, fenced/inline code, link destinations, raw URLs, and standalone checklist lines from the normalized comparison.
+- Normalized case, punctuation, Markdown presentation, and whitespace.
+- Duplicate threshold: **at least 120 normalized characters**.
+- Compared normalized paragraph content across all 92 documents.
+
+**B. Exact substantive sentence comparison**
+
+- Split substantive body text into sentence candidates, then normalized case, punctuation, Markdown presentation, and whitespace.
+- Duplicate threshold: **at least 100 normalized characters**.
+- Compared sentence candidates across all 92 documents.
+- Sentence segmentation is heuristic; abbreviations, decimal points, initials, and unusual punctuation can affect segmentation. This limitation is recorded rather than hidden.
+
+**C. All-pairs five-token shingle Jaccard**
+
+- Removed navigation/reference sections, headings, code blocks, inline code, image markup, raw URLs, and standalone checklist lines.
+- Preserved link text while excluding its destination.
+- Normalized text to lowercase alphanumeric tokens with normalized whitespace.
+- Generated unique contiguous five-token shingles for each document.
+- For every document pair, calculated Jaccard similarity: intersection of the two shingle sets divided by their union.
+- Compared every possible pair, not just cross-domain or previously flagged pairs.
+
+Jaccard is a lexical similarity signal, not a semantic-equivalence model. No universal threshold makes two SEO documents duplicates. Scores were used to rank candidates for manual review, not as an automatic deletion rule.
+
+### 38.3 Exact-text results
+
+| Check | Threshold | Duplicate groups |
+|---|---:|---:|
+| Substantive paragraph comparison | ≥120 normalized characters | **0** |
+| Substantive sentence comparison | ≥100 normalized characters | **0** |
+
+No exact substantive paragraph or sentence duplication was detected across the 92 topic documents at the stated thresholds.
+
+This does not mean the documents share no terminology, short phrases, standard definitions, or necessary descriptions of common processes. Those are expected in an interconnected technical knowledge base and are not, by themselves, duplicated explanations.
+
+### 38.4 All-pairs lexical results
+
+| Five-token Jaccard band | Document pairs |
+|---|---:|
+| ≥0.10 | 0 |
+| 0.05–0.099 | 0 |
+| 0.02–0.049 | 0 |
+| 0.01–0.019 | 6 |
+| <0.01 | 4,180 |
+| **Total** | **4,186** |
+
+- Maximum pair similarity: **0.015612**.
+- Mean pair similarity: **0.000352**.
+- Maximum within-domain similarity: **0.015612**, between 06.4 and 06.5.
+- Maximum cross-domain similarity: **0.007219**, between 02.9 and 06.2.
+- All 3,740 cross-domain pairs were included in the same comparison.
+
+The six highest-scoring pairs were:
+
+| Pair | Jaccard |
+|---|---:|
+| 06.4 Featured Snippets ↔ 06.5 Knowledge Panels | 0.015612 |
+| 06.7 News & Top Stories ↔ 06.8 Image & Video Search | 0.013496 |
+| 06.8 Image & Video Search ↔ 06.9 Shopping & Product Search | 0.011942 |
+| 06.6 Local & Map-Based SERP ↔ 06.7 News & Top Stories | 0.010541 |
+| 03.3 Ranking Signals ↔ 03.6 Content Quality Systems | 0.010618 |
+| 08.6 Content Production ↔ 08.8 Content Optimization & Revision | 0.010466 |
+
+The top 20 candidate pairs were manually reviewed using their topic headings, stated ownership boundaries, and shared lexical fragments. The reviewed overlaps were attributable to adjacent subjects, standard SEO/search terminology, recurring evidence and observation conventions, and shared navigation/ownership language. The pairs retain distinct canonical questions and deliverables; no duplicated substantive explanation requiring a merge or deletion was identified.
+
+The maximum cross-domain pair, 02.9 and 06.2, is a deliberate handoff: Domain 02 owns search-result generation/serving as part of search-system processing, while Domain 06 owns the visible anatomy and presentation of SERP elements. The overlap is contextual, not duplicate ownership.
+
+### 38.5 Consistency and repository regression checks
+
+The 92-document corpus and the current domain indexes were also checked for the following structural and editorial conditions:
+
+| Check | Result |
+|---|---:|
+| Topic documents with a parent domain-index link | 92 / 92 |
+| Topic documents with a Related Topics section | 92 / 92 |
+| Topic documents with a References section | 92 / 92 |
+| Numbered reference entries | 521 |
+| Inline numbered citation occurrences | 2,070 |
+| Undefined inline citation IDs | 0 |
+| Unused numbered references | 0 |
+| Duplicate bibliography URLs within a topic's References section | 0 after remediation |
+| Broken relative Markdown links in the 92-document corpus before the final handoff-link refinements | 0 |
+| Missing topic entries in the nine domain indexes | 0 |
+| Malformed literal escaped-newline sequences found and corrected | 5 documents |
+
+The domain-index topic counts match the actual files: 5, 12, 13, 12, 9, 11, 10, 10, and 10 respectively. Additional topic IDs found in some index text are cross-domain references, not extra or missing local topics.
+
+### 38.6 Remediation performed during this regression
+
+1. Replaced literal escaped newline sequences with actual Markdown line breaks in:
+   - `05.2 Seed Keyword and Audience Language Discovery`
+   - `05.7 Keyword Clustering and Query Grouping`
+   - `06.5 Knowledge Panels and Entity-Based Search Features`
+   - `06.6 Local and Map-Based SERP Features`
+   - `08.1 Introduction to Content SEO`
+2. Corrected the malformed section-heading/body structure in 06.6 after restoring real line breaks.
+3. Removed repeated DOI URL strings from bibliography entries in 04.1 and 05.5; each DOI remains available through the canonical linked citation.
+4. Replaced multiple Related Topics links that pointed to a generic domain-index anchor with direct links to the relevant existing topic documents in Domains 02, 05, 06, 07, and 09.
+5. Preserved domain-index links for genuine domain-level or planned-domain references; not every mention of a domain should be forced into a topic link.
+
+These changes improve navigation and Markdown structure. They do not change the canonical ownership map or the substantive conclusions of the all-pairs comparison.
+
+### 38.7 Interpretation, limitations, and disposition
+
+**Result: PASS WITH DOCUMENTED LIMITATIONS.**
+
+The combined 92-document exact-text and all-pairs lexical regression found:
+- zero repeated substantive paragraphs at the stated threshold;
+- zero repeated substantive sentences at the stated threshold;
+- no pair with five-token Jaccard similarity of 0.02 or higher;
+- no high-scoring pair whose reviewed scope and deliverables indicated duplicated canonical ownership.
+
+This is strong evidence against substantial verbatim duplication and unusually high lexical overlap in the current 92-document corpus. It is **not** proof of zero semantic duplication. The comparison does not use semantic embeddings, entailment detection, claim-level contradiction detection, or a human reading of every sentence in every document pair. A paraphrased explanation can have low lexical similarity, and two pages can be factually inconsistent without sharing much wording.
+
+The audit also does not replace claim-to-source verification. Citation bookkeeping confirms that numbered citation references are structurally mapped; it does not prove that every citation supports every nearby factual claim. Source audits retain their own documented scopes and dates.
+
+**Final disposition:** all 4,186 pairs across Domains 01–09 have now been included in the combined exact-text and lexical comparison. The prior Section 37 statement that the 865 pairs involving Domain 09 were not yet screened is superseded. Do not overstate this result as an absolute guarantee of zero semantic overlap or universal factual consistency.
+
