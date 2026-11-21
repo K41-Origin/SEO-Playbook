@@ -2051,3 +2051,25 @@ The source review exposed several repository-state defects caused by Domain 09 b
 18. Amith et al. [Assessing the Practice of Biomedical Ontology Evaluation: Gaps and Opportunities](https://pmc.ncbi.nlm.nih.gov/articles/PMC5882531/).
 19. Monfardini et al. [Use of Competency Questions in Ontology Engineering: a Survey](https://doi.org/10.1007/978-3-031-47262-6_3).
 
+
+
+## 35. Combined Repository Duplication Regression — 2026-11-21
+
+The combined exact-text and all-pairs lexical comparison across all 92 substantive topic documents is now complete. This updates the duplication-screen status referenced in Sections 33–34 and in earlier dated source-audit entries.
+
+- Corpus: 92 topic documents across Domains 01–09.
+- Pair coverage: 4,186 total pairs, including all 3,740 cross-domain pairs.
+- Exact normalized substantive paragraph duplicates (≥120 characters): 0 groups.
+- Exact normalized substantive sentence duplicates (≥100 characters): 0 groups.
+- Five-token shingle Jaccard: maximum 0.015612; mean 0.000352; six pairs at or above 0.01; no pair at or above 0.02.
+- The top 20 lexical candidates were manually reviewed for subject ownership, heading structure, and overlapping fragments. No duplicated substantive explanation requiring consolidation was identified.
+- Citation/reference bookkeeping across the 92 documents: 521 numbered reference entries and 2,070 inline citation occurrences; no undefined citation IDs, unused references, or duplicate bibliography URLs within a topic reference section after remediation.
+- Structural regression: all 92 topic pages have a parent-index link, Related Topics section, and References section; no missing topic entries were found in the nine domain indexes.
+- Five malformed escaped-newline cases and two repeated DOI URL strings in reference entries were corrected; selected Related Topics links were changed from generic index anchors to direct canonical topic files.
+
+**Disposition: PASS WITH DOCUMENTED LIMITATIONS.**
+
+This is an exact-text and lexical regression, not a semantic-embedding comparison, entailment/contradiction analysis, or exhaustive human review of every sentence pair. It does not establish that every citation supports every nearby claim; claim-level source audits retain their separate dates and scopes. See [REPOSITORY-INTEGRATION-AUDIT-2026-11-19.md](REPOSITORY-INTEGRATION-AUDIT-2026-11-19.md), Section 38, for normalization, pair counts, score distribution, reviewed candidate pairs, remediation, and limitations.
+
+The earlier audit statements that the 865 pairs involving Domain 09 remained unscanned are historical snapshots and are superseded by the completed Section 38 regression. They remain in their original dated sections for traceability.
+
