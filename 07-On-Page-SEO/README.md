@@ -109,7 +109,7 @@ The intended relationship is a connected knowledge workflow, not a rigid linear 
 
 **Domain architecture and topics 07.1–07.10 documented.**
 
-**Full source and integration audit:** completed 2026-11-19. All ten topic documents, source references, internal links, scope boundaries, and domain navigation were reviewed. This is a dated review, not a claim that sources will never need maintenance.
+**Source and integration revalidation:** refreshed 2026-11-21. All 10 topic documents contain 51 numbered reference entries across 34 unique source destinations, which were reopened and inspected. Core source claims, citation bookkeeping, ownership boundaries, and handoffs were reviewed; stale Domain 08/09 roadmap labels and related-link defects were corrected. This is a dated review, not a sentence-by-sentence proof of every factual statement or a guarantee that sources will remain current.
 
 | Topic | Status |
 |---|---|
