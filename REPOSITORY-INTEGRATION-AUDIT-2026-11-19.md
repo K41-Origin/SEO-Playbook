@@ -1273,6 +1273,7 @@ The 92-document corpus and the current domain indexes were also checked for the 
 | Duplicate bibliography URLs within a topic's References section | 0 after remediation |
 | Broken relative Markdown file targets after final handoff-link refinements | **0** across all 92 topic documents; **0** across the root README, nine domain indexes, and audit records checked (the literal `URL` placeholder in AGENTS.md's citation-format example is not a file link) |
 | Missing topic entries in the nine domain indexes | 0 |
+| Primary-language uniformity | **Not uniform:** 77 topic pages are primarily English; 15 are primarily Indonesian (07.6–07.10, 08.3–08.10, 09.9–09.10). AGENTS.md defines editorial voice but does not set a canonical language. |
 | Malformed literal escaped-newline sequences found and corrected | 5 documents |
 
 The domain-index topic counts match the actual files: 5, 12, 13, 12, 9, 11, 10, 10, and 10 respectively. Additional topic IDs found in some index text are cross-domain references, not extra or missing local topics.
@@ -1305,6 +1306,8 @@ The combined 92-document exact-text and all-pairs lexical regression found:
 This is strong evidence against substantial verbatim duplication and unusually high lexical overlap in the current 92-document corpus. It is **not** proof of zero semantic duplication. The comparison does not use semantic embeddings, entailment detection, claim-level contradiction detection, or a human reading of every sentence in every document pair. A paraphrased explanation can have low lexical similarity, and two pages can be factually inconsistent without sharing much wording.
 
 The audit also does not replace claim-to-source verification. Citation bookkeeping confirms that numbered citation references are structurally mapped; it does not prove that every citation supports every nearby factual claim. Source audits retain their own documented scopes and dates.
+
+A separate editorial-consistency issue remains open: the repository is not language-uniform. Seventy-seven of the 92 topic pages are primarily English, while 15 pages are primarily Indonesian (07.6–07.10, 08.3–08.10, and 09.9–09.10). This is not duplication, and AGENTS.md currently specifies the k41 editorial voice without declaring a canonical documentation language. No automatic translation was performed because that would be a substantive editorial revision requiring citation and terminology preservation. English is the evidence-based default recommendation given the current 77/92 majority and the English root/domain indexes, but the project owner should explicitly approve that standard before those 15 pages are translated.
 
 **Final disposition:** all 4,186 pairs across Domains 01–09 have now been included in the combined exact-text and lexical comparison. The prior Section 37 statement that the 865 pairs involving Domain 09 were not yet screened is superseded. Do not overstate this result as an absolute guarantee of zero semantic overlap or universal factual consistency.
 
