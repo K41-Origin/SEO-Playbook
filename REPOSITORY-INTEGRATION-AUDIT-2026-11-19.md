@@ -1109,7 +1109,7 @@ Domain 09 was added after the 2026-11-19 repository-wide scan. The following con
 3. **Missing index integration:** added Domain 09 links to the ownership tables in the Domain 03–06 indexes. Domain 07 and 08 indexes now also link to Domain 09.
 4. **Topic handoff links:** linked Domain 07/08 documents that previously described Domain 09 as planned to the completed Domain 09 index.
 5. **Related Topics defects:** removed a duplicate/misdirected 07.3 link and corrected the 07.5 destination.
-6. **Malformed Markdown line breaks:** replaced literal escaped newline sequences in the Related Topics sections of 09.4, 09.5, and 09.6 with actual Markdown line breaks.
+6. **Malformed Markdown line breaks:** replaced literal escaped newline sequences in the Related Topics sections of 09.4, 09.5, 09.6, and 09.7 with actual Markdown line breaks.
 7. **Stale future tense:** updated references in 09.4–09.6 that described already completed topics as future work.
 
 The ownership distinctions were retained. No topic was merged or removed because the reviewed boundaries represent different objects of work.
