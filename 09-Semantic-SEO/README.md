@@ -184,9 +184,9 @@ These are modeling and planning outputs. They do not automatically prescribe a n
 | 09.7 | Documented; source-checked | Topical Modeling & Knowledge Domains defines subject boundaries, concepts, subdomains, dependencies, grouping logic, granularity, and a reusable domain-model specification. |
 | 09.8 | Documented; source-checked | Topical Coverage & Semantic Completeness evaluates concepts, attributes, relationships, information requirements, omissions, redundancy, relevance, and uncertainty against declared scope. |
 | 09.9 | Documented; source-checked | Semantic Information Architecture for Websites translates the validated topical model into user-oriented information groups, page roles, labels, metadata, page boundaries, and architecture specifications. |
-| 09.10 | Planned | Semantic model and website-architecture validation, maintenance, versioning, ownership, and change governance. |
-| Cross-domain integration | Initial topic integration completed | Topics 09.1–09.9 link to relevant existing upstream and adjacent documentation; Domain 09 ownership boundaries remain aligned with Domains 02–08 and planned Domains 10, 11, 14, and 17. Further reciprocal links will be added as topics are documented. |
-| Source audit | Pending | Substantive claims and topic documents will require claim-level source research and verification under AGENTS.md. |
+| 09.10 | Documented; source-checked | Semantic Model Validation, Maintenance & Governance defines structural, logical, evidence, scope, and architecture-alignment checks; provenance, ownership, severity, versioning, deprecation, change control, and ongoing maintenance. |
+| Cross-domain integration | Topic-level integration completed; broader audit remains separate | Topics 09.1–09.10 connect to relevant existing upstream and adjacent documentation. Domain 09 ownership boundaries remain aligned with Domains 02–08 and the documented/planned responsibilities of Domains 10, 11, 14, and 17. |
+| Source audit | Topic-level source checks completed; ongoing freshness maintenance required | Topic documents include claim-level references checked during drafting. Revalidate volatile standards and source freshness during future maintenance under AGENTS.md. |
 
 ## Related Domains
 
