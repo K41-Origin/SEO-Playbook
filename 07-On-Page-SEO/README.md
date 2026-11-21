@@ -34,7 +34,7 @@ On-page SEO is not a bag of keyword-placement tricks. A page does not become rel
 | [05 — Keyword & Search Intent](../05-Keyword-and-Search-Intent/README.md) | Keyword research, intent inference, clustering, prioritization, and keyword-to-page mapping | Domain 05 determines query targets and research-based page mapping. Domain 07 owns the implementation and optimization of page-level elements after those decisions. |
 | [06 — SERP & Search Features](../06-SERP-and-Search-Features/README.md) | SERP anatomy, result components, feature formats, and search presentation | Domain 06 owns how title links, snippets, URLs, and other elements are represented in search results. Domain 07 owns the source-page elements that may inform those presentations. Search engines can rewrite or select displayed text; source markup is not a display guarantee. |
 | [Domain 08 — Content SEO](../08-Content-SEO/README.md) | Content strategy, editorial planning, production, quality assurance, optimization, and content lifecycle management | Domain 08 owns content substance and editorial development. Domain 07 owns page-level structural and HTML elements. Heading optimization must not become a substitute for content strategy or quality. |
-| Domain 09 — Semantic SEO (planned) | Entities, semantic relationships, topical coverage, and semantic content architecture | Domain 09 owns entity modeling and broader semantic architecture. Domain 07 may use clear, descriptive language and semantic HTML, but does not own entity graphs, topical authority models, or semantic topic-map design. |
+| Domain 09 — Semantic SEO | Entities, semantic relationships, topical coverage, and semantic content architecture | Domain 09 owns entity modeling and broader semantic architecture. Domain 07 may use clear, descriptive language and semantic HTML, but does not own entity graphs, topical authority models, or semantic topic-map design. |
 | Domain 10 — Technical SEO (planned) | Technical implementation, crawling/indexing controls, structured data, rendering, performance, and technical validation | Domain 10 owns technical delivery and search-engine access. Domain 07 may discuss an element's authoring and page-level purpose; image compression/delivery, responsive behavior, lazy loading, canonicalization, robots directives, structured-data implementation, and Core Web Vitals remain in Domain 10. |
 | Domain 11 — Internal Linking (planned) | Internal-link architecture, linking strategy, and anchor-text practice | Domain 11 owns internal-link strategy and implementation. Domain 07 does not absorb internal-link architecture into its page-element checklist. |
 | Domain 14 — SEO Analytics (planned) | Organic performance measurement, analysis, and reporting | Domain 07 defines page-level audit criteria. Domain 14 owns performance measurement and outcome analysis; an on-page audit finding is not proof of ranking or traffic impact. |
@@ -131,7 +131,7 @@ The roadmap defines the intended scope and ownership of each topic. Only topics 
 - [Domain 05 — Keyword & Search Intent](../05-Keyword-and-Search-Intent/README.md)
 - [Domain 06 — SERP & Search Features](../06-SERP-and-Search-Features/README.md)
 - [Domain 08 — Content SEO](../08-Content-SEO/README.md)
-- Domain 09 — Semantic SEO (planned)
+- Domain 09 — Semantic SEO
 - Domain 10 — Technical SEO (planned)
 - Domain 11 — Internal Linking (planned)
 - Domain 14 — SEO Analytics (planned)
