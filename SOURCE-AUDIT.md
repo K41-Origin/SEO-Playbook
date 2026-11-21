@@ -1959,3 +1959,95 @@ All 3,321 possible topic-document pairs were screened using five-token shingle J
 
 1. SEO-Playbook. ([Repository Integration Audit — 2026-11-19](REPOSITORY-INTEGRATION-AUDIT-2026-11-19.md)). Repository-wide content duplication, lexical similarity, editorial consistency, navigation, remediation, and residual limitations.
 2. SEO-Playbook. ([AGENTS.md](AGENTS.md)). Mandatory source citation, editorial voice, documentation workflow, repository governance, and integration requirements.
+
+
+## 34. Domain 07 and Domain 09 Source Revalidation & Cross-Domain Editorial Remediation — 2026-11-21
+
+This addendum refreshes the source review for Domain 07 and Domain 09 and records integration defects found while consolidating Domains 01–09. It supplements, rather than silently replaces, the dated source audits for Domains 01–06 and 08.
+
+### Scope and method
+
+| Area | Documents | Numbered reference entries | Unique source destinations |
+|---|---:|---:|---:|
+| Domain 07 — On-Page SEO | 10 | 51 | 34 |
+| Domain 09 — Semantic SEO | 10 | 38 | 25 |
+| **Total** | **20** | **89** | **59** |
+
+- Opened the 34 unique bibliography destinations used by Domain 07, including Google Search Central and Search Console documentation, WHATWG HTML Living Standard, W3C WAI tutorials and techniques, WCAG-EM 2.0, and IETF RFC 3986.
+- Opened the 25 unique bibliography destinations used by Domain 09, including W3C RDF, RDFS, SKOS, OWL, SPARQL, SHACL, PROV-O, Schema.org, Wikidata documentation, Google Search Central, and the cited ontology-evaluation research.
+- Checked the numbered citation/reference bookkeeping in all 20 topic documents. No undefined citation IDs or unused numbered references were found in these two domains.
+- Reviewed high-risk claim groups against the relevant primary or authoritative sources: HTML element semantics; title and snippet generation; URL structure; image discovery and text alternatives; accessibility guidance; RDF graph semantics; RDFS domain/range; SKOS hierarchy and labels; OWL ontology/version concepts; SPARQL query scope; SHACL validation; provenance; and competency-question evaluation.
+- Where DOI resolution did not expose the paper directly, the corresponding accessible full-text or publisher/author copy was used to check the cited paper and the relevant statement. A failed DOI resolver response was not treated as evidence that the paper did not exist.
+
+### Domain 07 — source findings
+
+1. WHATWG supports the cited roles and constraints for the HTML title element, description metadata, and semantic page elements.
+2. Google's current title-link and snippet documentation supports the distinction between authored source metadata and generated SERP presentation. The reviewed pages do not establish fixed character limits or guaranteed display behavior.
+3. Google's URL structure documentation supports descriptive URLs, audience language, hyphen separation, parameter minimization, and case-sensitive URL handling. It does not support a universal URL-length ranking threshold.
+4. Google's image guidance and WAI image tutorials support the distinction between informative, decorative, functional, and complex images; alt text must follow the image's purpose and context.
+5. WAI guidance supports logical heading hierarchy and landmark navigation. WCAG techniques and tutorials are implementation guidance; they are not all mandatory techniques. WCAG-EM 2.0 is identified as a methodology, not as a Google ranking rule.
+6. Search Console documentation supports the use of clicks, impressions, CTR, average position, URL inspection, and recrawl requests as diagnostic evidence. These metrics and tools do not independently prove causation or guarantee indexing.
+7. Domain 07's priority matrices, workflows, and audit classifications are explicitly treated as internal operational methods, not official Google scoring systems.
+
+No source mismatch was confirmed in the core Domain 07 claims reviewed. The source review does not convert accessibility recommendations into ranking factors and does not create a fixed title, description, heading, or URL formula.
+
+### Domain 09 — source findings
+
+1. RDF 1.1 supports the graph/triple representation and distinctions among resources, IRIs, literals, and blank nodes used in the topics.
+2. RDFS domain and range have formal inference semantics; they are not merely application-level validation constraints. The relevant Domain 09 explanation preserves that distinction.
+3. SKOS supports concept schemes, preferred/alternative/hidden labels, documentation notes, and broader/narrower relations. Its direct and transitive hierarchy properties are not interchangeable.
+4. OWL 2 supports the formal ontology constructs and ontology/version IRI distinction cited in the relevant topics.
+5. SPARQL is scoped to querying RDF graph patterns and datasets; its presence does not validate the truth of queried assertions.
+6. SHACL validates RDF data graphs against declared shapes and produces validation results. Structural conformance does not prove empirical truth or completeness.
+7. PROV-O provides provenance concepts for entities, activities, and agents. It is an optional modeling vocabulary, not a source-quality score.
+8. The W3C n-ary relations document is an informative Working Group Note, not a normative Recommendation. Domain 09.4 labels it accordingly.
+9. Schema.org and Wikidata are used as vocabulary/platform examples. Their properties, identifiers, notability rules, and data conventions are not presented as universal SEO requirements.
+10. The cited 2018 ontology-evaluation paper and 2023 competency-question survey are used within their research scope. The survey's stated sample of 63 ontology engineers was checked against the accessible paper copy; it is not generalized into an SEO benchmark.
+11. Google's structured-data documentation supports the limited claims about explicit information supplied to Search. It does not establish that a website knowledge graph, entity count, topical score, or semantic markup volume is a ranking factor.
+
+No source mismatch was confirmed in the core Domain 09 claims reviewed. The domain consistently separates standards-based statements, platform-specific examples, playbook methods, and unsupported ranking hypotheses.
+
+### Integration and editorial findings remediated
+
+The source review exposed several repository-state defects caused by Domain 09 being completed after earlier domains were written:
+
+- Replaced stale “Domain 09 planned” references with links to the completed Domain 09 index or the relevant ownership description across 12 files in Domains 05–08.
+- Replaced stale “Domain 08 planned” ownership labels in Domain 07.8, 07.9, and 07.10 with links to the completed Domain 08 index.
+- Added direct Domain 09 index links to the ownership tables in the Domain 03–06 indexes.
+- Corrected the duplicate/misdirected Related Topics entries in 07.3.
+- Corrected literal escaped newline sequences in Related Topics in 09.4, 09.5, and 09.6.
+- Updated stale future-tense descriptions of already completed topics 09.5–09.7 to present tense.
+- Preserved planned labels for Domains 10, 11, 13, and 14 where those domains have not yet been documented.
+
+### Disposition and limitations
+
+- Domain 07 source-reference refresh: **PASS WITH DOCUMENTED LIMITATIONS**.
+- Domain 09 source-reference refresh: **PASS WITH DOCUMENTED LIMITATIONS**.
+- Citation bookkeeping for the 20 reviewed topic documents: **PASS**.
+- The 34 and 25 unique source destinations were inspected, but this addendum is not a new sentence-by-sentence independent re-audit of every factual statement in all 20 documents. The prior dated claim-level audits remain the evidence base for Domains 01–06 and 08.
+- This addendum does not certify that every external source will remain current. Search documentation, web standards, accessibility guidance, and research references must be rechecked when materially changed or used in a new decision.
+
+**Overall disposition:** the reviewed Domain 07 and Domain 09 source sets are defensible within their stated scope. No unsupported ranking formula or guaranteed outcome was introduced. Cross-domain stale references and editorial defects identified during the review have been corrected. Repository-wide semantic non-duplication still requires the limitations stated in the repository integration audit to be respected.
+
+### Selected primary and authoritative sources inspected
+
+1. WHATWG. [HTML Living Standard](https://html.spec.whatwg.org/).
+2. Google Search Central. [SEO Starter Guide](https://developers.google.com/search/docs/fundamentals/seo-starter-guide).
+3. Google Search Central. [Influencing your title links in search results](https://developers.google.com/search/docs/appearance/title-link).
+4. Google Search Central. [Control your snippets in search results](https://developers.google.com/search/docs/appearance/snippet).
+5. Google Search Central. [URL structure best practices](https://developers.google.com/search/docs/crawling-indexing/url-structure).
+6. Google Search Central. [Google image SEO best practices](https://developers.google.com/search/docs/appearance/google-images).
+7. W3C WAI. [Images Tutorial](https://www.w3.org/WAI/tutorials/images/).
+8. W3C WAI. [Page Structure Tutorial](https://www.w3.org/WAI/tutorials/page-structure/).
+9. W3C. [RDF 1.1 Concepts and Abstract Syntax](https://www.w3.org/TR/rdf11-concepts/).
+10. W3C. [RDF Schema 1.1](https://www.w3.org/TR/rdf-schema/).
+11. W3C. [SKOS Reference](https://www.w3.org/TR/skos-reference/).
+12. W3C. [OWL 2 Primer](https://www.w3.org/TR/owl2-primer/).
+13. W3C. [SPARQL 1.1 Query Language](https://www.w3.org/TR/sparql11-query/).
+14. W3C. [Shapes Constraint Language (SHACL)](https://www.w3.org/TR/shacl/).
+15. W3C. [PROV-O](https://www.w3.org/TR/prov-o/).
+16. Schema.org. [Thing](https://schema.org/Thing).
+17. Wikidata. [Help:Items](https://www.wikidata.org/wiki/Help:Items).
+18. Amith et al. [Assessing the Practice of Biomedical Ontology Evaluation: Gaps and Opportunities](https://pmc.ncbi.nlm.nih.gov/articles/PMC5882531/).
+19. Monfardini et al. [Use of Competency Questions in Ontology Engineering: a Survey](https://doi.org/10.1007/978-3-031-47262-6_3).
+
