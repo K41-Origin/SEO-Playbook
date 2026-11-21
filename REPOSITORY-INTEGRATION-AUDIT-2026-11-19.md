@@ -1050,3 +1050,107 @@ This result does not certify the absence of every semantic paraphrase or replace
 2. SEO-Playbook. ([Root README](README.md)). Project identity, 17-domain architecture, repository navigation, and current development status.
 3. SEO-Playbook. ([SOURCE-AUDIT.md](SOURCE-AUDIT.md)). Dated source-level audits, claim-source checks, corrections, and domain-level evidence limitations for Domains 01–08.
 4. SEO-Playbook. ([Domain 01 — SEO Fundamentals](01-SEO-Fundamentals/README.md)), ([Domain 02 — Search Engine Fundamentals](02-Search-Engine-Fundamentals/README.md)), ([Domain 03 — Search Engine Algorithms](03-Search-Engine-Algorithms/README.md)), ([Domain 04 — Information Retrieval](04-Information-Retrieval/README.md)), ([Domain 05 — Keyword & Search Intent](05-Keyword-and-Search-Intent/README.md)), ([Domain 06 — SERP & Search Features](06-SERP-and-Search-Features/README.md)), ([Domain 07 — On-Page SEO](07-On-Page-SEO/README.md)), and ([Domain 08 — Content SEO](08-Content-SEO/README.md)). Canonical domain scopes, topic maps, ownership boundaries, and development states.
+
+
+## 37. Domains 01–09 Consolidation Refresh — 2026-11-21
+
+This section supersedes the earlier statement that Domains 09–17 had no substantive topic documents. Domain 09 now contains ten completed topic documents. The repository therefore has **92 substantive topic documents across Domains 01–09**: 82 in Domains 01–08 and 10 in Domain 09.
+
+### 37.1 Canonical ownership map
+
+The following ownership boundaries remain the controlling map for the nine documented domains:
+
+| Domain | Canonical ownership | Must not absorb |
+|---|---|---|
+| 01 — SEO Fundamentals | SEO discipline, foundational concepts, objectives, and broad practice context | Detailed search-system mechanics, specialized execution workflows, or analytics methods |
+| 02 — Search Engine Fundamentals | Discovery, crawling, rendering, indexing, and search-engine processing/serving architecture | Ranking-system explanations, query research, or website content strategy |
+| 03 — Search Engine Algorithms | Ranking systems, relevance/ranking mechanisms, ranking signals, quality/spam systems, evaluation, and system evolution | General IR theory, keyword research, SERP display, or website-side semantic modeling |
+| 04 — Information Retrieval | Information representation, indexing, retrieval models, query processing, ranking/relevance within IR, and retrieval evaluation | Search-engine-specific product behavior or website knowledge architecture |
+| 05 — Keyword & Search Intent | Audience language, keyword/query discovery, intent inference, query clustering, prioritization, and keyword-to-page research mapping | Entity identity models, topical knowledge graphs, editorial production, or final page-element implementation |
+| 06 — SERP & Search Features | Search-result anatomy, visible title/snippet presentation, and search features | Source-page title/description authoring, structured-data implementation, or semantic knowledge-model construction |
+| 07 — On-Page SEO | Page-level source elements and markup: title, meta description, headings, URL wording, images, semantic HTML, implementation workflow, and on-page audit | Editorial strategy/quality, SERP generation, technical infrastructure, or semantic entity architecture |
+| 08 — Content SEO | Editorial strategy, planning, briefs, information development, production, review, optimization, lifecycle, and content inventory/audit | Keyword research, abstract semantic model ownership, HTML implementation, technical SEO, or performance analytics |
+| 09 — Semantic SEO | Website-side entity/concept modeling, identity, attributes, relationship semantics, ontologies/taxonomies/vocabularies, knowledge representation, topical modeling/coverage, semantic IA, and model governance | System-side retrieval algorithms, query clustering, editorial production, page markup, technical structured-data delivery, hyperlink strategy, or ranking measurement |
+
+This map separates objects of work, not merely similar terminology. For example:
+- Domain 04 models how information is represented and retrieved by systems; Domain 09 models the subject knowledge a website intends to represent.
+- Domain 05 groups search expressions and user intent; Domain 09 models the concepts and entities those expressions may refer to.
+- Domain 06 owns the displayed Knowledge Panel or snippet; Domain 09 owns the website-side semantic model, not the search feature.
+- Domain 07 owns semantic HTML and page elements; Domain 09 owns semantic knowledge architecture.
+- Domain 08 owns editorial coverage of published assets; Domain 09.8 owns coverage of the abstract knowledge model.
+- Domain 09.9 defines conceptual information groupings and page roles; Domain 07 owns URL wording, Domain 08 owns editorial briefs/content, Domain 10 owns technical delivery, and Domain 11 owns actual hyperlink strategy.
+- Domain 09.10 validates and governs semantic-model integrity; it does not replace Domain 08 content governance or future technical/link/analytics audits.
+
+### 37.2 High-risk overlap review
+
+The following collision boundaries were specifically reviewed during this refresh:
+
+| Collision boundary | Canonical separation | Disposition |
+|---|---|---|
+| 04.9 semantic/neural retrieval ↔ 09.1/09.6 semantic modeling and graphs | Retrieval representation and ranking/retrieval methods vs website-side knowledge representation | Distinct |
+| 05.7/05.9 query clustering and keyword-to-page mapping ↔ 09.7/09.9 topical modeling and semantic IA | Query group and search research vs concept-domain model and its website translation | Distinct |
+| 06.5 Knowledge Panels ↔ 09.2/09.3 entity modeling | Visible Search feature and its presentation vs entity identity and attributes in a website knowledge model | Distinct |
+| 07.5/07.8 heading and semantic HTML ↔ 09.1 semantic SEO | Page-level HTML semantics vs semantic knowledge modeling | Distinct |
+| 07.6 URL wording ↔ 09.9 semantic IA | URL design/implementation input vs conceptual page grouping and page roles | Distinct |
+| 08.1/08.5 editorial planning and information development ↔ 09.7/09.9 topical model and semantic IA | Editorial realization vs abstract knowledge-domain model and website information architecture | Distinct |
+| 08.10 content inventory/editorial audit ↔ 09.8 topical coverage | Published content assets vs abstract model requirements and relationships | Distinct |
+| 08.2 content governance ↔ 09.10 semantic model governance | Editorial decision rights and content lifecycle vs semantic model integrity, versioning, and change control | Distinct |
+| Domain 10 structured-data delivery ↔ 09.5/09.6 semantic model and graph | Technical serialization/implementation vs conceptual meaning and representation requirements | Distinct; Domain 10 remains planned |
+| Domain 11 internal-link strategy ↔ 09.4/09.9 semantic relationships and information pathways | Hyperlinks, anchors, and navigation strategy vs semantic assertions and conceptual pathways | Distinct; Domain 11 remains planned |
+
+No duplicate canonical ownership was identified in these reviewed collision groups. This is a targeted semantic boundary review, not an exhaustive human semantic comparison of every pair of documents.
+
+### 37.3 Repository state and remediations
+
+Domain 09 was added after the 2026-11-19 repository-wide scan. The following consolidation defects were found and corrected:
+
+1. **Stale roadmap labels:** replaced completed Domain 09 “planned” labels in 12 files across Domains 05–08 with current ownership references or links to the Domain 09 index.
+2. **Stale Domain 08 labels:** replaced Domain 08 “planned” references in 07.8, 07.9, and 07.10 with links to the completed Domain 08 index.
+3. **Missing index integration:** added Domain 09 links to the ownership tables in the Domain 03–06 indexes. Domain 07 and 08 indexes now also link to Domain 09.
+4. **Topic handoff links:** linked Domain 07/08 documents that previously described Domain 09 as planned to the completed Domain 09 index.
+5. **Related Topics defects:** removed a duplicate/misdirected 07.3 link and corrected the 07.5 destination.
+6. **Malformed Markdown line breaks:** replaced literal escaped newline sequences in the Related Topics sections of 09.4, 09.5, and 09.6 with actual Markdown line breaks.
+7. **Stale future tense:** updated references in 09.4–09.6 that described already completed topics as future work.
+
+The ownership distinctions were retained. No topic was merged or removed because the reviewed boundaries represent different objects of work.
+
+### 37.4 Duplication and regression evidence
+
+| Check | Evidence available after this refresh | Result / limitation |
+|---|---|---|
+| Domains 01–08 exact paragraph/sentence comparison | Earlier 82-document audit, with documented normalization thresholds and remediation | 0 repeated substantive paragraphs ≥120 normalized characters; 0 repeated substantive sentences ≥100 normalized characters |
+| Domains 01–08 lexical similarity | Earlier five-token shingle comparison across 3,321 pairs | Highest score 0.0199; top candidate pairs manually reviewed and retained as distinct |
+| Domain 09 exact substantive paragraph comparison | Earlier comparison across the 10 Domain 09 topic pages | 0 repeated substantive paragraphs within Domain 09 |
+| Domain 09 citation bookkeeping | All 10 topic pages; 38 numbered reference entries | 0 undefined citation IDs; 0 unused references |
+| Domain 07 citation bookkeeping | All 10 topic pages; 51 numbered reference entries | 0 undefined citation IDs; 0 unused references |
+| Domain 09 internal links | Earlier check of all 10 topic pages, Domain 09 index, and root README; plus this refresh's link corrections | 0 broken links in the earlier check; newly added destinations point to existing domain indexes |
+| Domain 07 internal links | Earlier domain audit plus current link corrections | Duplicate/misdirected Related Topics entries corrected; no claim of a fresh all-repository link crawl |
+| Canonical ownership | 10 high-risk collision boundaries in Section 37.2 | No duplicate ownership identified in the reviewed boundaries |
+
+**Important pair-count limitation:** the repository now has 92 topic documents, which creates 4,186 possible document pairs. The previous lexical screen covered 3,321 pairs among the 82 documents in Domains 01–08. The 865 pairs involving Domain 09 (45 pairs within Domain 09 and 820 pairs between Domain 09 and Domains 01–08) have not been added to a new five-token all-pairs screen. The earlier 82-document exact paragraph/sentence scan was also not rerun as one combined 92-document scan.
+
+Therefore, this refresh does **not** certify zero duplicated text or zero semantic overlap across all 92 documents. It establishes the earlier 82-document regression, a separate exact-paragraph check within Domain 09, and targeted review of the highest-risk cross-domain ownership boundaries. A combined 92-document exact-text and lexical regression remains a clearly identified follow-up if a single all-domain numerical result is required.
+
+### 37.5 Source-audit status
+
+- Domains 01–06 and 08 retain their earlier dated source-audit records.
+- Domain 07's 10 topic documents were rechecked against 34 unique source destinations and 51 numbered references.
+- Domain 09's 10 topic documents were rechecked against 25 unique source destinations and 38 numbered references.
+- The source inspection and claim-scope findings are recorded in [SOURCE-AUDIT.md](SOURCE-AUDIT.md), Section 34.
+- This refresh did not independently reopen every external source used by Domains 01–06 and 08. It relies on their existing dated source audits and does not claim that those sources remain unchanged indefinitely.
+
+### 37.6 Final disposition
+
+**Domains 01–09 consolidation: PASS WITH DOCUMENTED LIMITATIONS.**
+
+The nine domains have a coherent canonical ownership map, the reviewed high-risk overlaps remain distinct, and stale handoffs created by Domain 09's later completion have been corrected. Domain 07 and Domain 09 source references and citation bookkeeping were refreshed. The earlier 82-document duplication/navigation audit remains valid for its original scope.
+
+This is not an absolute proof of no duplication across all 92 documents. The combined 92-document all-pairs lexical comparison, combined exact-text regression, and exhaustive semantic review remain outside the completed checks and must not be implied by the PASS status.
+
+## References
+
+1. [AGENTS.md](AGENTS.md) — mandatory editorial, source, citation, and integration rules.
+2. [SOURCE-AUDIT.md](SOURCE-AUDIT.md) — dated claim/source audit evidence and limitations.
+3. [Root README](README.md) — current domain architecture and development status.
+4. Domain indexes for [03](03-Search-Engine-Algorithms/README.md), [04](04-Information-Retrieval/README.md), [05](05-Keyword-and-Search-Intent/README.md), [06](06-SERP-and-Search-Features/README.md), [07](07-On-Page-SEO/README.md), [08](08-Content-SEO/README.md), and [09](09-Semantic-SEO/README.md) — current scope, topic ownership, and cross-domain links.
+
