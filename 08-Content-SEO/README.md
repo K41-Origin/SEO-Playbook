@@ -154,7 +154,7 @@ Only topics whose substantive files exist and have completed the required resear
 - [05 — Keyword & Search Intent](../05-Keyword-and-Search-Intent/README.md)
 - [06 — SERP & Search Features](../06-SERP-and-Search-Features/README.md)
 - [07 — On-Page SEO](../07-On-Page-SEO/README.md)
-- Domain 09 — Semantic SEO
+- [Domain 09 — Semantic SEO](../09-Semantic-SEO/README.md)
 - Domain 10 — Technical SEO (planned)
 - Domain 11 — Internal Linking (planned)
 - Domain 12 — Off-Page SEO (planned)
