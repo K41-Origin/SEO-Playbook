@@ -2015,7 +2015,7 @@ The source review exposed several repository-state defects caused by Domain 09 b
 - Replaced stale “Domain 08 planned” ownership labels in Domain 07.8, 07.9, and 07.10 with links to the completed Domain 08 index.
 - Added direct Domain 09 index links to the ownership tables in the Domain 03–06 indexes.
 - Corrected the duplicate/misdirected Related Topics entries in 07.3.
-- Corrected literal escaped newline sequences in Related Topics in 09.4, 09.5, and 09.6.
+- Corrected literal escaped newline sequences in Related Topics in 09.4, 09.5, 09.6, and 09.7.
 - Updated stale future-tense descriptions of already completed topics 09.5–09.7 to present tense.
 - Preserved planned labels for Domains 10, 11, 13, and 14 where those domains have not yet been documented.
 
