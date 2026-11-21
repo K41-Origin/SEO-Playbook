@@ -179,8 +179,9 @@ These are modeling and planning outputs. They do not automatically prescribe a n
 | 09.2 | Documented; source-checked | Entity Fundamentals & Entity Identification defines entity concepts, candidate categories, discovery sources, first-pass identification, and the handoff to identity resolution. |
 | 09.3 | Documented; source-checked | Entity Attributes, Identity & Disambiguation defines entity boundaries, identity evidence, attributes, identifiers, labels/aliases, disambiguation, provenance, and practical record design. |
 | 09.4 | Documented; source-checked | Semantic Relationships & Relationship Modeling defines relationship meaning, predicates, direction, participant constraints, context, provenance, assertion status, and n-ary relationship considerations. |
-| 09.5–09.10 | Planned | Topic scopes and sequence are defined; substantive topic documents remain to be created. |
-| Cross-domain integration | Initial topic integration completed | Topics 09.1–09.4 link to relevant existing upstream and adjacent documentation; Domain 09 ownership boundaries remain aligned with Domains 02–08 and planned Domains 10, 11, 14, and 17. Further reciprocal links will be added as topics are documented. |
+| 09.5 | Documented; source-checked | Ontologies, Taxonomies & Controlled Vocabularies distinguishes formal conceptual schemas, hierarchical classification, controlled terminology, selection criteria, and governance. |
+| 09.6–09.10 | Planned | Topic scopes and sequence are defined; substantive topic documents remain to be created. |
+| Cross-domain integration | Initial topic integration completed | Topics 09.1–09.5 link to relevant existing upstream and adjacent documentation; Domain 09 ownership boundaries remain aligned with Domains 02–08 and planned Domains 10, 11, 14, and 17. Further reciprocal links will be added as topics are documented. |
 | Source audit | Pending | Substantive claims and topic documents will require claim-level source research and verification under AGENTS.md. |
 
 ## Related Domains
