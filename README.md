@@ -105,9 +105,8 @@ Curiosity gets us into the lab. Evidence decides what gets to leave it.
 
 ## Repository Navigation
 
-Start here, then follow the topic links. Each domain index defines its scope and points to the detailed documents that actually exist. Repository-wide AI-facing governance is maintained in the private k41-core project workspace; this public repository contains the SEO knowledge base and its reader-facing supporting records. Repository-wide AI-facing governance is maintained in the private k41-core project workspace; this public repository contains the SEO knowledge base and its reader-facing supporting records.
+Start here, then follow the topic links. Each domain index defines its scope and points to the detailed documents that actually exist. AI-facing governance and authoritative audit evidence are maintained in the private k41-core project workspace; this public repository focuses on published SEO knowledge and reader-facing navigation.
 
-- [SOURCE-AUDIT.md](SOURCE-AUDIT.md) — dated source-level fact audit, verification results, corrections, and evidence limitations for the existing domains.
 - [01 — SEO Fundamentals](01-SEO-Fundamentals/README.md) — domain scope, structure, and topic navigation.
   - [01.1 — SEO Core Concepts](01-SEO-Fundamentals/01.1-SEO-Core-Concepts.md)
   - [01.2 — Search Visibility](01-SEO-Fundamentals/01.2-Search-Visibility.md)
@@ -174,8 +173,18 @@ Only existing documents are linked as destinations. Planned topics remain in the
 
 ## Development Status
 
-| Area | Status | Current coverage |
-|---|---|---|
+| Area | Status |
+|---|---|
+| Repository architecture | 17 knowledge domains defined. |
+| Domains 01–09 | Documented; 9 domain indexes and 92 numbered topic documents are present. |
+| Domains 10–16 | Planned; topic documentation has not yet been developed. |
+| Domain 17 — k41-version | Experimental domain defined; topic documentation has not yet been developed. |
+| Publication language | English-only; one canonical document per published topic. |
+| Governance and audit evidence | Maintained centrally in the private k41-core project workspace. |
+
+Topic-level claims and references live in their canonical topic documents. Audit scope, findings, and limitations are maintained in k41-core rather than duplicated in this public repository.
+
+---|---|---|
 | Repository architecture | Established | 17 knowledge domains defined. |
 | Domain 01 — SEO Fundamentals | Documented; source audit passed; repository audit closed with documented limitations | Domain index and topics 01.1–01.5 are documented; source claims and integration were reviewed on 2026-11-15, with a freshness refresh on 2026-11-18 updating Search Console anomaly guidance (01.2) and Google Search referrer attribution (01.4). |
 | Domain 02 — Search Engine Fundamentals | Documented; source audit passed; repository audit closed with documented limitations | Domain index and topics 02.1–02.12 are documented; factual claims, source support, citations, scope, and cross-domain integration were reviewed on 2026-11-15, with a freshness recheck of Bing Webmaster API retirement wording on 2026-11-18. |
