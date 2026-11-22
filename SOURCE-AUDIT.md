@@ -2108,3 +2108,55 @@ The 70 bibliography entries resolve to 51 unique external source destinations. A
 The 92-page corpus was screened for English-language consistency, direct openings, unnecessary filler, and alignment with the context-adaptive k41 voice defined in AGENTS.md. Technical reference pages are not required to force slang or sarcasm; clarity and precision take priority where humor would obscure the mechanism. This was a repository-wide consistency pass, not a line-by-line rewrite of every existing page.
 
 **Disposition:** English-only publication policy implemented on this branch. Post-consolidation validation passed: 1,115 relative links across 92 topic documents and 355 relative links across the root README, nine domain indexes, and audit/governance documents were checked; zero missing local targets were found. The citation-format example in AGENTS.md was changed to non-link code notation so the placeholder cannot be mistaken for a repository path.
+
+
+## 37. Post-Consolidation Editorial and Structural Validation — 2026-11-22
+
+This section records a focused follow-up review of the 17 changed topic documents after the English-only consolidation. It supplements Section 36; it does not retroactively expand the scope of earlier audits.
+
+### Scope
+
+- Domain 07: 07.2, 07.4, and 07.6–07.10 (7 documents).
+- Domain 08: 08.3–08.10 (8 documents).
+- Domain 09: 09.9–09.10 (2 documents).
+
+### Results
+
+| Check | Result |
+|---|---|
+| Canonical topic documents reviewed | 17 |
+| Residual Indonesian editorial terms found by a targeted language scan | 0 |
+| Numbered reference entries | 82 |
+| Inline numbered citation instances | 220 |
+| Undefined citation IDs | 0 |
+| Unused numbered references | 0 |
+| Internal Markdown links | 234 |
+| Missing internal link targets | 0 |
+| Unique external source URLs inventoried | 56 |
+| Unclosed Markdown code fences | 0 |
+
+The 17 documents were compared against the corresponding `main` versions for section structure, heading hierarchy, table counts, code examples, reference bookkeeping, and representative body content. The main section architecture and table counts were retained. In 09.9, the twelve workflow steps are presented as a numbered list rather than twelve subheadings. In 08.8, some definition subheadings were consolidated into the parent section. These are structural edits, not missing workflow steps.
+
+### Remediation
+
+The comparison found that three technical topics had lost practical code examples during consolidation. The English editions now retain the examples:
+
+- 07.6: one URL-parameter example.
+- 07.7: seven image/alt-text examples.
+- 07.8: six semantic-HTML examples.
+
+The examples use English explanatory text and preserve valid HTML structure. No code fences remain unbalanced.
+
+### Source and claim verification boundary
+
+The 56 URLs are the distinct external destinations currently inventoried across these 17 documents. The earlier 51-URL identity/relevance check recorded in Section 36 remains valid for its original scope. The additional source set associated with 07.2 and 07.4 was checked against current Google Search Central, WHATWG, and W3C material during this follow-up. The checks confirm source identity and topical relevance for the reviewed destinations; they do not constitute a sentence-by-sentence entailment matrix for all 220 citation instances.
+
+The review also checked representative high-risk technical claims against current primary documentation, including Google image guidance, URL guidance, helpful-content guidance, Search Essentials, WHATWG HTML semantics, W3C image alternatives, WCAG-EM 2.0 status, and OWL 2 specification status. No material contradiction was identified in the sampled claims. This is not an exhaustive claim-level fact audit of every sentence in the 17 documents.
+
+### Limitations and disposition
+
+- The bilingual comparison was structural and editorial, with representative passage checks; it was not a certified or exhaustive sentence-by-sentence translation audit.
+- No GitHub Actions workflow run was available for the current PR head. Manual repository checks are not a substitute for CI.
+- The PR remains open and unmerged. GitHub reports it as mergeable, but mergeability is not a content-quality result.
+
+**Disposition: STRUCTURAL AND EDITORIAL REGRESSION PASS; CLAIM-LEVEL AND FULL TRANSLATION-FIDELITY AUDIT NOT CERTIFIED.** The migration branch must remain until PR #1 is merged and the merged `main` tree is verified. Do not delete the branch before that point.
