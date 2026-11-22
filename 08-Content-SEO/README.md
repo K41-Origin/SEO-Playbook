@@ -1,5 +1,10 @@
 # Domain 08 — Content SEO
 
+
+## Language and Canonical Versions
+
+English is the primary and canonical publication language for new and migrated topic documentation. The English edition is linked first in the roadmap below. The original Indonesian file is retained as the migration source/reference and is not deleted or overwritten. English migration files remain subject to editorial, cross-link, and source-verification review before being treated as release-approved.
+
 ## Domain Purpose
 
 Domain 08 documents the editorial discipline behind planning, developing, producing, reviewing, improving, and maintaining website content.
@@ -78,24 +83,24 @@ The domain follows the editorial lifecycle: establish direction, plan work, deve
 
 | Topic | Title | Canonical scope |
 |---|---|---|
-| 08.3 | [Content Planning & Portfolio Management](08.3-Content-Planning-and-Portfolio-Management.md) | Turns approved research, business context, and editorial needs into a managed content plan and portfolio. Covers prioritization, planning horizons, editorial calendars, ownership, dependencies, and portfolio balance—not keyword opportunity scoring or semantic topic-map construction. |
-| 08.4 | [Content Briefs & Editorial Specifications](08.4-Content-Briefs-and-Editorial-Specifications.md) | Translates approved portfolio work into asset-level purpose, audience task, scope, key questions, evidence requirements, constraints, deliverables, and acceptance criteria. Consumes Domain 05 research without repeating keyword-to-page mapping. |
-| 08.5 | [Content Outlining & Information Development](08.5-Content-Outlining-and-Information-Development.md) | Develops user-centred information groups, sequence, explanations, arguments, evidence placement, and substantive outlines. Does not own HTML heading semantics or semantic content architecture. |
+| 08.3 | [Content Planning & Portfolio Management — English](08.3-Content-Planning-and-Portfolio-Management.en.md) · [Indonesian source](08.3-Content-Planning-and-Portfolio-Management.md) | Turns approved research, business context, and editorial needs into a managed content plan and portfolio. Covers prioritization, planning horizons, editorial calendars, ownership, dependencies, and portfolio balance—not keyword opportunity scoring or semantic topic-map construction. |
+| 08.4 | [Content Briefs & Editorial Specifications — English](08.4-Content-Briefs-and-Editorial-Specifications.en.md) · [Indonesian source](08.4-Content-Briefs-and-Editorial-Specifications.md) | Translates approved portfolio work into asset-level purpose, audience task, scope, key questions, evidence requirements, constraints, deliverables, and acceptance criteria. Consumes Domain 05 research without repeating keyword-to-page mapping. |
+| 08.5 | [Content Outlining & Information Development — English](08.5-Content-Outlining-and-Information-Development.en.md) · [Indonesian source](08.5-Content-Outlining-and-Information-Development.md) | Develops user-centred information groups, sequence, explanations, arguments, evidence placement, and substantive outlines. Does not own HTML heading semantics or semantic content architecture. |
 
 ### Group C — Content Creation & Quality
 
 | Topic | Title | Canonical scope |
 |---|---|---|
-| 08.6 | [Content Creation & Production Workflow](08.6-Content-Creation-and-Production-Workflow.md) | Covers drafting and producing content from an approved brief and outline through review-ready assets, including format selection, collaboration, source packs, AI-assisted production controls, versioning, and handoff to 08.7. |
-| 08.7 | [Editorial Review, Accuracy & Quality Assurance](08.7-Editorial-Review-Accuracy-and-Quality-Assurance.md) | Covers fact-checking, source verification, attribution, editorial review, accuracy, consistency, risk review, corrections, approval, and publication readiness. Does not reproduce Domain 03's search-engine quality systems. |
+| 08.6 | [Content Creation & Production Workflow — English](08.6-Content-Creation-and-Production-Workflow.en.md) · [Indonesian source](08.6-Content-Creation-and-Production-Workflow.md) | Covers drafting and producing content from an approved brief and outline through review-ready assets, including format selection, collaboration, source packs, AI-assisted production controls, versioning, and handoff to 08.7. |
+| 08.7 | [Editorial Review, Accuracy & Quality Assurance — English](08.7-Editorial-Review-Accuracy-and-Quality-Assurance.en.md) · [Indonesian source](08.7-Editorial-Review-Accuracy-and-Quality-Assurance.md) | Covers fact-checking, source verification, attribution, editorial review, accuracy, consistency, risk review, corrections, approval, and publication readiness. Does not reproduce Domain 03's search-engine quality systems. |
 
 ### Group D — Content Optimization & Lifecycle
 
 | Topic | Title | Canonical scope |
 |---|---|---|
-| 08.8 | [Content Optimization & Revision](08.8-Content-Optimization-and-Revision.md) | Covers evidence-led substantive improvement of existing content: diagnosing editorial problems, correcting gaps and inaccuracies, improving clarity and explanations, and aligning the asset with its intended reader task. Page-element implementation remains in Domain 07. |
-| 08.9 | [Content Maintenance, Updating & Lifecycle Management](08.9-Content-Maintenance-Updating-and-Lifecycle-Management.md) | Covers ongoing editorial maintenance, update triggers, ownership, risk-based review cadence, material-change records, consolidation or retirement decisions, and lifecycle governance. Search-engine freshness ranking remains in Domain 03. |
-| 08.10 | [Content Inventory & Editorial Auditing](08.10-Content-Inventory-and-Editorial-Auditing.md) | Covers portfolio-level content inventories, editorial audit criteria, coverage and evidence, duplicate/gap analysis, prioritization, and actionable recommendations. Does not own per-asset lifecycle maintenance, HTML audits, technical audits, or performance measurement. |
+| 08.8 | [Content Optimization & Revision — English](08.8-Content-Optimization-and-Revision.en.md) · [Indonesian source](08.8-Content-Optimization-and-Revision.md) | Covers evidence-led substantive improvement of existing content: diagnosing editorial problems, correcting gaps and inaccuracies, improving clarity and explanations, and aligning the asset with its intended reader task. Page-element implementation remains in Domain 07. |
+| 08.9 | [Content Maintenance, Updating & Lifecycle Management — English](08.9-Content-Maintenance-Updating-and-Lifecycle-Management.en.md) · [Indonesian source](08.9-Content-Maintenance-Updating-and-Lifecycle-Management.md) | Covers ongoing editorial maintenance, update triggers, ownership, risk-based review cadence, material-change records, consolidation or retirement decisions, and lifecycle governance. Search-engine freshness ranking remains in Domain 03. |
+| 08.10 | [Content Inventory & Editorial Auditing — English](08.10-Content-Inventory-and-Editorial-Auditing.en.md) · [Indonesian source](08.10-Content-Inventory-and-Editorial-Auditing.md) | Covers portfolio-level content inventories, editorial audit criteria, coverage and evidence, duplicate/gap analysis, prioritization, and actionable recommendations. Does not own per-asset lifecycle maintenance, HTML audits, technical audits, or performance measurement. |
 
 The roadmap defines intended topic ownership. A topic is not documented until its substantive file exists, has been researched, and meets the repository's documentation and citation requirements.
 
