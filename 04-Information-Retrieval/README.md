@@ -64,7 +64,7 @@ The domain is organized into four groups and twelve topics.
 | [04.11](04.11-Relevance-Assessment-and-Evaluation-Frameworks.md) | **Relevance Assessment & Evaluation Frameworks** | Defines relevance criteria and judgments, assessors and agreement, test collections, qrels, pooling, offline/user-centered/online evaluation frameworks, and methodological limitations. |
 | [04.12](04.12-Information-Retrieval-Evaluation-Metrics.md) | **Information Retrieval Evaluation Metrics** | Formal definitions, formulas, interpretation, and limitations of Precision, Recall, F-measure, P@k, R@k, AP/MAP, MRR, DCG/nDCG, bpref, ERR, RBP, and related measures. |
 
-Topic IDs define canonical ownership. Topics 04.1–04.12 are documented. The twelve-topic roadmap is now fully developed; future work should focus on source audits, corrections, and cross-domain maintenance.
+Topic IDs define canonical ownership. Topics 04.1–04.12 are documented. The twelve-topic roadmap is now fully developed; future work should focus on maintaining technical accuracy and cross-domain integration.
 
 ## Information Retrieval: Conceptual Model
 
@@ -152,7 +152,7 @@ These are starting points for research, not a frozen whitelist. Each topic must 
 
 ---
 
-*Domain 04 defines the canonical scope and roadmap for Information Retrieval. All twelve topic pages are documented and source-audited as of 2026-11-17; source freshness was rechecked on 2026-11-18. Continue maintaining technical accuracy and integration as related domains are developed.*
+*Domain 04 defines the canonical scope and roadmap for Information Retrieval. All twelve topic pages are documented. Continue maintaining technical accuracy and integration as related domains are developed.*
 
 
 ## Development Status
@@ -160,18 +160,18 @@ These are starting points for research, not a frozen whitelist. Each topic must 
 | Area | Status | Current coverage |
 |---|---|---|
 | Domain architecture | Established | Scope, ownership boundaries, four topic groups, and the 12-topic roadmap are defined. |
-| Topic 04.1 — Introduction to Information Retrieval | Documented; source-audited (2026-11-17) | Foundational IR problem, terminology, relevance, system-level concepts, and SEO connections are documented with cited academic sources. |
-| Topic 04.2 — Information Representation & Document Modeling | Documented; source-audited (2026-11-17) | Document units, granularity, content, metadata, fields, structure, modeling approaches, and task-dependent trade-offs are documented with cited IR literature and metadata standards. |
-| Topic 04.3 — Text Processing & Term Representation | Documented; source-audited (2026-11-17) | Tokenization, Unicode-aware segmentation and normalization, stop-word handling, stemming, lemmatization, n-grams, positional representation, and query/document analysis are documented with cited IR literature, standards, and technical references. |
-| Topic 04.4 — Information Retrieval Indexing & Data Structures | Documented; source-audited (2026-11-17) | Inverted indexes, dictionaries, postings, positional data, index construction, dynamic and distributed indexing, and compression are documented with cited IR literature. |
-| Topic 04.5 — Boolean Retrieval Model | Documented; source-audited (2026-11-17) | Boolean logic, set operations, postings-list evaluation, query optimization, ranked-retrieval comparison, and implementation caveats are documented with cited IR literature and API documentation. |
-| Topic 04.6 — Vector Space Model & Term Weighting | Documented; source-audited (2026-11-17) | Weighted query and document vectors, TF, DF, IDF, TF-IDF, length normalization, dot product, cosine similarity, ranked retrieval, limitations, and implementation boundaries are documented with cited IR literature and Lucene API documentation. |
-| Topic 04.7 — Probabilistic Information Retrieval Models | Documented; source-audited (2026-11-17) | Probability Ranking Principle, Binary Independence Model, smoothing, BM25 scoring, parameter behavior, implementation differences, and evidence boundaries are documented with cited IR literature and Lucene API documentation. |
-| Topic 04.8 — Relevance Feedback & Query Expansion | Documented; source-audited (2026-11-17) | Explicit, implicit, and pseudo-relevance feedback, Rocchio, probabilistic feedback, local/global expansion, query drift, evaluation safeguards, and SEO boundaries are documented with cited IR literature and the original Rocchio report. |
-| Topic 04.9 — Semantic & Neural Information Retrieval | Documented; source-audited (2026-11-17) | Semantic representations, embeddings, dense and neural sparse retrieval, bi-encoders, ANN search, cross-encoders, ColBERT late interaction, evaluation, and evidence boundaries are documented with cited research papers and technical references. |
-| Topic 04.10 — Hybrid & Advanced Retrieval Methods | Documented; source-audited (2026-11-17) | Hybrid lexical/dense and sparse/dense retrieval, candidate merging, score and rank fusion, RRF, multi-stage retrieval, orchestration, evaluation, and evidence boundaries are documented with cited research and implementation references. |
-| Topic 04.11 — Relevance Assessment & Evaluation Frameworks | Documented; source-audited (2026-11-17) | Relevance criteria, binary and graded judgments, assessors and agreement, test collections, qrels, pooling, evaluation frameworks, experimental design, and limitations are documented with cited IR literature and NIST TREC materials. |
-| Topic 04.12 — Information Retrieval Evaluation Metrics | Documented; source-audited (2026-11-17) | Precision, Recall, F-measure, P@k, R@k, R-precision, AP/MAP, MRR, CG/DCG/nDCG, bpref, ERR, RBP, query aggregation, worked calculations, and metric-selection guidance are documented with cited IR literature and evaluation-tool references. |
-| Source-level audit | Complete; freshness rechecked (2026-11-18) | All 12 topic documents were reviewed for technical claim-source fit, mathematical definitions and formulae, citation integrity, and reference accuracy on 2026-11-17; current-source freshness was rechecked on 2026-11-18. |
+| Topic 04.1 — Introduction to Information Retrieval | Documented | Foundational IR problem, terminology, relevance, system-level concepts, and SEO connections are documented with cited academic sources. |
+| Topic 04.2 — Information Representation & Document Modeling | Documented | Document units, granularity, content, metadata, fields, structure, modeling approaches, and task-dependent trade-offs are documented with cited IR literature and metadata standards. |
+| Topic 04.3 — Text Processing & Term Representation | Documented | Tokenization, Unicode-aware segmentation and normalization, stop-word handling, stemming, lemmatization, n-grams, positional representation, and query/document analysis are documented with cited IR literature, standards, and technical references. |
+| Topic 04.4 — Information Retrieval Indexing & Data Structures | Documented | Inverted indexes, dictionaries, postings, positional data, index construction, dynamic and distributed indexing, and compression are documented with cited IR literature. |
+| Topic 04.5 — Boolean Retrieval Model | Documented | Boolean logic, set operations, postings-list evaluation, query optimization, ranked-retrieval comparison, and implementation caveats are documented with cited IR literature and API documentation. |
+| Topic 04.6 — Vector Space Model & Term Weighting | Documented | Weighted query and document vectors, TF, DF, IDF, TF-IDF, length normalization, dot product, cosine similarity, ranked retrieval, limitations, and implementation boundaries are documented with cited IR literature and Lucene API documentation. |
+| Topic 04.7 — Probabilistic Information Retrieval Models | Documented | Probability Ranking Principle, Binary Independence Model, smoothing, BM25 scoring, parameter behavior, implementation differences, and evidence boundaries are documented with cited IR literature and Lucene API documentation. |
+| Topic 04.8 — Relevance Feedback & Query Expansion | Documented | Explicit, implicit, and pseudo-relevance feedback, Rocchio, probabilistic feedback, local/global expansion, query drift, evaluation safeguards, and SEO boundaries are documented with cited IR literature and the original Rocchio report. |
+| Topic 04.9 — Semantic & Neural Information Retrieval | Documented | Semantic representations, embeddings, dense and neural sparse retrieval, bi-encoders, ANN search, cross-encoders, ColBERT late interaction, evaluation, and evidence boundaries are documented with cited research papers and technical references. |
+| Topic 04.10 — Hybrid & Advanced Retrieval Methods | Documented | Hybrid lexical/dense and sparse/dense retrieval, candidate merging, score and rank fusion, RRF, multi-stage retrieval, orchestration, evaluation, and evidence boundaries are documented with cited research and implementation references. |
+| Topic 04.11 — Relevance Assessment & Evaluation Frameworks | Documented | Relevance criteria, binary and graded judgments, assessors and agreement, test collections, qrels, pooling, evaluation frameworks, experimental design, and limitations are documented with cited IR literature and NIST TREC materials. |
+| Topic 04.12 — Information Retrieval Evaluation Metrics | Documented | Precision, Recall, F-measure, P@k, R@k, R-precision, AP/MAP, MRR, CG/DCG/nDCG, bpref, ERR, RBP, query aggregation, worked calculations, and metric-selection guidance are documented with cited IR literature and evaluation-tool references. |
+
 | Cross-domain integration | Integrated (initial audit) | Reciprocal links connect IR foundations to operational processing, indexing, query handling, and retrieval in Domain 02, and to relevance, neural ranking, ranking architecture, and evaluation in Domain 03. Links to Domains 05, 09, 10, 14, 16, and 17 remain roadmap-level until those domains have substantive documents. |
 
