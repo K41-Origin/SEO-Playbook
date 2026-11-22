@@ -110,7 +110,7 @@ These are editorial ownership rules. They do not imply that real search systems 
 
 ## Research & Documentation Principles
 
-Every topic must follow [AGENTS.md](../AGENTS.md). Domain 04 applies these additional rules:
+Every topic is governed by the central SEO-Playbook instructions maintained in k41-core. Domain 04 applies these additional rules:
 
 1. **Start with foundational literature and original research.** Use established IR textbooks for core concepts, then inspect the original papers, specifications, and benchmark documentation relevant to each method.
 2. **Keep the task explicit.** Identify whether a source concerns document retrieval, passage retrieval, ad hoc search, question answering, recommendation, or another task. Do not treat their evaluation setups as interchangeable.
@@ -120,7 +120,7 @@ Every topic must follow [AGENTS.md](../AGENTS.md). Domain 04 applies these addit
 6. **Treat relevance as a judgment, not an absolute label.** Explain the task, assessor instructions, relevance scale, and limitations where they affect evaluation.
 7. **Keep retrieval and ranking distinct.** Explain a method according to its role—candidate generation, retrieval scoring, re-ranking, or final result ordering. Do not silently move concepts across Domain 03 and Domain 04.
 8. **Avoid duplicate explanations.** Link to operational search architecture in Domain 02, ranking mechanisms in Domain 03, and SEO applications in their canonical domains.
-9. **Cite claims at claim level.** Every substantive topic requires inline citations and a matching References section. A bibliography alone does not satisfy [AGENTS.md](../AGENTS.md).
+9. **Cite claims at claim level.** Every substantive topic requires inline citations and a matching References section. A bibliography alone does not satisfy the central k41-core SEO-Playbook governance.
 
 ## Key Reference Sources
 
@@ -135,7 +135,6 @@ These are starting points for research, not a frozen whitelist. Each topic must 
 ## Content Navigation
 
 - [Repository README](../README.md)
-- [AGENTS.md](../AGENTS.md)
 - [Domain 02 — Search Engine Fundamentals](../02-Search-Engine-Fundamentals/README.md)
 - [Domain 03 — Search Engine Algorithms](../03-Search-Engine-Algorithms/README.md)
 - [04.1 — Introduction to Information Retrieval](04.1-Introduction-to-Information-Retrieval.md) — defines the IR problem, core terminology, relevance, and the scope of the discipline.

@@ -129,7 +129,6 @@ The roadmap defines intended topic ownership. A topic is not documented until it
 - Treat content formats as context-dependent production choices, not ranking shortcuts.
 - Document source provenance, uncertainty, material revisions, and editorial accountability.
 - Keep editorial recommendations separate from technical implementation and performance attribution.
-- Follow the mandatory claim-level citation policy in [AGENTS.md](../AGENTS.md). Every substantive topic document must include inline citations and a References section.
 
 ## Development Status
 
@@ -169,9 +168,8 @@ Only topics whose substantive files exist and have completed the required resear
 
 ## References
 
-This file is a domain navigation, scope, and roadmap document. It records canonical ownership decisions and does not make substantive claims about search-engine behavior. Topic-level factual claims must be researched and cited in the corresponding documents, following the repository's [AGENTS.md](../AGENTS.md) policy.
+This file is a domain navigation, scope, and roadmap document. It records canonical ownership decisions and does not make substantive claims about search-engine behavior. Topic-level factual claims must be researched and cited in the corresponding documents, under the repository-wide governance maintained in k41-core.
 
-- [AGENTS.md](../AGENTS.md) — editorial identity, research and citation requirements, documentation workflow, and repository governance.
 - [README.md](../README.md) — project identity and the established 17-domain architecture.
 - [01.5 — SEO Disciplines](../01-SEO-Fundamentals/01.5-SEO-Disciplines.md) — existing high-level definition and scope of Content SEO.
 - [03.6 — Content Quality, Helpfulness & Originality Systems](../03-Search-Engine-Algorithms/03.6-Content-Quality-Helpfulness-and-Originality-Systems.md) — canonical ownership of search-engine-side content quality systems.

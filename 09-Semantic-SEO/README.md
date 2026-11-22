@@ -122,7 +122,7 @@ This is a logical dependency map, not a rigid requirement that every project use
 
 **PASS WITH SCOPE CLARIFICATIONS.** The ten-topic structure is coherent and can proceed to topic documentation. The review identified boundary risks but no need to add another topic or create a new domain. The scope refinements above are incorporated into the roadmap.
 
-The architecture and repository-boundary audit is separate from claim-level source review. All ten topic documents are now written; source-reference revalidation and its limitations are recorded in [SOURCE-AUDIT.md](../SOURCE-AUDIT.md), Section 34. Ongoing claim-level maintenance remains required under `AGENTS.md`.
+The architecture and repository-boundary audit is separate from claim-level source review. All ten topic documents are now written; source-reference revalidation and its limitations are recorded in [SOURCE-AUDIT.md](../SOURCE-AUDIT.md), Section 34. ongoing claim-level maintenance remains governed by the central k41-core instructions.
 
 ## Domain Workflow
 
@@ -191,7 +191,7 @@ These are modeling and planning outputs. They do not automatically prescribe a n
 | 09.9 | Documented; source-checked | Semantic Information Architecture for Websites translates the validated topical model into user-oriented information groups, page roles, labels, metadata, page boundaries, and architecture specifications. |
 | 09.10 | Documented; source-checked | Semantic Model Validation, Maintenance & Governance defines structural, logical, evidence, scope, and architecture-alignment checks; provenance, ownership, severity, versioning, deprecation, change control, and ongoing maintenance. |
 | Cross-domain integration | Combined 92-document exact-text and all-pairs lexical regression completed 2026-11-21; PASS WITH DOCUMENTED LIMITATIONS | All 10 topics connect to relevant upstream and adjacent documentation. The combined scan compared all 4,186 pairs, including 3,740 cross-domain pairs; it found zero repeated substantive paragraphs or sentences at the stated thresholds. Maximum five-token shingle Jaccard was 0.015612. The top 20 candidates were manually reviewed. This is not proof of zero semantic paraphrase or universal factual consistency. See [repository integration audit, Section 38](../REPOSITORY-INTEGRATION-AUDIT-2026-11-19.md). |
-| Source audit | Revalidated 2026-11-21; PASS WITH DOCUMENTED LIMITATIONS | Ten topic documents contain 38 numbered reference entries across 25 unique source destinations, which were reopened and inspected. Citation bookkeeping passed and no mismatch was confirmed in the core claims reviewed. This is not a sentence-by-sentence independent proof of every factual statement; volatile standards and source freshness still require maintenance under AGENTS.md. See [SOURCE-AUDIT.md, Section 34](../SOURCE-AUDIT.md). |
+| Source audit | Revalidated 2026-11-21; PASS WITH DOCUMENTED LIMITATIONS | Ten topic documents contain 38 numbered reference entries across 25 unique source destinations, which were reopened and inspected. Citation bookkeeping passed and no mismatch was confirmed in the core claims reviewed. This is not a sentence-by-sentence independent proof of every factual statement; volatile standards and source freshness still require maintenance under the central k41-core governance. See [SOURCE-AUDIT.md, Section 34](../SOURCE-AUDIT.md). |
 
 ## Related Domains
 
