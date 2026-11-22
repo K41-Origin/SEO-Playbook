@@ -96,17 +96,17 @@ The domain is organized into three groups. The sequence moves from collecting qu
 | Area | Status | Coverage |
 |---|---|---|
 | Domain architecture | Established | Scope, ownership boundaries, three topic groups, and nine-topic roadmap are defined. |
-| 05.1 — Introduction to Keyword Research | Documented and source-checked | Foundational concepts, workflow, evidence boundaries, and research deliverable standards are documented. |
-| 05.2 — Seed Keyword & Audience-Language Discovery | Documented and source-checked | Seed discovery workflow, audience-language sources, evidence quality controls, and scope boundaries are documented. |
-| 05.3 — Keyword Expansion & Query Variations | Documented and source-checked | Expansion dimensions, discovery-source limitations, provenance, normalization, deduplication, and research handoff are documented. |
-| 05.4 — Keyword Data Sources & Metrics | Documented and source-checked | Source purposes, metric definitions, data limitations, comparability controls, and research workflow are documented. |
-| 05.5 — Search Intent Concepts & Taxonomies | Documented and source-checked | Core web-search taxonomies, SEO commercial-investigation refinement, mixed and ambiguous intent, inference limits, and preliminary classification workflow are documented. |
-| 05.6 — SERP-Based Intent Analysis & Validation | Documented and source-checked | SERP observation protocol, result/page-type classification, context controls, intent validation outcomes, and research handoff are documented. |
-| 05.7 — Keyword Clustering & Query Grouping | Documented and source-checked | Evidence-based query grouping, SERP-overlap limitations, hybrid clustering workflow, cluster boundaries, over/under-clustering, and research handoff are documented. |
-| 05.8 — Keyword Opportunity & Prioritization | Documented and source-checked | Opportunity dimensions, feasibility and effort assessment, optional multi-criteria scoring, sensitivity checks, prioritization workflows, and research handoff are documented. |
-| 05.9 — Keyword-to-Page Mapping & Research Deliverables | Documented and source-checked | Page inventory, cluster-to-page relationship models, candidate fit assessment, mapping decisions, query-overlap diagnostics, conflict resolution, and research handoff deliverables are documented. |
-| Cross-domain integration | Integration-reviewed (2026-11-19) | All nine topic scopes and their handoffs were checked against Domains 01–04 and planned ownership boundaries in Domains 06–17. Existing cross-domain links are in place where they add real value; future domains must reuse these canonical explanations rather than reproduce them. Findings and limits are recorded in `SOURCE-AUDIT.md`. |
-| Source audit | Complete for 05.1–05.9 (individual checks dated 2026-11-18 to 2026-11-19) | All nine substantive topic documents have claim-level citations, source verification, and individual source/integration audit records in `SOURCE-AUDIT.md`. Recheck volatile sources when they change. |
+| 05.1 — Introduction to Keyword Research | Documented | Foundational concepts, workflow, evidence boundaries, and research deliverable standards are documented. |
+| 05.2 — Seed Keyword & Audience-Language Discovery | Documented | Seed discovery workflow, audience-language sources, evidence quality controls, and scope boundaries are documented. |
+| 05.3 — Keyword Expansion & Query Variations | Documented | Expansion dimensions, discovery-source limitations, provenance, normalization, deduplication, and research handoff are documented. |
+| 05.4 — Keyword Data Sources & Metrics | Documented | Source purposes, metric definitions, data limitations, comparability controls, and research workflow are documented. |
+| 05.5 — Search Intent Concepts & Taxonomies | Documented | Core web-search taxonomies, SEO commercial-investigation refinement, mixed and ambiguous intent, inference limits, and preliminary classification workflow are documented. |
+| 05.6 — SERP-Based Intent Analysis & Validation | Documented | SERP observation protocol, result/page-type classification, context controls, intent validation outcomes, and research handoff are documented. |
+| 05.7 — Keyword Clustering & Query Grouping | Documented | Evidence-based query grouping, SERP-overlap limitations, hybrid clustering workflow, cluster boundaries, over/under-clustering, and research handoff are documented. |
+| 05.8 — Keyword Opportunity & Prioritization | Documented | Opportunity dimensions, feasibility and effort assessment, optional multi-criteria scoring, sensitivity checks, prioritization workflows, and research handoff are documented. |
+| 05.9 — Keyword-to-Page Mapping & Research Deliverables | Documented | Page inventory, cluster-to-page relationship models, candidate fit assessment, mapping decisions, query-overlap diagnostics, conflict resolution, and research handoff deliverables are documented. |
+
+
 
 ## Related Domains
 
