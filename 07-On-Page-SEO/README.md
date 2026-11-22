@@ -123,11 +123,11 @@ The intended relationship is a connected knowledge workflow, not a rigid linear 
 | [07.3 — Title Tags & Page Title Optimization](07.3-Title-Tags-and-Page-Title-Optimization.md) | Documented |
 | [07.4 — Meta Descriptions & Snippet Optimization](07.4-Meta-Descriptions-and-Snippet-Optimization.md) | Documented |
 | [07.5 — Heading Structure & Hierarchy Optimization](07.5-Heading-Structure-and-Hierarchy-Optimization.md) | Documented |
-| [07.6 — URL Structure & Page-Level URL Optimization](07.6-URL-Structure-and-Page-Level-URL-Optimization.md) | Documented |
-| [07.7 — Image SEO & Image Element Optimization](07.7-Image-SEO-and-Image-Element-Optimization.md) | Documented |
-| [07.8 — HTML Semantics & Page Element Optimization](07.8-HTML-Semantics-and-Page-Element-Optimization.md) | Documented |
-| [07.9 — On-Page Optimization Workflow & Implementation](07.9-On-Page-Optimization-Workflow-and-Implementation.md) | Documented |
-| [07.10 — On-Page SEO Auditing & Quality Assessment](07.10-On-Page-SEO-Auditing-and-Quality-Assessment.md) | Documented |
+| [07.6 — URL Structure & Page-Level URL Optimization — English](07.6-URL-Structure-and-Page-Level-URL-Optimization.en.md) · [Indonesian source](07.6-URL-Structure-and-Page-Level-URL-Optimization.md) | English migration draft; QA pending |
+| [07.7 — Image SEO & Image Element Optimization — English](07.7-Image-SEO-and-Image-Element-Optimization.en.md) · [Indonesian source](07.7-Image-SEO-and-Image-Element-Optimization.md) | English migration draft; QA pending |
+| [07.8 — HTML Semantics & Page Element Optimization — English](07.8-HTML-Semantics-and-Page-Element-Optimization.en.md) · [Indonesian source](07.8-HTML-Semantics-and-Page-Element-Optimization.md) | English migration draft; QA pending |
+| [07.9 — On-Page Optimization Workflow & Implementation — English](07.9-On-Page-Optimization-Workflow-and-Implementation.en.md) · [Indonesian source](07.9-On-Page-Optimization-Workflow-and-Implementation.md) | English migration draft; QA pending |
+| [07.10 — On-Page SEO Auditing & Quality Assessment — English](07.10-On-Page-SEO-Auditing-and-Quality-Assessment.en.md) · [Indonesian source](07.10-On-Page-SEO-Auditing-and-Quality-Assessment.md) | English migration draft; QA pending |
 
 The roadmap defines the intended scope and ownership of each topic. Only topics explicitly marked documented have completed topic-level documentation.
 
