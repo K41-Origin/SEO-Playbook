@@ -143,4 +143,4 @@ The roadmap defines the intended scope and ownership of each topic. Only topics 
 
 ## References
 
-This file is a domain navigation and scope document. It establishes the approved roadmap and canonical ownership boundaries; it does not make substantive claims about search-engine behavior. Topic-level factual claims must be researched and cited in the corresponding topic documents, following the repository's [AGENTS.md](../AGENTS.md) policy.
+This file is a domain navigation and scope document. It establishes the approved roadmap and canonical ownership boundaries; it does not make substantive claims about search-engine behavior. Topic-level factual claims must be researched and cited in the corresponding topic documents, under the repository-wide governance maintained in k41-core.
