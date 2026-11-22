@@ -2101,7 +2101,7 @@ The project owner confirmed English as the sole publication language. This secti
 | Domain 07–09 index language/migration notes | Updated |
 | Residual Indonesian editorial fragments detected in 07.2 and 07.4 | Corrected |
 
-The 70 bibliography entries resolve to 51 unique external source destinations. This audit confirms citation numbering and document structure; it does not claim a fresh, exhaustive claim-by-claim revalidation of every external source in all 15 documents. Existing source-level audits retain their original scope and dates. Any claim whose supporting source cannot be directly verified must remain qualified or be corrected before publication.
+The 70 bibliography entries resolve to 51 unique external source destinations. All 51 destination pages were opened; each resolved to the cited source or specification and matched the reference topic. This confirms source identity and availability, not exhaustive claim-by-claim support for every citation in all 15 documents. Existing source-level audits retain their original scope and dates. Any claim whose supporting source cannot be directly verified must remain qualified or be corrected before publication.
 
 ### Editorial voice
 
