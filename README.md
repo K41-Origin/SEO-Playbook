@@ -105,9 +105,8 @@ Curiosity gets us into the lab. Evidence decides what gets to leave it.
 
 ## Repository Navigation
 
-Start here, then follow the topic links. Each domain index defines its scope and points to the detailed documents that actually exist.
+Start here, then follow the topic links. Each domain index defines its scope and points to the detailed documents that actually exist. Repository-wide AI-facing governance is maintained in the private k41-core project workspace; this public repository contains the SEO knowledge base and its reader-facing supporting records.
 
-- [AGENTS.md](AGENTS.md) — editorial identity, research and citation rules, documentation workflow, and repository governance.
 - [SOURCE-AUDIT.md](SOURCE-AUDIT.md) — dated source-level fact audit, verification results, corrections, and evidence limitations for the existing domains.
 - [01 — SEO Fundamentals](01-SEO-Fundamentals/README.md) — domain scope, structure, and topic navigation.
   - [01.1 — SEO Core Concepts](01-SEO-Fundamentals/01.1-SEO-Core-Concepts.md)
