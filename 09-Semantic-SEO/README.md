@@ -122,7 +122,7 @@ This is a logical dependency map, not a rigid requirement that every project use
 
 **PASS WITH SCOPE CLARIFICATIONS.** The ten-topic structure is coherent and can proceed to topic documentation. The review identified boundary risks but no need to add another topic or create a new domain. The scope refinements above are incorporated into the roadmap.
 
-The architecture and repository-boundary audit is separate from claim-level source review. All ten topic documents are now written; source-reference revalidation and its limitations are recorded in [SOURCE-AUDIT.md](../SOURCE-AUDIT.md), Section 34. ongoing claim-level maintenance remains governed by the central k41-core instructions.
+All ten topic documents are now written. Topic-level sources are cited in the corresponding documents; audit evidence and maintenance governance are maintained centrally in k41-core.
 
 ## Domain Workflow
 
@@ -180,18 +180,18 @@ These are modeling and planning outputs. They do not automatically prescribe a n
 | Area | Status | Coverage |
 |---|---|---|
 | Domain architecture | Established | Purpose, ownership boundaries, four topic groups, ten-topic roadmap, workflow, inputs/outputs, and cross-domain dependencies are defined. |
-| 09.1 | Documented; source-checked | Introduction to Semantic SEO defines the domain's working scope, terminology, workflow, evidence boundaries, and cross-domain handoffs. |
-| 09.2 | Documented; source-checked | Entity Fundamentals & Entity Identification defines entity concepts, candidate categories, discovery sources, first-pass identification, and the handoff to identity resolution. |
-| 09.3 | Documented; source-checked | Entity Attributes, Identity & Disambiguation defines entity boundaries, identity evidence, attributes, identifiers, labels/aliases, disambiguation, provenance, and practical record design. |
-| 09.4 | Documented; source-checked | Semantic Relationships & Relationship Modeling defines relationship meaning, predicates, direction, participant constraints, context, provenance, assertion status, and n-ary relationship considerations. |
-| 09.5 | Documented; source-checked | Ontologies, Taxonomies & Controlled Vocabularies distinguishes formal conceptual schemas, hierarchical classification, controlled terminology, selection criteria, and governance. |
-| 09.6 | Documented; source-checked | Knowledge Graphs & Knowledge Representation explains graph-based modeling, RDF graph structures, identifiers, datasets, provenance, querying, validation, and representation trade-offs. |
-| 09.7 | Documented; source-checked | Topical Modeling & Knowledge Domains defines subject boundaries, concepts, subdomains, dependencies, grouping logic, granularity, and a reusable domain-model specification. |
-| 09.8 | Documented; source-checked | Topical Coverage & Semantic Completeness evaluates concepts, attributes, relationships, information requirements, omissions, redundancy, relevance, and uncertainty against declared scope. |
-| 09.9 | Documented; source-checked | Semantic Information Architecture for Websites translates the validated topical model into user-oriented information groups, page roles, labels, metadata, page boundaries, and architecture specifications. |
-| 09.10 | Documented; source-checked | Semantic Model Validation, Maintenance & Governance defines structural, logical, evidence, scope, and architecture-alignment checks; provenance, ownership, severity, versioning, deprecation, change control, and ongoing maintenance. |
-| Cross-domain integration | Combined 92-document exact-text and all-pairs lexical regression completed 2026-11-21; PASS WITH DOCUMENTED LIMITATIONS | All 10 topics connect to relevant upstream and adjacent documentation. The combined scan compared all 4,186 pairs, including 3,740 cross-domain pairs; it found zero repeated substantive paragraphs or sentences at the stated thresholds. Maximum five-token shingle Jaccard was 0.015612. The top 20 candidates were manually reviewed. This is not proof of zero semantic paraphrase or universal factual consistency. See [repository integration audit, Section 38](../REPOSITORY-INTEGRATION-AUDIT-2026-11-19.md). |
-| Source audit | Revalidated 2026-11-21; PASS WITH DOCUMENTED LIMITATIONS | Ten topic documents contain 38 numbered reference entries across 25 unique source destinations, which were reopened and inspected. Citation bookkeeping passed and no mismatch was confirmed in the core claims reviewed. This is not a sentence-by-sentence independent proof of every factual statement; volatile standards and source freshness still require maintenance under the central k41-core governance. See [SOURCE-AUDIT.md, Section 34](../SOURCE-AUDIT.md). |
+| 09.1 | Documented | Introduction to Semantic SEO defines the domain's working scope, terminology, workflow, evidence boundaries, and cross-domain handoffs. |
+| 09.2 | Documented | Entity Fundamentals & Entity Identification defines entity concepts, candidate categories, discovery sources, first-pass identification, and the handoff to identity resolution. |
+| 09.3 | Documented | Entity Attributes, Identity & Disambiguation defines entity boundaries, identity evidence, attributes, identifiers, labels/aliases, disambiguation, provenance, and practical record design. |
+| 09.4 | Documented | Semantic Relationships & Relationship Modeling defines relationship meaning, predicates, direction, participant constraints, context, provenance, assertion status, and n-ary relationship considerations. |
+| 09.5 | Documented | Ontologies, Taxonomies & Controlled Vocabularies distinguishes formal conceptual schemas, hierarchical classification, controlled terminology, selection criteria, and governance. |
+| 09.6 | Documented | Knowledge Graphs & Knowledge Representation explains graph-based modeling, RDF graph structures, identifiers, datasets, provenance, querying, validation, and representation trade-offs. |
+| 09.7 | Documented | Topical Modeling & Knowledge Domains defines subject boundaries, concepts, subdomains, dependencies, grouping logic, granularity, and a reusable domain-model specification. |
+| 09.8 | Documented | Topical Coverage & Semantic Completeness evaluates concepts, attributes, relationships, information requirements, omissions, redundancy, relevance, and uncertainty against declared scope. |
+| 09.9 | Documented | Semantic Information Architecture for Websites translates the validated topical model into user-oriented information groups, page roles, labels, metadata, page boundaries, and architecture specifications. |
+| 09.10 | Documented | Semantic Model Validation, Maintenance & Governance defines structural, logical, evidence, scope, and architecture-alignment checks; provenance, ownership, severity, versioning, deprecation, change control, and ongoing maintenance. |
+
+
 
 ## Related Domains
 
