@@ -132,7 +132,7 @@ The roadmap defines intended topic ownership. A topic is not documented until it
 
 ## Development Status
 
-**Domain architecture and topics 08.1–08.10 documented. Source and integration audit passed on 2026-11-19, with documented limitations.** See the [source audit record](../SOURCE-AUDIT.md#domain-08--content-seo-source--integration-audit).
+**Domain architecture and topics 08.1–08.10 documented.** Topic-level sources are cited in the corresponding documents; audit evidence is maintained centrally in k41-core.
 
 The domain structure was established after reviewing the existing repository architecture and the documented ownership boundaries in Domains 01–07. This is an architectural scope decision, not a claim that every possible body-level overlap across all repository documents has been exhaustively compared.
 
@@ -140,7 +140,7 @@ The domain structure was established after reviewing the existing repository arc
 |---|---|
 | 08.1 — Introduction to Content SEO | Documented |
 | 08.2 — Content Strategy & Governance | Documented |
-| [08.3 — Content Planning & Portfolio Management](08.3-Content-Planning-and-Portfolio-Management.md) | Documented; English edition consolidated; structural checks completed; translation-fidelity review pending |
+| [08.3 — Content Planning & Portfolio Management](08.3-Content-Planning-and-Portfolio-Management.md) | Documented; English edition consolidated |
 | [08.4 — Content Briefs & Editorial Specifications](08.4-Content-Briefs-and-Editorial-Specifications.md) | Documented; English edition consolidated; structural checks completed; translation-fidelity review pending |
 | [08.5 — Content Outlining & Information Development](08.5-Content-Outlining-and-Information-Development.md) | Documented; English edition consolidated; structural checks completed; translation-fidelity review pending |
 | [08.6 — Content Creation & Production Workflow](08.6-Content-Creation-and-Production-Workflow.md) | Documented; English edition consolidated; structural checks completed; translation-fidelity review pending |
