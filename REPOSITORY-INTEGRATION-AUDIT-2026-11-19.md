@@ -1311,3 +1311,36 @@ A separate editorial-consistency issue remains open: the repository is not langu
 
 **Final disposition:** all 4,186 pairs across Domains 01–09 have now been included in the combined exact-text and lexical comparison. The prior Section 37 statement that the 865 pairs involving Domain 09 were not yet screened is superseded. Do not overstate this result as an absolute guarantee of zero semantic overlap or universal factual consistency.
 
+
+
+## 39. English-Only Documentation Consolidation — 2026-11-22
+
+The project owner has explicitly selected English as the sole publication language. This supersedes the historical language recommendation and open issue recorded in Section 38.7.
+
+### Consolidation
+
+- The 15 formerly Indonesian-primary topics (07.6–07.10, 08.3–08.10, 09.9–09.10) were reviewed as English editions and consolidated into their canonical topic paths.
+- The parallel .en.md files were removed after their contents became the canonical .md documents.
+- The 15 legacy Indonesian source copies are no longer published.
+- Domain indexes and migrated cross-links were updated to use the canonical paths.
+- Residual Indonesian Related Topics wording in 07.2 and 07.4 was translated.
+- AGENTS.md now makes English-only publication explicit and requires concise, no-filler writing.
+
+### Current language inventory
+
+| Check | Result |
+|---|---:|
+| Substantive topic documents | 92 |
+| English canonical topic documents | 92 |
+| Non-English parallel topic documents | 0 |
+| Redundant .en.md migration copies | 0 |
+
+### Editorial interpretation
+
+The k41 voice remains context-adaptive. A technical page can be direct, skeptical, and distinctive without inserting slang into definitions, formulas, standards, or implementation steps. Sarcasm is used to expose unsupported claims or bad reasoning—not as mandatory decoration. Concision is mandatory: remove filler, repeated explanations, padded transitions, and empty conclusions.
+
+### Verification boundary
+
+The 15 consolidated documents passed heading/structure review, numbered citation-to-reference bookkeeping, and pre-consolidation local-link validation. Their internal .en.md links were normalized to canonical .md paths. The final consolidated repository link scan is still required after the tree update. The language inventory and path consolidation do not constitute a fresh exhaustive claim-level fact audit of all 92 documents.
+
+**Disposition:** The language-uniformity issue recorded in Section 38.7 is resolved. The historical Section 38 results remain preserved as a dated snapshot.

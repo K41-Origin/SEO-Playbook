@@ -2073,3 +2073,38 @@ This is an exact-text and lexical regression, not a semantic-embedding compariso
 
 The earlier audit statements that the 865 pairs involving Domain 09 remained unscanned are historical snapshots and are superseded by the completed Section 38 regression. They remain in their original dated sections for traceability.
 
+
+
+## 36. English-Only Migration and Editorial Consistency Audit — 2026-11-22
+
+The project owner confirmed English as the sole publication language. This section records the repository changes made to implement that decision.
+
+### Scope and changes
+
+- Consolidated the 15 migrated topics in Domains 07–09 into their canonical topic paths.
+- Replaced the 15 former non-English source copies with the reviewed English editions; removed the redundant .en.md duplicate paths.
+- Updated the Domain 07, 08, and 09 indexes to expose one English canonical page per topic and removed migration-only source links and pending-QA labels.
+- Updated internal cross-links in the 15 consolidated pages to target canonical .md paths.
+- Corrected Indonesian-language Related Topics fragments in 07.2 and 07.4.
+- Added an explicit English-only publication policy and a concise, no-filler editorial rule to AGENTS.md.
+
+### Structural and editorial verification
+
+| Check | Result |
+|---|---|
+| Canonical topic pages after consolidation | 92 across Domains 01–09 |
+| Parallel .en.md migration copies | 0 |
+| Legacy Indonesian source copies among the 15 migrated topics | 0 |
+| Numbered citations mapped to References entries in the 15 migrated editions | Pass; 70 reference entries across 15 documents |
+| Local Markdown targets in the 15 migrated editions before consolidation | Pass; 0 missing targets |
+| Internal references to .en.md paths in the consolidated editions | Rewritten to canonical .md paths |
+| Domain 07–09 index language/migration notes | Updated |
+| Residual Indonesian editorial fragments detected in 07.2 and 07.4 | Corrected |
+
+The 70 bibliography entries resolve to 51 unique external source destinations. This audit confirms citation numbering and document structure; it does not claim a fresh, exhaustive claim-by-claim revalidation of every external source in all 15 documents. Existing source-level audits retain their original scope and dates. Any claim whose supporting source cannot be directly verified must remain qualified or be corrected before publication.
+
+### Editorial voice
+
+The 92-page corpus was screened for English-language consistency, direct openings, unnecessary filler, and alignment with the context-adaptive k41 voice defined in AGENTS.md. Technical reference pages are not required to force slang or sarcasm; clarity and precision take priority where humor would obscure the mechanism. This was a repository-wide consistency pass, not a line-by-line rewrite of every existing page.
+
+**Disposition:** English-only publication policy implemented on this branch. Final repository-wide link validation must be rerun against the consolidated tree before merge.

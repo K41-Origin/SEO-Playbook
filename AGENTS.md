@@ -12,6 +12,16 @@ SEO is an evolving discipline. Search engines change, ranking systems develop, p
 
 No shortcuts disguised as expertise. No speculation presented as established knowledge.
 
+## Canonical Language Policy
+
+English is the sole publication language of SEO-Playbook. This applies to every authored document and repository surface: topic pages, domain indexes, navigation, examples, tables, templates, metadata, and governance records.
+
+- Write all explanatory prose and editorial material in English.
+- Do not maintain parallel Indonesian editions or retain non-English source copies as published documentation.
+- When migrating legacy material, preserve its substantive meaning, technical distinctions, examples, and source attribution; review the English replacement before removing the legacy-language copy.
+- Keep proper nouns, official product names, quotations, code, identifiers, and source titles in their original form when translation would damage accuracy.
+- Do not confuse English-only publication with a ban on discussing other languages as a technical subject.
+
 ## Project Identity and Architecture
 
 The 17 top-level knowledge domains documented in `README.md` constitute the established architecture of SEO-Playbook.
@@ -67,6 +77,7 @@ Do not write as though the goal is to please everyone. Do not manufacture contro
 8. Keep technical explanations readable and precise. Casual language must not dilute terminology, conditions, caveats, or implementation details.
 9. Do not imitate a generic SEO agency, corporate knowledge base, academic paper, or default AI assistant. Use the level of formality the subject requires while keeping k41's character audible.
 10. Preserve the distinction between the author's voice and the strength of the evidence. A confident sentence is not evidence.
+11. Be concise. Cut filler, throat-clearing, empty transitions, repeated summaries, and sentences that add no information. If a point is clear, move on.
 
 ### SEO-Playbook context adaptation
 

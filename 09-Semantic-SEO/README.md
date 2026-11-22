@@ -3,7 +3,7 @@
 
 ## Language and Canonical Versions
 
-English is the primary and canonical publication language for new and migrated topic documentation. The English edition is linked first in the roadmap below. The original Indonesian file is retained as the migration source/reference and is not deleted or overwritten. English migration files remain subject to editorial, cross-link, and source-verification review before being treated as release-approved.
+English is the sole publication language for SEO-Playbook. Each topic has one canonical English document; parallel language editions are not maintained.
 
 ## Domain Purpose
 
@@ -90,8 +90,8 @@ The roadmap is organized into four groups. The sequence moves from modeling enti
 
 | Topic | Title | Canonical scope |
 |---|---|---|
-| 09.9 | [Semantic Information Architecture for Websites — English](09.9-Semantic-Information-Architecture-for-Websites.en.md) · [Indonesian source](09.9-Semantic-Information-Architecture-for-Websites.md) | Translates a validated topical/knowledge model into website-level information organization, conceptual groupings, page roles, and content-architecture specifications. It defines the intended information structure, not editorial production (08), keyword-to-page research mapping (05), page-level HTML implementation (07), technical delivery (10), or internal-link strategy (11). |
-| 09.10 | [Semantic Model Validation, Maintenance & Governance — English](09.10-Semantic-Model-Validation-Maintenance-and-Governance.en.md) · [Indonesian source](09.10-Semantic-Model-Validation-Maintenance-and-Governance.md) | Defines validation criteria for entity identity, relationship integrity, schema consistency, provenance, scope, and alignment between the knowledge model and its website architecture; covers versioning, change control, ownership, and maintenance of those semantic models. It does not own organization-wide content governance (08.2), editorial/content audits (08.10), technical implementation audits (10), internal-link audits (11), or organic performance measurement (14). |
+| 09.9 | [Semantic Information Architecture for Websites — English](09.9-Semantic-Information-Architecture-for-Websites.md) | Translates a validated topical/knowledge model into website-level information organization, conceptual groupings, page roles, and content-architecture specifications. It defines the intended information structure, not editorial production (08), keyword-to-page research mapping (05), page-level HTML implementation (07), technical delivery (10), or internal-link strategy (11). |
+| 09.10 | [Semantic Model Validation, Maintenance & Governance — English](09.10-Semantic-Model-Validation-Maintenance-and-Governance.md) | Defines validation criteria for entity identity, relationship integrity, schema consistency, provenance, scope, and alignment between the knowledge model and its website architecture; covers versioning, change control, ownership, and maintenance of those semantic models. It does not own organization-wide content governance (08.2), editorial/content audits (08.10), technical implementation audits (10), internal-link audits (11), or organic performance measurement (14). |
 
 
 ## Architecture Audit — 2026-11-19
