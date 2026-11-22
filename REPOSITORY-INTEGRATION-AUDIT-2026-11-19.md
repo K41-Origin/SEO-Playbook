@@ -1341,6 +1341,6 @@ The k41 voice remains context-adaptive. A technical page can be direct, skeptica
 
 ### Verification boundary
 
-The 15 consolidated documents passed heading/structure review, numbered citation-to-reference bookkeeping, and pre-consolidation local-link validation. Their internal .en.md links were normalized to canonical .md paths. The final consolidated repository link scan is still required after the tree update. The language inventory and path consolidation do not constitute a fresh exhaustive claim-level fact audit of all 92 documents.
+The 15 consolidated documents passed heading/structure review, numbered citation-to-reference bookkeeping, and pre-consolidation local-link validation. Their internal .en.md links were normalized to canonical .md paths. The final consolidated repository link scan passed after the tree update: 1,115 relative links across 92 topic documents and 356 relative links across the root README, nine domain indexes, and audit/governance documents were checked; zero missing local targets were found. The language inventory and path consolidation do not constitute a fresh exhaustive claim-level fact audit of all 92 documents.
 
 **Disposition:** The language-uniformity issue recorded in Section 38.7 is resolved. The historical Section 38 results remain preserved as a dated snapshot.

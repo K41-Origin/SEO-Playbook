@@ -229,7 +229,7 @@ Every substantive knowledge document must end with a `## References` section con
 
 Use a consistent entry format where information is available:
 
-`- Organization/Author. (`[Publication or page title](URL)`). Publication or last-updated date (if available). Accessed YYYY-MM-DD (when freshness matters).`
+`- Organization/Author. ([Publication or page title] (URL)). Publication or last-updated date (if available). Accessed YYYY-MM-DD (when freshness matters).`
 
 For research papers, include the paper title, authors, venue or publisher, year, and DOI or canonical paper URL when available. For standards and technical specifications, identify the issuing organization and exact specification/page. For datasets and experiments, identify the dataset or test, owner, version/date, and methodology or source location.
 

@@ -2107,4 +2107,4 @@ The 70 bibliography entries resolve to 51 unique external source destinations. T
 
 The 92-page corpus was screened for English-language consistency, direct openings, unnecessary filler, and alignment with the context-adaptive k41 voice defined in AGENTS.md. Technical reference pages are not required to force slang or sarcasm; clarity and precision take priority where humor would obscure the mechanism. This was a repository-wide consistency pass, not a line-by-line rewrite of every existing page.
 
-**Disposition:** English-only publication policy implemented on this branch. Final repository-wide link validation must be rerun against the consolidated tree before merge.
+**Disposition:** English-only publication policy implemented on this branch. Post-consolidation validation passed: 1,115 relative links across 92 topic documents and 356 relative links across the root README, nine domain indexes, and audit/governance documents were checked; zero missing local targets were found. The citation-format example in AGENTS.md was changed to non-link code notation so the placeholder cannot be mistaken for a repository path.
