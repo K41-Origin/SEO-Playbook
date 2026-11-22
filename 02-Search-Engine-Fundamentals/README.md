@@ -85,7 +85,7 @@ These boundaries are editorial ownership rules. They do not imply that real sear
 
 ## Research & Documentation Principles
 
-Every topic in this domain must follow the repository-wide rules in [AGENTS.md](../AGENTS.md), with these domain-specific requirements:
+Every topic in this domain must follow the repository-wide governance maintained in k41-core, with these domain-specific requirements:
 
 1. **Start with general principles.** Explain the system-level concept before using a vendor's implementation as an example.
 2. **Prioritize Google, attribute precisely.** Use Google's official documentation as the primary reference for Google Search behavior. Say "Google documents" when describing Google's published explanation; do not imply that it reveals undisclosed internals.
