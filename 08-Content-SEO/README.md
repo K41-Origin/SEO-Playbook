@@ -1,5 +1,10 @@
 # Domain 08 — Content SEO
 
+
+## Language and Canonical Versions
+
+English is the sole publication language for SEO-Playbook. Each topic has one canonical English document; parallel language editions are not maintained.
+
 ## Domain Purpose
 
 Domain 08 documents the editorial discipline behind planning, developing, producing, reviewing, improving, and maintaining website content.
@@ -136,14 +141,14 @@ The domain structure was established after reviewing the existing repository arc
 |---|---|
 | 08.1 — Introduction to Content SEO | Documented |
 | 08.2 — Content Strategy & Governance | Documented |
-| 08.3 — Content Planning & Portfolio Management | Documented |
-| 08.4 — Content Briefs & Editorial Specifications | Documented |
-| 08.5 — Content Outlining & Information Development | Documented |
-| 08.6 — Content Creation & Production Workflow | Documented |
-| 08.7 — Editorial Review, Accuracy & Quality Assurance | Documented |
-| 08.8 — Content Optimization & Revision | Documented |
-| 08.9 — Content Maintenance, Updating & Lifecycle Management | Documented |
-| 08.10 — Content Inventory & Editorial Auditing | Documented |
+| [08.3 — Content Planning & Portfolio Management](08.3-Content-Planning-and-Portfolio-Management.md) | Documented; English edition consolidated; structural checks completed; translation-fidelity review pending |
+| [08.4 — Content Briefs & Editorial Specifications](08.4-Content-Briefs-and-Editorial-Specifications.md) | Documented; English edition consolidated; structural checks completed; translation-fidelity review pending |
+| [08.5 — Content Outlining & Information Development](08.5-Content-Outlining-and-Information-Development.md) | Documented; English edition consolidated; structural checks completed; translation-fidelity review pending |
+| [08.6 — Content Creation & Production Workflow](08.6-Content-Creation-and-Production-Workflow.md) | Documented; English edition consolidated; structural checks completed; translation-fidelity review pending |
+| [08.7 — Editorial Review, Accuracy & Quality Assurance](08.7-Editorial-Review-Accuracy-and-Quality-Assurance.md) | Documented; English edition consolidated; structural checks completed; translation-fidelity review pending |
+| [08.8 — Content Optimization & Revision](08.8-Content-Optimization-and-Revision.md) | Documented; English edition consolidated; structural checks completed; translation-fidelity review pending |
+| [08.9 — Content Maintenance, Updating & Lifecycle Management](08.9-Content-Maintenance-Updating-and-Lifecycle-Management.md) | Documented; English edition consolidated; structural checks completed; translation-fidelity review pending |
+| [08.10 — Content Inventory & Editorial Auditing](08.10-Content-Inventory-and-Editorial-Auditing.md) | Documented; English edition consolidated; structural checks completed; translation-fidelity review pending |
 
 Only topics whose substantive files exist and have completed the required research and documentation review may be marked documented.
 

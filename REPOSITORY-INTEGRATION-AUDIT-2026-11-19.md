@@ -1311,3 +1311,64 @@ A separate editorial-consistency issue remains open: the repository is not langu
 
 **Final disposition:** all 4,186 pairs across Domains 01–09 have now been included in the combined exact-text and lexical comparison. The prior Section 37 statement that the 865 pairs involving Domain 09 were not yet screened is superseded. Do not overstate this result as an absolute guarantee of zero semantic overlap or universal factual consistency.
 
+
+
+## 39. English-Only Documentation Consolidation — 2026-11-22
+
+The project owner has explicitly selected English as the sole publication language. This supersedes the historical language recommendation and open issue recorded in Section 38.7.
+
+### Consolidation
+
+- The 15 formerly Indonesian-primary topics (07.6–07.10, 08.3–08.10, 09.9–09.10) were reviewed as English editions and consolidated into their canonical topic paths.
+- The parallel .en.md files were removed after their contents became the canonical .md documents.
+- The 15 legacy Indonesian source copies are no longer published.
+- Domain indexes and migrated cross-links were updated to use the canonical paths.
+- Residual Indonesian Related Topics wording in 07.2 and 07.4 was translated.
+- AGENTS.md now makes English-only publication explicit and requires concise, no-filler writing.
+
+### Current language inventory
+
+| Check | Result |
+|---|---:|
+| Substantive topic documents | 92 |
+| English canonical topic documents | 92 |
+| Non-English parallel topic documents | 0 |
+| Redundant .en.md migration copies | 0 |
+
+### Editorial interpretation
+
+The k41 voice remains context-adaptive. A technical page can be direct, skeptical, and distinctive without inserting slang into definitions, formulas, standards, or implementation steps. Sarcasm is used to expose unsupported claims or bad reasoning—not as mandatory decoration. Concision is mandatory: remove filler, repeated explanations, padded transitions, and empty conclusions.
+
+### Verification boundary
+
+The 15 consolidated documents passed heading/structure review, numbered citation-to-reference bookkeeping, and pre-consolidation local-link validation. All 51 unique external source destinations cited across the 70 bibliography entries were opened and checked for source identity and topical relevance. Their internal .en.md links were normalized to canonical .md paths. The final consolidated repository link scan passed after the tree update: 1,115 relative links across 92 topic documents and 355 relative links across the root README, nine domain indexes, and audit/governance documents were checked; zero missing local targets were found. The language inventory and path consolidation do not constitute a fresh exhaustive claim-level fact audit of all 92 documents.
+
+**Disposition:** The language-uniformity issue recorded in Section 38.7 is resolved. The historical Section 38 results remain preserved as a dated snapshot.
+
+
+## 40. Post-Consolidation Migration Validation — 2026-11-22
+
+A follow-up validation was run against the 17 changed topic documents in Domains 07–09 after the English-only consolidation.
+
+### Repository and document checks
+
+- 17 changed topic documents compared with their `main` source versions.
+- 82 numbered reference entries and 220 inline citation instances; all citation IDs resolve, and no numbered reference is unused.
+- 234 internal Markdown links checked; zero missing local targets.
+- 56 unique external URLs inventoried across the 17 documents.
+- Targeted Indonesian-language scan of the 17 documents found no residual editorial fragments.
+- Heading hierarchy, section inventory, and table counts were compared with source versions. The 09.9 workflow retains all twelve steps in a numbered list; 08.8 consolidates some subheadings without removing the corresponding main sections.
+- Restored 14 practical code examples across 07.6, 07.7, and 07.8: one URL-parameter example, seven image examples, and six semantic-HTML examples.
+- Code-fence balance check passed.
+
+### Factual review
+
+Current primary documentation was checked for representative high-risk statements concerning Google image discovery and alt text, URL design, people-first content and E-E-A-T, HTML semantic elements, accessible image alternatives, WCAG-EM 2.0 status, and OWL 2 specification status. No material contradiction was identified in the sampled claims.
+
+The previous 51-source identity/relevance review remains recorded in SOURCE-AUDIT.md, Section 36. The current 17-document inventory contains 56 unique external URLs. Citation bookkeeping and source identity checks do not prove that every citation supports every adjacent claim. A complete sentence-to-source entailment matrix and exhaustive bilingual sentence-level equivalence review have not been produced; do not describe either as complete.
+
+### Merge and branch disposition
+
+At the time of this audit, PR #1 remains open, unmerged, and At the time of the 2026-11-22 validation, before the subsequent audit-record refresh commit, PR #1 was 50 commits ahead of `main`, zero commits behind, and contained 24 changed files (head `70b0b2e9f63bd762b776b376672e6af5fa94529e`). GitHub reports no merge conflict. No workflow run was available for the current head, and no PR review submissions or inline review threads were recorded.
+
+**Disposition: CONTENT STRUCTURE AND NAVIGATION CHECKS PASS; MERGE IS TECHNICALLY POSSIBLE BUT NOT YET COMPLETED.** The migration branch is not safe to delete until PR #1 is merged and the resulting `main` commit and tree are verified. No branch deletion was performed.
