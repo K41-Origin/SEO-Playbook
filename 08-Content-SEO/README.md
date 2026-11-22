@@ -141,14 +141,14 @@ The domain structure was established after reviewing the existing repository arc
 |---|---|
 | 08.1 — Introduction to Content SEO | Documented |
 | 08.2 — Content Strategy & Governance | Documented |
-| 08.3 — Content Planning & Portfolio Management | Documented |
-| 08.4 — Content Briefs & Editorial Specifications | Documented |
-| 08.5 — Content Outlining & Information Development | Documented |
-| 08.6 — Content Creation & Production Workflow | Documented |
-| 08.7 — Editorial Review, Accuracy & Quality Assurance | Documented |
-| 08.8 — Content Optimization & Revision | Documented |
-| 08.9 — Content Maintenance, Updating & Lifecycle Management | Documented |
-| 08.10 — Content Inventory & Editorial Auditing | Documented |
+| [08.3 — Content Planning & Portfolio Management — English](08.3-Content-Planning-and-Portfolio-Management.en.md) · [Indonesian source](08.3-Content-Planning-and-Portfolio-Management.md) | English migration draft; QA pending |
+| [08.4 — Content Briefs & Editorial Specifications — English](08.4-Content-Briefs-and-Editorial-Specifications.en.md) · [Indonesian source](08.4-Content-Briefs-and-Editorial-Specifications.md) | English migration draft; QA pending |
+| [08.5 — Content Outlining & Information Development — English](08.5-Content-Outlining-and-Information-Development.en.md) · [Indonesian source](08.5-Content-Outlining-and-Information-Development.md) | English migration draft; QA pending |
+| [08.6 — Content Creation & Production Workflow — English](08.6-Content-Creation-and-Production-Workflow.en.md) · [Indonesian source](08.6-Content-Creation-and-Production-Workflow.md) | English migration draft; QA pending |
+| [08.7 — Editorial Review, Accuracy & Quality Assurance — English](08.7-Editorial-Review-Accuracy-and-Quality-Assurance.en.md) · [Indonesian source](08.7-Editorial-Review-Accuracy-and-Quality-Assurance.md) | English migration draft; QA pending |
+| [08.8 — Content Optimization & Revision — English](08.8-Content-Optimization-and-Revision.en.md) · [Indonesian source](08.8-Content-Optimization-and-Revision.md) | English migration draft; QA pending |
+| [08.9 — Content Maintenance, Updating & Lifecycle Management — English](08.9-Content-Maintenance-Updating-and-Lifecycle-Management.en.md) · [Indonesian source](08.9-Content-Maintenance-Updating-and-Lifecycle-Management.md) | English migration draft; QA pending |
+| [08.10 — Content Inventory & Editorial Auditing — English](08.10-Content-Inventory-and-Editorial-Auditing.en.md) · [Indonesian source](08.10-Content-Inventory-and-Editorial-Auditing.md) | English migration draft; QA pending |
 
 Only topics whose substantive files exist and have completed the required research and documentation review may be marked documented.
 
