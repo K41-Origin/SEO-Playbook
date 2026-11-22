@@ -97,7 +97,7 @@ These are editorial boundaries. They do not imply that production systems have p
 
 ## Evidence & Research Rules
 
-Every topic must follow [AGENTS.md](../AGENTS.md). Domain 03 applies these additional rules:
+Every topic is governed by the central SEO-Playbook instructions maintained in k41-core. Domain 03 applies these additional rules:
 
 1. **Start with primary evidence.** For Google ranking behavior, consult the current Google Search Central ranking systems guide and the most specific linked documentation. For Bing, use Microsoft's official documentation. Use academic papers and standards for general methods and theory.
 2. **Attribute every engine-specific claim.** State which search engine the evidence describes. A Google implementation is not automatically a universal search-engine rule.
@@ -110,7 +110,7 @@ Every topic must follow [AGENTS.md](../AGENTS.md). Domain 03 applies these addit
 9. **Keep ML claims specific.** Do not infer that a technology is used in general ranking merely because a search engine uses it somewhere in Search. Document its stated scope and limitations.
 10. **Distinguish public facts from interpretation.** Label conceptual models and reasoned interpretations. Explicitly state when internal behavior is not publicly disclosed.
 11. **Avoid duplicate explanations.** Give each concept one canonical home. Other documents should summarize only what is needed for context and link to the owner.
-12. **Keep citations close to claims.** Every substantive topic needs inline citations and a matching References section, as required by AGENTS.md.
+12. **Keep citations close to claims.** Every substantive topic needs inline citations and a matching References section, as required by the central k41-core SEO-Playbook governance.
 
 ## Key Reference Sources
 
@@ -147,4 +147,3 @@ The links below point to documents that currently exist. Topic IDs define the ag
 - [03.12 — Ranking Evaluation & Testing](03.12-Ranking-Evaluation-and-Testing.md)
 - [03.13 — Ranking Updates & System Evolution](03.13-Ranking-Updates-and-System-Evolution.md)
 - [Repository README](../README.md)
-- [AGENTS.md](../AGENTS.md)
