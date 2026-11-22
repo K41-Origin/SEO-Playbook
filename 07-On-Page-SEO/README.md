@@ -114,7 +114,7 @@ The intended relationship is a connected knowledge workflow, not a rigid linear 
 
 **Domain architecture and topics 07.1–07.10 documented.**
 
-**Source and integration revalidation:** refreshed 2026-11-21. All 10 topic documents contain 51 numbered reference entries across 34 unique source destinations, which were reopened and inspected. Core source claims, citation bookkeeping, ownership boundaries, and handoffs were reviewed; stale Domain 08/09 roadmap labels and related-link defects were corrected. This is a dated review, not a sentence-by-sentence proof of every factual statement or a guarantee that sources will remain current.
+Each topic document maintains its own references. Review scope, source-verification findings, and limitations are tracked centrally in k41-core rather than duplicated in this public index.
 
 | Topic | Status |
 |---|---|
@@ -123,7 +123,7 @@ The intended relationship is a connected knowledge workflow, not a rigid linear 
 | [07.3 — Title Tags & Page Title Optimization](07.3-Title-Tags-and-Page-Title-Optimization.md) | Documented |
 | [07.4 — Meta Descriptions & Snippet Optimization](07.4-Meta-Descriptions-and-Snippet-Optimization.md) | Documented |
 | [07.5 — Heading Structure & Hierarchy Optimization](07.5-Heading-Structure-and-Hierarchy-Optimization.md) | Documented |
-| [07.6 — URL Structure & Page-Level URL Optimization](07.6-URL-Structure-and-Page-Level-URL-Optimization.md) | Documented; English edition consolidated; structural checks completed; translation-fidelity review pending |
+| [07.6 — URL Structure & Page-Level URL Optimization](07.6-URL-Structure-and-Page-Level-URL-Optimization.md) | Documented; English edition consolidated |
 | [07.7 — Image SEO & Image Element Optimization](07.7-Image-SEO-and-Image-Element-Optimization.md) | Documented; English edition consolidated; structural checks completed; translation-fidelity review pending |
 | [07.8 — HTML Semantics & Page Element Optimization](07.8-HTML-Semantics-and-Page-Element-Optimization.md) | Documented; English edition consolidated; structural checks completed; translation-fidelity review pending |
 | [07.9 — On-Page Optimization Workflow & Implementation](07.9-On-Page-Optimization-Workflow-and-Implementation.md) | Documented; English edition consolidated; structural checks completed; translation-fidelity review pending |
