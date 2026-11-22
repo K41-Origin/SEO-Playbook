@@ -2,7 +2,7 @@
 
 **Repository:** `K41-Origin/SEO-Playbook`  
 **Branch reviewed:** `main`  
-**Audit scope:** Existing knowledge documentation in Domains 01–06, their six domain indexes, root README, `AGENTS.md`, and the existing `SOURCE-AUDIT.md` record.  
+**Audit scope:** Existing knowledge documentation in Domains 01–06, their six domain indexes, root README, the SEO-Playbook governance document, and the existing `SOURCE-AUDIT.md` record.  
 **Status:** Structural inventory and first-pass integration review completed. Full claim-by-claim source verification and remediation are still in progress. This report does not certify the repository as fully audited.
 
 ## 1. Scope and Evidence Standard
@@ -948,14 +948,14 @@ All **62 existing substantive topic pages** across Domains 01–06 have dated to
 
 The current 62-topic repository has source/integration audit coverage, coherent canonical topic ownership, verified Markdown navigation/citation structure, and post-remediation regression evidence. No duplicate canonical topic ownership or unresolved broken internal Markdown target was identified.
 
-**Domain 07 is clear to begin.** Its documentation must follow root AGENTS.md, the ownership map in this report, and the existing topic/source-audit pattern. Do not reproduce canonical explanations already owned by Domains 01–06.
+**Domain 07 is clear to begin.** Its documentation must follow repository-level governance instructions, the ownership map in this report, and the existing topic/source-audit pattern. Do not reproduce canonical explanations already owned by Domains 01–06.
 
 
 ## 36. Full Repository Content Duplication, Editorial Consistency & Integration Audit — 2026-11-19
 
 ### Scope
 
-This pass covers the **82 substantive topic documents currently present in Domains 01–08**, all eight domain indexes, the root README, AGENTS.md, and the existing source/integration audit records. The current repository tree contains 95 files; Domains 09–17 remain planned and have no substantive topic pages in this branch. The 17-domain architecture is preserved. [1][2] This section supersedes Section 35's earlier 62-topic snapshot for the current main-branch state.
+This pass covers the **82 substantive topic documents currently present in Domains 01–08**, all eight domain indexes, the root README, the SEO-Playbook governance document, and the existing source/integration audit records. The current repository tree contains 95 files; Domains 09–17 remain planned and have no substantive topic pages in this branch. The 17-domain architecture is preserved. [1][2] This section supersedes Section 35's earlier 62-topic snapshot for the current main-branch state.
 
 This is a repository-wide content-integrity and integration pass. It consolidates the dated source-level audits already recorded for Domains 01–08; it does **not** claim that every external source URL or every factual sentence was newly re-opened and re-verified during this one pass. The earlier source-audit records remain the evidence for those claim-to-source reviews. [3]
 
@@ -969,7 +969,7 @@ This is a repository-wide content-integrity and integration pass. It consolidate
 6. Checked numbered inline citation IDs against numbered entries in each document's References section, and checked duplicate bibliography URLs within each topic.
 7. Checked relative Markdown file targets in all 82 topic documents, the root README, and all eight domain indexes against the current repository tree.
 8. Checked that each topic document has its topic ID in its heading, a parent-index link, a Related Topics section, and a References section; checked that each domain index links to all topic files that exist in that domain.
-9. Reviewed representative openings and conclusions across Domains 01–08 against the k41 voice and editorial requirements in AGENTS.md, and reviewed the highest lexical-overlap pairs for canonical ownership and workflow boundaries.
+9. Reviewed representative openings and conclusions across Domains 01–08 against the k41 voice and editorial requirements in the SEO-Playbook governance document, and reviewed the highest lexical-overlap pairs for canonical ownership and workflow boundaries.
 
 ### Duplicate-content results and remediation
 
@@ -1046,7 +1046,7 @@ This result does not certify the absence of every semantic paraphrase or replace
 
 ## References
 
-1. SEO-Playbook. ([AGENTS.md](AGENTS.md)). Canonical editorial voice, source citation, documentation workflow, repository governance, and integration requirements.
+1. SEO-Playbook. (the SEO-Playbook governance document (subsequently centralized in k41-core)). Canonical editorial voice, source citation, documentation workflow, repository governance, and integration requirements.
 2. SEO-Playbook. ([Root README](README.md)). Project identity, 17-domain architecture, repository navigation, and current development status.
 3. SEO-Playbook. ([SOURCE-AUDIT.md](SOURCE-AUDIT.md)). Dated source-level audits, claim-source checks, corrections, and domain-level evidence limitations for Domains 01–08.
 4. SEO-Playbook. ([Domain 01 — SEO Fundamentals](01-SEO-Fundamentals/README.md)), ([Domain 02 — Search Engine Fundamentals](02-Search-Engine-Fundamentals/README.md)), ([Domain 03 — Search Engine Algorithms](03-Search-Engine-Algorithms/README.md)), ([Domain 04 — Information Retrieval](04-Information-Retrieval/README.md)), ([Domain 05 — Keyword & Search Intent](05-Keyword-and-Search-Intent/README.md)), ([Domain 06 — SERP & Search Features](06-SERP-and-Search-Features/README.md)), ([Domain 07 — On-Page SEO](07-On-Page-SEO/README.md)), and ([Domain 08 — Content SEO](08-Content-SEO/README.md)). Canonical domain scopes, topic maps, ownership boundaries, and development states.
@@ -1149,7 +1149,7 @@ This is not an absolute proof of no duplication across all 92 documents. The com
 
 ## References
 
-1. [AGENTS.md](AGENTS.md) — mandatory editorial, source, citation, and integration rules.
+1. the SEO-Playbook governance document (subsequently centralized in k41-core) — mandatory editorial, source, citation, and integration rules.
 2. [SOURCE-AUDIT.md](SOURCE-AUDIT.md) — dated claim/source audit evidence and limitations.
 3. [Root README](README.md) — current domain architecture and development status.
 4. Domain indexes for [03](03-Search-Engine-Algorithms/README.md), [04](04-Information-Retrieval/README.md), [05](05-Keyword-and-Search-Intent/README.md), [06](06-SERP-and-Search-Features/README.md), [07](07-On-Page-SEO/README.md), [08](08-Content-SEO/README.md), and [09](09-Semantic-SEO/README.md) — current scope, topic ownership, and cross-domain links.
@@ -1271,9 +1271,9 @@ The 92-document corpus and the current domain indexes were also checked for the 
 | Undefined inline citation IDs | 0 |
 | Unused numbered references | 0 |
 | Duplicate bibliography URLs within a topic's References section | 0 after remediation |
-| Broken relative Markdown file targets after final handoff-link refinements | **0** across all 92 topic documents; **0** across the root README, nine domain indexes, and audit records checked (the literal `URL` placeholder in AGENTS.md's citation-format example is not a file link) |
+| Broken relative Markdown file targets after final handoff-link refinements | **0** across all 92 topic documents; **0** across the root README, nine domain indexes, and audit records checked (the literal `URL` placeholder in the governance document's citation-format example is not a file link) |
 | Missing topic entries in the nine domain indexes | 0 |
-| Primary-language uniformity | **Not uniform:** 77 topic pages are primarily English; 15 are primarily Indonesian (07.6–07.10, 08.3–08.10, 09.9–09.10). AGENTS.md defines editorial voice but does not set a canonical language. |
+| Primary-language uniformity | **Not uniform:** 77 topic pages are primarily English; 15 are primarily Indonesian (07.6–07.10, 08.3–08.10, 09.9–09.10). the SEO-Playbook governance document defines editorial voice but does not set a canonical language. |
 | Malformed literal escaped-newline sequences found and corrected | 5 documents |
 
 The domain-index topic counts match the actual files: 5, 12, 13, 12, 9, 11, 10, 10, and 10 respectively. Additional topic IDs found in some index text are cross-domain references, not extra or missing local topics.
@@ -1307,7 +1307,7 @@ This is strong evidence against substantial verbatim duplication and unusually h
 
 The audit also does not replace claim-to-source verification. Citation bookkeeping confirms that numbered citation references are structurally mapped; it does not prove that every citation supports every nearby factual claim. Source audits retain their own documented scopes and dates.
 
-A separate editorial-consistency issue remains open: the repository is not language-uniform. Seventy-seven of the 92 topic pages are primarily English, while 15 pages are primarily Indonesian (07.6–07.10, 08.3–08.10, and 09.9–09.10). This is not duplication, and AGENTS.md currently specifies the k41 editorial voice without declaring a canonical documentation language. No automatic translation was performed because that would be a substantive editorial revision requiring citation and terminology preservation. English is the evidence-based default recommendation given the current 77/92 majority and the English root/domain indexes, but the project owner should explicitly approve that standard before those 15 pages are translated.
+A separate editorial-consistency issue remains open: the repository is not language-uniform. Seventy-seven of the 92 topic pages are primarily English, while 15 pages are primarily Indonesian (07.6–07.10, 08.3–08.10, and 09.9–09.10). This is not duplication, and the SEO-Playbook governance document currently specifies the k41 editorial voice without declaring a canonical documentation language. No automatic translation was performed because that would be a substantive editorial revision requiring citation and terminology preservation. English is the evidence-based default recommendation given the current 77/92 majority and the English root/domain indexes, but the project owner should explicitly approve that standard before those 15 pages are translated.
 
 **Final disposition:** all 4,186 pairs across Domains 01–09 have now been included in the combined exact-text and lexical comparison. The prior Section 37 statement that the 865 pairs involving Domain 09 were not yet screened is superseded. Do not overstate this result as an absolute guarantee of zero semantic overlap or universal factual consistency.
 
@@ -1324,7 +1324,7 @@ The project owner has explicitly selected English as the sole publication langua
 - The 15 legacy Indonesian source copies are no longer published.
 - Domain indexes and migrated cross-links were updated to use the canonical paths.
 - Residual Indonesian Related Topics wording in 07.2 and 07.4 was translated.
-- AGENTS.md now makes English-only publication explicit and requires concise, no-filler writing.
+- the SEO-Playbook governance document now makes English-only publication explicit and requires concise, no-filler writing.
 
 ### Current language inventory
 
