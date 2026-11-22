@@ -54,7 +54,7 @@ Every document in this domain must:
 6. Include traceable sources for every substantive claim.
 7. Make uncertainty visible and distinguish evidence from interpretation.
 
-Use Google's official documentation as the primary reference for claims about Google Search. For broader concepts, use the most relevant primary sources, research, standards, or trustworthy references. Follow the **Mandatory Source Citation Policy** in `AGENTS.md`.
+Use Google's official documentation as the primary reference for claims about Google Search. For broader concepts, use the most relevant primary sources, research, standards, or trustworthy references. Follow the **Mandatory Source Citation Policy** in the central k41-core SEO-Playbook governance.
 
 ## Content Navigation
 
