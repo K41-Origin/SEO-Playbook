@@ -1,5 +1,10 @@
 # Domain 09 — Semantic SEO
 
+
+## Language and Canonical Versions
+
+English is the primary and canonical publication language for new and migrated topic documentation. The English edition is linked first in the roadmap below. The original Indonesian file is retained as the migration source/reference and is not deleted or overwritten. English migration files remain subject to editorial, cross-link, and source-verification review before being treated as release-approved.
+
 ## Domain Purpose
 
 Domain 09 documents how SEO practitioners identify, describe, connect, and organize entities and concepts into a coherent model of knowledge that can inform website information architecture.
