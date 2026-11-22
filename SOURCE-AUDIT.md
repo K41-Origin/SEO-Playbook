@@ -8,7 +8,6 @@
 
 The audit covered the repository's 36 existing files:
 
-- `AGENTS.md`
 - Root `README.md`
 - Three domain indexes
 - Thirty substantive topic documents across Domains 01–03
@@ -18,7 +17,7 @@ Domains 04–17 are still roadmap entries and were not treated as existing knowl
 
 ## Method
 
-The review applied the research and citation requirements in [AGENTS.md](AGENTS.md):
+The review applied the SEO-Playbook research and citation requirements in force at the time of the audit:
 
 1. Read the substantive topic documents and checked factual claims against their cited sources.
 2. Prioritized official Google and Microsoft documentation for provider-specific behavior, and original research or standards for technical and information-retrieval concepts.
@@ -169,7 +168,7 @@ Domains 05–17 do not yet contain substantive topic files. Their future integra
 ## Domain 04 — Information Retrieval: Source-Level Audit
 
 **Audit date:** 2026-11-17  
-**Scope:** All twelve substantive topic documents in `04-Information-Retrieval/`, the Domain 04 index, and the applicable requirements in `AGENTS.md`.
+**Scope:** All twelve substantive topic documents in `04-Information-Retrieval/`, the Domain 04 index, and the applicable requirements in the repository governance requirements then in force.
 
 ### Audit Method
 
@@ -497,7 +496,6 @@ All five references are cited inline in the document. No unused reference remain
 - Five inline citation numbers map to five reference entries; all references are cited.
 - No TODO, TBD, or placeholder markers were detected.
 - Parent-domain navigation and the required Related Topics and References sections are present.
-- The document ends with its References section, as required by `AGENTS.md`.
 
 ### Duplicate and Ownership Review
 
@@ -561,7 +559,6 @@ All five references are cited inline in the document. No unused reference remain
 - Five inline citation numbers map to five reference entries; all references are cited.
 - No TODO, TBD, or placeholder markers were detected.
 - Parent navigation, Related Topics, and References sections are present.
-- The document ends with its References section, consistent with `AGENTS.md`.
 
 ### Duplicate and Ownership Review
 
@@ -624,7 +621,6 @@ All five references are cited inline. No reference is unused. The commercial-inv
 - The document includes parent navigation, Related Topics, and References sections.
 - Five inline citation IDs map to five reference entries; all five references are used.
 - All local links target existing files or the documented Domain 05 architecture anchor for planned topics.
-- The document ends with its References section, consistent with `AGENTS.md`.
 - The worked example is labeled fictional; no fabricated empirical results or keyword metrics are presented.
 
 ### Duplicate and Ownership Review
@@ -692,7 +688,6 @@ All five references are cited inline and support the claims assigned to them. Go
 - Five inline citation IDs map to five reference entries; all five references are used.
 - All nine relative Markdown links and their checked anchors resolve to existing topic files or explicit architecture anchors for planned topics.
 - The final repository re-fetch confirmed the document at 381 lines, with no TODO/TBD/PLACEHOLDER markers.
-- The document ends with its References section, consistent with `AGENTS.md`.
 - No TODO, TBD, or placeholder markers are intended in the published document.
 
 ### Duplicate and Ownership Review
@@ -758,7 +753,6 @@ All five references are cited inline and mapped to the claims they support. The 
 - The document includes parent navigation, Related Topics, and References sections.
 - Five inline citation IDs map to five reference entries; all five references are used.
 - All relative Markdown links and checked anchors resolve to existing files or the documented architecture anchors for planned topics.
-- The document ends with its References section, consistent with `AGENTS.md`.
 - No TODO, TBD, or PLACEHOLDER markers were found in the final document.
 
 ### Duplicate and Ownership Review
@@ -919,7 +913,7 @@ This conclusion applies to the current 05.9 version and the checks recorded abov
 |---|---:|
 | Existing substantive topic documents | 51 |
 | Domain indexes | 5 |
-| Root README, AGENTS.md, and SOURCE-AUDIT.md | 3 |
+| Root README, the central k41-core SEO-Playbook governance, and SOURCE-AUDIT.md | 3 |
 | **Markdown files reviewed in the inventory** | **59** |
 | License file | 1 — GNU General Public License v3 (GPL-3.0) identified from the license header; legal text not modified. |
 | Established top-level domains | 17 |
@@ -930,7 +924,7 @@ The repository tree was checked against the root architecture and domain indexes
 
 ### Audit Method
 
-1. Re-read the current root `AGENTS.md` requirements and checked the root README, all five domain indexes, and the actual repository inventory.
+1. Re-read the current root the repository governance requirements then in force requirements and checked the root README, all five domain indexes, and the actual repository inventory.
 2. Reviewed topic titles, section hierarchies, opening scope statements, Related Topics, handoffs, and canonical ownership across all 51 existing topic documents.
 3. Reused the dated source-level reviews recorded above: Domains 01–03 (2026-11-15), Domain 04 (2026-11-17), the cross-domain freshness refresh (2026-11-18), and individual source/integration audits for Domain 05 topics 05.1–05.9 (2026-11-18 to 2026-11-19).
 4. Ran a structural citation check across all 51 topic documents: 294 inline citation identifiers were checked against their References sections; no missing identifiers or unused numbered references were found. This is a structural integrity check, not a substitute for the claim-level source reviews recorded in the dated audits above.
@@ -975,7 +969,7 @@ The repository tree was checked against the root architecture and domain indexes
 | Parent and Related Topics navigation | Present across the substantive topic documents reviewed |
 | Domain 05 individual source audits | Complete: 05.1–05.9 have individual audit records |
 | Root/domain progress status | Corrected to match the existence and audit state of Domain 05.1–05.9 |
-| Editorial voice | The reviewed openings, headings, scope statements, and representative explanatory sections remain direct, skeptical, technically precise, and consistent with the k41/Gen Z voice defined in AGENTS.md. Technical and academic register is retained where the subject requires it; slang and sarcasm are not forced into every section. |
+| Editorial voice | The reviewed openings, headings, scope statements, and representative explanatory sections remain direct, skeptical, technically precise, and consistent with the k41/Gen Z voice defined in the central k41-core SEO-Playbook governance. Technical and academic register is retained where the subject requires it; slang and sarcasm are not forced into every section. |
 | Unsupported claims about proprietary search internals | No new claim of access to undisclosed Google or Bing implementation details was introduced by this integration pass. |
 
 ### Material Corrections Made During This Audit
@@ -1017,7 +1011,6 @@ The next domain must follow the ownership boundaries above, reuse existing canon
 
 The Domain 06 architecture was designed against:
 
-- Root architecture and editorial/governance requirements in `README.md` and `AGENTS.md`.
 - Existing domain indexes and substantive topic coverage in Domains 01–05.
 - The current canonical ownership boundaries recorded in the repository-wide integration audit.
 - The planned responsibilities of Domains 07–17, especially on-page SEO, content, semantic SEO, technical SEO, local SEO, analytics, and AI/search evolution.
@@ -1854,20 +1847,20 @@ The repository-wide audit is closed with documented limitations. The authoritati
 - The 03.12 IR metric/judgment duplication and the 06.4 utility-answer ownership ambiguity were corrected.
 - Eight modified topic pages passed post-remediation citation and relative-link regression.
 
-**Final result: PASS WITH DOCUMENTED LIMITATIONS.** A brute-force 1,891-pair body-level semantic scan and a live HTTP/redirect crawl of every external URL were not performed. The topic-level audit records, ownership review, and documented access limitations must not be misrepresented as those exhaustive scans. No duplicate canonical topic ownership or unresolved broken internal Markdown target was identified. Domain 07 may proceed under the canonical ownership map and root AGENTS.md.
+**Final result: PASS WITH DOCUMENTED LIMITATIONS.** A brute-force 1,891-pair body-level semantic scan and a live HTTP/redirect crawl of every external URL were not performed. The topic-level audit records, ownership review, and documented access limitations must not be misrepresented as those exhaustive scans. No duplicate canonical topic ownership or unresolved broken internal Markdown target was identified. Domain 07 may proceed under the canonical ownership map and root the central k41-core SEO-Playbook governance.
 
 
 ## Domain 08 — Content SEO Source & Integration Audit
 
 **Audit date:** 2026-11-19  
 **Branch reviewed:** `main`  
-**Scope:** `08-Content-SEO/README.md`, substantive topics 08.1–08.10, their cited external sources, and high-risk integration points with Domains 03, 05, 06, and 07, plus root README and AGENTS.md.  
+**Scope:** `08-Content-SEO/README.md`, substantive topics 08.1–08.10, their cited external sources, and high-risk integration points with Domains 03, 05, 06, and 07, plus root README and the central k41-core SEO-Playbook governance.  
 **Status:** Passed after source and integration remediation, with documented limitations.
 
 ### Method
 
 1. Retrieved all ten substantive topic documents and the Domain 08 index from the current main branch.
-2. Read the repository's complete `AGENTS.md` requirements and checked each topic's structure, references, numeric citation use, and scope declarations.
+2. Read the repository's complete the repository governance requirements then in force requirements and checked each topic's structure, references, numeric citation use, and scope declarations.
 3. Opened the cited external source pages and checked their current accessible content against the claims and examples they were cited for. Google Search claims were checked against current Google Search Central documentation; editorial workflow claims were compared with the relevant government and institutional publishing guidance.
 4. Compared all substantive paragraphs across the ten Domain 08 topic documents for exact normalized matches longer than 140 characters.
 5. Reviewed canonical ownership and handoffs across adjacent Domain 08 topics and selected high-risk interfaces with Domains 03, 05, and 07.
@@ -1958,7 +1951,7 @@ All 3,321 possible topic-document pairs were screened using five-token shingle J
 ## References
 
 1. SEO-Playbook. ([Repository Integration Audit — 2026-11-19](REPOSITORY-INTEGRATION-AUDIT-2026-11-19.md)). Repository-wide content duplication, lexical similarity, editorial consistency, navigation, remediation, and residual limitations.
-2. SEO-Playbook. ([AGENTS.md](AGENTS.md)). Mandatory source citation, editorial voice, documentation workflow, repository governance, and integration requirements.
+2. SEO-Playbook. (the repository governance requirements then in force). Mandatory source citation, editorial voice, documentation workflow, repository governance, and integration requirements.
 
 
 ## 34. Domain 07 and Domain 09 Source Revalidation & Cross-Domain Editorial Remediation — 2026-11-21
@@ -2086,7 +2079,6 @@ The project owner confirmed English as the sole publication language. This secti
 - Updated the Domain 07, 08, and 09 indexes to expose one English canonical page per topic and removed migration-only source links and pending-QA labels.
 - Updated internal cross-links in the 15 consolidated pages to target canonical .md paths.
 - Corrected Indonesian-language Related Topics fragments in 07.2 and 07.4.
-- Added an explicit English-only publication policy and a concise, no-filler editorial rule to AGENTS.md.
 
 ### Structural and editorial verification
 
@@ -2105,9 +2097,9 @@ The 70 bibliography entries resolve to 51 unique external source destinations. A
 
 ### Editorial voice
 
-The 92-page corpus was screened for English-language consistency, direct openings, unnecessary filler, and alignment with the context-adaptive k41 voice defined in AGENTS.md. Technical reference pages are not required to force slang or sarcasm; clarity and precision take priority where humor would obscure the mechanism. This was a repository-wide consistency pass, not a line-by-line rewrite of every existing page.
+The 92-page corpus was screened for English-language consistency, direct openings, unnecessary filler, and alignment with the context-adaptive k41 voice defined in the central k41-core SEO-Playbook governance. Technical reference pages are not required to force slang or sarcasm; clarity and precision take priority where humor would obscure the mechanism. This was a repository-wide consistency pass, not a line-by-line rewrite of every existing page.
 
-**Disposition:** English-only publication policy implemented on this branch. Post-consolidation validation passed: 1,115 relative links across 92 topic documents and 355 relative links across the root README, nine domain indexes, and audit/governance documents were checked; zero missing local targets were found. The citation-format example in AGENTS.md was changed to non-link code notation so the placeholder cannot be mistaken for a repository path.
+**Disposition:** English-only publication policy implemented on this branch. Post-consolidation validation passed: 1,115 relative links across 92 topic documents and 355 relative links across the root README, nine domain indexes, and audit/governance documents were checked; zero missing local targets were found. The citation-format example in the central k41-core SEO-Playbook governance was changed to non-link code notation so the placeholder cannot be mistaken for a repository path.
 
 
 ## 37. Post-Consolidation Editorial and Structural Validation — 2026-11-22
