@@ -94,11 +94,7 @@ The roadmap is organized into four groups. The sequence moves from modeling enti
 | 09.10 | [Semantic Model Validation, Maintenance & Governance](09.10-Semantic-Model-Validation-Maintenance-and-Governance.md) | Defines validation criteria for entity identity, relationship integrity, schema consistency, provenance, scope, and alignment between the knowledge model and its website architecture; covers versioning, change control, ownership, and maintenance of those semantic models. It does not own organization-wide content governance (08.2), editorial/content audits (08.10), technical implementation audits (10), internal-link audits (11), or organic performance measurement (14). |
 
 
-## Architecture Audit — 2026-11-19
-
-The ten-topic roadmap was reviewed against the existing repository domains and against its own topic boundaries before substantive topic documentation begins.
-
-### Audit findings and boundary decisions
+## Audit findings and boundary decisions
 
 | Potential collision | Audit decision |
 |---|---|
