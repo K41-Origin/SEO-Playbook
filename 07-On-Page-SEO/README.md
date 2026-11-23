@@ -137,7 +137,7 @@ The roadmap defines the intended scope and ownership of each topic. Only topics 
 - [Domain 06 — SERP & Search Features](../06-SERP-and-Search-Features/README.md)
 - [Domain 08 — Content SEO](../08-Content-SEO/README.md)
 - [Domain 09 — Semantic SEO](../09-Semantic-SEO/README.md)
-- Domain 10 — Technical SEO (planned)
+- [Domain 10 — Technical SEO](../10-Technical-SEO/README.md)
 - Domain 11 — Internal Linking (planned)
 - Domain 14 — SEO Analytics (planned)
 
