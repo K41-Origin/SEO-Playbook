@@ -1,0 +1,28 @@
+# 10.8 — JavaScript SEO & Rendering Optimization
+
+JavaScript SEO examines whether important page content, metadata, and navigable links are available in the representations that browsers and search crawlers can process. It is a delivery and rendering problem, not a blanket argument for or against JavaScript frameworks.
+
+## 1. Core concepts and mechanisms
+
+Sites may use server-side rendering (SSR), static generation, client-side rendering (CSR), or hybrid approaches. These affect when content becomes available, how much execution is required, and what a client receives in the initial HTTP response.
+
+Google documents a crawling, rendering, and indexing process for JavaScript applications. Its behavior is specific to Google Search and should not be generalized to every crawler or social preview bot. [1]
+
+Check whether the initial response or rendered DOM exposes primary content, title and meta information, canonical and robots directives, crawlable links with href values, images, and meaningful error/loading states. A page that renders only after interaction, depends on blocked resources, or requires unavailable API calls may expose an incomplete representation.
+
+Hydration mismatches, JavaScript exceptions, API failures, delayed content, client-side route errors, and incorrect HTTP status handling can create differences between the source response and rendered page. Inspect browser console/network output and compare raw HTML with rendered DOM.
+
+Testing workflow: fetch the URL and inspect status/initial HTML; render it in a browser or inspection tool; compare content, links, metadata, and directives; inspect resource requests and console errors; test representative routes and mobile behavior; then re-test production after deployment. Server-side or pre-rendering may improve initial availability and compatibility, but architecture choice depends on measured behavior and application requirements.
+
+## 2. Practical validation
+
+Use representative URLs and templates, inspect the actual HTTP response and rendered output, document the environment and date, and retest after production deployment. A tool result is evidence about the test it performed, not a universal certification.
+
+## 3. Limitations and ownership
+
+Attribute search-engine-specific behavior to the engine that documents it. Distinguish technical validity from indexing selection, ranking, and search presentation. Use adjacent-domain links from the [Domain 10 index](README.md) to preserve canonical ownership.
+
+## References
+
+- Google Search Central. ([JavaScript SEO basics](https://developers.google.com/search/docs/crawling-indexing/javascript/javascript-seo-basics)).
+- WHATWG. ([HTML Living Standard](https://html.spec.whatwg.org/)).

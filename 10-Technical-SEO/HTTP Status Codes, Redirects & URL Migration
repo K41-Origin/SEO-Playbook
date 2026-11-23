@@ -1,0 +1,29 @@
+# 10.7 — HTTP Status Codes, Redirects & URL Migration
+
+HTTP status codes communicate the outcome of a request. Redirects tell clients that further action is required, while error and success responses have distinct protocol meanings. Technical SEO depends on returning responses that accurately represent resource state.
+
+## 1. Core concepts and mechanisms
+
+RFC 9110 defines five broad status-code classes: informational (1xx), successful (2xx), redirection (3xx), client error (4xx), and server error (5xx). These are protocol semantics, not SEO scores. [1]
+
+Common website cases include 200 (successful response), 301 and 308 (permanent redirection semantics), 302 and 307 (temporary redirection semantics), 304 (not modified), 404 and 410 (not found/gone), and 5xx (server-side failure). Search engines document how their crawlers process these responses; provider behavior should be attributed to that provider. [2]
+
+Use a redirect when a resource has genuinely moved or an alternate URL should resolve to a preferred destination. Select a status code consistent with intended permanence and HTTP method semantics. Redirect directly to the final destination where practical; avoid chains, loops, irrelevant destinations, and redirects that conceal missing resources.
+
+A migration may involve path, hostname, protocol, CMS, or architecture changes. Prepare an old-to-new URL mapping, preserve equivalent content where possible, configure redirects, update internal references and canonical declarations, generate updated sitemaps, and test critical templates before launch.
+
+Before launch, crawl old and new URL sets, verify destinations and response codes, test canonical targets, check robots directives, and confirm important assets remain accessible. After launch, monitor logs, crawler reports, errors, and user-facing failures. Do not redirect every deleted URL to the homepage or return 200 for missing pages merely to suppress errors.
+
+## 2. Practical validation
+
+Use representative URLs and templates, inspect the actual HTTP response and rendered output, document the environment and date, and retest after production deployment. A tool result is evidence about the test it performed, not a universal certification.
+
+## 3. Limitations and ownership
+
+Attribute search-engine-specific behavior to the engine that documents it. Distinguish technical validity from indexing selection, ranking, and search presentation. Use adjacent-domain links from the [Domain 10 index](README.md) to preserve canonical ownership.
+
+## References
+
+- IETF. ([RFC 9110: HTTP Semantics](https://www.rfc-editor.org/rfc/rfc9110.html)).
+- Google Crawling Infrastructure. ([How HTTP status codes affect Google's crawlers](https://developers.google.com/crawling/docs/troubleshooting/http-status-codes)).
+- Google Search Central. ([Site moves with URL changes](https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes)).

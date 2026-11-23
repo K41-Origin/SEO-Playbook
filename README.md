@@ -187,3 +187,17 @@ Topic-level claims and references live in their canonical topic documents. Audit
 ---
 
 *This README defines the project's purpose, architecture, and documentation principles. It does not claim that every domain or topic has already been researched or completed.*
+- [10 — Technical SEO](10-Technical-SEO/README.md) — website-side technical delivery, crawling/indexability controls, rendering, performance, structured data, diagnostics, and technical QA.
+  - [10.1 — Introduction to Technical SEO](10-Technical-SEO/Introduction to Technical SEO)
+  - [10.2 — Website Architecture & URL Structure](10-Technical-SEO/Website Architecture & URL Structure)
+  - [10.3 — Crawlability & Crawl Management](10-Technical-SEO/Crawlability & Crawl Management)
+  - [10.4 — Robots.txt & Crawler Access Control](10-Technical-SEO/Robots.txt & Crawler Access Control)
+  - [10.5 — XML Sitemaps & URL Discovery Support](10-Technical-SEO/XML Sitemaps & URL Discovery Support)
+  - [10.6 — Indexability, Canonicalization & Duplicate URL Management](10-Technical-SEO/Indexability, Canonicalization & Duplicate URL Management)
+  - [10.7 — HTTP Status Codes, Redirects & URL Migration](10-Technical-SEO/HTTP Status Codes, Redirects & URL Migration)
+  - [10.8 — JavaScript SEO & Rendering Optimization](10-Technical-SEO/JavaScript SEO & Rendering Optimization)
+  - [10.9 — Mobile SEO & Responsive Technical Implementation](10-Technical-SEO/Mobile SEO & Responsive Technical Implementation)
+  - [10.10 — Website Performance & Core Web Vitals](10-Technical-SEO/Website Performance & Core Web Vitals)
+  - [10.11 — Structured Data Implementation & Validation](10-Technical-SEO/Structured Data Implementation & Validation)
+  - [10.12 — Server Logs, Crawl Diagnostics & Technical Monitoring](10-Technical-SEO/Server Logs, Crawl Diagnostics & Technical Monitoring)
+  - [10.13 — Technical SEO Auditing & Quality Assurance](10-Technical-SEO/Technical SEO Auditing & Quality Assurance)

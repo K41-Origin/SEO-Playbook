@@ -1,0 +1,27 @@
+# 10.9 — Mobile SEO & Responsive Technical Implementation
+
+Mobile technical SEO concerns whether the mobile experience exposes the content, metadata, resources, and functionality required by users and search systems. It includes responsive behavior and the technical implications of serving different representations to different devices.
+
+## 1. Core concepts and mechanisms
+
+Google documents that it uses the mobile version of a site's content for indexing and recommends responsive web design as an implementation pattern that is often easier to maintain. This describes Google's indexing approach, not a universal statement about every search engine. [1]
+
+Common approaches include responsive design (one URL and HTML representation with layout adapted through CSS), dynamic serving (one URL with server-selected HTML based on device signals), and separate mobile URLs (distinct URLs and content representations). Each has risks involving caching, variation headers, redirects, canonicalization, and content parity.
+
+Check that mobile pages expose the primary content, structured data, metadata, images, and crawlable links required for the page's purpose. Ensure essential resources are not blocked and content is not available only after an interaction that automated clients cannot perform. Google specifically warns about mobile/desktop differences in robots directives and content availability. [1]
+
+Test real viewport widths, orientation changes, text scaling, touch targets, navigation, media sizing, overflow, and layout shifts. Compare mobile and desktop HTML, metadata, structured data, internal destinations, and response behavior. Device emulation is a useful initial diagnostic; use representative real devices and network conditions where risk justifies it.
+
+A mobile-friendly test result does not guarantee indexing or ranking.
+
+## 2. Practical validation
+
+Use representative URLs and templates, inspect the actual HTTP response and rendered output, document the environment and date, and retest after production deployment. A tool result is evidence about the test it performed, not a universal certification.
+
+## 3. Limitations and ownership
+
+Attribute search-engine-specific behavior to the engine that documents it. Distinguish technical validity from indexing selection, ranking, and search presentation. Use adjacent-domain links from the [Domain 10 index](README.md) to preserve canonical ownership.
+
+## References
+
+- Google Search Central. ([Mobile site and mobile-first indexing best practices](https://developers.google.com/search/docs/crawling-indexing/mobile/mobile-sites-mobile-first-indexing)).

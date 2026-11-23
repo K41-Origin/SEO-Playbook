@@ -1,0 +1,29 @@
+# 10.3 — Crawlability & Crawl Management
+
+Crawlability describes whether a crawler can discover and retrieve a resource under the site's technical configuration and the crawler's own policies, capacity, and scheduling. It does not guarantee that a URL will be crawled on a particular schedule.
+
+## 1. Core concepts and mechanisms
+
+A URL can be known but not fetched; fetched but not rendered as intended; or crawled and still not selected for indexing. Domain 02 explains provider-side crawler operation. This topic focuses on site-side availability, resource accessibility, URL inventory, and diagnostics.
+
+Google describes crawl budget for very large and frequently updated sites in terms of crawl capacity and crawl demand. Its advanced guide is primarily intended for very large or rapidly changing sites; it is not a mandatory optimization project for every website. [1]
+
+Operators can influence conditions crawlers encounter: server response reliability, duplicate URL variants, redirect chains, sitemap freshness, and accessibility of important resources. A server should not be overloaded in pursuit of more crawling.
+
+A practical diagnosis builds a representative URL inventory; confirms intended responses; checks robots access and critical assets; identifies redirect chains, loops, soft 404s, and parameter explosions; compares crawl requests in logs with intended resources; and consults provider reports while respecting their limits.
+
+Prioritize crawl management when evidence shows it affects meaningful resources. A small stable site may need only routine monitoring. Crawl budget is not a fixed quota unlocked by arbitrary tricks; crawled URLs are not automatically indexed.
+
+## 2. Practical validation
+
+Use representative URLs and templates, inspect the actual HTTP response and rendered output, document the environment and date, and retest after production deployment. A tool result is evidence about the test it performed, not a universal certification.
+
+## 3. Limitations and ownership
+
+Attribute search-engine-specific behavior to the engine that documents it. Distinguish technical validity from indexing selection, ranking, and search presentation. Use adjacent-domain links from the [Domain 10 index](README.md) to preserve canonical ownership.
+
+## References
+
+- Google Crawling Infrastructure. ([Optimize your crawl budget](https://developers.google.com/crawling/docs/crawl-budget)).
+- Google Search Central. ([Crawling and indexing](https://developers.google.com/search/docs/crawling-indexing)).
+- Google Search Central. ([Troubleshoot crawling errors](https://developers.google.com/search/docs/crawling-indexing/troubleshoot-crawling-errors)).

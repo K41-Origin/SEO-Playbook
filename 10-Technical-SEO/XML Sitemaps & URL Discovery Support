@@ -1,0 +1,29 @@
+# 10.5 — XML Sitemaps & URL Discovery Support
+
+An XML sitemap is a machine-readable inventory of URLs that a site makes available to search engines. It can support discovery and provide metadata, but it does not command a search engine to crawl, index, or display every listed URL.
+
+## 1. Core concepts and mechanisms
+
+Sitemaps are particularly useful for large or complex sites, new sites with limited external discovery paths, and sites with specialized media or news content. Google notes that well-linked small sites may not need a sitemap for discovery, although a maintained sitemap can still be useful operationally. [1]
+
+Include URLs the site intends to make available in search results. Entries should normally use fully qualified absolute URLs, represent preferred URL versions, return appropriate successful responses, and avoid redirects, blocked URLs, or noindex directives. Use lastmod only when it reflects a meaningful, verifiable modification.
+
+The Sitemaps protocol defines XML elements and file constraints. Large inventories can be split across sitemap files and referenced by a sitemap index. Validate XML syntax, encoding, URL scope, and actual response behavior. Follow current protocol and search-engine documentation for limits rather than relying on old tutorials. [2]
+
+A sitemap can be discovered through robots.txt or submitted through supported search-engine tools. Submission is a discovery hint. Monitor processing status, but do not treat submitted URL counts as indexed URL counts.
+
+Generate sitemaps from the canonical URL inventory rather than a fragile manual list. Rebuild them when content is published, removed, redirected, canonicalized, or materially modified. Validate absolute URLs, host consistency, canonical alignment, response status, indexability directives, lastmod accuracy, and sitemap-index references.
+
+## 2. Practical validation
+
+Use representative URLs and templates, inspect the actual HTTP response and rendered output, document the environment and date, and retest after production deployment. A tool result is evidence about the test it performed, not a universal certification.
+
+## 3. Limitations and ownership
+
+Attribute search-engine-specific behavior to the engine that documents it. Distinguish technical validity from indexing selection, ranking, and search presentation. Use adjacent-domain links from the [Domain 10 index](README.md) to preserve canonical ownership.
+
+## References
+
+- Google Search Central. ([What is a sitemap](https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview)).
+- Google Search Central. ([Build and submit a sitemap](https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap)).
+- Sitemaps.org. ([Sitemaps XML format](https://www.sitemaps.org/protocol.html)).

@@ -1,0 +1,29 @@
+# 10.13 — Technical SEO Auditing & Quality Assurance
+
+A technical SEO audit is a scoped assessment of website implementation and delivery against explicit technical criteria. Quality assurance extends that assessment into release checks, regression prevention, and remediation verification.
+
+## 1. Core concepts and mechanisms
+
+Define the audit object: domain, host, URL inventory, templates, environments, device contexts, date, tools, crawl settings, sample design, and exclusions. A crawl of a subset is not a full-site audit; one template review does not prove every route behaves identically.
+
+A practical audit may assess server availability, HTTPS, response codes and redirects; URL architecture and duplicate variants; robots.txt and indexing directives; sitemap quality and canonical consistency; rendering and mobile parity; performance and Core Web Vitals; structured-data syntax and policy alignment; logs and monitoring coverage. Choose dimensions according to site architecture and risk.
+
+For each finding, record affected URLs/templates, reproducibility, evidence, expected user/search-system impact, severity, confidence, owner, remediation, and validation method. Prioritize based on actual reach and risk, not only a vendor's severity label or aggregate score. Distinguish confirmed defects from warnings, hypotheses, recommendations, and tool limitations.
+
+Convert critical findings into repeatable tests where possible: response-code assertions, redirect checks, robots/sitemap validation, canonical consistency, rendered-content checks, structured-data tests, and performance budgets. Run them before and after material releases.
+
+Re-test original affected URLs and representative neighboring templates. Verify production behavior after deployment, not merely local code or staging. A regression test verifies a defined condition in a defined environment; it does not prove all search-engine behavior or guarantee future indexing. A useful report includes scope, methodology, findings, prioritization rationale, evidence, ownership, remediation status, and unresolved risks.
+
+## 2. Practical validation
+
+Use representative URLs and templates, inspect the actual HTTP response and rendered output, document the environment and date, and retest after production deployment. A tool result is evidence about the test it performed, not a universal certification.
+
+## 3. Limitations and ownership
+
+Attribute search-engine-specific behavior to the engine that documents it. Distinguish technical validity from indexing selection, ranking, and search presentation. Use adjacent-domain links from the [Domain 10 index](README.md) to preserve canonical ownership.
+
+## References
+
+- Google Search Central. ([Search Console documentation](https://support.google.com/webmasters/)).
+- Google Search Central. ([URL Inspection tool](https://support.google.com/webmasters/answer/9012289)).
+- W3C. ([Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/TR/WCAG22/)).
