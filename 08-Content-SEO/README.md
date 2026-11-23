@@ -44,7 +44,7 @@ This domain owns editorial decisions and workflows. It does not claim ownership 
 | [06 — SERP & Search Features](../06-SERP-and-Search-Features/README.md) | SERP anatomy, result presentation, and search features | Domain 06 owns how search results and features appear. Domain 08 may consider search presentation as context, not as a substitute for editorial substance. |
 | [07 — On-Page SEO](../07-On-Page-SEO/README.md) | Page-level elements and HTML structure, including title elements, meta descriptions, headings, URLs, image elements, semantic HTML, implementation, and on-page audits | Domain 08 owns content substance and editorial development. Domain 07 owns how page-level elements and markup are authored and implemented. An editorial outline is not an HTML heading specification. |
 | Domain 09 — Semantic SEO | Entities, semantic relationships, topical coverage, and semantic content architecture | Domain 09 owns semantic modeling and broader topical architecture. Domain 08 may consume those outputs as editorial inputs but must not reproduce the architecture methodology. |
-| Domain 10 — Technical SEO (planned) | Technical delivery, crawling/indexing controls, rendering, structured data implementation, performance, and technical validation | Domain 10 will own technical implementation and delivery. Domain 08 supplies content requirements and editorial assets, not technical controls. |
+| [Domain 10 — Technical SEO](../10-Technical-SEO/README.md) | Technical delivery, crawling/indexing controls, rendering, structured data implementation, performance, and technical validation | Domain 10 owns technical implementation and delivery. Domain 08 supplies content requirements and editorial assets, not technical controls. |
 | Domain 11 — Internal Linking (planned) | Internal-link architecture, strategy, and anchor-text practice | Domain 11 will own internal-link strategy and implementation. Domain 08 may identify editorial relationships or contextual linking needs, but must not recreate the linking framework. |
 | Domain 12 — Off-Page SEO (planned) | External authority, link acquisition, digital PR, and off-site promotion | Domain 08 creates and maintains content assets. Domain 12 will own off-site promotion and acquisition strategies. |
 | Domain 13 — International & Local SEO (planned) | International and local search strategy, targeting, and localization contexts | Domain 13 will own market and locale targeting. Domain 08 may create localized editorial material under those requirements without taking over hreflang, local SEO, or international targeting methodology. |
@@ -159,7 +159,7 @@ Only topics whose substantive files exist and have completed the required resear
 - [06 — SERP & Search Features](../06-SERP-and-Search-Features/README.md)
 - [07 — On-Page SEO](../07-On-Page-SEO/README.md)
 - [Domain 09 — Semantic SEO](../09-Semantic-SEO/README.md)
-- Domain 10 — Technical SEO (planned)
+- [Domain 10 — Technical SEO](../10-Technical-SEO/README.md)
 - Domain 11 — Internal Linking (planned)
 - Domain 12 — Off-Page SEO (planned)
 - Domain 13 — International & Local SEO (planned)
