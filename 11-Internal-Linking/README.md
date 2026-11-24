@@ -50,7 +50,7 @@ Internal linking is not a guarantee of crawling, indexing, ranking, or traffic. 
 
 ## Domain Structure
 
-The following eight topics define the approved initial scope. Topic documents will be authored in subsequent development work. Until a topic file exists, its title and scope below are planning information, not a published article or working link.
+The following eight topics define the approved initial scope. Existing topic documents are linked directly; topics without a published file remain clearly identified as planned scope rather than published articles.
 
 ### Group A — Foundations and Structural Design
 
