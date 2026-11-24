@@ -61,14 +61,14 @@ The following eight topics define the approved initial scope. All eight topic do
 
 ### Group B — Navigation and Contextual Linking
 
-| Topic | Title | Planned scope |
+| Topic | Title | Topic scope |
 |---|---|---|
 | [11.3 — Navigation Links, Menus, and Breadcrumbs](11.3-Navigation-Links-Menus-and-Breadcrumbs.md) | Covers navigational link systems, global and section menus, utility and footer navigation, menu patterns, breadcrumb models, current-location indicators, consistency, responsive behavior, accessibility considerations, and search-engine context. |
 | [11.4 — Contextual Internal Linking and Anchor Text](11.4-Contextual-Internal-Linking-and-Anchor-Text.md) | Covers in-content links, source and destination context, descriptive anchor text, link placement, relevance, and editorial integration. |
 
 ### Group C — Strategy and Evaluation
 
-| Topic | Title | Planned scope |
+| Topic | Title | Topic scope |
 |---|---|---|
 | [11.5 — Internal-Link Strategy and Page Prioritization](11.5-Internal-Link-Strategy-and-Page-Prioritization.md) | Covers linking objectives, source/target selection, opportunity planning, important-page support, and contextual prioritization without universal link-count or ranking formulas. |
 | [11.6 — Orphan Pages, Link Depth, and Link Coverage](11.6-Orphan-Pages-Link-Depth-and-Link-Coverage.md) | Covers orphan-page conditions, hyperlink depth, reachability from declared entry points, and structural link-coverage gaps. |
@@ -76,7 +76,7 @@ The following eight topics define the approved initial scope. All eight topic do
 
 ### Group D — Maintenance
 
-| Topic | Title | Planned scope |
+| Topic | Title | Topic scope |
 |---|---|---|
 | [11.8 — Internal-Link Maintenance and Governance](11.8-Internal-Link-Maintenance-and-Governance.md) | Covers lifecycle triggers, obsolete-link decisions, maintenance workflows, ownership, exceptions, quality control, and ongoing review. |
 
@@ -95,7 +95,7 @@ The following eight topics define the approved initial scope. All eight topic do
 | Area | Status |
 |---|---|
 | Domain scope and ownership boundaries | Established for the initial domain structure. |
-| Topic architecture | All eight approved topic scopes have corresponding researched-draft documents integrated on the public default branch. The 2026-11-24 comprehensive review corrected stale planned-topic handoffs and checked the domain's topic roles, cross-domain boundaries, and internal navigation. This review is scoped and does not constitute exhaustive all-pairs semantic adjudication or corpus-wide source verification; see the dated k41-core evidence record.
+| Topic architecture | All eight approved topic scopes have corresponding researched-draft documents integrated on the public default branch. The 2026-11-24 comprehensive review corrected stale planned-topic handoffs and checked the domain's topic roles, cross-domain boundaries, and internal navigation. This review is scoped and does not constitute exhaustive all-pairs semantic adjudication or corpus-wide source verification; see the dated k41-core evidence record. |
 | Source research and claim-level verification | Topic 11.1 has completed editorial/source review, local reference and relative-link checks, and a scoped final cross-domain duplication review. No substantive duplicate explanatory responsibility was identified in the reviewed candidate documents. Topic 11.2 completed a focused editorial/source review, reference-claim alignment check, relative-link destination check, and scoped cross-domain overlap review against selected material in Domains 03, 09, and 10 and topic 11.1; see the dated k41-core evidence record. Topic 11.3 has a researched draft and has undergone focused source, scope, and integration review; see the dated k41-core evidence record. Topic 11.4 was merged as a researched draft after focused editorial/source review, citation-integrity checks, relative-link checks, and a scoped overlap review against selected material in Domains 03, 05, 07, 08, and 09 and topics 11.1–11.3; see the dated k41-core evidence record. Topic 11.5 was merged as a researched draft after primary-source alignment, citation-integrity checks, relative-link validation, and scoped overlap review against topics 11.1–11.4 and selected material in Domains 03, 05, 09, and 10; see the dated k41-core evidence record. Topic 11.6 was merged as a researched draft after primary-source alignment, citation-integrity checks, relative-link validation, and a focused ownership review against topics 11.1–11.5 and selected material in Domains 02 and 10; see the dated k41-core evidence record. Topic 11.7 was merged as a researched draft after primary-source alignment, claim/citation checks, relative-link validation, and focused ownership review against topics 11.2, 11.4–11.6 and selected material in Domains 02 and 10; see the dated k41-core evidence record. Topic 11.8 covers maintenance triggers, relationship decisions, governance, workflow integration, risk-based review, and handoffs; the eight-topic domain review is recorded in k41-core evidence. |
 | Cross-domain integration | The 11.1 cross-domain ownership review is complete within its documented scope. Topic 11.2's scoped overlap review against Domains 03, 09, and 10 and topic 11.1 is complete. Topic 11.3 has undergone a focused overlap review against selected documents in Domains 06, 07, 09, and 10 and topics 11.1–11.2; see the dated k41-core evidence record. Topic 11.4 has undergone a focused overlap review against selected documents in Domains 03, 05, 07, 08, and 09 and topics 11.1–11.3; see the dated k41-core evidence record. Topic 11.6's focused ownership review considered the distinction between publisher-side structural diagnosis, crawler-based audit methodology, and search-engine/technical discovery mechanisms. Topic 11.7's focused ownership review considered the distinction between publisher-side link-relationship auditing, Domain 10 technical SEO audit methodology, and provider-side crawling/discovery. These scoped reviews do not constitute an exhaustive all-pairs semantic audit. |
 
