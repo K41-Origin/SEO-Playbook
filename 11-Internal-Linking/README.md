@@ -56,7 +56,7 @@ The following eight topics define the approved initial scope. Topic documents wi
 
 | Topic | Title | Planned scope |
 |---|---|---|
-| 11.1 | Internal Linking Fundamentals and Principles | Defines internal linking, its purposes, terminology, user-navigation value, search-related context, and evidence-aware principles. |
+| [11.1 — Internal Linking Fundamentals and Principles](11.1-Internal-Linking-Fundamentals-and-Principles.md) | Establishes the meaning, purposes, terminology, user-facing value, search-related context, limitations, and evidence-aware principles of internal linking. |
 | 11.2 | Internal-Link Architecture and Structural Design | Explains site-wide hyperlink structure, hierarchical and non-hierarchical relationships, page connectivity, link depth as a structural property, and link-graph representation. |
 
 ### Group B — Navigation and Contextual Linking
@@ -95,12 +95,13 @@ The following eight topics define the approved initial scope. Topic documents wi
 | Area | Status |
 |---|---|
 | Domain scope and ownership boundaries | Established for the initial domain structure. |
-| Topic architecture | Eight topic scopes approved; topic documents not yet authored. |
-| Source research and claim-level verification | Not yet assessed at topic level. |
+| Topic architecture | Eight topic scopes approved; 11.1 has a researched draft on the development branch; topics 11.2–11.8 remain planned. |
+| Source research and claim-level verification | Topic 11.1 has initial primary-source research and inline citations; editorial and citation-integrity review remains pending. Topics 11.2–11.8 have not yet been researched. |
 | Cross-domain integration | Initial boundaries documented; topic-level review remains pending. |
 
 ## Related Topics
 
+- [11.1 — Internal Linking Fundamentals and Principles](11.1-Internal-Linking-Fundamentals-and-Principles.md)
 - [01.5 — SEO Disciplines](../01-SEO-Fundamentals/01.5-SEO-Disciplines.md)
 - [02.3 — Web Discovery](../02-Search-Engine-Fundamentals/02.3-Web-Discovery.md)
 - [03.5 — Link Analysis & PageRank](../03-Search-Engine-Algorithms/03.5-Link-Analysis-and-PageRank.md)
