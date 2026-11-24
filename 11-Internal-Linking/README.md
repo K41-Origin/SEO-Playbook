@@ -95,9 +95,9 @@ The following eight topics define the approved initial scope. Topic documents wi
 | Area | Status |
 |---|---|
 | Domain scope and ownership boundaries | Established for the initial domain structure. |
-| Topic architecture | Eight topic scopes approved; 11.1 and 11.2 researched drafts are present on the development branch. Topic 11.1 is merged to the public default branch; 11.2 awaits review and merge. Topics 11.3–11.8 remain planned. |
-| Source research and claim-level verification | Topic 11.1 has completed editorial/source review, local reference and relative-link checks, and a scoped final cross-domain duplication review. No substantive duplicate explanatory responsibility was identified in the reviewed candidate documents. Topic 11.2 has a researched draft and awaits editorial/source review; topics 11.3–11.8 have not yet been researched. |
-| Cross-domain integration | The 11.1 cross-domain ownership review is complete within its documented scope. Topic 11.2 has been drafted with explicit boundaries against Domains 03, 09, and 10; its scoped overlap review remains pending. |
+| Topic architecture | Eight topic scopes approved; 11.1 and 11.2 researched drafts are present on this branch. Topic 11.1 is merged to the public default branch; 11.2 has completed the current editorial and scoped cross-domain review and is proposed for merge. Topics 11.3–11.8 remain planned. |
+| Source research and claim-level verification | Topic 11.1 has completed editorial/source review, local reference and relative-link checks, and a scoped final cross-domain duplication review. No substantive duplicate explanatory responsibility was identified in the reviewed candidate documents. Topic 11.2 has completed a focused editorial/source review, reference-claim alignment check, and scoped cross-domain overlap review against selected material in Domains 03, 09, and 10 and topic 11.1. Topics 11.3–11.8 have not yet been researched. |
+| Cross-domain integration | The 11.1 cross-domain ownership review is complete within its documented scope. Topic 11.2's scoped overlap review against Domains 03, 09, and 10 and topic 11.1 is complete; no duplicate explanatory responsibility requiring removal or ownership transfer was identified in the reviewed candidates. |
 
 ## Related Topics
 
