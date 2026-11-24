@@ -198,6 +198,7 @@ These are modeling and planning outputs. They do not automatically prescribe a n
 - [06 — SERP & Search Features](../06-SERP-and-Search-Features/README.md)
 - [07 — On-Page SEO](../07-On-Page-SEO/README.md)
 - [08 — Content SEO](../08-Content-SEO/README.md)
+- [12 — Off-Page SEO](../12-Off-Page-SEO/README.md) — external brand mentions and reputation monitoring are practitioner-side activities; entity modeling and semantic relationships remain in Domain 09.
 
 ## References
 
