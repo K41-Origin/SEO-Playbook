@@ -95,9 +95,9 @@ The following eight topics define the approved initial scope. Topic documents wi
 | Area | Status |
 |---|---|
 | Domain scope and ownership boundaries | Established for the initial domain structure. |
-| Topic architecture | Eight topic scopes approved; 11.1 has a researched draft revised after a first deep editorial/evidence review on the development branch; final integration review remains pending. Topics 11.2–11.8 remain planned. |
-| Source research and claim-level verification | Topic 11.1 has been revised after a first deep review of definitions, search-related claims, accessibility wording, scope boundaries, and source alignment. Its local references and internal links have been checked; broader editorial and cross-domain duplication review remain pending. Topics 11.2–11.8 have not yet been researched. |
-| Cross-domain integration | Initial boundaries documented; topic-level review remains pending. |
+| Topic architecture | Eight topic scopes approved; 11.1 researched draft merged to the public default branch after editorial/source review and scoped final cross-domain duplication review (2026-11-24). Topics 11.2–11.8 remain planned. |
+| Source research and claim-level verification | Topic 11.1 has completed editorial/source review, local reference and relative-link checks, and a scoped final cross-domain duplication review. No substantive duplicate explanatory responsibility was identified in the reviewed candidate documents. Topics 11.2–11.8 have not yet been researched. |
+| Cross-domain integration | The 11.1 cross-domain ownership review is complete within its documented scope; subsequent topics require their own overlap and integration reviews. |
 
 ## Related Topics
 
