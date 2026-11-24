@@ -177,7 +177,7 @@ Only existing documents are linked as destinations. Planned topics remain in the
 |---|---|
 | Repository architecture | 17 knowledge domains defined. |
 | Domains 01–10 | Documented; 10 domain indexes and 105 numbered topic documents are present. Domain 10 has undergone structural remediation and source/content refinement; the dated audit record remains in k41-core. |
-| Domain 11 — Internal Linking | In progress; the approved eight-topic index and researched drafts of 11.1 and 11.2 are present. Topics 11.1 and 11.2 are merged; topic 11.2 completed focused editorial/source and scoped cross-domain review on 2026-11-24; topics 11.3–11.8 remain planned. |
+| Domain 11 — Internal Linking | In progress; the approved eight-topic index and researched drafts of 11.1–11.3 are present. Topics 11.1 and 11.2 are merged; topic 11.3 has a researched draft undergoing focused review; topics 11.4–11.8 remain planned. |
 | Domains 12–16 | Planned; topic documentation has not yet been developed. |
 | Domain 17 — k41-version | Experimental domain defined; topic documentation has not yet been developed. |
 | Publication language | English-only; one canonical document per published topic. |
@@ -205,3 +205,4 @@ Topic-level claims and references live in their canonical topic documents. Audit
 - [11 — Internal Linking](11-Internal-Linking/README.md) — website-side internal-link architecture, navigation relationships, linking strategy, auditing, and maintenance.
   - [11.1 — Internal Linking Fundamentals and Principles](11-Internal-Linking/11.1-Internal-Linking-Fundamentals-and-Principles.md) — foundational definitions, purposes, link forms, evidence-aware principles, and scope boundaries.
   - [11.2 — Internal-Link Architecture and Structural Design](11-Internal-Linking/11.2-Internal-Link-Architecture-and-Structural-Design.md) — site-wide hyperlink structure, graph representation, connectivity patterns, and design workflow.
+  - [11.3 — Navigation Links, Menus, and Breadcrumbs](11-Internal-Linking/11.3-Navigation-Links-Menus-and-Breadcrumbs.md) — navigational systems, menu patterns, breadcrumb models, orientation, consistency, responsive behavior, and search-engine context.
