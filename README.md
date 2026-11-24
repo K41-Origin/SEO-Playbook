@@ -177,7 +177,7 @@ Only existing documents are linked as destinations. Planned topics remain in the
 |---|---|
 | Repository architecture | 17 knowledge domains defined. |
 | Domains 01–10 | Documented; 10 domain indexes and 105 numbered topic documents are present. Domain 10 has undergone structural remediation and source/content refinement; the dated audit record remains in k41-core. |
-| Domain 11 — Internal Linking | In progress; the approved eight-topic index and researched drafts of 11.1–11.5 are merged. Topics 11.6–11.8 remain planned. |
+| Domain 11 — Internal Linking | In progress; the approved eight-topic index and researched drafts of 11.1–11.6 are merged. Topics 11.7–11.8 remain planned. |
 | Domains 12–16 | Planned; topic documentation has not yet been developed. |
 | Domain 17 — k41-version | Experimental domain defined; topic documentation has not yet been developed. |
 | Publication language | English-only; one canonical document per published topic. |
@@ -208,3 +208,4 @@ Topic-level claims and references live in their canonical topic documents. Audit
   - [11.3 — Navigation Links, Menus, and Breadcrumbs](11-Internal-Linking/11.3-Navigation-Links-Menus-and-Breadcrumbs.md) — navigational systems, menu patterns, breadcrumb models, orientation, consistency, responsive behavior, and search-engine context.
   - [11.4 — Contextual Internal Linking and Anchor Text](11-Internal-Linking/11.4-Contextual-Internal-Linking-and-Anchor-Text.md) — in-content links, source/destination context, descriptive anchor text, relevance, placement, and editorial integration.
   - [11.5 — Internal-Link Strategy and Page Prioritization](11-Internal-Linking/11.5-Internal-Link-Strategy-and-Page-Prioritization.md) — linking objectives, source/target selection, opportunity planning, and evidence-aware page prioritization.
+  - [11.6 — Orphan Pages, Link Depth, and Link Coverage](11-Internal-Linking/11.6-Orphan-Pages-Link-Depth-and-Link-Coverage.md) — orphan-page conditions, hyperlink depth, reachability, and structural link-coverage gaps.
