@@ -205,3 +205,4 @@ Topic-level claims and references live in their canonical topic documents. Audit
 - [11 — Internal Linking](11-Internal-Linking/README.md) — website-side internal-link architecture, navigation relationships, linking strategy, auditing, and maintenance.
   - [11.1 — Internal Linking Fundamentals and Principles](11-Internal-Linking/11.1-Internal-Linking-Fundamentals-and-Principles.md) — foundational definitions, purposes, link forms, evidence-aware principles, and scope boundaries.
   - [11.2 — Internal-Link Architecture and Structural Design](11-Internal-Linking/11.2-Internal-Link-Architecture-and-Structural-Design.md) — site-wide hyperlink structure, graph representation, connectivity patterns, and design workflow.
+  - [11.3 — Navigation Links, Menus, and Breadcrumbs](11-Internal-Linking/11.3-Navigation-Links-Menus-and-Breadcrumbs.md) — navigational systems, menu patterns, breadcrumb models, orientation, consistency, responsive behavior, and search-engine context.
