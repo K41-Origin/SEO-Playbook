@@ -177,7 +177,7 @@ Only existing documents are linked as destinations. Planned topics remain in the
 |---|---|
 | Repository architecture | 17 knowledge domains defined. |
 | Domains 01–10 | Documented; 10 domain indexes and 105 numbered topic documents are present. Domain 10 has undergone structural remediation and source/content refinement; the dated audit record remains in k41-core. |
-| Domain 11 — Internal Linking | In progress; the approved eight-topic index and 11.1 researched draft are present. Topic 11.1 has completed editorial and scoped cross-domain review; topics 11.2–11.8 remain planned. |
+| Domain 11 — Internal Linking | In progress; the approved eight-topic index and researched drafts of 11.1 and 11.2 are present on the development branch. Topic 11.1 is merged; 11.2 awaits review and merge; topics 11.3–11.8 remain planned. |
 | Domains 12–16 | Planned; topic documentation has not yet been developed. |
 | Domain 17 — k41-version | Experimental domain defined; topic documentation has not yet been developed. |
 | Publication language | English-only; one canonical document per published topic. |
@@ -204,3 +204,4 @@ Topic-level claims and references live in their canonical topic documents. Audit
   - [10.13 — Technical SEO Auditing & Quality Assurance](10-Technical-SEO/10.13-Technical-SEO-Auditing-and-Quality-Assurance.md)
 - [11 — Internal Linking](11-Internal-Linking/README.md) — website-side internal-link architecture, navigation relationships, linking strategy, auditing, and maintenance.
   - [11.1 — Internal Linking Fundamentals and Principles](11-Internal-Linking/11.1-Internal-Linking-Fundamentals-and-Principles.md) — foundational definitions, purposes, link forms, evidence-aware principles, and scope boundaries.
+  - [11.2 — Internal-Link Architecture and Structural Design](11-Internal-Linking/11.2-Internal-Link-Architecture-and-Structural-Design.md) — site-wide hyperlink structure, graph representation, connectivity patterns, and design workflow.
