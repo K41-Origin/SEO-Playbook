@@ -95,8 +95,8 @@ The approved initial scope contains seven topics.
 |---|---|
 | Domain scope and ownership | Approved by project owner on 2026-11-24; implemented in this index. |
 | Seven-topic architecture | Approved and documented. |
-| Topic documents | Seven researched initial drafts are integrated. Citation bookkeeping and focused source inspection are recorded; all 21 intra-domain topic pairs received paragraph-level screening, with candidate review and targeted deduplication corrections in PRs #19–#20. Sentence-level claim/source entailment remains open. |
-| Cross-domain integration | Root navigation and reciprocal ownership handoffs are implemented. Relative links in all seven topic documents were validated; 56 selected cross-domain candidate pairs were screened and targeted ownership-boundary corrections were merged in PR #21. Exhaustive corpus-wide cross-domain semantic review remains open. |
+| Topic documents | Seven researched initial drafts are integrated. Citation bookkeeping and focused material-claim/source review across all seven topics are recorded; source-precision corrections were merged in PR #23. All 21 intra-domain topic pairs received paragraph-level screening, with targeted deduplication corrections in PRs #19–#20 and #25. Full external-URL health checking remains open. |
+| Cross-domain integration | Root navigation and reciprocal ownership handoffs are implemented. Relative links in all seven topic documents were validated; 56 selected cross-domain candidate pairs were screened, with targeted provider/practitioner and internal/external boundary corrections in PRs #21 and #24. Exhaustive corpus-wide cross-domain semantic review remains open. |
 | Global concept mapping | Managed in the private k41-core Global SEO Concept Registry. |
 | Comprehensive domain audit | Not yet completed. |
 
