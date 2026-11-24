@@ -1,0 +1,113 @@
+# Domain 11 — Internal Linking
+
+## Language and Canonical Versions
+
+English is the sole publication language of SEO-Playbook. Each topic will have one canonical English document; parallel language editions are not maintained.
+
+## Domain Purpose
+
+Domain 11 explains how a website's pages are connected through internal hyperlinks, and how those relationships should be designed, planned, evaluated, and maintained.
+
+Its canonical focus is **website-side internal-link architecture and strategy**: the actual hyperlink relationships that support navigation, connect relevant pages, help readers move through a site, and make important content reachable within the website's structure.
+
+Internal linking is not a guarantee of crawling, indexing, ranking, or traffic. Search systems retain independent control over discovery, crawling, indexing, and ranking decisions.
+
+## Scope and Ownership
+
+### What Domain 11 owns
+
+- The purpose and principles of internal linking as a website practice.
+- The design of internal hyperlink relationships across pages and sections.
+- Navigational links, menus, and breadcrumb relationships.
+- Contextual internal links and strategically descriptive anchor text.
+- Planning source pages, target pages, and internal-link opportunities.
+- Evaluating orphan pages, link depth, link coverage, and structural gaps.
+- Auditing internal-link relationships and prioritizing improvements.
+- Maintaining internal links as content and website structures change.
+
+### What Domain 11 does not own
+
+| Related domain | Canonical ownership | Boundary with Domain 11 |
+|---|---|---|
+| [02 — Search Engine Fundamentals](../02-Search-Engine-Fundamentals/README.md) | Search-engine-side discovery, crawling, processing, and indexing mechanisms | Domain 02 explains how search systems discover URLs, including through links. Domain 11 explains how website owners design internal hyperlinks; it does not define crawler behavior. |
+| [03 — Search Engine Algorithms](../03-Search-Engine-Algorithms/README.md) | Ranking systems, link analysis, PageRank, and search-engine evaluation of links | Domain 03 owns algorithmic link-analysis mechanisms and search-engine treatment. Domain 11 owns publisher-side linking decisions and implementation strategy; it must not present inferred link weights or ranking effects as established facts. |
+| [05 — Keyword & Search Intent](../05-Keyword-and-Search-Intent/README.md) | Keyword research, intent analysis, clustering, prioritization, and keyword-to-page mapping | Domain 05 can provide page targets and research handoffs. Domain 11 determines how relevant pages should be connected through internal hyperlinks. |
+| [07 — On-Page SEO](../07-On-Page-SEO/README.md) | Page-level authoring, HTML elements, and semantic markup | Domain 07 owns page-element semantics and HTML implementation details. Domain 11 owns the strategic use, context, and placement of internal hyperlinks across the site. |
+| [08 — Content SEO](../08-Content-SEO/README.md) | Editorial strategy, content production, quality assurance, and content lifecycle | Domain 08 owns editorial decisions and content operations. Domain 11 addresses the hyperlink relationships that connect published content. |
+| [09 — Semantic SEO](../09-Semantic-SEO/README.md) | Entities, conceptual relationships, topical models, and semantic information architecture | Domain 09 models what concepts and pages mean and how they relate. Domain 11 addresses which actual internal hyperlinks should connect pages. A semantic relationship does not automatically require a hyperlink. |
+| [10 — Technical SEO](../10-Technical-SEO/README.md) | Technical website architecture, crawlability, rendering, URL handling, diagnostics, and technical QA | Domain 10 owns technical accessibility and implementation diagnostics. Domain 11 owns the intended navigational and strategic relationships between pages. Technical audit methods and crawler behavior remain in Domain 10. |
+
+### Canonical Boundary Rules
+
+1. **A hyperlink is not the same as a semantic relationship.** A modeled relationship between two concepts or pages does not automatically require a navigational link.
+2. **Website link design is not search-engine discovery mechanics.** Domain 11 owns publisher decisions; Domain 02 explains provider-side discovery and crawling.
+3. **Internal-link strategy is not PageRank documentation.** Domain 03 owns search-engine link-analysis mechanisms. Domain 11 must avoid unsupported claims about guaranteed ranking gains or fixed link weights.
+4. **Anchor-text strategy is not HTML semantics.** Domain 11 addresses descriptive and contextual choices; Domain 07 owns page-level HTML semantics and implementation.
+5. **Link architecture is not URL architecture.** Domain 10 owns technical URL patterns and site delivery; Domain 11 owns hyperlink relationships between resources.
+6. **An orphan-page finding has both strategic and technical dimensions.** Domain 11 evaluates whether a page should be linked and where meaningful links belong; Domain 10 owns crawler-based diagnostics and technical accessibility checks.
+7. **Keyword-to-page mapping is an input, not an internal-link plan.** Domain 05 maps query groups to pages; Domain 11 plans relationships between those pages.
+8. **Internal links do not guarantee crawling, indexing, ranking, or sitelinks.** Explain documented mechanisms and limitations without promising outcomes.
+
+## Domain Structure
+
+The following eight topics define the approved initial scope. Topic documents will be authored in subsequent development work. Until a topic file exists, its title and scope below are planning information, not a published article or working link.
+
+### Group A — Foundations and Structural Design
+
+| Topic | Title | Planned scope |
+|---|---|---|
+| 11.1 | Internal Linking Fundamentals and Principles | Defines internal linking, its purposes, terminology, user-navigation value, search-related context, and evidence-aware principles. |
+| 11.2 | Internal-Link Architecture and Structural Design | Explains site-wide hyperlink structure, hierarchical and non-hierarchical relationships, page connectivity, link depth as a structural property, and link-graph representation. |
+
+### Group B — Navigation and Contextual Linking
+
+| Topic | Title | Planned scope |
+|---|---|---|
+| 11.3 | Navigation Links, Menus, and Breadcrumbs | Covers navigational link systems, menus, section navigation, breadcrumbs, and the relationship between navigation design and page hierarchy. |
+| 11.4 | Contextual Internal Linking and Anchor Text | Covers in-content links, source and destination context, descriptive anchor text, link placement, relevance, and editorial integration. |
+
+### Group C — Strategy and Evaluation
+
+| Topic | Title | Planned scope |
+|---|---|---|
+| 11.5 | Internal-Link Strategy and Page Prioritization | Covers linking objectives, source/target selection, opportunity planning, important-page support, and contextual prioritization without universal link-count or ranking formulas. |
+| 11.6 | Orphan Pages, Link Depth, and Link Coverage | Covers pages with missing or weak inbound internal links, excessive navigational depth, disconnected sections, and structural coverage gaps. |
+| 11.7 | Internal-Link Auditing and Analysis | Covers internal-link inventories, relationship analysis, audit methodology, issue classification, prioritization, and interpretation of crawler-derived evidence. |
+
+### Group D — Maintenance
+
+| Topic | Title | Planned scope |
+|---|---|---|
+| 11.8 | Internal-Link Maintenance and Governance | Covers link maintenance after content or structural changes, obsolete links, quality control, ownership, governance, and ongoing review. |
+
+## Cross-Domain Relationships
+
+- **Domain 02 → Domain 11:** search-engine discovery documentation provides the provider-side mechanism context; Domain 11 defines the publisher-side internal-link structure.
+- **Domain 03 → Domain 11:** link-analysis concepts inform the limits and context of internal-link strategy; Domain 11 does not reproduce ranking-system explanations.
+- **Domain 05 → Domain 11:** keyword-to-page mapping can supply candidate page relationships for internal-link planning.
+- **Domain 07 → Domain 11:** page-level HTML and element semantics provide implementation context for internal-link decisions.
+- **Domain 08 → Domain 11:** content inventory, editorial relationships, and lifecycle changes can reveal linking needs and maintenance triggers.
+- **Domain 09 → Domain 11:** semantic information architecture can inform page relationships, while actual hyperlink choices remain a separate decision.
+- **Domain 10 → Domain 11:** technical architecture, crawl diagnostics, rendering, and URL changes provide implementation constraints and audit evidence.
+
+## Development Status
+
+| Area | Status |
+|---|---|
+| Domain scope and ownership boundaries | Established for the initial domain structure. |
+| Topic architecture | Eight topic scopes approved; topic documents not yet authored. |
+| Source research and claim-level verification | Not yet assessed at topic level. |
+| Cross-domain integration | Initial boundaries documented; topic-level review remains pending. |
+
+## Related Topics
+
+- [01.5 — SEO Disciplines](../01-SEO-Fundamentals/01.5-SEO-Disciplines.md)
+- [02.3 — Web Discovery](../02-Search-Engine-Fundamentals/02.3-Web-Discovery.md)
+- [03.5 — Link Analysis & PageRank](../03-Search-Engine-Algorithms/03.5-Link-Analysis-and-PageRank.md)
+- [05.9 — Keyword-to-Page Mapping & Research Deliverables](../05-Keyword-and-Search-Intent/05.9-Keyword-to-Page-Mapping-and-Research-Deliverables.md)
+- [09.9 — Semantic Information Architecture for Websites](../09-Semantic-SEO/09.9-Semantic-Information-Architecture-for-Websites.md)
+- [10 — Technical SEO](../10-Technical-SEO/README.md)
+
+## References
+
+References will be added and evaluated at the topic level. Each substantive topic must cite sources that directly support its claims, prioritizing relevant primary documentation, standards, research, and reproducible evidence.
