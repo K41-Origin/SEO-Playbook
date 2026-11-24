@@ -177,8 +177,9 @@ Only existing documents are linked as destinations. Planned topics remain in the
 |---|---|
 | Repository architecture | 17 knowledge domains defined. |
 | Domains 01–10 | Documented; 10 domain indexes and 105 numbered topic documents are present. Domain 10 has undergone structural remediation and source/content refinement; the dated audit record remains in k41-core. |
-| Domain 11 — Internal Linking | In progress; the approved eight-topic index and researched drafts of 11.1–11.8 are integrated on the public default branch; corpus-level quality assurance is in progress. |
-| Domains 12–16 | Planned; topic documentation has not yet been developed. |
+| Domain 11 — Internal Linking | Eight approved topic drafts are integrated. The comprehensive review and follow-up deduplication QA are recorded in k41-core; exhaustive all-pairs semantic and corpus-wide source verification remain separate follow-up work. |
+| Domain 12 — Off-Page SEO | Seven-topic architecture approved; index and seven researched initial drafts are integrated on this branch; focused editorial, citation, cross-domain, and integration QA remains in progress. |
+| Domains 13–16 | Planned; topic documentation has not yet been developed. |
 | Domain 17 — k41-version | Experimental domain defined; topic documentation has not yet been developed. |
 | Publication language | English-only; one canonical document per published topic. |
 | Governance and audit evidence | Maintained centrally in the private k41-core project workspace. |
@@ -212,3 +213,12 @@ Topic-level claims and references live in their canonical topic documents. Audit
   - [11.7 — Internal-Link Auditing and Analysis](11-Internal-Linking/11.7-Internal-Link-Auditing-and-Analysis.md) — internal-link data collection, validation, relationship analysis, issue classification, and evidence-based reporting.
 
   - [11.8 — Internal-Link Maintenance and Governance](11-Internal-Linking/11.8-Internal-Link-Maintenance-and-Governance.md) — lifecycle triggers, link updates and retirement, ownership, governance, maintenance workflows, and risk-based review.
+
+- [12 — Off-Page SEO](12-Off-Page-SEO/README.md) — external references, link earning and acquisition, outreach, digital PR, backlink evaluation, link-risk remediation, and off-site reputation.
+  - [12.1 — Off-Page SEO Fundamentals and External Signals](12-Off-Page-SEO/12.1-Off-Page-SEO-Fundamentals-and-External-Signals.md)
+  - [12.2 — Link Earning and Ethical Link Acquisition](12-Off-Page-SEO/12.2-Link-Earning-and-Ethical-Link-Acquisition.md)
+  - [12.3 — Link Prospecting, Outreach, and Relationship Development](12-Off-Page-SEO/12.3-Link-Prospecting-Outreach-and-Relationship-Development.md)
+  - [12.4 — Digital PR and Earned Media](12-Off-Page-SEO/12.4-Digital-PR-and-Earned-Media.md)
+  - [12.5 — Backlink Profile Analysis and Link Evaluation](12-Off-Page-SEO/12.5-Backlink-Profile-Analysis-and-Link-Evaluation.md)
+  - [12.6 — Link Spam Policies, Risk, and Remediation](12-Off-Page-SEO/12.6-Link-Spam-Policies-Risk-and-Remediation.md)
+  - [12.7 — Brand Mentions and Off-Site Reputation](12-Off-Page-SEO/12.7-Brand-Mentions-and-Off-Site-Reputation.md)
