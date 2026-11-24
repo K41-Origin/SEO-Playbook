@@ -46,7 +46,7 @@ This domain owns editorial decisions and workflows. It does not claim ownership 
 | Domain 09 — Semantic SEO | Entities, semantic relationships, topical coverage, and semantic content architecture | Domain 09 owns semantic modeling and broader topical architecture. Domain 08 may consume those outputs as editorial inputs but must not reproduce the architecture methodology. |
 | [Domain 10 — Technical SEO](../10-Technical-SEO/README.md) | Technical delivery, crawling/indexing controls, rendering, structured data implementation, performance, and technical validation | Domain 10 owns technical implementation and delivery. Domain 08 supplies content requirements and editorial assets, not technical controls. |
 | Domain 11 — Internal Linking (planned) | Internal-link architecture, strategy, and anchor-text practice | Domain 11 will own internal-link strategy and implementation. Domain 08 may identify editorial relationships or contextual linking needs, but must not recreate the linking framework. |
-| Domain 12 — Off-Page SEO (planned) | External authority, link acquisition, digital PR, and off-site promotion | Domain 08 creates and maintains content assets. Domain 12 will own off-site promotion and acquisition strategies. |
+| [12 — Off-Page SEO](../12-Off-Page-SEO/README.md) | External references, link earning and acquisition, digital PR, backlink evaluation, and off-site reputation | Domain 08 creates and maintains content assets. Domain 12 owns off-site promotion, external reference opportunities, and earned-media relationships. |
 | Domain 13 — International & Local SEO (planned) | International and local search strategy, targeting, and localization contexts | Domain 13 will own market and locale targeting. Domain 08 may create localized editorial material under those requirements without taking over hreflang, local SEO, or international targeting methodology. |
 | Domain 14 — SEO Analytics (planned) | Organic performance measurement, analysis, reporting, and outcome evaluation | Domain 14 will own measurement and performance interpretation. Domain 08 uses supported findings as editorial inputs but must not present an editorial audit as proof of SEO impact. |
 | Domain 15 — Advanced SEO (planned) | Advanced SEO subjects defined by its approved architecture | Domain 08 must link to future canonical explanations rather than absorb advanced subjects merely because they affect content. |
@@ -114,7 +114,7 @@ The roadmap defines intended topic ownership. A topic is not documented until it
 - **Domain 08 ↔ Domain 09:** Semantic architecture may inform content planning and development. Domain 09 owns the semantic models and architecture; Domain 08 owns editorial realization.
 - **Domain 08 ↔ Domain 10:** Editorial requirements and assets feed technical implementation; technical delivery and search-engine access remain Domain 10.
 - **Domain 08 ↔ Domain 11:** Editorial context may identify useful relationships between resources; internal-link architecture and implementation remain Domain 11.
-- **Domain 08 ↔ Domain 12:** Domain 08 creates content assets; off-site promotion, digital PR, and link acquisition remain Domain 12.
+- **Domain 08 ↔ Domain 12:** Domain 08 owns content research, production, editorial QA, and lifecycle. Domain 12 owns external promotion, link earning, digital PR, and off-site reputation; it must not reproduce the content-production workflow.
 - **Domain 08 ↔ Domain 13:** Editorial content may need market, language, and local adaptation; international/local targeting methodology remains Domain 13.
 - **Domain 14 → 08:** Performance analysis can inform editorial review. Domain 14 owns measurement, attribution, and reporting; Domain 08 owns resulting editorial decisions.
 - **Domain 17 ↔ 08:** Experiments can generate hypotheses for editorial practice. They remain experimental until evidence and review justify canonical adoption.
@@ -161,7 +161,7 @@ Only topics whose substantive files exist and have completed the required resear
 - [Domain 09 — Semantic SEO](../09-Semantic-SEO/README.md)
 - [Domain 10 — Technical SEO](../10-Technical-SEO/README.md)
 - Domain 11 — Internal Linking (planned)
-- Domain 12 — Off-Page SEO (planned)
+- [12 — Off-Page SEO](../12-Off-Page-SEO/README.md)
 - Domain 13 — International & Local SEO (planned)
 - Domain 14 — SEO Analytics (planned)
 - Domain 17 — k41-version (experimental)
