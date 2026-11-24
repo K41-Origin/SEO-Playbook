@@ -177,7 +177,7 @@ Only existing documents are linked as destinations. Planned topics remain in the
 |---|---|
 | Repository architecture | 17 knowledge domains defined. |
 | Domains 01–10 | Documented; 10 domain indexes and 105 numbered topic documents are present. Domain 10 has undergone structural remediation and source/content refinement; the dated audit record remains in k41-core. |
-| Domain 11 — Internal Linking | In progress; the approved eight-topic index and researched drafts of 11.1 and 11.2 are present. Topics 11.1 and 11.2 are merged; topic 11.2 completed focused editorial/source and scoped cross-domain review on 2026-11-24; topics 11.3–11.8 remain planned. |
+| Domain 11 — Internal Linking | In progress; the approved eight-topic index and researched drafts of 11.1–11.3 are present. Topics 11.1 and 11.2 are merged; topic 11.3 has a researched draft undergoing focused review; topics 11.4–11.8 remain planned. |
 | Domains 12–16 | Planned; topic documentation has not yet been developed. |
 | Domain 17 — k41-version | Experimental domain defined; topic documentation has not yet been developed. |
 | Publication language | English-only; one canonical document per published topic. |
