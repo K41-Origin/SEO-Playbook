@@ -64,7 +64,7 @@ The following eight topics define the approved initial scope. Topic documents wi
 | Topic | Title | Planned scope |
 |---|---|---|
 | [11.3 — Navigation Links, Menus, and Breadcrumbs](11.3-Navigation-Links-Menus-and-Breadcrumbs.md) | Covers navigational link systems, global and section menus, utility and footer navigation, menu patterns, breadcrumb models, current-location indicators, consistency, responsive behavior, accessibility considerations, and search-engine context. |
-| 11.4 | Contextual Internal Linking and Anchor Text | Covers in-content links, source and destination context, descriptive anchor text, link placement, relevance, and editorial integration. |
+| [11.4 — Contextual Internal Linking and Anchor Text](11.4-Contextual-Internal-Linking-and-Anchor-Text.md) | Covers in-content links, source and destination context, descriptive anchor text, link placement, relevance, and editorial integration. |
 
 ### Group C — Strategy and Evaluation
 
@@ -95,8 +95,8 @@ The following eight topics define the approved initial scope. Topic documents wi
 | Area | Status |
 |---|---|
 | Domain scope and ownership boundaries | Established for the initial domain structure. |
-| Topic architecture | Eight topic scopes approved; 11.1 and 11.2 researched drafts are merged to the public default branch. Topic 11.2 completed focused editorial/source and scoped cross-domain review before merge on 2026-11-24. Topics 11.3–11.8 remain planned. |
-| Source research and claim-level verification | Topic 11.1 has completed editorial/source review, local reference and relative-link checks, and a scoped final cross-domain duplication review. No substantive duplicate explanatory responsibility was identified in the reviewed candidate documents. Topic 11.2 completed a focused editorial/source review, reference-claim alignment check, relative-link destination check, and scoped cross-domain overlap review against selected material in Domains 03, 09, and 10 and topic 11.1; see the dated k41-core evidence record. Topic 11.3 has a researched draft and has undergone focused source, scope, and integration review; see the dated k41-core evidence record. Topics 11.4–11.8 remain planned. |
+| Topic architecture | Eight topic scopes approved; researched drafts 11.1–11.3 are merged to the public default branch. Topic 11.2 completed focused editorial/source and scoped cross-domain review before merge on 2026-11-24; topic 11.3 completed focused source, scope, and integration review before merge. Topic 11.4 has a researched draft in review; topics 11.5–11.8 remain planned. |
+| Source research and claim-level verification | Topic 11.1 has completed editorial/source review, local reference and relative-link checks, and a scoped final cross-domain duplication review. No substantive duplicate explanatory responsibility was identified in the reviewed candidate documents. Topic 11.2 completed a focused editorial/source review, reference-claim alignment check, relative-link destination check, and scoped cross-domain overlap review against selected material in Domains 03, 09, and 10 and topic 11.1; see the dated k41-core evidence record. Topic 11.3 has a researched draft and has undergone focused source, scope, and integration review; see the dated k41-core evidence record. Topic 11.4 has a researched draft with primary-source citations; its focused editorial and cross-domain review is in progress. Topics 11.5–11.8 remain planned. |
 | Cross-domain integration | The 11.1 cross-domain ownership review is complete within its documented scope. Topic 11.2's scoped overlap review against Domains 03, 09, and 10 and topic 11.1 is complete. Topic 11.3 has undergone a focused overlap review against selected documents in Domains 06, 07, 09, and 10 and topics 11.1–11.2; see the dated k41-core evidence record. These scoped reviews do not constitute an exhaustive all-pairs semantic audit. |
 
 ## Related Topics
