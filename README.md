@@ -178,7 +178,7 @@ Only existing documents are linked as destinations. Planned topics remain in the
 | Repository architecture | 17 knowledge domains defined. |
 | Domains 01–10 | Documented; 10 domain indexes and 105 numbered topic documents are present. Domain 10 has undergone structural remediation and source/content refinement; the dated audit record remains in k41-core. |
 | Domain 11 — Internal Linking | Eight approved topic drafts are integrated. The comprehensive review and follow-up deduplication QA are recorded in k41-core; exhaustive all-pairs semantic and corpus-wide source verification remain separate follow-up work. |
-| Domain 12 — Off-Page SEO | Seven-topic architecture approved; index and seven researched initial drafts are integrated on this branch; focused editorial, citation, cross-domain, and integration QA remains in progress. |
+| Domain 12 — Off-Page SEO | Seven-topic architecture approved; index and seven researched initial drafts are integrated on main. Source correction PR #16 and citation-bookkeeping PR #17 are merged. Focused relative-link, citation-bookkeeping, and selected cross-domain ownership QA are recorded in k41-core; exhaustive claim-level and all-pairs semantic QA remain open. |
 | Domains 13–16 | Planned; topic documentation has not yet been developed. |
 | Domain 17 — k41-version | Experimental domain defined; topic documentation has not yet been developed. |
 | Publication language | English-only; one canonical document per published topic. |
