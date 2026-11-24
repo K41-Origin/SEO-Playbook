@@ -36,6 +36,7 @@ Internal linking is not a guarantee of crawling, indexing, ranking, or traffic. 
 | [08 — Content SEO](../08-Content-SEO/README.md) | Editorial strategy, content production, quality assurance, and content lifecycle | Domain 08 owns editorial decisions and content operations. Domain 11 addresses the hyperlink relationships that connect published content. |
 | [09 — Semantic SEO](../09-Semantic-SEO/README.md) | Entities, conceptual relationships, topical models, and semantic information architecture | Domain 09 models what concepts and pages mean and how they relate. Domain 11 addresses which actual internal hyperlinks should connect pages. A semantic relationship does not automatically require a hyperlink. |
 | [10 — Technical SEO](../10-Technical-SEO/README.md) | Technical website architecture, crawlability, rendering, URL handling, diagnostics, and technical QA | Domain 10 owns technical accessibility and implementation diagnostics. Domain 11 owns the intended navigational and strategic relationships between pages. Technical audit methods and crawler behavior remain in Domain 10. |
+| [12 — Off-Page SEO](../12-Off-Page-SEO/README.md) | External references, link acquisition, backlink evaluation, digital PR, and off-site reputation | Domain 11 owns hyperlinks between pages within the same website. Domain 12 owns references from external properties; the two domains share link vocabulary but not canonical ownership. |
 
 ### Canonical Boundary Rules
 
@@ -47,6 +48,7 @@ Internal linking is not a guarantee of crawling, indexing, ranking, or traffic. 
 6. **An orphan-page finding has both strategic and technical dimensions.** Domain 11 evaluates whether a page should be linked and where meaningful links belong; Domain 10 owns crawler-based diagnostics and technical accessibility checks.
 7. **Keyword-to-page mapping is an input, not an internal-link plan.** Domain 05 maps query groups to pages; Domain 11 plans relationships between those pages.
 8. **Internal links do not guarantee crawling, indexing, ranking, or sitelinks.** Explain documented mechanisms and limitations without promising outcomes.
+9. **Internal and external link work are distinct.** Domain 11 owns publisher-controlled links within a site; Domain 12 owns external references and off-site acquisition. Do not duplicate backlink prospecting or external reputation guidance here.
 
 ## Domain Structure
 
@@ -89,6 +91,7 @@ The following eight topics define the approved initial scope. All eight topic do
 - **Domain 08 → Domain 11:** content inventory, editorial relationships, and lifecycle changes can reveal linking needs and maintenance triggers.
 - **Domain 09 → Domain 11:** semantic information architecture can inform page relationships, while actual hyperlink choices remain a separate decision.
 - **Domain 10 → Domain 11:** technical architecture, crawl diagnostics, rendering, and URL changes provide implementation constraints and audit evidence.
+- **Domain 11 ↔ Domain 12:** both concern hyperlinks, but Domain 11 owns internal site relationships while Domain 12 owns external references and off-site link activity.
 
 ## Development Status
 
@@ -110,6 +113,7 @@ The following eight topics define the approved initial scope. All eight topic do
 - [05.9 — Keyword-to-Page Mapping & Research Deliverables](../05-Keyword-and-Search-Intent/05.9-Keyword-to-Page-Mapping-and-Research-Deliverables.md)
 - [09.9 — Semantic Information Architecture for Websites](../09-Semantic-SEO/09.9-Semantic-Information-Architecture-for-Websites.md)
 - [10 — Technical SEO](../10-Technical-SEO/README.md)
+- [12 — Off-Page SEO](../12-Off-Page-SEO/README.md) — external links and off-site reference management; distinct from internal linking.
 
 ## References
 
