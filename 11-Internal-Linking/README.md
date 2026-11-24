@@ -57,7 +57,7 @@ The following eight topics define the approved initial scope. Topic documents wi
 | Topic | Title | Planned scope |
 |---|---|---|
 | [11.1 — Internal Linking Fundamentals and Principles](11.1-Internal-Linking-Fundamentals-and-Principles.md) | Establishes the meaning, purposes, terminology, user-facing value, search-related context, limitations, and evidence-aware principles of internal linking. |
-| 11.2 | Internal-Link Architecture and Structural Design | Explains site-wide hyperlink structure, hierarchical and non-hierarchical relationships, page connectivity, link depth as a structural property, and link-graph representation. |
+| [11.2 — Internal-Link Architecture and Structural Design](11.2-Internal-Link-Architecture-and-Structural-Design.md) | Explains site-wide hyperlink structure, hierarchical and non-hierarchical patterns, page connectivity, link-graph representation, and structural design principles. |
 
 ### Group B — Navigation and Contextual Linking
 
@@ -95,13 +95,14 @@ The following eight topics define the approved initial scope. Topic documents wi
 | Area | Status |
 |---|---|
 | Domain scope and ownership boundaries | Established for the initial domain structure. |
-| Topic architecture | Eight topic scopes approved; 11.1 researched draft merged to the public default branch after editorial/source review and scoped final cross-domain duplication review (2026-11-24). Topics 11.2–11.8 remain planned. |
-| Source research and claim-level verification | Topic 11.1 has completed editorial/source review, local reference and relative-link checks, and a scoped final cross-domain duplication review. No substantive duplicate explanatory responsibility was identified in the reviewed candidate documents. Topics 11.2–11.8 have not yet been researched. |
-| Cross-domain integration | The 11.1 cross-domain ownership review is complete within its documented scope; subsequent topics require their own overlap and integration reviews. |
+| Topic architecture | Eight topic scopes approved; 11.1 and 11.2 researched drafts are present on the development branch. Topic 11.1 is merged to the public default branch; 11.2 awaits review and merge. Topics 11.3–11.8 remain planned. |
+| Source research and claim-level verification | Topic 11.1 has completed editorial/source review, local reference and relative-link checks, and a scoped final cross-domain duplication review. No substantive duplicate explanatory responsibility was identified in the reviewed candidate documents. Topic 11.2 has a researched draft and awaits editorial/source review; topics 11.3–11.8 have not yet been researched. |
+| Cross-domain integration | The 11.1 cross-domain ownership review is complete within its documented scope. Topic 11.2 has been drafted with explicit boundaries against Domains 03, 09, and 10; its scoped overlap review remains pending. |
 
 ## Related Topics
 
 - [11.1 — Internal Linking Fundamentals and Principles](11.1-Internal-Linking-Fundamentals-and-Principles.md)
+- [11.2 — Internal-Link Architecture and Structural Design](11.2-Internal-Link-Architecture-and-Structural-Design.md)
 - [01.5 — SEO Disciplines](../01-SEO-Fundamentals/01.5-SEO-Disciplines.md)
 - [02.3 — Web Discovery](../02-Search-Engine-Fundamentals/02.3-Web-Discovery.md)
 - [03.5 — Link Analysis & PageRank](../03-Search-Engine-Algorithms/03.5-Link-Analysis-and-PageRank.md)
