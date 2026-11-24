@@ -204,7 +204,6 @@ Topic-level claims and references live in their canonical topic documents. Audit
   - [10.12 — Server Logs, Crawl Diagnostics & Technical Monitoring](10-Technical-SEO/10.12-Server-Logs-Crawl-Diagnostics-and-Technical-Monitoring.md)
   - [10.13 — Technical SEO Auditing & Quality Assurance](10-Technical-SEO/10.13-Technical-SEO-Auditing-and-Quality-Assurance.md)
 - [11 — Internal Linking](11-Internal-Linking/README.md) — website-side internal-link architecture, navigation relationships, linking strategy, auditing, and maintenance.
-- [12 — Off-Page SEO](12-Off-Page-SEO/README.md) — external references, link earning and acquisition, outreach, digital PR, backlink evaluation, link-risk remediation, and off-site reputation.
   - [11.1 — Internal Linking Fundamentals and Principles](11-Internal-Linking/11.1-Internal-Linking-Fundamentals-and-Principles.md) — foundational definitions, purposes, link forms, evidence-aware principles, and scope boundaries.
   - [11.2 — Internal-Link Architecture and Structural Design](11-Internal-Linking/11.2-Internal-Link-Architecture-and-Structural-Design.md) — site-wide hyperlink structure, graph representation, connectivity patterns, and design workflow.
   - [11.3 — Navigation Links, Menus, and Breadcrumbs](11-Internal-Linking/11.3-Navigation-Links-Menus-and-Breadcrumbs.md) — navigational systems, menu patterns, breadcrumb models, orientation, consistency, responsive behavior, and search-engine context.
@@ -214,3 +213,12 @@ Topic-level claims and references live in their canonical topic documents. Audit
   - [11.7 — Internal-Link Auditing and Analysis](11-Internal-Linking/11.7-Internal-Link-Auditing-and-Analysis.md) — internal-link data collection, validation, relationship analysis, issue classification, and evidence-based reporting.
 
   - [11.8 — Internal-Link Maintenance and Governance](11-Internal-Linking/11.8-Internal-Link-Maintenance-and-Governance.md) — lifecycle triggers, link updates and retirement, ownership, governance, maintenance workflows, and risk-based review.
+
+- [12 — Off-Page SEO](12-Off-Page-SEO/README.md) — external references, link earning and acquisition, outreach, digital PR, backlink evaluation, link-risk remediation, and off-site reputation.
+  - [12.1 — Off-Page SEO Fundamentals and External Signals](12-Off-Page-SEO/12.1-Off-Page-SEO-Fundamentals-and-External-Signals.md)
+  - [12.2 — Link Earning and Ethical Link Acquisition](12-Off-Page-SEO/12.2-Link-Earning-and-Ethical-Link-Acquisition.md)
+  - [12.3 — Link Prospecting, Outreach, and Relationship Development](12-Off-Page-SEO/12.3-Link-Prospecting-Outreach-and-Relationship-Development.md)
+  - [12.4 — Digital PR and Earned Media](12-Off-Page-SEO/12.4-Digital-PR-and-Earned-Media.md)
+  - [12.5 — Backlink Profile Analysis and Link Evaluation](12-Off-Page-SEO/12.5-Backlink-Profile-Analysis-and-Link-Evaluation.md)
+  - [12.6 — Link Spam Policies, Risk, and Remediation](12-Off-Page-SEO/12.6-Link-Spam-Policies-Risk-and-Remediation.md)
+  - [12.7 — Brand Mentions and Off-Site Reputation](12-Off-Page-SEO/12.7-Brand-Mentions-and-Off-Site-Reputation.md)
