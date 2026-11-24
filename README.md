@@ -177,7 +177,7 @@ Only existing documents are linked as destinations. Planned topics remain in the
 |---|---|
 | Repository architecture | 17 knowledge domains defined. |
 | Domains 01–10 | Documented; 10 domain indexes and 105 numbered topic documents are present. Domain 10 has undergone structural remediation and source/content refinement; the dated audit record remains in k41-core. |
-| Domain 11 — Internal Linking | In progress; the approved eight-topic index and researched drafts of 11.1–11.7 are merged. Topic 11.8 remains planned. |
+| Domain 11 — Internal Linking | In progress; the approved eight-topic index and researched drafts of 11.1–11.8 are integrated on the current development branch. |
 | Domains 12–16 | Planned; topic documentation has not yet been developed. |
 | Domain 17 — k41-version | Experimental domain defined; topic documentation has not yet been developed. |
 | Publication language | English-only; one canonical document per published topic. |
@@ -210,3 +210,5 @@ Topic-level claims and references live in their canonical topic documents. Audit
   - [11.5 — Internal-Link Strategy and Page Prioritization](11-Internal-Linking/11.5-Internal-Link-Strategy-and-Page-Prioritization.md) — linking objectives, source/target selection, opportunity planning, and evidence-aware page prioritization.
   - [11.6 — Orphan Pages, Link Depth, and Link Coverage](11-Internal-Linking/11.6-Orphan-Pages-Link-Depth-and-Link-Coverage.md) — orphan-page conditions, hyperlink depth, reachability, and structural link-coverage gaps.
   - [11.7 — Internal-Link Auditing and Analysis](11-Internal-Linking/11.7-Internal-Link-Auditing-and-Analysis.md) — internal-link data collection, validation, relationship analysis, issue classification, and evidence-based reporting.
+
+  - [11.8 — Internal-Link Maintenance and Governance](11-Internal-Linking/11.8-Internal-Link-Maintenance-and-Governance.md) — lifecycle triggers, link updates and retirement, ownership, governance, maintenance workflows, and risk-based review.
