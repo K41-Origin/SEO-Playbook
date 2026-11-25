@@ -105,72 +105,22 @@ Curiosity gets us into the lab. Evidence decides what gets to leave it.
 
 ## Repository Navigation
 
-Start here, then follow the topic links. Each domain index defines its scope and points to the detailed documents that actually exist. AI-facing governance and authoritative audit evidence are maintained in the private k41-core project workspace; this public repository focuses on published SEO knowledge and reader-facing navigation.
+Start here, then use each domain index as the canonical entry point for its scope, topic architecture, and detailed topic navigation. The root README links to domain indexes only; topic-level navigation belongs to the owning domain index. AI-facing governance and authoritative audit evidence are maintained in the private k41-core project workspace.
 
-- [01 — SEO Fundamentals](01-SEO-Fundamentals/README.md) — domain scope, structure, and topic navigation.
-  - [01.1 — SEO Core Concepts](01-SEO-Fundamentals/01.1-SEO-Core-Concepts.md)
-  - [01.2 — Search Visibility](01-SEO-Fundamentals/01.2-Search-Visibility.md)
-  - [01.3 — SEO Ecosystem](01-SEO-Fundamentals/01.3-SEO-Ecosystem.md)
-  - [01.4 — SEO Objectives & Value](01-SEO-Fundamentals/01.4-SEO-Objectives-and-Value.md)
-  - [01.5 — SEO Disciplines](01-SEO-Fundamentals/01.5-SEO-Disciplines.md)
-- [02 — Search Engine Fundamentals](02-Search-Engine-Fundamentals/README.md) — search engine concepts, system architecture, and the search pipeline.
-  - [02.1 — Introduction to Search Engines](02-Search-Engine-Fundamentals/02.1-Introduction-to-Search-Engines.md)
-  - [02.2 — Search Engine Architecture](02-Search-Engine-Fundamentals/02.2-Search-Engine-Architecture.md)
-  - [02.3 — Web Discovery](02-Search-Engine-Fundamentals/02.3-Web-Discovery.md)
-  - [02.4 — Web Crawling](02-Search-Engine-Fundamentals/02.4-Web-Crawling.md)
-  - [02.5 — Document Processing & Rendering](02-Search-Engine-Fundamentals/02.5-Document-Processing-and-Rendering.md)
-  - [02.6 — Search Indexing](02-Search-Engine-Fundamentals/02.6-Search-Indexing.md)
-  - [02.7 — Query Processing](02-Search-Engine-Fundamentals/02.7-Query-Processing.md)
-  - [02.8 — Search Retrieval](02-Search-Engine-Fundamentals/02.8-Search-Retrieval.md)
-  - [02.9 — Search Result Generation & Serving](02-Search-Engine-Fundamentals/02.9-Search-Result-Generation-and-Serving.md)
-  - [02.10 — Search Engine Infrastructure](02-Search-Engine-Fundamentals/02.10-Search-Engine-Infrastructure.md)
-  - [02.11 — Search Engine Types & Models](02-Search-Engine-Fundamentals/02.11-Search-Engine-Types-and-Models.md)
-  - [02.12 — Search Engine Limitations](02-Search-Engine-Fundamentals/02.12-Search-Engine-Limitations.md)
-- [03 — Search Engine Algorithms](03-Search-Engine-Algorithms/README.md) — ranking systems, signals, relevance, quality, spam, machine learning, evaluation, testing, and ranking evolution.
-  - [03.1 — Introduction to Search Ranking Systems](03-Search-Engine-Algorithms/03.1-Introduction-to-Search-Ranking-Systems.md)
-  - [03.2 — Ranking Architecture & Multi-Stage Ranking](03-Search-Engine-Algorithms/03.2-Ranking-Architecture-and-Multi-Stage-Ranking.md)
-  - [03.3 — Ranking Signals & Signal Interaction](03-Search-Engine-Algorithms/03.3-Ranking-Signals-and-Signal-Interaction.md)
-  - [03.4 — Relevance & Query-Document Matching](03-Search-Engine-Algorithms/03.4-Relevance-and-Query-Document-Matching.md)
-  - [03.5 — Link Analysis & PageRank](03-Search-Engine-Algorithms/03.5-Link-Analysis-and-PageRank.md)
-  - [03.6 — Content Quality, Helpfulness & Originality Systems](03-Search-Engine-Algorithms/03.6-Content-Quality-Helpfulness-and-Originality-Systems.md)
-  - [03.7 — Spam Detection & Demotion Systems](03-Search-Engine-Algorithms/03.7-Spam-Detection-and-Demotion-Systems.md)
-  - [03.8 — Freshness & Temporal Ranking](03-Search-Engine-Algorithms/03.8-Freshness-and-Temporal-Ranking.md)
-  - [03.9 — Contextual Ranking & Personalization](03-Search-Engine-Algorithms/03.9-Contextual-Ranking-and-Personalization.md)
-  - [03.10 — Specialized & Result-Specific Ranking Systems](03-Search-Engine-Algorithms/03.10-Specialized-and-Result-Specific-Ranking-Systems.md)
-  - [03.11 — Machine Learning & Neural Ranking Systems](03-Search-Engine-Algorithms/03.11-Machine-Learning-and-Neural-Ranking-Systems.md)
-  - [03.12 — Ranking Evaluation & Testing](03-Search-Engine-Algorithms/03.12-Ranking-Evaluation-and-Testing.md)
-  - [03.13 — Ranking Updates & System Evolution](03-Search-Engine-Algorithms/03.13-Ranking-Updates-and-System-Evolution.md)
-- [04 — Information Retrieval](04-Information-Retrieval/README.md) — information representation, retrieval models, semantic and hybrid retrieval, and formal IR evaluation.
-  - [04.1 — Introduction to Information Retrieval](04-Information-Retrieval/04.1-Introduction-to-Information-Retrieval.md) — defines the IR problem, core terminology, relevance, and scope.
-  - [04.2 — Information Representation & Document Modeling](04-Information-Retrieval/04.2-Information-Representation-and-Document-Modeling.md) — explains retrievable units, document granularity, metadata, fields, structure, and representation choices.
-  - [04.3 — Text Processing & Term Representation](04-Information-Retrieval/04.3-Text-Processing-and-Term-Representation.md) — covers tokenization, normalization, linguistic processing, and retrieval-oriented term representations.
-  - [04.4 — Information Retrieval Indexing & Data Structures](04-Information-Retrieval/04.4-Information-Retrieval-Indexing-and-Data-Structures.md) — covers inverted indexes, dictionaries, postings, positional data, index construction, and compression.
-  - [04.5 — Boolean Retrieval Model](04-Information-Retrieval/04.5-Boolean-Retrieval-Model.md) — covers Boolean operators, exact-match retrieval, postings-list evaluation, query optimization, and the limits of unranked matching.
-  - [04.6 — Vector Space Model & Term Weighting](04-Information-Retrieval/04.6-Vector-Space-Model-and-Term-Weighting.md) — covers weighted term vectors, TF-IDF, cosine similarity, and ranked retrieval.
-  - [04.7 — Probabilistic Information Retrieval Models](04-Information-Retrieval/04.7-Probabilistic-Information-Retrieval-Models.md) — covers probabilistic relevance estimation, BIM, and BM25.
-  - [04.8 — Relevance Feedback & Query Expansion](04-Information-Retrieval/04.8-Relevance-Feedback-and-Query-Expansion.md) — covers explicit and implicit feedback, pseudo-relevance feedback, Rocchio, probabilistic feedback, and query expansion.
-  - [04.9 — Semantic & Neural Information Retrieval](04-Information-Retrieval/04.9-Semantic-and-Neural-Information-Retrieval.md) — covers semantic matching, embeddings, dense and neural sparse retrieval, bi-encoders, ANN search, cross-encoders, and late interaction.
-  - [04.10 — Hybrid & Advanced Retrieval Methods](04-Information-Retrieval/04.10-Hybrid-and-Advanced-Retrieval-Methods.md) — covers hybrid lexical/dense retrieval, sparse–dense combinations, candidate merging, score and rank fusion, RRF, multi-stage retrieval, orchestration, and effectiveness–efficiency trade-offs.
-  - [04.11 — Relevance Assessment & Evaluation Frameworks](04-Information-Retrieval/04.11-Relevance-Assessment-and-Evaluation-Frameworks.md) — covers relevance judgments, assessor agreement, test collections, qrels, pooling, evaluation frameworks, and methodological limitations.
-  - [04.12 — Information Retrieval Evaluation Metrics](04-Information-Retrieval/04.12-Information-Retrieval-Evaluation-Metrics.md) — covers Precision, Recall, F-measure, P@k, R@k, AP/MAP, MRR, DCG/nDCG, bpref, ERR, RBP, and metric-selection trade-offs.
+- [01 — SEO Fundamentals](01-SEO-Fundamentals/README.md) — foundational SEO concepts, visibility, ecosystem, objectives, and discipline taxonomy.
+- [02 — Search Engine Fundamentals](02-Search-Engine-Fundamentals/README.md) — search-system architecture, discovery, crawling, processing, indexing, retrieval, and serving.
+- [03 — Search Engine Algorithms](03-Search-Engine-Algorithms/README.md) — ranking systems, signals, relevance, link analysis, quality, spam, evaluation, and system evolution.
+- [04 — Information Retrieval](04-Information-Retrieval/README.md) — information representation, retrieval models, query expansion, neural/hybrid retrieval, and formal evaluation.
+- [05 — Keyword & Search Intent](05-Keyword-and-Search-Intent/README.md) — keyword research, intent analysis, query grouping, prioritization, and keyword-to-page mapping.
+- [06 — SERP & Search Features](06-SERP-and-Search-Features/README.md) — SERP anatomy, result presentation, rich results, local/news/media/shopping features, refinements, and AI-powered experiences.
+- [07 — On-Page SEO](07-On-Page-SEO/README.md) — page-level relevance, authored elements, HTML structure, implementation, and on-page quality assessment.
+- [08 — Content SEO](08-Content-SEO/README.md) — content strategy, editorial planning, production, quality assurance, optimization, and lifecycle management.
+- [09 — Semantic SEO](09-Semantic-SEO/README.md) — entity identification, semantic relationships, ontologies, knowledge graphs, topical modeling, coverage, and semantic IA.
+- [10 — Technical SEO](10-Technical-SEO/README.md) — website architecture, crawlability, indexability, rendering, performance, structured data, diagnostics, and technical QA.
+- [11 — Internal Linking](11-Internal-Linking/README.md) — internal-link architecture, navigation, contextual links, strategy, auditing, and maintenance.
+- [12 — Off-Page SEO](12-Off-Page-SEO/README.md) — external references, link earning, outreach, digital PR, backlink evaluation, link-risk remediation, and off-site reputation.
 
-- [05 — Keyword & Search Intent](05-Keyword-and-Search-Intent/README.md) — keyword discovery and expansion, keyword data and metrics, search intent, SERP-based intent validation, query clustering, prioritization, and keyword-to-page research mapping.
-  - [05.1 — Introduction to Keyword Research](05-Keyword-and-Search-Intent/05.1-Introduction-to-Keyword-Research.md) — defines the research discipline, core terminology, workflow, data-source limits, and quality standards.
-  - [05.2 — Seed Keyword & Audience-Language Discovery](05-Keyword-and-Search-Intent/05.2-Seed-Keyword-and-Audience-Language-Discovery.md) — identifies initial seed concepts from audience needs, customer language, and relevant first-party evidence.
-  - [05.3 — Keyword Expansion & Query Variations](05-Keyword-and-Search-Intent/05.3-Keyword-Expansion-and-Query-Variations.md) — expands seeds into candidate query formulations while preserving provenance and meaningful distinctions.
-  - [05.4 — Keyword Data Sources & Metrics](05-Keyword-and-Search-Intent/05.4-Keyword-Data-Sources-and-Metrics.md) — explains keyword data sources, metric definitions, estimation limits, and comparability controls.
-  - [05.5 — Search Intent Concepts & Taxonomies](05-Keyword-and-Search-Intent/05.5-Search-Intent-Concepts-and-Taxonomies.md) — explains core intent models, mixed and ambiguous goals, and how to document preliminary intent hypotheses.
-  - [05.6 — SERP-Based Intent Analysis & Validation](05-Keyword-and-Search-Intent/05.6-SERP-Based-Intent-Analysis-and-Validation.md) — validates intent hypotheses through contextual SERP observation and destination-page analysis.
-  - [05.7 — Keyword Clustering & Query Grouping](05-Keyword-and-Search-Intent/05.7-Keyword-Clustering-and-Query-Grouping.md) — groups queries by shared search task using intent, SERP overlap, and complementary similarity evidence.
-  - [05.8 — Keyword Opportunity & Prioritization](05-Keyword-and-Search-Intent/05.8-Keyword-Opportunity-and-Prioritization.md) — evaluates the strategic value, feasibility, effort, risk, and confidence of validated query clusters.
-  - [05.9 — Keyword-to-Page Mapping & Research Deliverables](05-Keyword-and-Search-Intent/05.9-Keyword-to-Page-Mapping-and-Research-Deliverables.md) — maps prioritized clusters to suitable existing or proposed pages and packages the research handoff.
-- [06 — SERP & Search Features](06-SERP-and-Search-Features/README.md) — SERP anatomy, organic result presentation, enhanced results, specialized search features, interactive refinements, and AI-powered search experiences.
-- [07 — On-Page SEO](07-On-Page-SEO/README.md) — page-level elements, HTML structure, implementation, and on-page quality assessment.
-- [08 — Content SEO](08-Content-SEO/README.md) — content strategy, editorial planning, production, quality assurance, optimization, and content lifecycle management.
-- [09 — Semantic SEO](09-Semantic-SEO/README.md) — entity understanding, semantic relationships, knowledge representation, topical modeling and coverage, and semantic information architecture.
-
-Only existing documents are linked as destinations. Planned topics remain in their domain roadmap until their pages are created.
-
+Only published domain indexes are linked here. Domains 13–17 remain part of the approved architecture; their reader-facing indexes will be added when those domains are developed.
 ## Development Status
 
 | Area | Status |
@@ -189,36 +139,3 @@ Topic-level claims and references live in their canonical topic documents. Audit
 ---
 
 *This README defines the project's purpose, architecture, and documentation principles. It does not claim that every domain or topic has already been researched or completed.*
-- [10 — Technical SEO](10-Technical-SEO/README.md) — website-side technical delivery, crawling/indexability controls, rendering, performance, structured data, diagnostics, and technical QA.
-  - [10.1 — Introduction to Technical SEO](10-Technical-SEO/10.1-Introduction-to-Technical-SEO.md)
-  - [10.2 — Website Architecture & URL Structure](10-Technical-SEO/10.2-Website-Architecture-and-URL-Structure.md)
-  - [10.3 — Crawlability & Crawl Management](10-Technical-SEO/10.3-Crawlability-and-Crawl-Management.md)
-  - [10.4 — Robots.txt & Crawler Access Control](10-Technical-SEO/10.4-Robots-txt-and-Crawler-Access-Control.md)
-  - [10.5 — XML Sitemaps & URL Discovery Support](10-Technical-SEO/10.5-XML-Sitemaps-and-URL-Discovery-Support.md)
-  - [10.6 — Indexability, Canonicalization & Duplicate URL Management](10-Technical-SEO/10.6-Indexability-Canonicalization-and-Duplicate-URL-Management.md)
-  - [10.7 — HTTP Status Codes, Redirects & URL Migration](10-Technical-SEO/10.7-HTTP-Status-Codes-Redirects-and-URL-Migration.md)
-  - [10.8 — JavaScript SEO & Rendering Optimization](10-Technical-SEO/10.8-JavaScript-SEO-and-Rendering-Optimization.md)
-  - [10.9 — Mobile SEO & Responsive Technical Implementation](10-Technical-SEO/10.9-Mobile-SEO-and-Responsive-Technical-Implementation.md)
-  - [10.10 — Website Performance & Core Web Vitals](10-Technical-SEO/10.10-Website-Performance-and-Core-Web-Vitals.md)
-  - [10.11 — Structured Data Implementation & Validation](10-Technical-SEO/10.11-Structured-Data-Implementation-and-Validation.md)
-  - [10.12 — Server Logs, Crawl Diagnostics & Technical Monitoring](10-Technical-SEO/10.12-Server-Logs-Crawl-Diagnostics-and-Technical-Monitoring.md)
-  - [10.13 — Technical SEO Auditing & Quality Assurance](10-Technical-SEO/10.13-Technical-SEO-Auditing-and-Quality-Assurance.md)
-- [11 — Internal Linking](11-Internal-Linking/README.md) — website-side internal-link architecture, navigation relationships, linking strategy, auditing, and maintenance.
-  - [11.1 — Internal Linking Fundamentals and Principles](11-Internal-Linking/11.1-Internal-Linking-Fundamentals-and-Principles.md) — foundational definitions, purposes, link forms, evidence-aware principles, and scope boundaries.
-  - [11.2 — Internal-Link Architecture and Structural Design](11-Internal-Linking/11.2-Internal-Link-Architecture-and-Structural-Design.md) — site-wide hyperlink structure, graph representation, connectivity patterns, and design workflow.
-  - [11.3 — Navigation Links, Menus, and Breadcrumbs](11-Internal-Linking/11.3-Navigation-Links-Menus-and-Breadcrumbs.md) — navigational systems, menu patterns, breadcrumb models, orientation, consistency, responsive behavior, and search-engine context.
-  - [11.4 — Contextual Internal Linking and Anchor Text](11-Internal-Linking/11.4-Contextual-Internal-Linking-and-Anchor-Text.md) — in-content links, source/destination context, descriptive anchor text, relevance, placement, and editorial integration.
-  - [11.5 — Internal-Link Strategy and Page Prioritization](11-Internal-Linking/11.5-Internal-Link-Strategy-and-Page-Prioritization.md) — linking objectives, source/target selection, opportunity planning, and evidence-aware page prioritization.
-  - [11.6 — Orphan Pages, Link Depth, and Link Coverage](11-Internal-Linking/11.6-Orphan-Pages-Link-Depth-and-Link-Coverage.md) — orphan-page conditions, hyperlink depth, reachability, and structural link-coverage gaps.
-  - [11.7 — Internal-Link Auditing and Analysis](11-Internal-Linking/11.7-Internal-Link-Auditing-and-Analysis.md) — internal-link data collection, validation, relationship analysis, issue classification, and evidence-based reporting.
-
-  - [11.8 — Internal-Link Maintenance and Governance](11-Internal-Linking/11.8-Internal-Link-Maintenance-and-Governance.md) — lifecycle triggers, link updates and retirement, ownership, governance, maintenance workflows, and risk-based review.
-
-- [12 — Off-Page SEO](12-Off-Page-SEO/README.md) — external references, link earning and acquisition, outreach, digital PR, backlink evaluation, link-risk remediation, and off-site reputation.
-  - [12.1 — Off-Page SEO Fundamentals and External Signals](12-Off-Page-SEO/12.1-Off-Page-SEO-Fundamentals-and-External-Signals.md)
-  - [12.2 — Link Earning and Ethical Link Acquisition](12-Off-Page-SEO/12.2-Link-Earning-and-Ethical-Link-Acquisition.md)
-  - [12.3 — Link Prospecting, Outreach, and Relationship Development](12-Off-Page-SEO/12.3-Link-Prospecting-Outreach-and-Relationship-Development.md)
-  - [12.4 — Digital PR and Earned Media](12-Off-Page-SEO/12.4-Digital-PR-and-Earned-Media.md)
-  - [12.5 — Backlink Profile Analysis and Link Evaluation](12-Off-Page-SEO/12.5-Backlink-Profile-Analysis-and-Link-Evaluation.md)
-  - [12.6 — Link Spam Policies, Risk, and Remediation](12-Off-Page-SEO/12.6-Link-Spam-Policies-Risk-and-Remediation.md)
-  - [12.7 — Brand Mentions and Off-Site Reputation](12-Off-Page-SEO/12.7-Brand-Mentions-and-Off-Site-Reputation.md)

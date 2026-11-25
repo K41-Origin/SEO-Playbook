@@ -41,7 +41,7 @@ On-page SEO is not a bag of keyword-placement tricks. A page does not become rel
 | [Domain 08 — Content SEO](../08-Content-SEO/README.md) | Content strategy, editorial planning, production, quality assurance, optimization, and content lifecycle management | Domain 08 owns content substance and editorial development. Domain 07 owns page-level structural and HTML elements. Heading optimization must not become a substitute for content strategy or quality. |
 | Domain 09 — Semantic SEO | Entities, semantic relationships, topical coverage, and semantic content architecture | Domain 09 owns entity modeling and broader semantic architecture. Domain 07 may use clear, descriptive language and semantic HTML, but does not own entity graphs, topical authority models, or semantic topic-map design. |
 | [10 — Technical SEO](../10-Technical-SEO/README.md) | Technical implementation, crawling/indexing controls, structured data, rendering, performance, and technical validation | Domain 10 owns technical delivery and search-engine access. Domain 07 may discuss an element's authoring and page-level purpose; image compression/delivery, responsive behavior, lazy loading, canonicalization, robots directives, structured-data implementation, and Core Web Vitals remain in Domain 10. |
-| Domain 11 — Internal Linking (planned) | Internal-link architecture, linking strategy, and anchor-text practice | Domain 11 owns internal-link strategy and implementation. Domain 07 does not absorb internal-link architecture into its page-element checklist. |
+| Domain 11 — Internal Linking | Internal-link architecture, linking strategy, and anchor-text practice | Domain 11 owns internal-link strategy and implementation. Domain 07 does not absorb internal-link architecture into its page-element checklist. |
 | Domain 14 — SEO Analytics (planned) | Organic performance measurement, analysis, and reporting | Domain 07 defines page-level audit criteria. Domain 14 owns performance measurement and outcome analysis; an on-page audit finding is not proof of ranking or traffic impact. |
 | Domain 17 — k41-version (experimental) | Original k41 experiments and unconventional SEO investigations | Domain 07 owns canonical, evidence-backed on-page guidance. Experimental claims must be tested and labeled in Domain 17 rather than promoted into standard guidance without sufficient evidence. |
 
@@ -138,7 +138,7 @@ The roadmap defines the intended scope and ownership of each topic. Only topics 
 - [Domain 08 — Content SEO](../08-Content-SEO/README.md)
 - [Domain 09 — Semantic SEO](../09-Semantic-SEO/README.md)
 - [Domain 10 — Technical SEO](../10-Technical-SEO/README.md)
-- Domain 11 — Internal Linking (planned)
+- Domain 11 — Internal Linking
 - Domain 14 — SEO Analytics (planned)
 
 ## References
