@@ -40,7 +40,7 @@ Semantic SEO is not a bag of entity keywords, a checklist of related terms, or a
 | [07 — On-Page SEO](../07-On-Page-SEO/README.md) | Page-level elements, HTML structure, and on-page implementation | Domain 07 owns HTML semantics and page-element implementation. Semantic relationships between concepts are not the same thing as semantic HTML markup. |
 | [08 — Content SEO](../08-Content-SEO/README.md) | Content strategy, editorial planning, briefs, production, review, optimization, maintenance, and editorial auditing | Domain 09 can provide entity and topical models as inputs. Domain 08 owns editorial decisions and content production workflows. |
 | [10 — Technical SEO](../10-Technical-SEO/README.md) | Technical delivery and implementation, including structured data implementation | Domain 09 defines the knowledge and meaning a model is intended to represent. Domain 10 owns technical implementation, validation, and delivery of structured data. |
-| Domain 11 — Internal Linking (planned) | Internal-link architecture, strategy, anchor text, and implementation | Domain 09 may identify meaningful conceptual relationships. Domain 11 decides whether and how those relationships should become internal links. A semantic relationship does not automatically require a hyperlink. |
+| Domain 11 — Internal Linking | Internal-link architecture, strategy, anchor text, and implementation | Domain 09 may identify meaningful conceptual relationships. Domain 11 decides whether and how those relationships should become internal links. A semantic relationship does not automatically require a hyperlink. |
 | Domain 14 — SEO Analytics (planned) | Organic performance measurement, analysis, and reporting | Domain 14 owns performance measurement. Domain 09 may define model-quality checks, but does not own analytics methodology or claim that semantic changes caused ranking changes. |
 | Domain 17 — k41-version (experimental) | SEO experiments, unconventional strategies, and original k41 investigations | Domain 09 owns canonical semantic concepts and evidence standards. Experimental entity or topical tactics belong in Domain 17 until their claims are sufficiently validated. |
 
@@ -67,31 +67,31 @@ The roadmap is organized into four groups. The sequence moves from modeling enti
 
 | Topic | Title | Canonical scope |
 |---|---|---|
-| 09.1 | Introduction to Semantic SEO | Defines semantic SEO, its purpose, terminology, workflow, outputs, evidence boundaries, and relationship to the wider SEO discipline. Establishes what semantic SEO is—and what it is not. |
-| 09.2 | Entity Fundamentals & Entity Identification | Establishes what counts as an entity in a knowledge model; covers entity categories, candidate discovery, initial identification, naming, and the distinction between a referent and the expressions used to describe it. It does not resolve difficult identity collisions or teach search-engine entity extraction. |
-| 09.3 | Entity Attributes, Identity & Disambiguation | Defines how an identified entity is described and distinguished: attributes, identifiers, aliases, entity boundaries, identity evidence, ambiguity resolution, and disambiguation decisions. It takes candidate entities from 09.2 and does not cover entity extraction/linking algorithms internal to search systems. |
+| [09.1](09.1-Introduction-to-Semantic-SEO.md) | Introduction to Semantic SEO | Defines semantic SEO, its purpose, terminology, workflow, outputs, evidence boundaries, and relationship to the wider SEO discipline. Establishes what semantic SEO is—and what it is not. |
+| [09.2](09.2-Entity-Fundamentals-and-Entity-Identification.md) | Entity Fundamentals & Entity Identification | Establishes what counts as an entity in a knowledge model; covers entity categories, candidate discovery, initial identification, naming, and the distinction between a referent and the expressions used to describe it. It does not resolve difficult identity collisions or teach search-engine entity extraction. |
+| [09.3](09.3-Entity-Attributes-Identity-and-Disambiguation.md) | Entity Attributes, Identity & Disambiguation | Defines how an identified entity is described and distinguished: attributes, identifiers, aliases, entity boundaries, identity evidence, ambiguity resolution, and disambiguation decisions. It takes candidate entities from 09.2 and does not cover entity extraction/linking algorithms internal to search systems. |
 
 ### Group B — Semantic Relationships & Knowledge Representation
 
 | Topic | Title | Canonical scope |
 |---|---|---|
-| 09.4 | Semantic Relationships & Relationship Modeling | Defines the meaning of relationships between entities and concepts: relationship types, direction, domain/range constraints, context, provenance, and the distinction between asserted facts and inferred associations. It owns relationship semantics, not graph storage formats or website navigation links. |
-| 09.5 | Ontologies, Taxonomies & Controlled Vocabularies | Compares formal conceptual schemas, hierarchical classification systems, and controlled terms; covers their components, differences, selection, and governance as knowledge-modeling structures. It defines the schema or vocabulary, not individual relationship assertions (09.4) or graph serialization (09.6). |
-| 09.6 | Knowledge Graphs & Knowledge Representation | Explains graph-based knowledge representation: nodes, edges, properties, triples, graph scope, schema-to-graph mapping, and practical modeling patterns. It explains how modeled knowledge can be represented as a graph, not how search engines retrieve/rank graph data or how to implement structured data technically. |
+| [09.4](09.4-Semantic-Relationships-and-Relationship-Modeling.md) | Semantic Relationships & Relationship Modeling | Defines the meaning of relationships between entities and concepts: relationship types, direction, domain/range constraints, context, provenance, and the distinction between asserted facts and inferred associations. It owns relationship semantics, not graph storage formats or website navigation links. |
+| [09.5](09.5-Ontologies-Taxonomies-and-Controlled-Vocabularies.md) | Ontologies, Taxonomies & Controlled Vocabularies | Compares formal conceptual schemas, hierarchical classification systems, and controlled terms; covers their components, differences, selection, and governance as knowledge-modeling structures. It defines the schema or vocabulary, not individual relationship assertions (09.4) or graph serialization (09.6). |
+| [09.6](09.6-Knowledge-Graphs-and-Knowledge-Representation.md) | Knowledge Graphs & Knowledge Representation | Explains graph-based knowledge representation: nodes, edges, properties, triples, graph scope, schema-to-graph mapping, and practical modeling patterns. It explains how modeled knowledge can be represented as a graph, not how search engines retrieve/rank graph data or how to implement structured data technically. |
 
 ### Group C — Topical Modeling & Coverage
 
 | Topic | Title | Canonical scope |
 |---|---|---|
-| 09.7 | Topical Modeling & Knowledge Domains | Organizes a subject as a conceptual knowledge domain: concepts, subdomains, dependencies, and scope boundaries. The output is an abstract model of the subject, not a keyword cluster, editorial calendar, content inventory, or page/URL architecture. |
-| 09.8 | Topical Coverage & Semantic Completeness | Evaluates whether a defined topical model adequately represents relevant concepts, relationships, attributes, and information needs within its declared scope. Covers omissions, redundancy, relevance, and uncertainty at the knowledge-model level—not editorial quality audits of published assets or keyword-volume coverage. |
+| [09.7](09.7-Topical-Modeling-and-Knowledge-Domains.md) | Topical Modeling & Knowledge Domains | Organizes a subject as a conceptual knowledge domain: concepts, subdomains, dependencies, and scope boundaries. The output is an abstract model of the subject, not a keyword cluster, editorial calendar, content inventory, or page/URL architecture. |
+| [09.8](09.8-Topical-Coverage-and-Semantic-Completeness.md) | Topical Coverage & Semantic Completeness | Evaluates whether a defined topical model adequately represents relevant concepts, relationships, attributes, and information needs within its declared scope. Covers omissions, redundancy, relevance, and uncertainty at the knowledge-model level—not editorial quality audits of published assets or keyword-volume coverage. |
 
 ### Group D — Semantic Information Architecture
 
 | Topic | Title | Canonical scope |
 |---|---|---|
-| 09.9 | [Semantic Information Architecture for Websites](09.9-Semantic-Information-Architecture-for-Websites.md) | Translates a validated topical/knowledge model into website-level information organization, conceptual groupings, page roles, and content-architecture specifications. It defines the intended information structure, not editorial production (08), keyword-to-page research mapping (05), page-level HTML implementation (07), technical delivery (10), or internal-link strategy (11). |
-| 09.10 | [Semantic Model Validation, Maintenance & Governance](09.10-Semantic-Model-Validation-Maintenance-and-Governance.md) | Defines validation criteria for entity identity, relationship integrity, schema consistency, provenance, scope, and alignment between the knowledge model and its website architecture; covers versioning, change control, ownership, and maintenance of those semantic models. It does not own organization-wide content governance (08.2), editorial/content audits (08.10), technical implementation audits (10), internal-link audits (11), or organic performance measurement (14). |
+| [09.9](09.9-Semantic-Information-Architecture-for-Websites.md) | Semantic Information Architecture for Websites | Translates a validated topical/knowledge model into website-level information organization, conceptual groupings, page roles, and content-architecture specifications. It defines the intended information structure, not editorial production (08), keyword-to-page research mapping (05), page-level HTML implementation (07), technical delivery (10), or internal-link strategy (11). |
+| [09.10](09.10-Semantic-Model-Validation-Maintenance-and-Governance.md) | Semantic Model Validation, Maintenance & Governance | Defines validation criteria for entity identity, relationship integrity, schema consistency, provenance, scope, and alignment between the knowledge model and its website architecture; covers versioning, change control, ownership, and maintenance of those semantic models. It does not own organization-wide content governance (08.2), editorial/content audits (08.10), technical implementation audits (10), internal-link audits (11), or organic performance measurement (14). |
 
 
 ## Audit findings and boundary decisions
@@ -169,23 +169,23 @@ These are modeling and planning outputs. They do not automatically prescribe a n
 - **Do not confuse correlation with causation.** Semantic improvements may improve clarity and organization, but ranking impact requires separate evidence.
 - **Do not worship graphs.** Graph structure is a representation choice, not proof of sophistication or SEO value.
 - **Prefer maintainable architecture.** A semantic model that nobody can validate or maintain is documentation debt with extra steps.
-- **Keep canonical explanations in one place.** Link to Domains 04–08 and future Domains 10–11 rather than copying their methods.
+- **Keep canonical explanations in one place.** Link to Domains 04–08 and Domains 10–11 rather than copying their methods.
 
 ## Development Status
 
 | Area | Status | Coverage |
 |---|---|---|
 | Domain architecture | Established | Purpose, ownership boundaries, four topic groups, ten-topic roadmap, workflow, inputs/outputs, and cross-domain dependencies are defined. |
-| 09.1 | Documented | Introduction to Semantic SEO defines the domain's working scope, terminology, workflow, evidence boundaries, and cross-domain handoffs. |
-| 09.2 | Documented | Entity Fundamentals & Entity Identification defines entity concepts, candidate categories, discovery sources, first-pass identification, and the handoff to identity resolution. |
-| 09.3 | Documented | Entity Attributes, Identity & Disambiguation defines entity boundaries, identity evidence, attributes, identifiers, labels/aliases, disambiguation, provenance, and practical record design. |
-| 09.4 | Documented | Semantic Relationships & Relationship Modeling defines relationship meaning, predicates, direction, participant constraints, context, provenance, assertion status, and n-ary relationship considerations. |
-| 09.5 | Documented | Ontologies, Taxonomies & Controlled Vocabularies distinguishes formal conceptual schemas, hierarchical classification, controlled terminology, selection criteria, and governance. |
-| 09.6 | Documented | Knowledge Graphs & Knowledge Representation explains graph-based modeling, RDF graph structures, identifiers, datasets, provenance, querying, validation, and representation trade-offs. |
-| 09.7 | Documented | Topical Modeling & Knowledge Domains defines subject boundaries, concepts, subdomains, dependencies, grouping logic, granularity, and a reusable domain-model specification. |
-| 09.8 | Documented | Topical Coverage & Semantic Completeness evaluates concepts, attributes, relationships, information requirements, omissions, redundancy, relevance, and uncertainty against declared scope. |
-| 09.9 | Documented | Semantic Information Architecture for Websites translates the validated topical model into user-oriented information groups, page roles, labels, metadata, page boundaries, and architecture specifications. |
-| 09.10 | Documented | Semantic Model Validation, Maintenance & Governance defines structural, logical, evidence, scope, and architecture-alignment checks; provenance, ownership, severity, versioning, deprecation, change control, and ongoing maintenance. |
+| [09.1](09.1-Introduction-to-Semantic-SEO.md) | Documented | Introduction to Semantic SEO defines the domain's working scope, terminology, workflow, evidence boundaries, and cross-domain handoffs. |
+| [09.2](09.2-Entity-Fundamentals-and-Entity-Identification.md) | Documented | Entity Fundamentals & Entity Identification defines entity concepts, candidate categories, discovery sources, first-pass identification, and the handoff to identity resolution. |
+| [09.3](09.3-Entity-Attributes-Identity-and-Disambiguation.md) | Documented | Entity Attributes, Identity & Disambiguation defines entity boundaries, identity evidence, attributes, identifiers, labels/aliases, disambiguation, provenance, and practical record design. |
+| [09.4](09.4-Semantic-Relationships-and-Relationship-Modeling.md) | Documented | Semantic Relationships & Relationship Modeling defines relationship meaning, predicates, direction, participant constraints, context, provenance, assertion status, and n-ary relationship considerations. |
+| [09.5](09.5-Ontologies-Taxonomies-and-Controlled-Vocabularies.md) | Documented | Ontologies, Taxonomies & Controlled Vocabularies distinguishes formal conceptual schemas, hierarchical classification, controlled terminology, selection criteria, and governance. |
+| [09.6](09.6-Knowledge-Graphs-and-Knowledge-Representation.md) | Documented | Knowledge Graphs & Knowledge Representation explains graph-based modeling, RDF graph structures, identifiers, datasets, provenance, querying, validation, and representation trade-offs. |
+| [09.7](09.7-Topical-Modeling-and-Knowledge-Domains.md) | Documented | Topical Modeling & Knowledge Domains defines subject boundaries, concepts, subdomains, dependencies, grouping logic, granularity, and a reusable domain-model specification. |
+| [09.8](09.8-Topical-Coverage-and-Semantic-Completeness.md) | Documented | Topical Coverage & Semantic Completeness evaluates concepts, attributes, relationships, information requirements, omissions, redundancy, relevance, and uncertainty against declared scope. |
+| [09.9](09.9-Semantic-Information-Architecture-for-Websites.md) | Documented | Semantic Information Architecture for Websites translates the validated topical model into user-oriented information groups, page roles, labels, metadata, page boundaries, and architecture specifications. |
+| [09.10](09.10-Semantic-Model-Validation-Maintenance-and-Governance.md) | Documented | Semantic Model Validation, Maintenance & Governance defines structural, logical, evidence, scope, and architecture-alignment checks; provenance, ownership, severity, versioning, deprecation, change control, and ongoing maintenance. |
 
 
 
@@ -198,6 +198,8 @@ These are modeling and planning outputs. They do not automatically prescribe a n
 - [06 — SERP & Search Features](../06-SERP-and-Search-Features/README.md)
 - [07 — On-Page SEO](../07-On-Page-SEO/README.md)
 - [08 — Content SEO](../08-Content-SEO/README.md)
+- [10 — Technical SEO](../10-Technical-SEO/README.md)
+- [11 — Internal Linking](../11-Internal-Linking/README.md)
 - [12 — Off-Page SEO](../12-Off-Page-SEO/README.md) — external brand mentions and reputation monitoring are practitioner-side activities; entity modeling and semantic relationships remain in Domain 09.
 
 ## References
