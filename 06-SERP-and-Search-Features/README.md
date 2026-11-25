@@ -63,7 +63,7 @@ The domain is organized into three groups. The sequence moves from the structure
 
 | Topic | Title | Canonical scope |
 |---|---|---|
-| 06.1 | Introduction to SERPs & SERP Anatomy | Defines SERPs and explains their overall structure, major regions, result composition, layout variation, and the distinction between standard results and specialized presentation modules. Establishes the vocabulary needed by the remaining Domain 06 topics without duplicating search processing or intent research. |
+| [06.1](06.1-Introduction-to-SERPs-and-SERP-Anatomy.md) | Introduction to SERPs & SERP Anatomy | Defines SERPs and explains their overall structure, major regions, result composition, layout variation, and the distinction between standard results and specialized presentation modules. Establishes the vocabulary needed by the remaining Domain 06 topics without duplicating search processing or intent research. |
 | [06.2](06.2-Organic-Search-Result-Elements-and-Presentation.md) | Organic Search Result Elements & Presentation | Documents the visible components of standard organic results, including title links, snippets, source attribution, visible URLs, site names, favicons, breadcrumbs, byline dates, sitelinks, and optional result enrichments. Focuses on provider-documented presentation behavior, not page implementation. |
 
 ### Group B — Search Features & Enhanced Results
